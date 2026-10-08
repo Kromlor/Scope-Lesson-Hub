@@ -14,11 +14,32 @@
     let b = H.$('#voicebar');
     if (!b) { b = document.createElement('div'); b.id = 'voicebar'; b.setAttribute('role', 'status'); document.body.appendChild(b); }
     if (!kind) { b.hidden = true; return; }
-    const label = { rec: 'Warm-voice recording', slp: 'SLP recording', computer: 'Computer voice (sounds different on each computer)' }[kind];
+    const label = { rec: 'Warm-voice recording', slp: 'SLP recording', computer: 'Computer voice' + (V.pickVoice() ? ' (' + V.pickVoice().name.replace(/^Microsoft |^Google /, '').replace(/ - English.*| Online.*/, '') + ')' : '') }[kind];
     b.hidden = false;
     b.innerHTML = `<span class="vb-dot ${kind}"></span><span><b>Reading aloud</b> · ${H.esc(label)}</span><button class="btn small" id="vb_stop">${H.icon('stop')} Stop</button>`;
     H.$('#vb_stop', b).onclick = () => V.stop();
   }
+
+  /* Best available voice: the SLP's choice, else a natural/neural voice (Edge "Natural", Google), else a female US voice. */
+  V.pickVoice = (localOnly) => {
+    if (!window.speechSynthesis) return null;
+    const vs = window.speechSynthesis.getVoices().filter(v => /^en/i.test(v.lang) && (!localOnly || v.localService));
+    const want = H.prefs && H.prefs.voiceName;
+    if (want) { const v = vs.find(x => x.name === want); if (v) return v; }
+    const score = v => {
+      const n = v.name; let s = 0;
+      if (/natural/i.test(n)) s += 100;
+      if (/online/i.test(n)) s += 20;
+      if (/^Google US English/i.test(n)) s += 80;
+      if (/Google UK English Female/i.test(n)) s += 60;
+      if (/\b(Ava|Jenny|Aria|Emma|Michelle|Ana|Samantha|Allison|Zira)\b/i.test(n)) s += 15;
+      if (/en-US/i.test(v.lang)) s += 10;
+      if (/\b(David|Mark|Fred|Albert)\b/i.test(n)) s -= 10;
+      return s;
+    };
+    return vs.slice().sort((a, b) => score(b) - score(a))[0] || null;
+  };
+  if (window.speechSynthesis) { window.speechSynthesis.getVoices(); window.speechSynthesis.addEventListener && window.speechSynthesis.addEventListener('voiceschanged', () => { }); }
 
   V.stop = () => {
     epoch++;
@@ -27,15 +48,14 @@
     bar(null);
   };
 
-  function computer(text, rate, my) {
+  function computer(text, rate, my, localOnly) {
     if (my !== epoch) return;
     if (!window.speechSynthesis) { bar(null); H.toast('This computer has no read-aloud voice. The SLP can read this one.', 'error'); return; }
     const u = new SpeechSynthesisUtterance(norm(text).replace(/[“”]/g, '').replace(/…/g, '...'));
     u.rate = rate;
-    const want = H.prefs && H.prefs.voiceName;
-    if (want) { const v = window.speechSynthesis.getVoices().find(x => x.name === want); if (v) u.voice = v; }
+    const v = V.pickVoice(localOnly || !navigator.onLine); if (v) { u.voice = v; u.lang = v.lang; }
     u.onend = () => { if (my === epoch) bar(null); };
-    u.onerror = () => { if (my === epoch) bar(null); };
+    u.onerror = e => { if (my !== epoch) return; if (v && !v.localService && !localOnly && e.error !== 'interrupted' && e.error !== 'canceled') computer(text, rate, my, true); else bar(null); };
     bar('computer'); window.speechSynthesis.speak(u);
   }
 

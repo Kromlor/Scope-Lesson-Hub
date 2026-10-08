@@ -56,7 +56,7 @@
         <label for="s_rate">Speed: <span id="s_rate_v">${(+p.rate || 1).toFixed(2)}×</span></label>
         <input id="s_rate" type="range" min="0.6" max="1.4" step="0.05" value="${+p.rate || 1}">
         <label for="s_vname">Computer voice</label>
-        <select id="s_vname"><option value="">Browser default</option>${voices.map(x => `<option ${x.name === p.voiceName ? 'selected' : ''}>${H.esc(x.name)}</option>`).join('')}</select>
+        <select id="s_vname"><option value="">Automatic: most natural voice on this computer${H.voice.pickVoice() && !p.voiceName ? ' (' + H.esc(H.voice.pickVoice().name) + ')' : ''}</option>${voices.map(x => `<option ${x.name === p.voiceName ? 'selected' : ''}>${H.esc(x.name)}</option>`).join('')}</select>
         <p class="small muted">The 376 warm-voice recordings play only when the words match the original lesson text exactly. Edited or new text uses the computer voice, which sounds different on each computer. You can upload your own recording for any card in the editor. The computer voice reads tone-of-voice lines flat, so model those yourself.</p>
         <div class="row"><button class="btn" id="s_test">${H.icon('speaker')} Test the voice</button><button class="btn" id="s_stop">${H.icon('stop')} Stop</button></div>
       </section>
