@@ -1,0 +1,61 @@
+SCOPE LESSON HUB: QUICK START
+=============================
+
+OPEN THE APP
+1. Keep this whole folder together. The pictures, voice clips, and lessons are in the folders next to index.html.
+2. Double-click index.html. Use Chrome or Edge, and not a private/incognito window.
+3. Always open it from the same folder on the same laptop. Records are saved inside this browser on this laptop.
+   They do NOT sync to other computers, and nothing is sent over the internet.
+
+RUN A LESSON (one or two students)
+1. On Lessons, search or pick a unit, then press Start on a lesson card.
+2. Choose students (add nicknames or initials right there), the part (Core lesson or Additional practice 1/2),
+   Full or Short, who goes first, and the turn-taking method.
+3. The colored banner says whose turn it is, for example "Jordan, your turn.", with a numbered circle
+   or square for each student, so it never relies on color alone.
+4. Students tap answers. Nothing moves on until YOU press "Save and next turn".
+5. Quick check cards need a rating: Independent, With help, or Incorrect (or press Skip).
+   A correct tap is not the same as independent, so you always choose the rating.
+   Other cards can stay unscored, or you can rate them if you want.
+6. SLP buttons: Back, Repeat this turn (keeps the first try), Switch answering student, Skip, Pause.
+7. At the end, check each student's summary, add notes, and press Save session.
+   If the laptop restarts or the page refreshes, the session picks up where you left off.
+
+TWO STUDENTS
+- Alternate questions: students take turns on different cards. "Talk it through" cards are shared and not scored.
+- Both practice each skill: each student gets a turn on every card. If a card has a second-student
+  question, the second student gets it. If not, both answer the same question and the answer stays
+  hidden until both have answered. Then press "Show the answer".
+
+MAKE OR CHANGE A LESSON
+- Press Edit on a lesson card, or "+ Add lesson".
+- Fill in title, unit, skill, the student goal, and your notes. Add a video link if you want one.
+- Add cards. Each card has one question. For answer choices, check every answer that is acceptable.
+  You can add a picture (SCOPE scenes or your own upload), hints, sentence starters, a sample answer,
+  tone cards, your own recording of the question, and a second-student question.
+- Your edits are kept as a draft while you work, even if the browser closes. Press Save lesson when done.
+- Check "Ready to use" so the lesson can start. Problems are listed at the top until they are fixed.
+- Archive hides a lesson; find it under "Archived" to restore it. Duplicate makes a copy to change.
+
+BACK UP (do this often)
+- Backup > Download backup. The .zip has lessons, students, sessions, and uploaded media.
+  It contains student records, so keep it somewhere private (for example district OneDrive or SharePoint).
+- To move to another laptop: copy this folder, open index.html there, Backup > Restore, and choose the .zip.
+  The file is checked first. Nothing changes unless it is complete and you confirm.
+
+RESULTS
+- Session history shows every saved session. Open one to fix a rating or note.
+- "Download results CSV" gives one row per answer; "Download summary CSV" gives one row per student per
+  session. Both open in Excel or Google Sheets.
+- Percentages use only Independent + With help + Incorrect items. Skipped and Not scored items are
+  counted separately and left out. Each summary says what the percent is out of.
+
+READ-ALOUD
+- Speaker buttons read text aloud. Original SCOPE text plays the warm-voice recordings (376 clips).
+- Text you change or add uses the computer voice, which is labeled and sounds different on each computer.
+  You can upload your own recording for any card in the editor.
+- Cards labeled "SLP models the tone" need you to say the line. Hold "how to say it" in the SLP bar to peek.
+
+SAMPLE MEDIA
+- The sample-media folder has the Maya and Alex audio files you sent. To use one, open a lesson in the
+  editor and add it as lesson media or card media ("+ Audio file").

@@ -1,0 +1,73 @@
+SCOPE LESSON HUB: VERIFICATION REPORT
+=====================================
+Built October 8, 2026 from SCOPE-Perspective-Lab-Warm-Voice.html (6.4 MB).
+
+WHAT WAS BUILT
+- A lesson hub that runs from a folder (index.html + separate folders for app logic, lesson content,
+  pictures, and voice clips). The old version was one 6.4 MB file; the app code is about 210 KB,
+  and media loads only when shown or played.
+- Storage: IndexedDB in the browser on this laptop (lessons, students, sessions, drafts, uploaded media).
+  No accounts, no cloud, no AI, no analytics. Nothing is sent anywhere.
+
+WHAT WAS MOVED OVER FROM THE ORIGINAL
+- All 8 completed lessons, each with a core lesson and 2 additional-practice parts: 24 parts, 334 cards.
+- Every piece of lesson text was checked against the original: 1,000 of 1,000 text strings are present.
+- 50 scene illustrations and 19 face close-ups, cropped from the original picture sheets into separate files.
+- 377 warm-voice clips (376 lesson lines plus the voice-test line), as .ogg plus .mp3 copies.
+- Clue circles, speech lines, tone cards, "SLP peek" modeling notes, sort activities, SLP tips, video-search
+  ideas, and the 8 suggested videos with their pause guidance.
+- The 32 planned lessons (9–40) are kept as titles only, labeled Draft, and cannot start. The original had
+  no content for them, so none was invented.
+
+ACCEPTANCE CRITERIA (automated browser tests, all passing: 14 of 14)
+ 1. Find, edit, start a lesson ............ PASS  search, unit filter, edit and save, start session
+ 2. One-student sessions .................. PASS  16 turns, 4 quick checks rated, record saved correctly
+ 3. Two students: who is answering ........ PASS  banner names the student every turn, plus a numbered mark
+ 4. Records belong only to that student ... PASS  every record carries its own student ID; none are inferred
+ 5. Both turn-taking modes ................ PASS  alternate questions and both practice each skill
+ 6. Feedback hidden until both answer ..... PASS  no right/wrong shown until both answer and SLP reveals
+ 7. Back, repeat, switch, skip ............ PASS  rating edited in place; first try kept; no duplicates
+ 8. Refresh resumes the session ........... PASS  same turn, same student, same answer after reload
+ 9. Resizing keeps answers and media ...... PASS  audio kept playing through 3 window resizes; answer kept
+10. Media on demand; missing media OK ..... PASS  0 voice clips before asking, 1 after; broken picture and
+                                                  offline video show a message and the lesson continues
+11. CSV matches summaries ................. PASS  on-screen summary = summary CSV = totals rebuilt from the
+                                                  per-answer CSV, for every student tested
+12. Backup and restore .................... PASS  40 lessons, students, sessions, and uploaded media restored
+                                                  byte-for-byte; a non-backup file and a damaged backup were
+                                                  rejected with nothing changed
+13. Double-click Save ..................... PASS  triple click and double click each saved one session
+14. Laptop and enlarged text .............. PASS  1366×768, 1280×720 large text, 200% zoom extra-large text:
+                                                  no sideways scrolling; answer buttons at least 44 px tall
+Also tested: creating a lesson in the editor, validation blocking incomplete cards, multiple correct
+answers, reordering, drafts surviving a refresh, duplicate/archive/restore, and previewing all 24 parts
+(334 cards) with no errors and nothing saved.
+
+CHANGES FROM THE ORIGINAL TO KNOW ABOUT
+- Ratings are now Independent / With help / Incorrect / Skipped / Not scored, chosen by the SLP.
+  The old app pre-filled a mark from the student's taps; the new one shows the first response and
+  number of tries as information only.
+- Original "tap who can see it" items are now answer choices listing the characters ("choose all").
+- The old practice runs rotated scenes and questions automatically. Now each lesson has two fixed
+  practice parts (Additional practice 1 and 2), split from the original practice pool.
+- NOT carried over (not in the new brief): each student's grade level, 1x/2x/3x weekly schedule,
+  automatic "next lesson" pacing, and the per-grade ND ELA standard text in the CSV. Lessons still
+  list their standard codes. Tell me if you want any of these back.
+
+REMAINING LIMITATIONS
+- Tested in the Chrome engine (headless Chromium). Not yet tried on the SLP's actual laptop, Edge,
+  a Chromebook, or an iPad. Please run one practice session there before using it with students.
+- Records live in one browser profile on one laptop. Clearing browser data or using another browser
+  starts empty. Back up regularly. Opening the app from a SharePoint web link will not work; copy the
+  folder to the laptop (a synced OneDrive folder on the laptop is fine).
+- The computer voice differs by computer and reads tone lines flat. Tone items are labeled for SLP modeling.
+- No second-student (alternate) questions existed in the original, so "Both practice each skill"
+  uses the same question with the answer hidden until you add alternates in the editor.
+- 21 migrated items (mostly Lesson 3, "How does ___ feel?" from a face) accept only one feeling.
+  Since faces are possible clues, not proof, consider marking more answers acceptable or adding
+  "Ask them" as an option in the editor.
+- The 8 suggested video links go to outside sites (YouTube, Disney, VOA, creators' pages). They need
+  internet and were not checked live; sites can move or change.
+- The freezing reported in the old app was not reproduced. The rebuild removes the likely risks
+  (whole screen redrawn on resize, all media inside one file), but the cause was not confirmed.
+- Sample audio (Maya, Alex) is in sample-media and is not attached to any lesson.
