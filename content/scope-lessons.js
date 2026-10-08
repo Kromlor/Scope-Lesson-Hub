@@ -1,7 +1,7 @@
 /* SCOPE lesson content migrated from SCOPE-Perspective-Lab-Warm-Voice.html.
    Edit lessons inside the app (Edit button). This file only seeds a new laptop. */
 window.HUB_CONTENT = {
- "contentVersion": 2,
+ "contentVersion": 3,
  "source": "SCOPE-Perspective-Lab-Warm-Voice.html",
  "lessons": [
   {
@@ -9085,7 +9085,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -9133,7 +9133,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Ben talks about Rosa. Omar says she needs a jacket."
+       "sampleAnswer": "Ben talks about Rosa. Omar says she needs a jacket.",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
       },
       {
        "id": "s9-core-03",
@@ -9154,7 +9156,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Which word can mean two things? What clues help?",
-       "sampleAnswer": "“Cold.” Ben says “cold to me.” That is about how Rosa acted."
+       "sampleAnswer": "“Cold.” Ben says “cold to me.” That is about how Rosa acted.",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
       },
       {
        "id": "s9-core-04",
@@ -9175,7 +9179,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What does Omar think “cold” means? What does Ben mean?",
-       "sampleAnswer": "Omar thinks Rosa felt chilly. Ben means Rosa was not friendly."
+       "sampleAnswer": "Omar thinks Rosa felt chilly. Ben means Rosa was not friendly.",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
       },
       {
        "id": "s9-core-05",
@@ -9200,7 +9206,9 @@ window.HUB_CONTENT = {
         "Chilly, like the weather.",
         "Not friendly. She didn’t talk much."
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
       },
       {
        "id": "s9-core-06",
@@ -9221,7 +9229,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What can Ben say to fix the mix-up?",
-       "sampleAnswer": "“I mean she wasn’t friendly. She didn’t talk to me.”"
+       "sampleAnswer": "“I mean she wasn’t friendly. She didn’t talk to me.”",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
       },
       {
        "id": "s9-core-07",
@@ -9792,7 +9802,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -9846,7 +9856,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Omar’s pencil is gone. Kai asks if Ava blamed him."
+       "sampleAnswer": "Omar’s pencil is gone. Kai asks if Ava blamed him.",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
       },
       {
        "id": "s11-core-03",
@@ -9886,7 +9898,9 @@ window.HUB_CONTENT = {
          "how": "Stress “took.”",
          "means": "Maybe you just borrowed it."
         }
-       ]
+       ],
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
       },
       {
        "id": "s11-core-04",
@@ -9907,7 +9921,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What does Kai want to know? What does Ava know?",
-       "sampleAnswer": "Kai wants to know if Ava blamed him. Ava knows what she said and thinks."
+       "sampleAnswer": "Kai wants to know if Ava blamed him. Ava knows what she said and thinks.",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
       },
       {
        "id": "s11-core-05",
@@ -9932,7 +9948,9 @@ window.HUB_CONTENT = {
         "Someone else took it.",
         "Kai just borrowed it.",
         "She didn’t say it, but she thinks it."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
       },
       {
        "id": "s11-core-06",
@@ -9953,7 +9971,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "If Kai isn’t sure, what can he say?",
-       "sampleAnswer": "“Do you think I took it? I didn’t.”"
+       "sampleAnswer": "“Do you think I took it? I didn’t.”",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
       },
       {
        "id": "s11-core-07",
@@ -13549,7 +13569,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -13599,7 +13619,9 @@ window.HUB_CONTENT = {
          "kind": "text"
         }
        ],
-       "sampleAnswer": "Ava sends an excited text. Zoe texts back “k.”"
+       "sampleAnswer": "Ava sends an excited text. Zoe texts back “k.”",
+       "image": "assets/img/scene-lesson-22.webp",
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
       },
       {
        "id": "s22-core-03",
@@ -13622,7 +13644,9 @@ window.HUB_CONTENT = {
          "kind": "text"
         }
        ],
-       "sampleAnswer": "Zoe sends one letter. There is no face. There is no voice."
+       "sampleAnswer": "Zoe sends one letter. There is no face. There is no voice.",
+       "image": "assets/img/scene-lesson-22.webp",
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
       },
       {
        "id": "s22-core-04",
@@ -13645,7 +13669,9 @@ window.HUB_CONTENT = {
          "kind": "text"
         }
        ],
-       "sampleAnswer": "Ava sees “k.” She can’t see Zoe’s face. She doesn’t know if Zoe is busy."
+       "sampleAnswer": "Ava sees “k.” She can’t see Zoe’s face. She doesn’t know if Zoe is busy.",
+       "image": "assets/img/scene-lesson-22.webp",
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
       },
       {
        "id": "s22-core-05",
@@ -13672,7 +13698,9 @@ window.HUB_CONTENT = {
         "Okay, sure!",
         "I’m busy right now.",
         "I don’t really care."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-22.webp",
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
       },
       {
        "id": "s22-core-06",
@@ -13695,7 +13723,9 @@ window.HUB_CONTENT = {
          "kind": "text"
         }
        ],
-       "sampleAnswer": "“Is now a bad time? 🙂” Or wait and ask in person."
+       "sampleAnswer": "“Is now a bad time? 🙂” Or wait and ask in person.",
+       "image": "assets/img/scene-lesson-22.webp",
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
       },
       {
        "id": "s22-core-07",
@@ -15990,7 +16020,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -16039,7 +16069,9 @@ window.HUB_CONTENT = {
          "text": "No way! How did you get out?"
         }
        ],
-       "sampleAnswer": "Rosa tells a story. Kai listens."
+       "sampleAnswer": "Rosa tells a story. Kai listens.",
+       "image": "assets/img/scene-lesson-29.webp",
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
       },
       {
        "id": "s29-core-03",
@@ -16060,7 +16092,9 @@ window.HUB_CONTENT = {
          "text": "No way! How did you get out?"
         }
        ],
-       "sampleAnswer": "He turns to her. He nods. He says, “No way!” He asks a question."
+       "sampleAnswer": "He turns to her. He nods. He says, “No way!” He asks a question.",
+       "image": "assets/img/scene-lesson-29.webp",
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
       },
       {
        "id": "s29-core-04",
@@ -16081,7 +16115,9 @@ window.HUB_CONTENT = {
          "text": "No way! How did you get out?"
         }
        ],
-       "sampleAnswer": "He wants to know how they got out."
+       "sampleAnswer": "He wants to know how they got out.",
+       "image": "assets/img/scene-lesson-29.webp",
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
       },
       {
        "id": "s29-core-05",
@@ -16106,7 +16142,9 @@ window.HUB_CONTENT = {
         "He wants to hear more.",
         "He wants Rosa to know he cares.",
         "It keeps the talk on Rosa."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-29.webp",
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
       },
       {
        "id": "s29-core-06",
@@ -16127,7 +16165,9 @@ window.HUB_CONTENT = {
          "text": "No way! How did you get out?"
         }
        ],
-       "sampleAnswer": "“Were you scared?” or “Would you go again?”"
+       "sampleAnswer": "“Were you scared?” or “Would you go again?”",
+       "image": "assets/img/scene-lesson-29.webp",
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
       },
       {
        "id": "s29-core-07",
@@ -17087,7 +17127,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -17138,7 +17178,9 @@ window.HUB_CONTENT = {
          "text": "This is the worst thing ever!"
         }
        ],
-       "sampleAnswer": "Ben missed the bus. He is very upset."
+       "sampleAnswer": "Ben missed the bus. He is very upset.",
+       "image": "assets/img/scene-lesson-32.webp",
+       "imageAlt": "Outside school: the bus drives away and Ben is upset"
       },
       {
        "id": "s32-core-03",
@@ -17155,7 +17197,9 @@ window.HUB_CONTENT = {
          "text": "This is the worst thing ever!"
         }
        ],
-       "sampleAnswer": "His face is red. He yells and cries. He says, “The worst thing ever!”"
+       "sampleAnswer": "His face is red. He yells and cries. He says, “The worst thing ever!”",
+       "image": "assets/img/scene-lesson-32.webp",
+       "imageAlt": "Outside school: the bus drives away and Ben is upset"
       },
       {
        "id": "s32-core-04",
@@ -17172,7 +17216,9 @@ window.HUB_CONTENT = {
          "text": "This is the worst thing ever!"
         }
        ],
-       "sampleAnswer": "Ben knows the bus left. The office or his family can help him get home."
+       "sampleAnswer": "Ben knows the bus left. The office or his family can help him get home.",
+       "image": "assets/img/scene-lesson-32.webp",
+       "imageAlt": "Outside school: the bus drives away and Ben is upset"
       },
       {
        "id": "s32-core-05",
@@ -17192,7 +17238,9 @@ window.HUB_CONTENT = {
        "sampleIdeas": [
         "Medium. He needs an adult to help him get home.",
         "Not big. No one is hurt, and it can be fixed."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-32.webp",
+       "imageAlt": "Outside school: the bus drives away and Ben is upset"
       },
       {
        "id": "s32-core-06",
@@ -17209,7 +17257,9 @@ window.HUB_CONTENT = {
          "text": "This is the worst thing ever!"
         }
        ],
-       "sampleAnswer": "Take a deep breath. Go to the office. Ask them to call home."
+       "sampleAnswer": "Take a deep breath. Go to the office. Ask them to call home.",
+       "image": "assets/img/scene-lesson-32.webp",
+       "imageAlt": "Outside school: the bus drives away and Ben is upset"
       },
       {
        "id": "s32-core-07",
@@ -17780,7 +17830,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -17829,7 +17879,9 @@ window.HUB_CONTENT = {
          "text": "But I need it more!"
         }
        ],
-       "sampleAnswer": "Lily and Jay both want the same computer."
+       "sampleAnswer": "Lily and Jay both want the same computer.",
+       "image": "assets/img/scene-lesson-34.webp",
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
       },
       {
        "id": "s34-core-03",
@@ -17850,7 +17902,9 @@ window.HUB_CONTENT = {
          "text": "But I need it more!"
         }
        ],
-       "sampleAnswer": "They both have work due today. “I need it more!” shows Jay is stressed."
+       "sampleAnswer": "They both have work due today. “I need it more!” shows Jay is stressed.",
+       "image": "assets/img/scene-lesson-34.webp",
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
       },
       {
        "id": "s34-core-04",
@@ -17871,7 +17925,9 @@ window.HUB_CONTENT = {
          "text": "But I need it more!"
         }
        ],
-       "sampleAnswer": "Lily knows she got there first. Jay knows his work is due soon. Both need to finish."
+       "sampleAnswer": "Lily knows she got there first. Jay knows his work is due soon. Both need to finish.",
+       "image": "assets/img/scene-lesson-34.webp",
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
       },
       {
        "id": "s34-core-05",
@@ -17896,7 +17952,9 @@ window.HUB_CONTENT = {
         "Take turns. Then both get to work.",
         "Jay grabs it. Then Lily gets upset.",
         "Ask the librarian. She may find another computer."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-34.webp",
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
       },
       {
        "id": "s34-core-06",
@@ -17917,7 +17975,9 @@ window.HUB_CONTENT = {
          "text": "But I need it more!"
         }
        ],
-       "sampleAnswer": "“Let’s take turns. You go 15 minutes, then me.”"
+       "sampleAnswer": "“Let’s take turns. You go 15 minutes, then me.”",
+       "image": "assets/img/scene-lesson-34.webp",
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
       },
       {
        "id": "s34-core-07",
@@ -18869,7 +18929,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -18917,7 +18977,9 @@ window.HUB_CONTENT = {
          "text": "Wow. Thanks a lot."
         }
        ],
-       "sampleAnswer": "Ben talks about Omar’s team. Omar gets upset."
+       "sampleAnswer": "Ben talks about Omar’s team. Omar gets upset.",
+       "image": "assets/img/scene-lesson-37.webp",
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
       },
       {
        "id": "s37-core-03",
@@ -18938,7 +19000,9 @@ window.HUB_CONTENT = {
          "text": "Wow. Thanks a lot."
         }
        ],
-       "sampleAnswer": "Omar says “Thanks a lot,” but he sounds upset. It may be sarcasm."
+       "sampleAnswer": "Omar says “Thanks a lot,” but he sounds upset. It may be sarcasm.",
+       "image": "assets/img/scene-lesson-37.webp",
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
       },
       {
        "id": "s37-core-04",
@@ -18959,7 +19023,9 @@ window.HUB_CONTENT = {
          "text": "Wow. Thanks a lot."
         }
        ],
-       "sampleAnswer": "Ben knows he meant to be kind. Omar may think Ben is teasing him."
+       "sampleAnswer": "Ben knows he meant to be kind. Omar may think Ben is teasing him.",
+       "image": "assets/img/scene-lesson-37.webp",
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
       },
       {
        "id": "s37-core-05",
@@ -18984,7 +19050,9 @@ window.HUB_CONTENT = {
         "Ben is making fun of my team.",
         "Ben thinks my team is bad.",
         "Ben feels bad for me."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-37.webp",
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
       },
       {
        "id": "s37-core-06",
@@ -19005,7 +19073,9 @@ window.HUB_CONTENT = {
          "text": "Wow. Thanks a lot."
         }
        ],
-       "sampleAnswer": "“Sorry, I said that wrong. I meant that stinks. I know you love that team.”"
+       "sampleAnswer": "“Sorry, I said that wrong. I meant that stinks. I know you love that team.”",
+       "image": "assets/img/scene-lesson-37.webp",
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
       },
       {
        "id": "s37-core-07",
