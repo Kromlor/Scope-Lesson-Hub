@@ -88,3 +88,12 @@ UPDATE: LESSONS 9–40 (October 8, 2026)
   in the editor to get the new one.
 - Tests rerun: 15 of 15 pass, including a preview of all 40 lessons (850 cards) with no errors and the
   automatic update of older laptops.
+
+UPDATE: PICTURES AND VOICE (October 8, 2026, afternoon)
+- New scene pictures added for lessons 9, 11, 22, 29, 32, 34, and 37 (made in ChatGPT from prompts,
+  checked against each lesson). Every lesson's explore scene now has a picture.
+- Read-aloud coverage: warm-voice recordings cover 386 of about 2,000 read-aloud lines (mostly lesson 1–8
+  questions). The rest use the computer voice. The app now picks the most natural computer voice
+  automatically (Edge "Natural" voices, or "Google US English" in Chrome; "Microsoft Zira" offline)
+  instead of the old robotic default. Settings shows which voice is in use and lets the SLP choose another.
+- Recording the remaining lines in the warm voice is on hold (decided October 8).

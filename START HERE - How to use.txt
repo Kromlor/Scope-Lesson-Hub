@@ -51,8 +51,9 @@ RESULTS
   counted separately and left out. Each summary says what the percent is out of.
 
 READ-ALOUD
-- Speaker buttons read text aloud. Original SCOPE text plays the warm-voice recordings (376 clips).
-- Text you change or add uses the computer voice, which is labeled and sounds different on each computer.
+- Speaker buttons read text aloud. Original SCOPE lesson 1–8 questions play the warm-voice recordings (376 clips).
+- Other text (including all of lessons 9–40) uses the computer voice, which is labeled. The app picks the most
+  natural voice on the computer automatically; Microsoft Edge has the best ones. You can pick a voice in Settings.
   You can upload your own recording for any card in the editor.
 - Cards labeled "SLP models the tone" need you to say the line. Hold "how to say it" in the SLP bar to peek.
 

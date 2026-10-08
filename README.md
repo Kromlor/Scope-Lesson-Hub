@@ -1,6 +1,6 @@
 # SCOPE Lesson Hub
 
-Lesson hub for middle school speech-language sessions (one laptop, one or two students).
+Lesson hub for middle school speech-language sessions (one laptop, one or two students). 40 SCOPE lessons across 6 units: clues and context, multiple meanings, reading between the lines, relating experiences, solving problems, and speaking up.
 
 **Open the app:** https://kromlor.github.io/Scope-Lesson-Hub/
 
