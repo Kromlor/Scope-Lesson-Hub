@@ -99,9 +99,11 @@
     const c = view(t), r = resp(t), stage = H.$('#stage');
     const steps = H.L.steps(), stp = c.step && steps[c.step];
     const roleLabel = (H.L.ROLES[c.role] || {}).short || (H.L.ROLES[c.role] || {}).label || '';
+    const verb = k => ({ think: 'thinks', whisper: 'whispers', text: 'texts' }[k] || 'says');
+    const saysHTML = (c.says || []).length ? `<div class="says">${c.says.map(s => `<div class="say-line ${s.kind === 'text' ? 'is-text' : ''}"><span class="spkr">${H.esc(s.who || 'Someone')} ${verb(s.kind)}:</span> <q>${H.esc(s.text)}</q> ${H.voice.btn(s.text)}</div>`).join('')}</div>` : '';
     const fig = c.image ? `<figure class="fig"><div class="figwrap"><img data-ref="${H.esc(c.image)}" alt="${H.esc(c.imageAlt || 'Lesson picture')}">${(c.clues || []).map((k, i) => `<button class="clue-dot" data-clue="${i}" style="left:${k.x}%;top:${k.y}%" aria-label="Clue ${i + 1}">${i + 1}</button>`).join('')}</div>
         ${(c.clues || []).length ? `<p class="small muted tapclues">Tap the numbered circles to find clues.</p><ol class="clue-list" id="cluelist"></ol>` : ''}
-        ${(c.says || []).length ? `<div class="says">${c.says.map(s => `<div class="say-line"><span class="spkr">${H.esc(s.who || 'Someone')} ${s.kind === 'think' ? 'thinks' : s.kind === 'whisper' ? 'whispers' : 'says'}:</span> <q>${H.esc(s.text)}</q> ${H.voice.btn(s.text)}</div>`).join('')}</div>` : ''}
+        ${saysHTML}
       </figure>` : '';
     const line = c.line ? `<div class="bigline"><q>${H.esc(c.line)}</q>${c.needsModeling ? '<span class="tag model">SLP models the tone</span>' : ''}</div>${c.needsModeling ? '<p class="small muted center">Listen to how your SLP says it.</p>' : ''}` : '';
     const tones = (c.tones || []).length ? `<div class="tones">${c.tones.map((w, i) => `<button class="tone" data-tone="${i}"><b>${H.esc(w.tone)}</b><span class="how">Say it: ${H.esc(w.how)}</span><span class="means hidden">${H.esc(w.means)}</span><span class="tapto small">Tap to see what it could mean</span></button>`).join('')}</div>` : '';
@@ -110,7 +112,7 @@
       ${fig}
       <div class="qmain">
         ${c.context ? `<p class="context">${H.esc(c.context)} ${H.voice.btn(c.context)}</p>` : ''}
-        ${line}${tones}
+        ${c.image ? '' : saysHTML}${line}${tones}
         <div class="qrow"><h2 class="question">${H.esc(c.question)}</h2>${H.voice.btn(c.question, t.variant === 'main' ? c.questionRec : (c.alt && c.alt.questionRec))}</div>
         <div id="answer"></div>
         ${c.hint ? `<div class="hintbox"><button class="btn small" id="hintbtn">Need a hint?</button><p class="hint hidden" id="hinttxt">${H.esc(c.hint)} ${H.voice.btn(c.hint)}</p></div>` : ''}

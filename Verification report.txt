@@ -16,8 +16,7 @@ WHAT WAS MOVED OVER FROM THE ORIGINAL
 - 377 warm-voice clips (376 lesson lines plus the voice-test line), as .ogg plus .mp3 copies.
 - Clue circles, speech lines, tone cards, "SLP peek" modeling notes, sort activities, SLP tips, video-search
   ideas, and the 8 suggested videos with their pause guidance.
-- The 32 planned lessons (9–40) are kept as titles only, labeled Draft, and cannot start. The original had
-  no content for them, so none was invented.
+- (See "UPDATE: LESSONS 9–40" at the end.)
 
 ACCEPTANCE CRITERIA (automated browser tests, all passing: 14 of 14)
  1. Find, edit, start a lesson ............ PASS  search, unit filter, edit and save, start session
@@ -71,3 +70,21 @@ REMAINING LIMITATIONS
 - The freezing reported in the old app was not reproduced. The rebuild removes the likely risks
   (whole screen redrawn on resize, all media inside one file), but the cause was not confirmed.
 - Sample audio (Maya, Alex) is in sample-media and is not attached to any lesson.
+
+UPDATE: LESSONS 9–40 (October 8, 2026)
+- Lessons 9–40 (Units 2–6) are now complete core lessons: 32 lessons, 516 cards, same structure as
+  lessons 1–8 (warm-up, five SCOPE steps, talk it through, practice, quick check; unit checks have 8
+  quick checks). They are new writing, not from the original file. Please read through them before use.
+- Only a "Core lesson" part was written for these. The two "Additional practice" parts that lessons 1–8
+  have do not exist yet for 9–40.
+- Pictures: about half the lessons reuse an existing SCOPE scene on the explore cards, picked to match
+  what the picture shows. No new illustrations were made.
+- Read-aloud: the warm-voice recordings only cover the original text, so most of the new text uses the
+  labeled computer voice. You can upload your own recordings per card in the editor.
+- Answer order was shuffled on the new cards so the right answer is not always first.
+  Many new cards have 2 answer choices rather than 3.
+- Laptops that already opened the app get the new lessons automatically on next open (a message says
+  how many were updated). A lesson the SLP had edited is kept as-is; use "Reset to the original version"
+  in the editor to get the new one.
+- Tests rerun: 15 of 15 pass, including a preview of all 40 lessons (850 cards) with no errors and the
+  automatic update of older laptops.

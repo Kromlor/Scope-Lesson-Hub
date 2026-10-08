@@ -93,6 +93,7 @@
       H.prefs = await H.store.prefs();
       H.applyTextSize();
       await H.seed();
+      if (H.seedUpgraded) setTimeout(() => H.toast(`${H.seedUpgraded} lesson${H.seedUpgraded > 1 ? 's were' : ' was'} updated with new content.`), 600);
       H.persistStorage();
     } catch (e) {
       document.getElementById('app').innerHTML = `<div class="panel error-panel" style="margin:40px auto;max-width:640px"><h1>The app cannot save on this browser</h1><p>${H.esc(H.storageError(e))}</p><p>Open <b>index.html</b> in Chrome or Edge (not a private window). Lessons and records are not affected.</p></div>`;

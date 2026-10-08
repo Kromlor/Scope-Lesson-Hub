@@ -256,7 +256,7 @@
   }
   function drawSays(c) {
     const box = H.$('#says_' + c.id); const says = c.says || [];
-    box.innerHTML = `${says.map((s, i) => `<div class="row"><input data-sw="${i}" value="${H.esc(s.who)}" placeholder="Who" aria-label="Who speaks" style="max-width:10rem"><select data-sk="${i}" aria-label="How"><option value="">says</option><option value="think" ${s.kind === 'think' ? 'selected' : ''}>thinks</option><option value="whisper" ${s.kind === 'whisper' ? 'selected' : ''}>whispers</option></select><input data-st="${i}" value="${H.esc(s.text)}" placeholder="What they say" aria-label="What they say"><button class="btn small danger" data-sd="${i}" aria-label="Remove line">✕</button></div>`).join('')}<button class="btn small" data-sa>+ Add a line</button>`;
+    box.innerHTML = `${says.map((s, i) => `<div class="row"><input data-sw="${i}" value="${H.esc(s.who)}" placeholder="Who" aria-label="Who speaks" style="max-width:10rem"><select data-sk="${i}" aria-label="How"><option value="">says</option><option value="think" ${s.kind === 'think' ? 'selected' : ''}>thinks</option><option value="whisper" ${s.kind === 'whisper' ? 'selected' : ''}>whispers</option><option value="text" ${s.kind === 'text' ? 'selected' : ''}>texts</option></select><input data-st="${i}" value="${H.esc(s.text)}" placeholder="What they say" aria-label="What they say"><button class="btn small danger" data-sd="${i}" aria-label="Remove line">✕</button></div>`).join('')}<button class="btn small" data-sa>+ Add a line</button>`;
     const up = () => { if (says.length) c.says = says; else delete c.says; touch(); };
     H.$$('[data-sw]', box).forEach(i => i.oninput = () => { says[+i.dataset.sw].who = i.value; up(); });
     H.$$('[data-st]', box).forEach(i => i.oninput = () => { says[+i.dataset.st].text = i.value; up(); });
@@ -346,6 +346,7 @@
       if (bad.length || !W.sets.length) { showErrors(); H.toast('This lesson has problems, so it can’t be marked Ready. Fix them, or uncheck “Ready to use” to save it as a draft.', 'error'); return false; }
     }
     W.updatedAt = Date.now();
+    if (W.builtIn) { const o = H.originalLesson(W.id), strip = x => JSON.stringify(Object.assign({}, x, { updatedAt: 0, userEdited: 0, archived: 0, builtIn: 0 })); W.userEdited = !o || strip(o) !== strip(W); }
     const ok = await (async () => { try { H.saveStatus('saving'); await H.store.batch([{ store: 'lessons', put: W }, { store: 'drafts', del: W.id }]); H.saveStatus('saved'); return true; } catch (e) { H.saveStatus('error'); H.toast('The lesson was not saved. ' + H.storageError(e), 'error'); return false; } })();
     if (ok) { dirty = false; base = H.clone(W); status('saved'); const r = H.$('#restored'); r && r.remove(); H.toast('Lesson saved.'); drawSets(); }
     return ok;

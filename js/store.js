@@ -73,14 +73,25 @@
   H.seed = async function () {
     const C = window.HUB_CONTENT; if (!C) throw new Error('Lesson content file is missing (content/scope-lessons.js).');
     const seed = await S.get('meta', 'seed');
-    const have = new Set((await S.all('lessons')).map(l => l.id));
-    const ops = [];
+    const stored = new Map((await S.all('lessons')).map(l => [l.id, l]));
+    const ops = []; let upgraded = 0;
     C.lessons.forEach(l => {
-      if (!have.has(l.id) && !(seed && (seed.ids || []).includes(l.id))) ops.push({ store: 'lessons', put: Object.assign(H.clone(l), { builtIn: true, archived: false, updatedAt: Date.now() }) });
+      const old = stored.get(l.id);
+      if (!old) {
+        if (!(seed && (seed.ids || []).includes(l.id))) ops.push({ store: 'lessons', put: Object.assign(H.clone(l), { builtIn: true, archived: false, updatedAt: Date.now() }) });
+        return;
+      }
+      // A newer bundled version of a built-in lesson replaces the stored one, unless the SLP edited it.
+      const untouchedDraft = !(old.sets || []).some(s => (s.cards || []).length);
+      if (old.builtIn && (l.contentRev || 1) > (old.contentRev || 1) && (!old.userEdited || untouchedDraft)) {
+        ops.push({ store: 'lessons', put: Object.assign(H.clone(l), { builtIn: true, archived: !!old.archived, updatedAt: Date.now() }) });
+        upgraded++;
+      }
     });
     const ids = Array.from(new Set([...(seed ? seed.ids || [] : []), ...C.lessons.map(l => l.id)]));
     ops.push({ store: 'meta', put: { key: 'seed', contentVersion: C.contentVersion, ids, at: Date.now() } });
     await S.batch(ops);
+    H.seedUpgraded = upgraded;
     return ops.length - 1;
   };
   H.originalLesson = id => { const l = (window.HUB_CONTENT.lessons || []).find(x => x.id === id); return l ? H.clone(l) : null; };

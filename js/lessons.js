@@ -32,7 +32,7 @@
   });
   L.copyLesson = l => {
     const c = H.clone(l); c.id = H.uid('l_'); c.title = l.title + ' (copy)'; c.builtIn = false; c.archived = false; c.number = undefined;
-    c.status = l.status; c.sets.forEach(s => s.cards.forEach(k => k.id = H.uid('c_'))); c.updatedAt = Date.now(); c.copiedFrom = l.id; return c;
+    c.status = l.status; delete c.userEdited; delete c.contentRev; c.sets.forEach(s => s.cards.forEach(k => k.id = H.uid('c_'))); c.updatedAt = Date.now(); c.copiedFrom = l.id; return c;
   };
 
   function choiceIssues(q, prefix) {
@@ -81,7 +81,7 @@
       video: !!(l.video && l.video.url) || m.some(x => x.kind === 'video' || x.kind === 'link') || cards.some(c => (c.media || []).some(x => x.kind === 'video' || x.kind === 'link')),
       pictures: !!l.cover || cards.some(c => c.image) || m.some(x => x.kind === 'image'),
       audio: m.some(x => x.kind === 'audio') || cards.some(c => c.questionRec || (c.media || []).some(x => x.kind === 'audio')),
-      warmVoice: cards.some(c => H.voice.hasRecording(c.question)),
+      warmVoice: cards.length > 0 && cards.filter(c => H.voice.hasRecording(c.question)).length >= cards.length / 2,
       modeling: cards.some(c => c.needsModeling)
     };
   };

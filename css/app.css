@@ -156,6 +156,8 @@ html[data-text=xl] .sess{font-size:1.36rem}
 .say-line{font-family:var(--kid);font-size:1.15em;background:var(--soft);border:2px solid var(--line);border-radius:.7em;padding:.3em .6em;display:flex;align-items:center;gap:.4em;flex-wrap:wrap}
 .say-line .spkr{font-weight:700;color:var(--muted);font-size:.85em}
 .say-line q{font-weight:700}
+.say-line.is-text{border-radius:1em 1em 1em .2em;background:#E8F1FF;border-color:#9CC0F5}
+.qmain > .says{margin:0 0 .7em}
 .qmain{min-width:0}
 .context{font-family:var(--kid);font-size:1.15em;margin:.2em 0 .6em}
 .qrow{display:flex;align-items:flex-start;gap:.5em}
