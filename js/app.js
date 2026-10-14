@@ -19,7 +19,8 @@
   async function route() {
     H.media.stopAll(); H.media.releaseAll(); H.closeModal();
     H.$$('#toasts .toast:not(.error)').forEach(t => t.remove());
-    const [, name, arg] = (location.hash || '#/lessons').split('/');
+    if (H.slides) H.slides.leave();
+    const [, name, arg, arg2] = (location.hash || '#/lessons').split('/');
     try {
       if (name === 'session') return await H.session.resume();
       if (H.session && H.session.leaving) H.session.leaving();
@@ -27,6 +28,7 @@
         case 'edit': return await H.editor.open(decodeURIComponent(arg || ''));
         case 'setup': return await H.setup.open(decodeURIComponent(arg || ''));
         case 'preview': return await H.session.preview(decodeURIComponent(arg || ''));
+        case 'slides': return H.slides.open(decodeURIComponent(arg || ''), arg2);
         case 'students': return await H.records.students();
         case 'history': return arg ? await H.records.sessionDetail(decodeURIComponent(arg)) : await H.records.history();
         case 'backup': return await H.backup.page();
@@ -79,6 +81,7 @@
   H.help = () => {
     H.shell('help', `<h1>How to use the SCOPE Lesson Hub</h1><div class="panel prose">
     <h2>Open the app</h2><p>Double-click <b>index.html</b> in the SCOPE-Lesson-Hub folder. Use Chrome or Edge. Keep the whole folder together; the pictures and voice clips live in it. Always open it from the same folder on the same laptop, because records are saved in this browser.</p>
+    <h2>First lesson: intro slides</h2><p>The first card in the library, <b>Introducing SCOPE (pre-lesson)</b>, teaches the 5 SCOPE steps before Lesson 1. Press <b>Present slides</b> to show it on the big screen: click the slide or press → to go on (answers appear on the next click), ← to go back, <b>N</b> for teacher notes, <b>F</b> for full screen, and <b>Esc</b> to leave. Press <b>Start</b> instead to run the same content as cards with students and ratings.</p>
     <h2>Run a lesson</h2><ol><li>On <b>Lessons</b>, find a lesson (search or filter) and press <b>Start</b>.</li><li>Pick one or two students, the part (core lesson or additional practice), full or short, who goes first, and the turn-taking method.</li><li>The banner shows whose turn it is. Students tap answers; nothing moves on until you press <b>Save and next turn</b>.</li><li>Rate each Quick check: Independent, With help, or Incorrect (or press <b>Skip</b>). Other cards can stay unscored.</li><li>At the end, check each student’s summary, add notes, and press <b>Save session</b>.</li></ol>
     <h2>Two students</h2><p><b>Alternate questions</b>: students take turns on different cards. <b>Both practice each skill</b>: each student gets a turn on every card. When a card has a second-student question, the second student gets that one. Otherwise both answer the same question, and the answer stays hidden until both have answered.</p><p>Use <b>Switch answering student</b> if the wrong student answered. <b>Back</b> lets you fix an earlier answer without making a second record.</p>
     <h2>Make or change a lesson</h2><p>Press <b>Edit</b> on a lesson, or <b>Add lesson</b>. Fill in the lesson details, then add cards. Each card has one question. Mark one or more answers correct, and add hints, sentence starters, a sample answer, or a picture if you want. Your changes are kept as a draft while you work. Press <b>Save lesson</b> when done. Check <b>Ready to use</b> to let the lesson start.</p>

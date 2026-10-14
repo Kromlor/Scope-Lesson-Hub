@@ -7,6 +7,13 @@ OPEN THE APP
 3. Always open it from the same folder on the same laptop. Records are saved inside this browser on this laptop.
    They do NOT sync to other computers, and nothing is sent over the internet.
 
+FIRST LESSON: INTRO SLIDES ("Introducing SCOPE", pre-lesson)
+- It is the first card in the library, and the "New to SCOPE? Start here." box at the top opens it.
+- Present slides: shows 15 slides on the big screen. Click the slide or press the Right arrow to go on.
+  Answers appear on the next click. Left arrow goes back. N shows teacher notes. F is full screen. Esc leaves.
+- Start: runs the same content as cards with one or two students, with turns and ratings, like any lesson.
+- The slides work offline. The editable PowerPoint version is in the slides folder (Meet-SCOPE.pptx).
+
 RUN A LESSON (one or two students)
 1. On Lessons, search or pick a unit, then press Start on a lesson card.
 2. Choose students (add nicknames or initials right there), the part (Core lesson or Additional practice 1/2),

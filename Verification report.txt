@@ -97,3 +97,21 @@ UPDATE: PICTURES AND VOICE (October 8, 2026, afternoon)
   automatically (Edge "Natural" voices, or "Google US English" in Chrome; "Microsoft Zira" offline)
   instead of the old robotic default. Settings shows which voice is in use and lets the SLP choose another.
 - Recording the remaining lines in the warm voice is on hold (decided October 8).
+
+UPDATE: INTRO SLIDES PRE-LESSON (October 14, 2026)
+- New first card in the library: "Introducing SCOPE (pre-lesson)", unit "Start Here: SCOPE Intro".
+  A "New to SCOPE? Start here." box at the top of Lessons also opens it (the SLP can hide the box).
+- Present slides: the 15 "Meet SCOPE" slides play inside the hub, offline, with the four new pictures.
+  Arrows/click/space move on; 5 slides hide the answer until the next click; N shows teacher notes;
+  F is full screen; Esc goes back. The slide number is in the address, so a refresh stays on the slide.
+- Start: the same content as 23 cards (warm-up, why we need SCOPE, the 5 steps on the library scene,
+  "your turn" on the gym scene, 5 match-the-step items, 3 quick checks, remember). Turns, ratings,
+  and records work like any lesson. Read-aloud for these cards uses the computer voice.
+- slides/Meet-SCOPE.pptx is a PowerPoint copy (20 slides; answer slides follow each question slide;
+  teacher notes included). Its slides are pictures, so the text cannot be edited in PowerPoint.
+  The editable version is the "Meet SCOPE" deck in Claude.
+- Laptops that already have the app get the pre-lesson automatically on next open.
+- Tests: new "slides" test (present from the hub, 5 reveals, notes, deep link, PowerPoint link, Esc,
+  unknown deck). The content test now previews all 41 lessons; the update test checks that an older
+  laptop gets the pre-lesson as the first card.
+- Full test run: 16 of 16 pass (873 cards previewed across 41 lessons with no errors).

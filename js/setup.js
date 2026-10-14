@@ -24,7 +24,7 @@
 
   H.setup = {
     async open(lessonId) {
-      const lessons = (await H.store.all('lessons')).filter(H.L.canStart).sort((a, b) => (a.number || 999) - (b.number || 999) || a.title.localeCompare(b.title));
+      const lessons = (await H.store.all('lessons')).filter(H.L.canStart).sort((a, b) => (a.number ?? 999) - (b.number ?? 999) || a.title.localeCompare(b.title));
       let L = lessons.find(l => l.id === lessonId) || null;
       const students = (await H.store.all('students')).filter(s => !s.archived).sort((a, b) => a.name.localeCompare(b.name));
       const v = H.shell('lessons', `<h1>Start a session</h1>
@@ -40,7 +40,7 @@
           </section>
           <section class="panel"><h2>2. Lesson</h2>
             <label for="les">Lesson</label>
-            <select id="les">${lessons.length ? '' : '<option value="">No lessons are ready</option>'}${lessons.map(l => `<option value="${H.esc(l.id)}" ${L && l.id === L.id ? 'selected' : ''}>${l.number ? l.number + '. ' : ''}${H.esc(l.title)}</option>`).join('')}</select>
+            <select id="les">${lessons.length ? '' : '<option value="">No lessons are ready</option>'}${lessons.map(l => `<option value="${H.esc(l.id)}" ${L && l.id === L.id ? 'selected' : ''}>${l.number === 0 ? 'Pre-lesson: ' : l.number ? l.number + '. ' : ''}${H.esc(l.title)}</option>`).join('')}</select>
             <div id="partbox"></div>
           </section>
           <section class="panel" id="pairbox"><h2>3. Taking turns</h2><div id="pairinner"></div></section>

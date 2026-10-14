@@ -9,7 +9,7 @@
     const students = (marked || order).map(s => ({ id: s.id, name: s.name }));
     return {
       key: 'current', id: H.uid('sess_'), preview: mode === 'preview',
-      lessonId: L.id, lessonTitle: L.title, lessonNumber: L.number || null, unit: L.unit || '', goal: L.goal || '', slpNotes: L.slpNotes || '',
+      lessonId: L.id, lessonTitle: L.title, lessonNumber: L.number ?? null, unit: L.unit || '', goal: L.goal || '', slpNotes: L.slpNotes || '',
       video: H.clone(L.video || {}), media: H.clone(L.media || []),
       setId: set.id, setName: set.name, length, mode,
       students, studentNames: students.map(s => s.name), order: order.map(s => s.id),

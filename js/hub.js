@@ -6,7 +6,7 @@
 
   H.hub = {
     async render() {
-      const lessons = (await H.store.all('lessons')).sort((a, b) => (a.number || 999) - (b.number || 999) || a.title.localeCompare(b.title));
+      const lessons = (await H.store.all('lessons')).sort((a, b) => (a.number ?? 999) - (b.number ?? 999) || a.title.localeCompare(b.title));
       const active = await H.store.get('active', 'current');
       const units = Array.from(new Set(lessons.filter(l => !l.archived).map(l => l.unit || 'No unit'))).sort();
       const v = H.shell('lessons', `
@@ -19,6 +19,7 @@
           <select id="unit"><option value="">All units</option>${units.map(u => `<option ${u === st.unit ? 'selected' : ''}>${H.esc(u)}</option>`).join('')}</select>
           <div class="seg" role="tablist" aria-label="Show">${[['ready', 'Ready to use'], ['draft', 'Drafts'], ['all', 'All'], ['archived', 'Archived']].map(([k, t]) => `<button role="tab" aria-selected="${st.view === k}" class="${st.view === k ? 'on' : ''}" data-view="${k}">${t} <span class="count" id="cnt_${k}"></span></button>`).join('')}</div>
         </div>
+        ${startHere(lessons)}
         <div id="grid" class="grid"></div>`);
       const draw = () => {
         sessionStorage.setItem('hubFilter', JSON.stringify(st));
@@ -41,9 +42,27 @@
         H.$('#res_go').onclick = () => H.go('#/session');
         H.$('#res_x').onclick = async () => { if (await H.confirm('Discard the unfinished session?', `<p>The answers and ratings from this session will be deleted. Saved sessions are not affected.</p>`, 'Discard session')) { await H.store.del('active', 'current'); H.toast('Unfinished session discarded.'); H.hub.render(); } };
       }
+      const shp = H.$('#sh_present');
+      if (shp) {
+        shp.onclick = () => H.go('#/slides/' + encodeURIComponent(shp.dataset.slides));
+        H.$('#sh_start').onclick = () => H.go('#/setup/' + encodeURIComponent(H.$('#sh_start').dataset.id));
+        H.$('#sh_hide').onclick = () => { try { localStorage.setItem('hideStartHere', '1'); } catch (e) { } H.$('.start-here').remove(); H.toast('Hidden. The pre-lesson is still first in the library (Present slides button).'); };
+      }
       draw();
     }
   };
+
+  /* "Start here" banner for the intro slides, shown until the teacher hides it. */
+  function startHere(lessons) {
+    const l = lessons.find(x => x.slides && !x.archived && H.slides && H.slides.has(x.slides));
+    let hidden = false; try { hidden = localStorage.getItem('hideStartHere') === '1'; } catch (e) { }
+    if (!l || hidden) return '';
+    return `<section class="start-here" aria-label="Start here">
+      ${l.cover ? `<img alt="" src="${H.esc(l.cover)}">` : ''}
+      <div class="sh-text"><b>New to SCOPE? Start here.</b><br>Present the intro slides to the group before Lesson 1, or run them as cards with students.</div>
+      <div class="row"><button class="btn primary" id="sh_present" data-slides="${H.esc(l.slides)}">Present intro slides</button><button class="btn" id="sh_start" data-id="${H.esc(l.id)}">Start as a lesson</button><button class="btn ghost" id="sh_hide" title="Hide this box. The pre-lesson stays in the library.">Hide</button></div>
+    </section>`;
+  }
 
   function cardHTML(l) {
     const f = H.L.mediaFlags(l), ok = H.L.canStart(l), th = H.L.thumb(l), n = H.L.cardCount(l);
@@ -54,7 +73,7 @@
       <div class="thumb">${th ? `<img alt="" data-ref="${H.esc(th)}" loading="lazy">` : `<div class="thumb-empty" aria-hidden="true">${H.esc((l.title || '?').slice(0, 1))}</div>`}
         <span class="badge ${ok ? 'ready' : 'draft'}">${ok ? 'Ready' : l.archived ? 'Archived' : 'Draft'}</span></div>
       <div class="lbody">
-        <div class="unit">${H.esc(l.unit || 'No unit')}${l.number ? ' · Lesson ' + l.number : ''}</div>
+        <div class="unit">${H.esc(l.unit || 'No unit')}${l.number === 0 ? ' · Pre-lesson' : l.number ? ' · Lesson ' + l.number : ''}</div>
         <h2 class="ltitle">${H.esc(l.title)}</h2>
         ${l.skill ? `<div class="skill"><b>Skill:</b> ${H.esc(l.skill)}</div>` : ''}
         ${l.goal ? `<div class="goal">${H.esc(l.goal)}</div>` : ''}
@@ -63,6 +82,7 @@
       </div>
       <div class="lact">
         ${l.archived ? `<button class="btn" data-act="restore" data-id="${H.esc(l.id)}">Restore</button>` : `
+        ${l.slides && H.slides && H.slides.has(l.slides) ? `<button class="btn primary" data-act="slides" data-id="${H.esc(l.id)}">Present slides</button>` : ''}
         <button class="btn go" data-act="start" data-id="${H.esc(l.id)}" ${ok ? '' : 'disabled'}>Start</button>
         <button class="btn" data-act="preview" data-id="${H.esc(l.id)}" ${canPrev ? '' : 'disabled'}>Preview</button>
         <button class="btn" data-act="edit" data-id="${H.esc(l.id)}">Edit</button>
@@ -73,6 +93,7 @@
 
   async function act(a, id, lessons) {
     const l = lessons.find(x => x.id === id); if (!l) return;
+    if (a === 'slides') H.go('#/slides/' + encodeURIComponent(l.slides));
     if (a === 'start') H.go('#/setup/' + encodeURIComponent(id));
     if (a === 'preview') H.go('#/preview/' + encodeURIComponent(id));
     if (a === 'edit') H.go('#/edit/' + encodeURIComponent(id));

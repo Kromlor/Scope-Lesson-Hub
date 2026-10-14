@@ -1,9 +1,423 @@
 /* SCOPE lesson content migrated from SCOPE-Perspective-Lab-Warm-Voice.html.
    Edit lessons inside the app (Edit button). This file only seeds a new laptop. */
 window.HUB_CONTENT = {
- "contentVersion": 3,
+ "contentVersion": 4,
  "source": "SCOPE-Perspective-Lab-Warm-Voice.html",
  "lessons": [
+  {
+   "id": "scope-00",
+   "number": 0,
+   "title": "Introducing SCOPE (pre-lesson)",
+   "unit": "Start Here: SCOPE Intro",
+   "program": "SCOPE",
+   "skill": "Learning the 5 SCOPE steps",
+   "goal": "I can name the 5 SCOPE steps and use them on a real moment.",
+   "slpNotes": "Use this before Lesson 1. Two ways to teach it:\n\n1) Present slides: whole-group, on the big screen. Click to show each answer. Press N for teacher notes.\n2) Start: run the same content as cards with students, so you get turn-taking and ratings.\n\nSCOPE is like a detective’s checklist for people: a detective doesn’t decide right away. They look, collect clues, and think about more than one answer before they act.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [],
+   "status": "ready",
+   "origin": "Meet SCOPE intro slides",
+   "contentRev": 1,
+   "slides": "scope-intro",
+   "cover": "assets/img/intro-1.webp",
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "role": "warmup",
+       "kind": "open",
+       "heading": "Warm-up",
+       "inShort": false,
+       "image": "assets/img/intro-1.webp",
+       "imageAlt": "A busy school hallway: students walk and talk; one looks puzzled",
+       "question": "Has anyone ever said something, and you were not sure what they meant?",
+       "slpNote": "Take one or two quick stories. SCOPE is a five-step tool we will use in every session to figure out what is going on and what people might mean.",
+       "id": "s0-core-01"
+      },
+      {
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Why do we need SCOPE?",
+       "image": "assets/img/intro-2.webp",
+       "imageAlt": "Classroom: Mr. Cruz tells a student, “See me after class.”",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "See me after class."
+        }
+       ],
+       "question": "What could it mean? Give more than one idea.",
+       "sampleIdeas": [
+        "“I’m in trouble.”",
+        "“He wants to help me.”",
+        "“He has good news.”"
+       ],
+       "explanation": "The same words can mean different things. SCOPE helps us slow down and check.",
+       "prompts": [
+        "How would each idea make you feel?",
+        "What clues would help you know which one is right?"
+       ],
+       "slpNote": "Most students jump to “I’m in trouble.” Point out that our first guess is not always right.",
+       "id": "s0-core-02",
+       "inShort": true
+      },
+      {
+       "role": "discussion",
+       "kind": "open",
+       "heading": "The 5 SCOPE steps",
+       "question": "Say the 5 SCOPE steps with me: See, Clues, Others know, Possible meanings, Engage.",
+       "starters": [
+        "S – See: just the facts.",
+        "C – Clues: words, voice, face, body, place.",
+        "O – Others know: what did each person see or miss?",
+        "P – Possible meanings: 2 or 3 ideas.",
+        "E – Engage: ask, explain, fix, or speak up."
+       ],
+       "slpNote": "Hand motions: S – hand over eyes like a visor, C – magnifying glass, O – point to your head, P – hold up 2 or 3 fingers, E – open hands toward a partner. Have students say the five words back.",
+       "id": "s0-core-03",
+       "inShort": true
+      },
+      {
+       "role": "warmup",
+       "kind": "open",
+       "heading": "Let’s try it together",
+       "image": "assets/img/intro-3.webp",
+       "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
+       "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
+       "question": "What is your first guess?",
+       "slpNote": "Take first guesses without correcting anyone. Many students will say “They were talking about her.” Remember it, then say: “Let’s use SCOPE to check that guess, one step at a time.”",
+       "id": "s0-core-04",
+       "inShort": true
+      },
+      {
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "question": "Who is there? Where are they? What happens?",
+       "sampleAnswer": "It is the library. Zoe walks up. Jay and Lily stop talking.",
+       "slpNote": "See is ONLY the facts, like a camera. If a student says “They were talking about her,” say: “That’s a guess. We’ll get to guesses at P. What would a camera see?”",
+       "image": "assets/img/intro-3.webp",
+       "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
+       "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
+       "id": "s0-core-05",
+       "inShort": true
+      },
+      {
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "question": "What do faces, bodies, and actions show?",
+       "sampleAnswer": "They stop talking. They look at each other. Their smiles look friendly.",
+       "slpNote": "Ask students to point at each clue in the picture. Faces and bodies are clues, not proof.",
+       "image": "assets/img/intro-3.webp",
+       "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
+       "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
+       "id": "s0-core-06",
+       "inShort": true
+      },
+      {
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "question": "What does Zoe know? What do Jay and Lily know?",
+       "sampleAnswer": "Jay and Lily know what they said. Zoe did not hear it. She is missing information.",
+       "slpNote": "People only know what they have seen or heard. Ask: “What would help Zoe find out?” (Asking them.)",
+       "image": "assets/img/intro-3.webp",
+       "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
+       "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
+       "id": "s0-core-07",
+       "inShort": true
+      },
+      {
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "question": "Why did they stop talking? Give 2 or 3 ideas.",
+       "sampleIdeas": [
+        "They were talking about Zoe.",
+        "They are planning a fun surprise.",
+        "They just finished a joke."
+       ],
+       "bestIdea": 1,
+       "explanation": "The friendly smiles make a fun reason more likely.",
+       "slpNote": "Get at least two ideas before showing these. Go back to the clues: “Which idea fits the friendly smiles best?”",
+       "image": "assets/img/intro-3.webp",
+       "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
+       "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
+       "id": "s0-core-08",
+       "inShort": true
+      },
+      {
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "question": "What could Zoe say or do?",
+       "sampleIdeas": [
+        "Smile and say, “Hey! What’s up?”",
+        "Sit down and join in."
+       ],
+       "explanation": "Not sure? Ask. Don’t guess.",
+       "slpNote": "Compare: if Zoe guessed “they were talking about me” and walked away, how might the afternoon go? Practice saying “Hey! What’s up?” in a friendly voice.",
+       "image": "assets/img/intro-3.webp",
+       "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
+       "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
+       "id": "s0-core-09",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "open",
+       "step": "S",
+       "question": "What is happening?",
+       "sampleAnswer": "Gym class. Ava picks teams. Ben is picked last.",
+       "image": "assets/img/intro-4.webp",
+       "imageAlt": "Gym: Ava picks teams; Ben, picked last, looks at the floor",
+       "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
+       "heading": "Your turn",
+       "id": "s0-core-10",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "open",
+       "step": "C",
+       "question": "What clues do you see?",
+       "sampleAnswer": "Ben looks at the floor. Other kids are standing with their teams.",
+       "image": "assets/img/intro-4.webp",
+       "imageAlt": "Gym: Ava picks teams; Ben, picked last, looks at the floor",
+       "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
+       "heading": "Your turn",
+       "id": "s0-core-11",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "open",
+       "step": "O",
+       "question": "Does Ava know how Ben feels?",
+       "sampleAnswer": "Ava may not know Ben feels bad. Ben does not know why she picked him last.",
+       "image": "assets/img/intro-4.webp",
+       "imageAlt": "Gym: Ava picks teams; Ben, picked last, looks at the floor",
+       "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
+       "heading": "Your turn",
+       "id": "s0-core-12",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "open",
+       "step": "P",
+       "question": "Why might Ava pick Ben last?",
+       "sampleIdeas": [
+        "“She doesn’t like me.”",
+        "She picked her close friends first.",
+        "She just went down the line.",
+        "She didn’t think about it."
+       ],
+       "explanation": "Accept any idea that fits the clues.",
+       "image": "assets/img/intro-4.webp",
+       "imageAlt": "Gym: Ava picks teams; Ben, picked last, looks at the floor",
+       "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
+       "heading": "Your turn",
+       "id": "s0-core-13",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "open",
+       "step": "E",
+       "question": "What could Ben or Ava do?",
+       "sampleIdeas": [
+        "Ben could say, “Can I play forward?” and join in.",
+        "A friend could say, “Glad you’re on our team!”",
+        "Ava could say, “Come on, Ben!”"
+       ],
+       "image": "assets/img/intro-4.webp",
+       "imageAlt": "Gym: Ava picks teams; Ben, picked last, looks at the floor",
+       "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
+       "heading": "Your turn",
+       "id": "s0-core-14",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "choice",
+       "heading": "Match the step",
+       "question": "“They are in the band room.” Which step is this?",
+       "choices": [
+        "S – See",
+        "C – Clues",
+        "O – Others know",
+        "P – Possible meanings",
+        "E – Engage"
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "This tells where they are. That is See.",
+       "id": "s0-core-15",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "choice",
+       "heading": "Match the step",
+       "question": "“Her voice is getting louder.” Which step is this?",
+       "choices": [
+        "S – See",
+        "C – Clues",
+        "O – Others know",
+        "P – Possible meanings",
+        "E – Engage"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A voice is a clue.",
+       "id": "s0-core-16",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "choice",
+       "heading": "Match the step",
+       "question": "“He was at the dentist, so he missed the news.” Which step is this?",
+       "choices": [
+        "S – See",
+        "C – Clues",
+        "O – Others know",
+        "P – Possible meanings",
+        "E – Engage"
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "This is about what he knows or missed.",
+       "id": "s0-core-17",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "choice",
+       "heading": "Match the step",
+       "question": "“Maybe she is tired. Maybe she is bored.” Which step is this?",
+       "choices": [
+        "S – See",
+        "C – Clues",
+        "O – Others know",
+        "P – Possible meanings",
+        "E – Engage"
+       ],
+       "correct": [
+        3
+       ],
+       "explanation": "More than one idea is Possible meanings.",
+       "id": "s0-core-18",
+       "inShort": true
+      },
+      {
+       "role": "practice",
+       "kind": "choice",
+       "heading": "Match the step",
+       "question": "“I could say, ‘Can you show me how?’” Which step is this?",
+       "choices": [
+        "S – See",
+        "C – Clues",
+        "O – Others know",
+        "P – Possible meanings",
+        "E – Engage"
+       ],
+       "correct": [
+        4
+       ],
+       "explanation": "Something you can say or do is Engage.",
+       "id": "s0-core-19",
+       "inShort": true
+      },
+      {
+       "role": "check",
+       "kind": "choice",
+       "heading": "Quick check",
+       "question": "Which step asks, “What could it mean?”",
+       "choices": [
+        "S – See",
+        "P – Possible meanings",
+        "E – Engage"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "P is for Possible meanings.",
+       "id": "s0-core-20",
+       "inShort": true
+      },
+      {
+       "role": "check",
+       "kind": "choice",
+       "heading": "Quick check",
+       "question": "Jay has earbuds in. You say hi. He doesn’t answer. Why might that be?",
+       "choices": [
+        "He hates you.",
+        "He may not have heard you.",
+        "He is mad at everyone."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "He may not have heard you, so he does not know you said hi. That is the O step.",
+       "id": "s0-core-21",
+       "inShort": true
+      },
+      {
+       "role": "check",
+       "kind": "choice",
+       "heading": "Quick check",
+       "question": "You are not sure what someone meant. What is a good next step?",
+       "choices": [
+        "Ask them.",
+        "Decide they were mean.",
+        "Tell other people."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "Not sure? Ask.",
+       "id": "s0-core-22",
+       "inShort": true
+      },
+      {
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Remember",
+       "question": "Slow down. Look for clues. Not sure? Ask. Name one SCOPE step from memory.",
+       "starters": [
+        "S – See",
+        "C – Clues",
+        "O – Others know",
+        "P – Possible meanings",
+        "E – Engage"
+       ],
+       "slpNote": "Each student names one step (or shows its hand motion). Tell them we will use SCOPE in every session from now on.",
+       "id": "s0-core-23",
+       "inShort": true
+      }
+     ]
+    }
+   ]
+  },
   {
    "id": "scope-01",
    "number": 1,
