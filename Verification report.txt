@@ -115,3 +115,21 @@ UPDATE: INTRO SLIDES PRE-LESSON (October 14, 2026)
   unknown deck). The content test now previews all 41 lessons; the update test checks that an older
   laptop gets the pre-lesson as the first card.
 - Full test run: 16 of 16 pass (873 cards previewed across 41 lessons with no errors).
+
+UPDATE: UNITS 7–10 (October 15, 2026)
+- 20 new core lessons (41–60), 4 lessons plus a unit check per unit, same structure as lessons 9–40:
+    Unit 7  Fact vs. Opinion: 41 Fact or opinion? · 42 Opinion signal words · 43 When opinions sound
+            like facts · 44 Different opinions, no argument · 45 Unit 7 check
+    Unit 8  Being Wrong vs. Being Different: 46 Wrong or just different? · 47 More than one right way ·
+            48 Different is not weird · 49 When someone is really wrong · 50 Unit 8 check
+    Unit 9  Idioms & Sarcasm: 51 Idioms all around us · 52 Figuring out a new idiom · 53 Is it sarcasm? ·
+            54 Answering sarcasm · 55 Unit 9 check (new idioms and sarcasm lines; none repeat Unit 2)
+    Unit 10 Interpersonal Negotiation (built from the SLP's source page): 56 How important is it?
+            (degree of importance) · 57 Showing respect to friends (respect) · 58 Letting it go
+            (acquiescence) · 59 Asking, not pushing (persuasion) · 60 Unit 10 check
+- New writing: please read through before use. Units 7, 8 and 10 were written from the unit names.
+- Pictures: existing SCOPE scenes are reused on the explore cards of 12 of the 20 lessons where they fit.
+  No new pictures were made. Read-aloud for these lessons uses the computer voice.
+- Units now list in number order in the unit filter (Start Here, Unit 1 … Unit 10).
+- Laptops that already have the app get the new lessons on next open; a message says how many were added.
+- Full test run: 16 of 16 pass (1,192 cards previewed across 61 lessons with no errors).

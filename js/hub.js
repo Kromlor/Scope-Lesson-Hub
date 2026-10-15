@@ -4,11 +4,17 @@
   const st = { q: '', unit: '', view: 'ready' };
   try { Object.assign(st, JSON.parse(sessionStorage.getItem('hubFilter') || '{}')); } catch (e) { }
 
+  /* Start Here first, then units in number order (Unit 2 before Unit 10), then anything else A–Z. */
+  H.unitOrder = (a, b) => {
+    const k = u => /^start here/i.test(u) ? 0 : /unit\s*\d+/i.test(u) ? 1 : 2;
+    return k(a) - k(b) || a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
+  };
+
   H.hub = {
     async render() {
       const lessons = (await H.store.all('lessons')).sort((a, b) => (a.number ?? 999) - (b.number ?? 999) || a.title.localeCompare(b.title));
       const active = await H.store.get('active', 'current');
-      const units = Array.from(new Set(lessons.filter(l => !l.archived).map(l => l.unit || 'No unit'))).sort();
+      const units = Array.from(new Set(lessons.filter(l => !l.archived).map(l => l.unit || 'No unit'))).sort(H.unitOrder);
       const v = H.shell('lessons', `
         ${active ? `<div class="resume panel" role="region" aria-label="Unfinished session"><div><b>Unfinished session:</b> ${H.esc(active.lessonTitle)} · ${H.esc(active.studentNames.join(' and ') || 'Preview')} · card ${Math.min(active.pos + 1, active.turns.length)} of ${active.turns.length}</div><div class="row"><button class="btn go" id="res_go">Resume</button><button class="btn danger" id="res_x">Discard</button></div></div>` : ''}
         <div class="hub-head"><h1>Lesson library</h1><button class="btn primary" id="add">+ Add lesson</button></div>
