@@ -133,3 +133,6 @@ UPDATE: UNITS 7–10 (October 15, 2026)
 - Units now list in number order in the unit filter (Start Here, Unit 1 … Unit 10).
 - Laptops that already have the app get the new lessons on next open; a message says how many were added.
 - Full test run: 16 of 16 pass (1,192 cards previewed across 61 lessons with no errors).
+- Pictures added (October 15, afternoon): new scenes for lessons 42, 43, 46, 47, 52, 54, 58 and 60 (made in
+  ChatGPT from prompts). Every Unit 7–10 lesson now has a picture on its explore cards. Laptops that already
+  have these lessons get the pictures on next open (unless the SLP edited that lesson).

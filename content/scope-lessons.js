@@ -1,7 +1,7 @@
 /* SCOPE lesson content migrated from SCOPE-Perspective-Lab-Warm-Voice.html.
    Edit lessons inside the app (Edit button). This file only seeds a new laptop. */
 window.HUB_CONTENT = {
- "contentVersion": 5,
+ "contentVersion": 6,
  "source": "SCOPE-Perspective-Lab-Warm-Voice.html",
  "lessons": [
   {
@@ -21037,7 +21037,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -21089,7 +21089,9 @@ window.HUB_CONTENT = {
          "text": "I think sharks are scary."
         }
        ],
-       "sampleAnswer": "The class watches a shark video. Mr. Cruz, Kai, and Lily each say something."
+       "sampleAnswer": "The class watches a shark video. Mr. Cruz, Kai, and Lily each say something.",
+       "image": "assets/img/scene-lesson-42.webp",
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
       },
       {
        "id": "s42-core-03",
@@ -21114,7 +21116,9 @@ window.HUB_CONTENT = {
          "text": "I think sharks are scary."
         }
        ],
-       "sampleAnswer": "“Awesome.” “I think.” “Scary.”"
+       "sampleAnswer": "“Awesome.” “I think.” “Scary.”",
+       "image": "assets/img/scene-lesson-42.webp",
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
       },
       {
        "id": "s42-core-04",
@@ -21139,7 +21143,9 @@ window.HUB_CONTENT = {
          "text": "I think sharks are scary."
         }
        ],
-       "sampleAnswer": "No. Kai likes sharks. Lily thinks they are scary."
+       "sampleAnswer": "No. Kai likes sharks. Lily thinks they are scary.",
+       "image": "assets/img/scene-lesson-42.webp",
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
       },
       {
        "id": "s42-core-05",
@@ -21168,7 +21174,9 @@ window.HUB_CONTENT = {
         "Mr. Cruz said a fact. It has a number. We can look it up.",
         "Kai and Lily said opinions. They used opinion words."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "image": "assets/img/scene-lesson-42.webp",
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
       },
       {
        "id": "s42-core-06",
@@ -21193,7 +21201,9 @@ window.HUB_CONTENT = {
          "text": "I think sharks are scary."
         }
        ],
-       "sampleAnswer": "“What makes them scary to you?”"
+       "sampleAnswer": "“What makes them scary to you?”",
+       "image": "assets/img/scene-lesson-42.webp",
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
       },
       {
        "id": "s42-core-07",
@@ -21388,7 +21398,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -21438,7 +21448,9 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Rosa and Ava both saw the same movie. Rosa says it was boring."
+       "sampleAnswer": "Rosa and Ava both saw the same movie. Rosa says it was boring.",
+       "image": "assets/img/scene-lesson-43.webp",
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
       },
       {
        "id": "s43-core-03",
@@ -21460,7 +21472,9 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "“So boring.” That is an opinion word. Rosa says it like a fact."
+       "sampleAnswer": "“So boring.” That is an opinion word. Rosa says it like a fact.",
+       "image": "assets/img/scene-lesson-43.webp",
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
       },
       {
        "id": "s43-core-04",
@@ -21482,7 +21496,9 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Rosa knows what she thinks. She may not know Ava loved the movie."
+       "sampleAnswer": "Rosa knows what she thinks. She may not know Ava loved the movie.",
+       "image": "assets/img/scene-lesson-43.webp",
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
       },
       {
        "id": "s43-core-05",
@@ -21508,7 +21524,9 @@ window.HUB_CONTENT = {
         "It is what Rosa thinks. It is an opinion.",
         "It sounds like a fact, but no one can check “boring.”"
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "image": "assets/img/scene-lesson-43.webp",
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
       },
       {
        "id": "s43-core-06",
@@ -21530,7 +21548,9 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "“I liked it, though. The ending was cool.”"
+       "sampleAnswer": "“I liked it, though. The ending was cool.”",
+       "image": "assets/img/scene-lesson-43.webp",
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
       },
       {
        "id": "s43-core-07",
@@ -22428,7 +22448,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -22477,7 +22497,9 @@ window.HUB_CONTENT = {
          "text": "They're not wrong!"
         }
        ],
-       "sampleAnswer": "Ava and Kai make a poster. Kai says Ava's letters are wrong. Ava is upset."
+       "sampleAnswer": "Ava and Kai make a poster. Kai says Ava's letters are wrong. Ava is upset.",
+       "image": "assets/img/scene-lesson-46.webp",
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
       },
       {
        "id": "s46-core-03",
@@ -22498,7 +22520,9 @@ window.HUB_CONTENT = {
          "text": "They're not wrong!"
         }
        ],
-       "sampleAnswer": "Kai says “wrong.” Ava says “They're not wrong!” Her words sound upset."
+       "sampleAnswer": "Kai says “wrong.” Ava says “They're not wrong!” Her words sound upset.",
+       "image": "assets/img/scene-lesson-46.webp",
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
       },
       {
        "id": "s46-core-04",
@@ -22519,7 +22543,9 @@ window.HUB_CONTENT = {
          "text": "They're not wrong!"
         }
        ],
-       "sampleAnswer": "Kai thinks plain letters are the right way. Ava thinks bubble letters are fine."
+       "sampleAnswer": "Kai thinks plain letters are the right way. Ava thinks bubble letters are fine.",
+       "image": "assets/img/scene-lesson-46.webp",
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
       },
       {
        "id": "s46-core-05",
@@ -22544,7 +22570,9 @@ window.HUB_CONTENT = {
         "It is different. Both letter styles work.",
         "It could be wrong if no one can read it.",
         "Kai may just like plain letters better."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-46.webp",
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
       },
       {
        "id": "s46-core-06",
@@ -22565,7 +22593,9 @@ window.HUB_CONTENT = {
          "text": "They're not wrong!"
         }
        ],
-       "sampleAnswer": "“Your letters look different from mine. Should we match?”"
+       "sampleAnswer": "“Your letters look different from mine. Should we match?”",
+       "image": "assets/img/scene-lesson-46.webp",
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
       },
       {
        "id": "s46-core-07",
@@ -22765,7 +22795,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -22814,7 +22844,9 @@ window.HUB_CONTENT = {
          "text": "But I got 24 too."
         }
        ],
-       "sampleAnswer": "Lily and Omar solve the same problem. They use different ways. Lily says Omar is wrong."
+       "sampleAnswer": "Lily and Omar solve the same problem. They use different ways. Lily says Omar is wrong.",
+       "image": "assets/img/scene-lesson-47.webp",
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
       },
       {
        "id": "s47-core-03",
@@ -22835,7 +22867,9 @@ window.HUB_CONTENT = {
          "text": "But I got 24 too."
         }
        ],
-       "sampleAnswer": "They both got 24. Omar says, “But I got 24 too.”"
+       "sampleAnswer": "They both got 24. Omar says, “But I got 24 too.”",
+       "image": "assets/img/scene-lesson-47.webp",
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
       },
       {
        "id": "s47-core-04",
@@ -22856,7 +22890,9 @@ window.HUB_CONTENT = {
          "text": "But I got 24 too."
         }
        ],
-       "sampleAnswer": "Lily knows counting by 6s. Omar learned a different way. Lily may not know his way works."
+       "sampleAnswer": "Lily knows counting by 6s. Omar learned a different way. Lily may not know his way works.",
+       "image": "assets/img/scene-lesson-47.webp",
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
       },
       {
        "id": "s47-core-05",
@@ -22881,7 +22917,9 @@ window.HUB_CONTENT = {
         "She only knows one way.",
         "She thinks her teacher's way is the only way.",
         "She is confused by his steps."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-47.webp",
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
       },
       {
        "id": "s47-core-06",
@@ -22902,7 +22940,9 @@ window.HUB_CONTENT = {
          "text": "But I got 24 too."
         }
        ],
-       "sampleAnswer": "“We got the same answer. Show me your way?”"
+       "sampleAnswer": "“We got the same answer. Show me your way?”",
+       "image": "assets/img/scene-lesson-47.webp",
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
       },
       {
        "id": "s47-core-07",
@@ -24494,7 +24534,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -24539,7 +24579,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Jay is late again. Coach Kim says he is on thin ice."
+       "sampleAnswer": "Jay is late again. Coach Kim says he is on thin ice.",
+       "image": "assets/img/scene-lesson-52.webp",
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
       },
       {
        "id": "s52-core-03",
@@ -24556,7 +24598,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What clues can help you guess?",
-       "sampleAnswer": "Jay was late before. Coach looks serious. There is no ice in the gym."
+       "sampleAnswer": "Jay was late before. Coach looks serious. There is no ice in the gym.",
+       "image": "assets/img/scene-lesson-52.webp",
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
       },
       {
        "id": "s52-core-04",
@@ -24573,7 +24617,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Does Jay know this idiom? What does Coach want him to know?",
-       "sampleAnswer": "Jay may not know it. Coach wants him to know he is close to trouble."
+       "sampleAnswer": "Jay may not know it. Coach wants him to know he is close to trouble.",
+       "image": "assets/img/scene-lesson-52.webp",
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
       },
       {
        "id": "s52-core-05",
@@ -24595,7 +24641,9 @@ window.HUB_CONTENT = {
         "Coach is upset. He needs to be careful.",
         "He is standing on ice. (This does not fit. They are in a gym.)"
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "image": "assets/img/scene-lesson-52.webp",
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
       },
       {
        "id": "s52-core-06",
@@ -24612,7 +24660,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "If Jay is not sure what it means, what can he do?",
-       "sampleAnswer": "Say sorry. Then ask, “Do you mean I could get in trouble?”"
+       "sampleAnswer": "Say sorry. Then ask, “Do you mean I could get in trouble?”",
+       "image": "assets/img/scene-lesson-52.webp",
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
       },
       {
        "id": "s52-core-07",
@@ -25210,7 +25260,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -25261,7 +25311,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Ben tripped and dropped his books. Jay says, “Smooth move.”"
+       "sampleAnswer": "Ben tripped and dropped his books. Jay says, “Smooth move.”",
+       "image": "assets/img/scene-lesson-54.webp",
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
       },
       {
        "id": "s54-core-03",
@@ -25278,7 +25330,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What clues tell you if it is friendly or unkind?",
-       "sampleAnswer": "Jay is his good friend. He grins. He helps pick up the books."
+       "sampleAnswer": "Jay is his good friend. He grins. He helps pick up the books.",
+       "image": "assets/img/scene-lesson-54.webp",
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
       },
       {
        "id": "s54-core-04",
@@ -25295,7 +25349,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What does Jay know? What does Ben know about Jay?",
-       "sampleAnswer": "Jay knows Ben is not hurt. Ben knows Jay likes to joke."
+       "sampleAnswer": "Jay knows Ben is not hurt. Ben knows Jay likes to joke.",
+       "image": "assets/img/scene-lesson-54.webp",
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
       },
       {
        "id": "s54-core-05",
@@ -25317,7 +25373,9 @@ window.HUB_CONTENT = {
         "Are you okay? Let me help.",
         "He is making fun of Ben. (Less likely. He is helping.)"
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "image": "assets/img/scene-lesson-54.webp",
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
       },
       {
        "id": "s54-core-06",
@@ -25334,7 +25392,9 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What could Ben say back?",
-       "sampleAnswer": "Laugh and say, “Yep. I’m so graceful.”"
+       "sampleAnswer": "Laugh and say, “Yep. I’m so graceful.”",
+       "image": "assets/img/scene-lesson-54.webp",
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
       },
       {
        "id": "s54-core-07",
@@ -26713,7 +26773,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -26761,7 +26821,9 @@ window.HUB_CONTENT = {
          "text": "But I want to play a game!"
         }
        ],
-       "sampleAnswer": "Ava and Lily want to do different things."
+       "sampleAnswer": "Ava and Lily want to do different things.",
+       "image": "assets/img/scene-lesson-58.webp",
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
       },
       {
        "id": "s58-core-03",
@@ -26782,7 +26844,9 @@ window.HUB_CONTENT = {
          "text": "But I want to play a game!"
         }
        ],
-       "sampleAnswer": "Lily says “Let’s watch.” Ava says “But I want…” Both want their own way."
+       "sampleAnswer": "Lily says “Let’s watch.” Ava says “But I want…” Both want their own way.",
+       "image": "assets/img/scene-lesson-58.webp",
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
       },
       {
        "id": "s58-core-04",
@@ -26803,7 +26867,9 @@ window.HUB_CONTENT = {
          "text": "But I want to play a game!"
         }
        ],
-       "sampleAnswer": "She knows what she wants. She doesn’t know how much the show matters to Lily."
+       "sampleAnswer": "She knows what she wants. She doesn’t know how much the show matters to Lily.",
+       "image": "assets/img/scene-lesson-58.webp",
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
       },
       {
        "id": "s58-core-05",
@@ -26828,7 +26894,9 @@ window.HUB_CONTENT = {
         "Let it go: “Sure, let’s watch.”",
         "Compromise: one show, then a game.",
         "Ask: “Is this show a big deal to you?”"
-       ]
+       ],
+       "image": "assets/img/scene-lesson-58.webp",
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
       },
       {
        "id": "s58-core-06",
@@ -26849,7 +26917,9 @@ window.HUB_CONTENT = {
          "text": "But I want to play a game!"
         }
        ],
-       "sampleAnswer": "“How about one show, then the game?”"
+       "sampleAnswer": "“How about one show, then the game?”",
+       "image": "assets/img/scene-lesson-58.webp",
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
       },
       {
        "id": "s58-core-07",
@@ -27376,7 +27446,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -27416,7 +27486,9 @@ window.HUB_CONTENT = {
          "text": "Fine. But let’s copy Ben’s facts. He won’t know."
         }
        ],
-       "sampleAnswer": "Zoe and Rosa make a poster. They don’t agree on the color. Rosa wants to copy Ben’s work."
+       "sampleAnswer": "Zoe and Rosa make a poster. They don’t agree on the color. Rosa wants to copy Ben’s work.",
+       "image": "assets/img/scene-lesson-60.webp",
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
       },
       {
        "id": "s60-core-03",
@@ -27437,7 +27509,9 @@ window.HUB_CONTENT = {
          "text": "Fine. But let’s copy Ben’s facts. He won’t know."
         }
        ],
-       "sampleAnswer": "Rosa says “Fine” about blue. Then she says “He won’t know.”"
+       "sampleAnswer": "Rosa says “Fine” about blue. Then she says “He won’t know.”",
+       "image": "assets/img/scene-lesson-60.webp",
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
       },
       {
        "id": "s60-core-04",
@@ -27458,7 +27532,9 @@ window.HUB_CONTENT = {
          "text": "Fine. But let’s copy Ben’s facts. He won’t know."
         }
        ],
-       "sampleAnswer": "Ben doesn’t know Rosa wants to copy his facts."
+       "sampleAnswer": "Ben doesn’t know Rosa wants to copy his facts.",
+       "image": "assets/img/scene-lesson-60.webp",
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
       },
       {
        "id": "s60-core-05",
@@ -27483,7 +27559,9 @@ window.HUB_CONTENT = {
         "The color is small.",
         "Copying Ben’s work is big.",
         "Rosa may not know copying is wrong."
-       ]
+       ],
+       "image": "assets/img/scene-lesson-60.webp",
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
       },
       {
        "id": "s60-core-06",
@@ -27504,7 +27582,9 @@ window.HUB_CONTENT = {
          "text": "Fine. But let’s copy Ben’s facts. He won’t know."
         }
        ],
-       "sampleAnswer": "“Blue or green is fine with me. But let’s not copy. We can find our own facts.”"
+       "sampleAnswer": "“Blue or green is fine with me. But let’s not copy. We can find our own facts.”",
+       "image": "assets/img/scene-lesson-60.webp",
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
       },
       {
        "id": "s60-core-07",
