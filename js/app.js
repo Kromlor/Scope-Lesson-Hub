@@ -10,7 +10,7 @@
       <nav aria-label="Main">${NAV.map(([k, t]) => `<a href="#/${k}" class="${active === k ? 'on' : ''}" ${active === k ? 'aria-current="page"' : ''}>${t}</a>`).join('')}</nav>
       <span id="savestate" class="savestate" role="status" aria-live="polite"></span>
     </header><main id="view" tabindex="-1">${inner || ''}</main>
-    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly.</footer>`;
+    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly. · SCOPE Lesson Hub v2.1</footer>`;
     return H.$('#view');
   };
 
@@ -62,6 +62,10 @@
         <p class="small muted">The 376 warm-voice recordings play only when the words match the original lesson text exactly. Edited or new text uses the computer voice, which sounds different on each computer. You can upload your own recording for any card in the editor. The computer voice reads tone-of-voice lines flat, so model those yourself.</p>
         <div class="row"><button class="btn" id="s_test">${H.icon('speaker')} Test the voice</button><button class="btn" id="s_stop">${H.icon('stop')} Stop</button></div>
       </section>
+      <section class="panel"><h2>Answer boxes</h2>
+        <div class="seg" role="radiogroup" aria-label="Answer boxes">${[['on', 'Students type answers and press Check my answer'], ['off', 'Students say answers out loud (no typing)']].map(([k, t]) => `<label><input type="radio" name="ta" value="${k}" ${(p.typedAnswers === false ? 'off' : 'on') === k ? 'checked' : ''}> ${t}</label>`).join('')}</div>
+        <p class="small muted">On open questions, a typed answer is checked for key words. Right: “Yes!” First miss: “Try again” with a hint. Second miss: the sample answer shows. The checker can miss a good answer worded a different way, so the SLP panel has <b>Count as correct</b>. Ratings are always your call. Talk-it-through cards stay spoken.</p>
+      </section>
       <section class="panel"><h2>Student screen text size</h2>
         <div class="seg" role="radiogroup" aria-label="Text size">${[['normal', 'Normal'], ['large', 'Large'], ['xl', 'Extra large']].map(([k, t]) => `<label><input type="radio" name="ts" value="${k}" ${p.textSize === k ? 'checked' : ''}> ${t}</label>`).join('')}</div>
         <p class="small muted">Browser zoom (Ctrl and +) also works.</p>
@@ -70,6 +74,7 @@
     const upd = async () => {
       p.voiceMode = H.$('#s_mode').value; p.rate = +H.$('#s_rate').value; p.voiceName = H.$('#s_vname').value;
       const ts = H.$('input[name=ts]:checked'); p.textSize = ts ? ts.value : 'normal';
+      const ta = H.$('input[name=ta]:checked'); p.typedAnswers = !ta || ta.value === 'on';
       H.$('#s_rate_v').textContent = p.rate.toFixed(2) + '×'; H.applyTextSize(); await H.store.setPrefs(p);
     };
     H.$$('select,input', v).forEach(i => i.onchange = upd);
@@ -83,6 +88,7 @@
     <h2>Open the app</h2><p>Double-click <b>index.html</b> in the SCOPE-Lesson-Hub folder. Use Chrome or Edge. Keep the whole folder together; the pictures and voice clips live in it. Always open it from the same folder on the same laptop, because records are saved in this browser.</p>
     <h2>First lesson: intro slides</h2><p>The first card in the library, <b>Introducing SCOPE (pre-lesson)</b>, teaches the 5 SCOPE steps before Lesson 1. Press <b>Present slides</b> to show it on the big screen: click the slide or press → to go on (answers appear on the next click), ← to go back, <b>N</b> for teacher notes, <b>F</b> for full screen, and <b>Esc</b> to leave. Press <b>Start</b> instead to run the same content as cards with students and ratings.</p>
     <h2>Run a lesson</h2><ol><li>On <b>Lessons</b>, find a lesson (search or filter) and press <b>Start</b>.</li><li>Pick one or two students, the part (core lesson or additional practice), full or short, who goes first, and the turn-taking method.</li><li>The banner shows whose turn it is. Students tap answers; nothing moves on until you press <b>Save and next turn</b>.</li><li>Rate each Quick check: Independent, With help, or Incorrect (or press <b>Skip</b>). Other cards can stay unscored.</li><li>At the end, check each student’s summary, add notes, and press <b>Save session</b>.</li></ol>
+    <h2>Typed answers (Check my answer)</h2><p>On open questions, students type an answer and press <b>Check my answer</b> (or Enter). A right answer says <b>Yes!</b> The first miss says <b>Try again</b> with a hint. After a second miss, the sample answer shows. The checker looks for key words and allows small spelling slips, so it can miss a good answer worded another way: press <b>Count as correct</b> in your panel. Personal questions with no single right answer just say thanks. Talk-it-through cards stay spoken. Students can always answer out loud instead; you still choose the rating. Turn typing off in <b>Settings</b>. Each card's key words can be changed in the editor.</p>
     <h2>Two students</h2><p><b>Alternate questions</b>: students take turns on different cards. <b>Both practice each skill</b>: each student gets a turn on every card. When a card has a second-student question, the second student gets that one. Otherwise both answer the same question, and the answer stays hidden until both have answered.</p><p>Use <b>Switch answering student</b> if the wrong student answered. <b>Back</b> lets you fix an earlier answer without making a second record.</p>
     <h2>Make or change a lesson</h2><p>Press <b>Edit</b> on a lesson, or <b>Add lesson</b>. Fill in the lesson details, then add cards. Each card has one question. Mark one or more answers correct, and add hints, sentence starters, a sample answer, or a picture if you want. Your changes are kept as a draft while you work. Press <b>Save lesson</b> when done. Check <b>Ready to use</b> to let the lesson start.</p>
     <h2>Back up</h2><p>Go to <b>Backup</b> and press <b>Download backup</b>. The file has your lessons, students, sessions, and uploaded media. To move to a new laptop, copy the app folder, open it, and use <b>Restore</b>.</p>

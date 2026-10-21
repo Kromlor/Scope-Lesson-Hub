@@ -359,3 +359,12 @@ body.presenting { overflow: hidden; }
 .start-here .row { display: flex; gap: .5rem; flex-wrap: wrap; }
 .start-here .btn.primary { background: var(--sun); color: var(--ink); border-color: var(--sun); }
 .pr-bar .pr-dl { color: #fff; border-color: rgba(255,255,255,.5); }
+
+/* ---------- typed answers ("Check my answer") ---------- */
+.typed-wrap{display:flex;flex-direction:column;gap:.5em}
+.typed-l{font-family:var(--kid);font-size:1.15em;font-weight:700}
+.typed{font-family:var(--kid);font-size:1.25em;line-height:1.4;width:100%;min-height:3.2em;border:3px solid var(--ink);border-radius:.7em;padding:.5em .7em;resize:vertical;background:#fff;color:var(--ink)}
+.typed:focus{outline:4px solid var(--sun);outline-offset:2px}
+.typed[readonly]{background:var(--soft)}
+.typed-row{align-items:center;gap:.8em;flex-wrap:wrap}
+.typed-row .btn.go{font-size:1.1em;padding:.55em 1.1em}

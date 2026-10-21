@@ -172,6 +172,14 @@
         <div><label>Sample response <span class="muted small">(open answers)</span><textarea data-f="sampleAnswer" rows="2">${H.esc(c.sampleAnswer || '')}</textarea></label></div>
         <div><label>Several possible ideas <span class="muted small">(one per line)</span><textarea data-fl="sampleIdeas" rows="3">${H.esc((c.sampleIdeas || []).join('\n'))}</textarea></label></div>
       </div>
+      ${c.kind === 'open' ? `<details class="keyed" ${c.check ? 'open' : ''}><summary>“Check my answer” key words (typed answers)</summary>
+        <label class="opt"><input type="checkbox" id="ck_open_${c.id}" ${c.check && c.check.open ? 'checked' : ''}> No single right answer (personal or opinion question)</label>
+        <div id="ck_body_${c.id}" class="${c.check && c.check.open ? 'hidden' : ''}">
+          <label>Key ideas <span class="muted small">(one idea per line; separate words that mean the same with / , e.g. <i>sad / upset / cry</i>. Short stems match endings: <i>smil</i> = smile, smiled.)</span><textarea id="ck_groups_${c.id}" rows="3">${H.esc(((c.check && c.check.groups) || []).map(g => g.join(' / ')).join('\n'))}</textarea></label>
+          <div class="two"><div><label>Ideas needed to be right<input id="ck_need_${c.id}" type="number" min="1" value="${(c.check && c.check.need) || ''}" placeholder="all"></label></div>
+          <div><label>Test an answer<input id="ck_try_${c.id}" placeholder="Type a student answer"></label><span class="small" id="ck_res_${c.id}" aria-live="polite"></span></div></div>
+          <p class="small muted">Left empty, the app uses the main words of the sample response. The Hint above shows after the first wrong try; the sample shows after the second. Talk-it-through cards are not checked.</p>
+        </div></details>` : ''}
       <div class="two">
         <div><label>Sentence starters <span class="muted small">(one per line)</span><textarea data-fl="starters" rows="3">${H.esc((c.starters || []).join('\n'))}</textarea></label></div>
         <div><label>More discussion prompts <span class="muted small">(one per line)</span><textarea data-fl="prompts" rows="3">${H.esc((c.prompts || []).join('\n'))}</textarea></label></div>
@@ -194,9 +202,30 @@
     }; });
     H.$$('[data-fb]', f).forEach(i => i.onchange = () => { c[i.dataset.fb] = i.checked; touch(); refreshRow(c); });
     H.$$('[data-fl]', f).forEach(i => i.oninput = () => { const v = H.lines(i.value); if (v.length) c[i.dataset.fl] = v; else delete c[i.dataset.fl]; touch(); });
+    if (c.kind === 'open') wireKey(c);
     drawPic(c, H.$('#pic_' + c.id), c, 'image');
     drawSays(c); drawAnswerEd(c, H.$('#ans_' + c.id), c); drawTones(c); drawAlt(c); drawQRec(c);
     mediaEditor(H.$('#cmedia_' + c.id), () => (c.media = c.media || []), ['audio', 'video', 'link']);
+  }
+  function wireKey(c) {
+    const op = H.$('#ck_open_' + c.id), gr = H.$('#ck_groups_' + c.id), nd = H.$('#ck_need_' + c.id), tr = H.$('#ck_try_' + c.id), res = H.$('#ck_res_' + c.id);
+    if (!op) return;
+    const save = () => {
+      if (op.checked) c.check = { open: true };
+      else {
+        const groups = H.lines(gr.value).map(l => l.split('/').map(x => x.trim()).filter(Boolean)).filter(g => g.length);
+        const need = Math.max(0, parseInt(nd.value, 10) || 0);
+        if (groups.length) c.check = Object.assign({ groups }, need ? { need: Math.min(need, groups.length) } : {}); else delete c.check;
+      }
+      H.$('#ck_body_' + c.id).classList.toggle('hidden', op.checked);
+      touch(); test();
+    };
+    const test = () => {
+      if (!tr.value.trim()) { res.textContent = ''; return; }
+      const r = H.answerCheck.check(c, tr.value);
+      res.textContent = r.result === 'right' ? `✓ Yes! (${r.found} of ${r.need} ideas)` : r.result === 'wrong' ? `✗ Try again (${r.found} of ${r.need} ideas)` : r.result === 'open' ? 'No single right answer: any answer is accepted.' : 'No key words or sample answer yet.';
+    };
+    op.onchange = save; gr.oninput = save; nd.oninput = save; tr.oninput = test;
   }
   function convertKind(c) {
     if (c.kind === 'choice' && !c.choices) { c.choices = ['', '']; c.correct = []; }

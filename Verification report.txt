@@ -136,3 +136,30 @@ UPDATE: UNITS 7–10 (October 15, 2026)
 - Pictures added (October 15, afternoon): new scenes for lessons 42, 43, 46, 47, 52, 54, 58 and 60 (made in
   ChatGPT from prompts). Every Unit 7–10 lesson now has a picture on its explore cards. Laptops that already
   have these lessons get the pictures on next open (unless the SLP edited that lesson).
+
+UPDATE: TYPED ANSWERS, "CHECK MY ANSWER" (October 21, 2026) · v2.1
+- Open questions (all SCOPE step cards, open warm-ups and open practice cards: 407 cards) now have a typed
+  answer box and a "Check my answer" button (Enter also works).
+  Right: "Yes!"  First miss: "Try again" + a hint.  Second miss: the sample answer shows.
+- Every one of the 407 cards has its own key words and a hint (new writing; hints are at the students'
+  reading level). 7 personal questions are marked "no single right answer" and just say thanks.
+- The checker looks for key ideas, accepts word endings (talk/talked/talking) and small spelling slips on
+  longer words. Each card was checked: its own sample answer passes; "I don't know", "idk", "nothing" and
+  retyping the question do not pass.
+- Known limits: it is a key-word check, not understanding. It can miss a good answer worded another way
+  (use "Count as correct" in the SLP panel) and can accept an answer that has the right words in the wrong
+  order (e.g. swapping which line is the fact and which is the opinion). Some "What is happening?" cards are
+  generous and pass on one main idea. A bare "no" passes on a few yes/no questions where "no" is the answer.
+- Ratings are unchanged: the SLP still chooses I / H / X. Students can still answer out loud.
+  Talk-it-through cards stay spoken. Settings > Answer boxes turns typing off.
+- Two students, "Both practice each skill": typed answers stay hidden until both have answered; the
+  reveal lists what each student wrote with ✓/✗ and the sample answer.
+- Typed answers (and "counted correct by SLP") are saved with the session records.
+- Editor: each open card has "Check my answer" key words, ideas needed, a "no single right answer" box,
+  and a "Test an answer" field. Cards with no key words use the sample answer's main words.
+- Laptops that already have the app get the keys and hints on next open (lessons the SLP edited are kept as
+  they are; those cards use the sample answer's words).
+- Tests: new "typed" test (empty answer, miss + hint, sample after 2 misses, Count as correct, right on
+  first try, draft kept on refresh, open question, talk cards spoken, saved record, both-students
+  hide/reveal, setting off).
+- Full test run: 17 of 17 pass.

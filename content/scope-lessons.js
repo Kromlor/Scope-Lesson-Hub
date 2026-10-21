@@ -1,7 +1,7 @@
 /* SCOPE lesson content migrated from SCOPE-Perspective-Lab-Warm-Voice.html.
    Edit lessons inside the app (Edit button). This file only seeds a new laptop. */
 window.HUB_CONTENT = {
- "contentVersion": 6,
+ "contentVersion": 7,
  "source": "SCOPE-Perspective-Lab-Warm-Voice.html",
  "lessons": [
   {
@@ -16,7 +16,7 @@ window.HUB_CONTENT = {
    "standards": [],
    "status": "ready",
    "origin": "Meet SCOPE intro slides",
-   "contentRev": 1,
+   "contentRev": 2,
    "slides": "scope-intro",
    "cover": "assets/img/intro-1.webp",
    "media": [],
@@ -40,7 +40,11 @@ window.HUB_CONTENT = {
        "imageAlt": "A busy school hallway: students walk and talk; one looks puzzled",
        "question": "Has anyone ever said something, and you were not sure what they meant?",
        "slpNote": "Take one or two quick stories. SCOPE is a five-step tool we will use in every session to figure out what is going on and what people might mean.",
-       "id": "s0-core-01"
+       "id": "s0-core-01",
+       "check": {
+        "open": true
+       },
+       "hint": "Think of a time someone said something that confused you."
       },
       {
        "role": "discussion",
@@ -95,7 +99,11 @@ window.HUB_CONTENT = {
        "question": "What is your first guess?",
        "slpNote": "Take first guesses without correcting anyone. Many students will say “They were talking about her.” Remember it, then say: “Let’s use SCOPE to check that guess, one step at a time.”",
        "id": "s0-core-04",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "open": true
+       },
+       "hint": "Look at their faces. What do you think is going on?"
       },
       {
        "role": "explore",
@@ -109,7 +117,30 @@ window.HUB_CONTENT = {
        "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
        "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
        "id": "s0-core-05",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "libr",
+          "school",
+          "study",
+          "class",
+          "library"
+         ],
+         [
+          "zoe",
+          "jay",
+          "lily",
+          "stop talk",
+          "quiet",
+          "walk",
+          "smil",
+          "group"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Name the place. Then tell what Jay and Lily do."
       },
       {
        "role": "explore",
@@ -123,7 +154,35 @@ window.HUB_CONTENT = {
        "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
        "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
        "id": "s0-core-06",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "stop talk",
+          "stopped",
+          "quiet",
+          "silent",
+          "hush"
+         ],
+         [
+          "look at each other",
+          "look at",
+          "glanc",
+          "eye",
+          "stare"
+         ],
+         [
+          "smil",
+          "grin",
+          "happy",
+          "friend",
+          "nice",
+          "laugh"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at their mouths and eyes. What do they do?"
       },
       {
        "role": "explore",
@@ -137,7 +196,32 @@ window.HUB_CONTENT = {
        "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
        "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
        "id": "s0-core-07",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "hear",
+          "heard",
+          "miss",
+          "secret",
+          "what they said",
+          "what was said",
+          "talking about",
+          "convers",
+          "=info",
+          "inform",
+          "doesnt know",
+          "does not know",
+          "didnt know",
+          "did not know",
+          "unaware",
+          "clueless",
+          "left out"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about what Zoe did not hear."
       },
       {
        "role": "explore",
@@ -157,7 +241,56 @@ window.HUB_CONTENT = {
        "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
        "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
        "id": "s0-core-08",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "about zoe",
+          "about her",
+          "gossip",
+          "rumor",
+          "mean",
+          "making fun",
+          "behind her"
+         ],
+         [
+          "surprise",
+          "plan",
+          "party",
+          "gift",
+          "present",
+          "birthday",
+          "secret"
+         ],
+         [
+          "joke",
+          "funny",
+          "laugh",
+          "kidding",
+          "prank"
+         ],
+         [
+          "private",
+          "personal",
+          "done talk",
+          "finish",
+          "homework",
+          "study",
+          "library rule",
+          "shush",
+          "greet",
+          "say hi",
+          "=hi"
+         ],
+         [
+          "crush",
+          "like each other",
+          "dating"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at their smiles. Is it a nice reason or a mean reason?"
       },
       {
        "role": "explore",
@@ -175,7 +308,31 @@ window.HUB_CONTENT = {
        "imageAlt": "Library: Jay and Lily glance at each other with small smiles as Zoe walks up holding books",
        "context": "Zoe walks up to her group in the library. Jay and Lily stop talking. They look at each other and smile.",
        "id": "s0-core-09",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "whats up",
+          "=sup",
+          "hey",
+          "=hi",
+          "hello",
+          "sit",
+          "join",
+          "smil",
+          "are you okay",
+          "whats going on",
+          "whats funny",
+          "what were you",
+          "laugh",
+          "wav",
+          "talk to"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Not sure what is going on? What could Zoe ask them?"
       },
       {
        "role": "practice",
@@ -188,7 +345,28 @@ window.HUB_CONTENT = {
        "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
        "heading": "Your turn",
        "id": "s0-core-10",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "gym",
+          "=pe",
+          "team",
+          "pick",
+          "chos",
+          "choose",
+          "sport",
+          "game"
+         ],
+         [
+          "last",
+          "=end",
+          "floor"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Where are they? Who gets picked last?"
       },
       {
        "role": "practice",
@@ -201,7 +379,33 @@ window.HUB_CONTENT = {
        "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
        "heading": "Your turn",
        "id": "s0-core-11",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "floor",
+          "look down",
+          "looks down",
+          "ground",
+          "head down",
+          "eyes down",
+          "sad",
+          "upset",
+          "frown",
+          "unhappy"
+         ],
+         [
+          "stand",
+          "team",
+          "other kid",
+          "alone",
+          "by himself",
+          "picked last"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ben. Where are his eyes looking?"
       },
       {
        "role": "practice",
@@ -214,7 +418,31 @@ window.HUB_CONTENT = {
        "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
        "heading": "Your turn",
        "id": "s0-core-12",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "not know",
+          "doesnt know",
+          "didnt know",
+          "may not",
+          "might not",
+          "probably not",
+          "maybe not",
+          "dont think",
+          "doesnt notice",
+          "not notic",
+          "unaware",
+          "not aware",
+          "didnt see",
+          "not see"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Can Ava see how Ben feels inside?"
       },
       {
        "role": "practice",
@@ -233,7 +461,54 @@ window.HUB_CONTENT = {
        "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
        "heading": "Your turn",
        "id": "s0-core-13",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "like",
+          "hate",
+          "mean",
+          "doesnt want",
+          "dont want"
+         ],
+         [
+          "friend",
+          "close",
+          "best",
+          "bff"
+         ],
+         [
+          "line",
+          "order",
+          "random",
+          "turn",
+          "=row"
+         ],
+         [
+          "think",
+          "forgot",
+          "forget",
+          "accident",
+          "notice",
+          "care",
+          "attention"
+         ],
+         [
+          "good",
+          "skill",
+          "better",
+          "bad at",
+          "fast",
+          "slow",
+          "athlet",
+          "sport",
+          "strong",
+          "win"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Who might Ava pick first? Think of a few reasons."
       },
       {
        "role": "practice",
@@ -250,7 +525,36 @@ window.HUB_CONTENT = {
        "context": "In gym, Ava picks teams. She picks Ben last. Ben looks at the floor.",
        "heading": "Your turn",
        "id": "s0-core-14",
-       "inShort": true
+       "inShort": true,
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "play",
+          "join",
+          "=try",
+          "forward",
+          "come on",
+          "glad",
+          "welcome",
+          "cheer",
+          "high five",
+          "nice",
+          "kind",
+          "smil",
+          "good job",
+          "talk",
+          "tell",
+          "sorry",
+          "next time",
+          "first",
+          "encourag",
+          "include"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What kind words could someone say to Ben?"
       },
       {
        "role": "practice",
@@ -444,7 +748,11 @@ window.HUB_CONTENT = {
        "question": "First look. What do you think is going on here?",
        "image": "assets/img/scene-hall-01.webp",
        "imageAlt": "School hallway: Ben and Ava",
-       "kind": "open"
+       "kind": "open",
+       "check": {
+        "open": true
+       },
+       "hint": "Look at the faces and the place. What do you think?"
       },
       {
        "id": "s1-core-002",
@@ -488,7 +796,32 @@ window.HUB_CONTENT = {
          "text": "Hey Ben! Want to walk to lunch?"
         }
        ],
-       "sampleAnswer": "They are in the hall. Ava says hi. Ben holds a paper."
+       "sampleAnswer": "They are in the hall. Ava says hi. Ben holds a paper.",
+       "check": {
+        "groups": [
+         [
+          "hall",
+          "school",
+          "locker",
+          "class"
+         ],
+         [
+          "lunch",
+          "walk",
+          "paper",
+          "test",
+          "grade",
+          "=hi",
+          "hey",
+          "hello",
+          "talk",
+          "sad",
+          "=d"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the place. What does Ava say to Ben?"
       },
       {
        "id": "s1-core-003",
@@ -532,7 +865,33 @@ window.HUB_CONTENT = {
          "text": "Hey Ben! Want to walk to lunch?"
         }
        ],
-       "sampleAnswer": "Ben looks down. His face is sad. His paper has a D."
+       "sampleAnswer": "Ben looks down. His face is sad. His paper has a D.",
+       "check": {
+        "groups": [
+         [
+          "sad",
+          "upset",
+          "down",
+          "frown",
+          "unhappy",
+          "bummed",
+          "cry"
+         ],
+         [
+          "=d",
+          "grade",
+          "paper",
+          "test",
+          "fail"
+         ],
+         [
+          "smil",
+          "happy"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ben’s face. What is on his paper?"
       },
       {
        "id": "s1-core-004",
@@ -576,7 +935,34 @@ window.HUB_CONTENT = {
          "text": "Hey Ben! Want to walk to lunch?"
         }
        ],
-       "sampleAnswer": "Ben knows he got a D. Ava does not know. She can’t see the paper."
+       "sampleAnswer": "Ben knows he got a D. Ava does not know. She can’t see the paper.",
+       "check": {
+        "groups": [
+         [
+          "=d",
+          "grade",
+          "fail",
+          "test",
+          "score",
+          "bad"
+         ],
+         [
+          "doesnt know",
+          "does not know",
+          "not know",
+          "didnt know",
+          "cant see",
+          "can not see",
+          "cannot see",
+          "didnt see",
+          "not see",
+          "unaware",
+          "clueless"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Can Ava see Ben’s paper? What is on it?"
       },
       {
        "id": "s1-core-005",
@@ -624,7 +1010,64 @@ window.HUB_CONTENT = {
         "I got a bad grade.",
         "What will my mom say?",
         "I don’t want to talk right now."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "grade",
+          "=d",
+          "fail",
+          "test",
+          "score",
+          "bad",
+          "dumb",
+          "stupid"
+         ],
+         [
+          "mom",
+          "dad",
+          "parent",
+          "trouble",
+          "grounded",
+          "home",
+          "punish"
+         ],
+         [
+          "talk",
+          "alone",
+          "leave me",
+          "not hungry",
+          "dont want",
+          "space",
+          "lunch"
+         ],
+         [
+          "sad",
+          "upset",
+          "embarrass",
+          "shame",
+          "mad",
+          "worri",
+          "nervous",
+          "scared"
+         ],
+         [
+          "study",
+          "better",
+          "next time",
+          "retake",
+          "teacher",
+          "fix"
+         ],
+         [
+          "hide",
+          "tell",
+          "see"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at Ben’s paper and face. What two things could he think?"
       },
       {
        "id": "s1-core-006",
@@ -668,7 +1111,31 @@ window.HUB_CONTENT = {
          "text": "Hey Ben! Want to walk to lunch?"
         }
        ],
-       "sampleAnswer": "She could ask, “Are you okay?” Ask. Don’t guess."
+       "sampleAnswer": "She could ask, “Are you okay?” Ask. Don’t guess.",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "are you okay",
+          "you okay",
+          "=ok",
+          "okay",
+          "whats wrong",
+          "whats up",
+          "matter",
+          "alright",
+          "happen",
+          "sorry",
+          "here for you",
+          "want to talk",
+          "help",
+          "hug",
+          "feel"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben looks sad. What could Ava ask him?"
       },
       {
        "id": "s1-core-007",
@@ -908,7 +1375,29 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "It is lunch. Kai sits alone. Omar and Lily sit together."
+       "sampleAnswer": "It is lunch. Kai sits alone. Omar and Lily sit together.",
+       "check": {
+        "groups": [
+         [
+          "lunch",
+          "cafeteria",
+          "=caf",
+          "table",
+          "eat"
+         ],
+         [
+          "alone",
+          "by himself",
+          "phone",
+          "laugh",
+          "together",
+          "nobody",
+          "lonely"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are they? Who is sitting alone?"
       },
       {
        "id": "s1-practice1-019",
@@ -940,7 +1429,32 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Kai looks down. His face is sad. Omar and Lily laugh."
+       "sampleAnswer": "Kai looks down. His face is sad. Omar and Lily laugh.",
+       "check": {
+        "groups": [
+         [
+          "down",
+          "sad",
+          "upset",
+          "frown",
+          "alone",
+          "phone",
+          "lonely",
+          "by himself",
+          "unhappy"
+         ],
+         [
+          "laugh",
+          "smil",
+          "happy",
+          "together",
+          "fun",
+          "giggl"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Kai. Then look at Omar and Lily."
       },
       {
        "id": "s1-practice1-020",
@@ -972,7 +1486,30 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Maybe not. They are looking at each other, not at Kai."
+       "sampleAnswer": "Maybe not. They are looking at each other, not at Kai.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "maybe not",
+          "probably not",
+          "doesnt know",
+          "not know",
+          "didnt notice",
+          "not notic",
+          "not look",
+          "not see",
+          "cant see",
+          "each other",
+          "busy",
+          "laugh",
+          "dont think"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are Omar and Lily looking?"
       },
       {
        "id": "s1-practice1-021",
@@ -1008,7 +1545,57 @@ window.HUB_CONTENT = {
         "I wish I had someone to sit with.",
         "I got a sad text.",
         "I just want to be alone today."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "someone",
+          "sit with",
+          "friend",
+          "lonely",
+          "nobody",
+          "no one",
+          "left out",
+          "join",
+          "ignor",
+          "include"
+         ],
+         [
+          "text",
+          "phone",
+          "message",
+          "game",
+          "video",
+          "news",
+          "mom",
+          "dad"
+         ],
+         [
+          "alone",
+          "space",
+          "quiet",
+          "myself",
+          "leave me"
+         ],
+         [
+          "sad",
+          "upset",
+          "bad day",
+          "bummed",
+          "mad",
+          "jealous",
+          "tired",
+          "bored"
+         ],
+         [
+          "laugh at",
+          "making fun",
+          "about me"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at Kai’s phone and his table. What two things could he think?"
       },
       {
        "id": "s1-practice1-022",
@@ -1040,7 +1627,35 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Omar could say, “Kai, want to sit with us?”"
+       "sampleAnswer": "Omar could say, “Kai, want to sit with us?”",
+       "check": {
+        "groups": [
+         [
+          "sit with",
+          "sit by",
+          "sit next",
+          "join",
+          "invite",
+          "come sit",
+          "ask",
+          "hey",
+          "=hi",
+          "hello",
+          "talk to",
+          "whats wrong",
+          "you okay",
+          "are you okay",
+          "include",
+          "wave",
+          "welcome",
+          "over here",
+          "come over",
+          "eat with"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai is alone. What could Omar or Lily ask him?"
       },
       {
        "id": "s1-practice1-023",
@@ -1242,7 +1857,31 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "They are outside. Omar has a ball. Jay and Kai walk away."
+       "sampleAnswer": "They are outside. Omar has a ball. Jay and Kai walk away.",
+       "check": {
+        "groups": [
+         [
+          "outside",
+          "recess",
+          "playground",
+          "park",
+          "field",
+          "court",
+          "yard"
+         ],
+         [
+          "ball",
+          "walk",
+          "leav",
+          "left",
+          "away",
+          "sad",
+          "alone"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are they? What are Jay and Kai doing?"
       },
       {
        "id": "s1-practice2-033",
@@ -1274,7 +1913,33 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Omar’s face is sad. Jay and Kai have their backs to him."
+       "sampleAnswer": "Omar’s face is sad. Jay and Kai have their backs to him.",
+       "check": {
+        "groups": [
+         [
+          "sad",
+          "upset",
+          "frown",
+          "down",
+          "unhappy",
+          "bummed",
+          "lonely"
+         ],
+         [
+          "back",
+          "walk",
+          "away",
+          "leav",
+          "left",
+          "turn"
+         ],
+         [
+          "ball"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Omar’s face. Which way are Jay and Kai going?"
       },
       {
        "id": "s1-practice2-034",
@@ -1306,7 +1971,28 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "No. Their backs are to him. They may not know he wants to play."
+       "sampleAnswer": "No. Their backs are to him. They may not know he wants to play.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "cant",
+          "cannot",
+          "can not",
+          "not see",
+          "back",
+          "behind",
+          "not look",
+          "not know",
+          "doesnt know",
+          "didnt see",
+          "walking away"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at which way Jay and Kai are facing."
       },
       {
        "id": "s1-practice2-035",
@@ -1342,7 +2028,56 @@ window.HUB_CONTENT = {
         "They left me out.",
         "They didn’t see me.",
         "They have to go home."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "left out",
+          "leave out",
+          "ditch",
+          "ignor",
+          "mean",
+          "dont want",
+          "didnt want",
+          "exclud",
+          "dont like",
+          "hate",
+          "not invite",
+          "mad"
+         ],
+         [
+          "see",
+          "notice",
+          "know",
+          "forgot",
+          "forget",
+          "hear"
+         ],
+         [
+          "home",
+          "=go",
+          "busy",
+          "class",
+          "bus",
+          "late",
+          "time",
+          "somewhere",
+          "have to",
+          "mom",
+          "dad"
+         ],
+         [
+          "game",
+          "done",
+          "tired",
+          "finish",
+          "bored",
+          "bell"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Did they see Omar? Where could they be going?"
       },
       {
        "id": "s1-practice2-036",
@@ -1374,7 +2109,33 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "He could call out, “Hey! Want to play?”"
+       "sampleAnswer": "He could call out, “Hey! Want to play?”",
+       "check": {
+        "groups": [
+         [
+          "call",
+          "yell",
+          "shout",
+          "ask",
+          "want to play",
+          "hey",
+          "wait",
+          "come back",
+          "run",
+          "follow",
+          "catch",
+          "join",
+          "throw",
+          "pass",
+          "invite",
+          "other friend",
+          "someone else",
+          "tell"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Jay and Kai can’t see him. How can Omar get their attention?"
       },
       {
        "id": "s1-practice2-037",
@@ -1538,7 +2299,7 @@ window.HUB_CONTENT = {
      "What could she say?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-02",
@@ -1607,7 +2368,31 @@ window.HUB_CONTENT = {
          "text": "Hi Ava!"
         }
        ],
-       "sampleAnswer": "Ben waves at Ava. Ava is at her locker."
+       "sampleAnswer": "Ben waves at Ava. Ava is at her locker.",
+       "check": {
+        "groups": [
+         [
+          "wav",
+          "=hi",
+          "hello",
+          "hey",
+          "greet",
+          "call"
+         ],
+         [
+          "locker",
+          "back",
+          "turn",
+          "hall",
+          "school",
+          "ignor",
+          "not see",
+          "doesnt see"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What is Ben doing with his hand? Where is Ava?"
       },
       {
        "id": "s2-core-047",
@@ -1639,7 +2424,30 @@ window.HUB_CONTENT = {
          "text": "Hi Ava!"
         }
        ],
-       "sampleAnswer": "Ava faces her locker. Her back is to Ben. She does not wave back."
+       "sampleAnswer": "Ava faces her locker. Her back is to Ben. She does not wave back.",
+       "check": {
+        "groups": [
+         [
+          "locker",
+          "back",
+          "turn",
+          "fac",
+          "away"
+         ],
+         [
+          "not wave",
+          "doesnt wave",
+          "didnt wave",
+          "ignor",
+          "dont wave",
+          "not look",
+          "not see",
+          "cant see"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ava. Which way is she facing?"
       },
       {
        "id": "s2-core-048",
@@ -1671,7 +2479,29 @@ window.HUB_CONTENT = {
          "text": "Hi Ava!"
         }
        ],
-       "sampleAnswer": "No. She can’t see him. She does not know he waved."
+       "sampleAnswer": "No. She can’t see him. She does not know he waved.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "cant",
+          "cannot",
+          "can not",
+          "not see",
+          "doesnt know",
+          "not know",
+          "didnt know",
+          "didnt see",
+          "back",
+          "behind",
+          "locker",
+          "unaware"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ava’s back. Can she see behind her?"
       },
       {
        "id": "s2-core-049",
@@ -1707,7 +2537,35 @@ window.HUB_CONTENT = {
         "She is ignoring me.",
         "She did not see me."
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "check": {
+        "groups": [
+         [
+          "ignor",
+          "mad",
+          "upset",
+          "dont like",
+          "doesnt like",
+          "hate",
+          "rude"
+         ],
+         [
+          "see",
+          "notice",
+          "hear",
+          "busy",
+          "locker",
+          "focus",
+          "rush",
+          "hurry",
+          "late",
+          "headphone",
+          "earbud"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ava. Which way is she facing?"
       },
       {
        "id": "s2-core-050",
@@ -1739,7 +2597,31 @@ window.HUB_CONTENT = {
          "text": "Hi Ava!"
         }
        ],
-       "sampleAnswer": "Walk over and say, “Hey Ava!” again."
+       "sampleAnswer": "Walk over and say, “Hey Ava!” again.",
+       "check": {
+        "groups": [
+         [
+          "walk over",
+          "go over",
+          "go up",
+          "walk up",
+          "again",
+          "louder",
+          "tap",
+          "call",
+          "yell",
+          "her name",
+          "hey ava",
+          "wait",
+          "=try",
+          "later",
+          "ask",
+          "closer"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ava can’t see Ben. How could he get her attention?"
       },
       {
        "id": "s2-core-051",
@@ -1941,7 +2823,29 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Kai dropped his lunch. Omar is laughing."
+       "sampleAnswer": "Kai dropped his lunch. Omar is laughing.",
+       "check": {
+        "groups": [
+         [
+          "drop",
+          "spill",
+          "fell",
+          "fall",
+          "mess",
+          "food",
+          "tray",
+          "lunch"
+         ],
+         [
+          "laugh",
+          "phone",
+          "giggl",
+          "smil"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What happened to Kai’s lunch? What is Omar doing?"
       },
       {
        "id": "s2-practice1-061",
@@ -1980,7 +2884,31 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Omar looks down at his phone. He is not looking at Kai."
+       "sampleAnswer": "Omar looks down at his phone. He is not looking at Kai.",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "screen",
+          "look down"
+         ],
+         [
+          "not look",
+          "isnt look",
+          "doesnt look",
+          "not at kai",
+          "away",
+          "not see"
+         ],
+         [
+          "laugh",
+          "smil",
+          "giggl"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Omar’s eyes. What is he looking at?"
       },
       {
        "id": "s2-practice1-062",
@@ -2019,7 +2947,29 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Probably not. His eyes are on his phone."
+       "sampleAnswer": "Probably not. His eyes are on his phone.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "probably not",
+          "maybe not",
+          "didnt",
+          "did not",
+          "doesnt",
+          "not see",
+          "phone",
+          "screen",
+          "busy",
+          "not look",
+          "unlikely",
+          "dont think"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are Omar’s eyes looking?"
       },
       {
        "id": "s2-practice1-063",
@@ -2062,7 +3012,37 @@ window.HUB_CONTENT = {
         "He is laughing at Kai.",
         "He is laughing at something on his phone."
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "check": {
+        "groups": [
+         [
+          "at kai",
+          "at him",
+          "at me",
+          "spill",
+          "drop",
+          "mess",
+          "making fun",
+          "mean"
+         ],
+         [
+          "phone",
+          "video",
+          "text",
+          "meme",
+          "message",
+          "game",
+          "something else",
+          "tiktok",
+          "joke",
+          "show",
+          "screen",
+          "friend"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at what Omar is holding. Give two reasons."
       },
       {
        "id": "s2-practice1-064",
@@ -2101,7 +3081,32 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Say, “Hey, can you help me?” Then he will know."
+       "sampleAnswer": "Say, “Hey, can you help me?” Then he will know.",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "help",
+          "why",
+          "whats funny",
+          "what is funny",
+          "laugh too",
+          "laugh with",
+          "clean",
+          "pick up",
+          "tell",
+          "teacher",
+          "adult",
+          "ignore",
+          "let it go",
+          "talk",
+          "hey",
+          "walk away"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai is not sure. What could he ask Omar?"
       },
       {
        "id": "s2-practice1-065",
@@ -2283,7 +3288,27 @@ window.HUB_CONTENT = {
          "text": "Rosa! Your phone fell!"
         }
        ],
-       "sampleAnswer": "They are on the bus. Rosa’s phone fell. Ben tells her."
+       "sampleAnswer": "They are on the bus. Rosa’s phone fell. Ben tells her.",
+       "check": {
+        "groups": [
+         [
+          "=bus"
+         ],
+         [
+          "phone",
+          "fell",
+          "drop",
+          "fall",
+          "floor",
+          "tell",
+          "yell",
+          "call",
+          "window"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are they? What happened to Rosa’s phone?"
       },
       {
        "id": "s2-practice2-074",
@@ -2321,7 +3346,35 @@ window.HUB_CONTENT = {
          "text": "Rosa! Your phone fell!"
         }
        ],
-       "sampleAnswer": "Rosa looks out the window. She does not turn around."
+       "sampleAnswer": "Rosa looks out the window. She does not turn around.",
+       "check": {
+        "groups": [
+         [
+          "window",
+          "look out",
+          "outside"
+         ],
+         [
+          "turn",
+          "not hear",
+          "doesnt hear",
+          "cant hear",
+          "loud",
+          "noise",
+          "noisy",
+          "not notice",
+          "ignor"
+         ],
+         [
+          "phone",
+          "floor",
+          "ground",
+          "fell"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where is Rosa looking? Is the bus quiet?"
       },
       {
        "id": "s2-practice2-075",
@@ -2359,7 +3412,28 @@ window.HUB_CONTENT = {
          "text": "Rosa! Your phone fell!"
         }
        ],
-       "sampleAnswer": "No. She did not see it. She may not hear Ben."
+       "sampleAnswer": "No. She did not see it. She may not hear Ben.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "not see",
+          "didnt see",
+          "cant see",
+          "not hear",
+          "didnt hear",
+          "cant hear",
+          "doesnt know",
+          "not know",
+          "loud",
+          "window",
+          "unaware"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where is Rosa looking? Can she hear Ben on a loud bus?"
       },
       {
        "id": "s2-practice2-076",
@@ -2401,7 +3475,41 @@ window.HUB_CONTENT = {
         "She is ignoring Ben.",
         "The bus is loud. She can’t hear."
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "check": {
+        "groups": [
+         [
+          "ignor",
+          "mad",
+          "upset",
+          "rude",
+          "doesnt care",
+          "dont care"
+         ],
+         [
+          "hear",
+          "loud",
+          "noise",
+          "noisy",
+          "headphone",
+          "earbud",
+          "music"
+         ],
+         [
+          "window",
+          "busy",
+          "distract",
+          "daydream",
+          "thinking",
+          "sleep",
+          "tired",
+          "focus",
+          "attention"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about the bus. Is it quiet or loud?"
       },
       {
        "id": "s2-practice2-077",
@@ -2439,7 +3547,31 @@ window.HUB_CONTENT = {
          "text": "Rosa! Your phone fell!"
         }
        ],
-       "sampleAnswer": "Tap her shoulder and point to the phone."
+       "sampleAnswer": "Tap her shoulder and point to the phone.",
+       "check": {
+        "groups": [
+         [
+          "tap",
+          "touch",
+          "shoulder",
+          "point",
+          "pick up",
+          "grab",
+          "give",
+          "hand",
+          "louder",
+          "yell",
+          "shout",
+          "wave",
+          "get her",
+          "nudge",
+          "poke",
+          "show"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Rosa can’t hear him. What could Ben do with his hands?"
       },
       {
        "id": "s2-practice2-078",
@@ -2560,7 +3692,7 @@ window.HUB_CONTENT = {
      "What can she ask?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-03",
@@ -2626,7 +3758,31 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Kids are playing in gym. Jay sits on the bench."
+       "sampleAnswer": "Kids are playing in gym. Jay sits on the bench.",
+       "check": {
+        "groups": [
+         [
+          "gym",
+          "=pe",
+          "play",
+          "game",
+          "sport",
+          "ball",
+          "basketball"
+         ],
+         [
+          "bench",
+          "sit",
+          "alone",
+          "sad",
+          "sitting out",
+          "left out",
+          "watch"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are they? What is Jay doing?"
       },
       {
        "id": "s3-core-086",
@@ -2658,7 +3814,34 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "His head is down. His shoulders are low. His mouth is a frown."
+       "sampleAnswer": "His head is down. His shoulders are low. His mouth is a frown.",
+       "check": {
+        "groups": [
+         [
+          "head down",
+          "head is down",
+          "looks down",
+          "look down",
+          "eyes down",
+          "down"
+         ],
+         [
+          "shoulder",
+          "slouch",
+          "hunch",
+          "low",
+          "droop"
+         ],
+         [
+          "frown",
+          "sad",
+          "upset",
+          "mouth"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Jay’s head, eyes, and shoulders."
       },
       {
        "id": "s3-core-087",
@@ -2690,7 +3873,27 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Maybe not. They are busy playing."
+       "sampleAnswer": "Maybe not. They are busy playing.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "maybe not",
+          "probably not",
+          "not know",
+          "doesnt know",
+          "busy",
+          "playing",
+          "not notice",
+          "not look",
+          "not see",
+          "dont think"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What are the other kids doing? Are they looking at Jay?"
       },
       {
        "id": "s3-core-088",
@@ -2726,7 +3929,58 @@ window.HUB_CONTENT = {
         "Sad",
         "Left out",
         "Hurt or tired"
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "sad",
+          "upset",
+          "unhappy",
+          "bummed",
+          "depress",
+          "cry",
+          "gloomy"
+         ],
+         [
+          "left out",
+          "lonely",
+          "alone",
+          "exclud",
+          "ignor",
+          "no one",
+          "nobody",
+          "not pick"
+         ],
+         [
+          "hurt",
+          "injur",
+          "pain",
+          "sick"
+         ],
+         [
+          "mad",
+          "angry",
+          "frustrat",
+          "annoy"
+         ],
+         [
+          "embarrass",
+          "shame",
+          "shy",
+          "nervous",
+          "worri",
+          "bored"
+         ],
+         [
+          "tired",
+          "sleepy",
+          "exhaust",
+          "worn out"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at Jay’s head and shoulders. Name two feelings."
       },
       {
        "id": "s3-core-089",
@@ -2758,7 +4012,33 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "“Hey Jay, want to play?” or “You okay?”"
+       "sampleAnswer": "“Hey Jay, want to play?” or “You okay?”",
+       "check": {
+        "groups": [
+         [
+          "want to play",
+          "play",
+          "join",
+          "you okay",
+          "are you okay",
+          "okay",
+          "=ok",
+          "whats wrong",
+          "whats up",
+          "alright",
+          "come on",
+          "hey",
+          "sit with",
+          "ask",
+          "help",
+          "teacher",
+          "coach",
+          "feel"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Jay looks sad. What kind thing could someone ask him?"
       },
       {
        "id": "s3-core-090",
@@ -3002,7 +4282,32 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Lily is on stage. She has note cards. She is about to talk."
+       "sampleAnswer": "Lily is on stage. She has note cards. She is about to talk.",
+       "check": {
+        "groups": [
+         [
+          "stage",
+          "speech",
+          "talk",
+          "present",
+          "speak",
+          "note card",
+          "card",
+          "crowd",
+          "audience",
+          "perform",
+          "sing"
+         ],
+         [
+          "nervous",
+          "scared",
+          "shak",
+          "afraid"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where is Lily? What is she about to do?"
       },
       {
        "id": "s3-practice1-102",
@@ -3034,7 +4339,34 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Her hands shake. She looks down. She is sweating."
+       "sampleAnswer": "Her hands shake. She looks down. She is sweating.",
+       "check": {
+        "groups": [
+         [
+          "shak",
+          "trembl"
+         ],
+         [
+          "look down",
+          "down",
+          "eyes"
+         ],
+         [
+          "sweat"
+         ],
+         [
+          "eyebrow",
+          "brow",
+          "mouth",
+          "wavy",
+          "scared",
+          "nervous",
+          "worri"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Lily’s hands and face."
       },
       {
        "id": "s3-practice1-103",
@@ -3066,7 +4398,27 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Maybe. They can see her shaky hands."
+       "sampleAnswer": "Maybe. They can see her shaky hands.",
+       "check": {
+        "groups": [
+         [
+          "shak",
+          "hand",
+          "face",
+          "see",
+          "notice",
+          "tell",
+          "nervous",
+          "scared",
+          "maybe",
+          "might",
+          "probably",
+          "hide"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What can the crowd see from their seats?"
       },
       {
        "id": "s3-practice1-104",
@@ -3102,7 +4454,29 @@ window.HUB_CONTENT = {
         "Nervous",
         "Scared",
         "Worried she will forget"
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "nervous",
+          "scared",
+          "afraid",
+          "worri",
+          "anxious",
+          "fear",
+          "frighten",
+          "stage fright",
+          "shy",
+          "forget",
+          "embarrass",
+          "stress",
+          "excit",
+          "freak"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at her shaking hands. What feeling makes hands shake?"
       },
       {
        "id": "s3-practice1-105",
@@ -3134,7 +4508,35 @@ window.HUB_CONTENT = {
          "step": "S"
         }
        ],
-       "sampleAnswer": "Give a thumbs up. Say, “You got this!”"
+       "sampleAnswer": "Give a thumbs up. Say, “You got this!”",
+       "check": {
+        "groups": [
+         [
+          "thumb",
+          "you got this",
+          "got this",
+          "you can do",
+          "good luck",
+          "cheer",
+          "clap",
+          "smil",
+          "wave",
+          "encourag",
+          "believe",
+          "nice",
+          "great",
+          "breathe",
+          "calm",
+          "dont worry",
+          "help",
+          "support",
+          "hug",
+          "proud"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Lily is nervous. What could a friend say to help?"
       },
       {
        "id": "s3-practice1-106",
@@ -3340,7 +4742,31 @@ window.HUB_CONTENT = {
          "step": "C"
         }
        ],
-       "sampleAnswer": "Omar and Ben are in the hall. Omar turns away."
+       "sampleAnswer": "Omar and Ben are in the hall. Omar turns away.",
+       "check": {
+        "groups": [
+         [
+          "hall",
+          "school",
+          "locker"
+         ],
+         [
+          "turn",
+          "away",
+          "mad",
+          "angry",
+          "upset",
+          "cross",
+          "arms",
+          "ignor",
+          "fight",
+          "argu",
+          "confus"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are they? What does Omar do?"
       },
       {
        "id": "s3-practice2-116",
@@ -3372,7 +4798,32 @@ window.HUB_CONTENT = {
          "step": "C"
         }
        ],
-       "sampleAnswer": "Omar’s arms are crossed. His eyebrows point down. He looks away from Ben."
+       "sampleAnswer": "Omar’s arms are crossed. His eyebrows point down. He looks away from Ben.",
+       "check": {
+        "groups": [
+         [
+          "arm",
+          "cross",
+          "fold"
+         ],
+         [
+          "eyebrow",
+          "brow",
+          "frown",
+          "angry",
+          "mad",
+          "glar"
+         ],
+         [
+          "away",
+          "turn",
+          "confus",
+          "not look"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Omar’s arms and eyebrows."
       },
       {
        "id": "s3-practice2-117",
@@ -3404,7 +4855,23 @@ window.HUB_CONTENT = {
          "step": "C"
         }
        ],
-       "sampleAnswer": "No. Ben looks confused. He doesn’t know."
+       "sampleAnswer": "No. Ben looks confused. He doesn’t know.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "doesnt know",
+          "not know",
+          "didnt know",
+          "confus",
+          "clueless",
+          "unsure"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ben’s face. Does he look sure or mixed up?"
       },
       {
        "id": "s3-practice2-118",
@@ -3440,7 +4907,47 @@ window.HUB_CONTENT = {
         "Mad at Ben",
         "Upset about something else",
         "Hurt feelings"
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "mad",
+          "angry",
+          "annoy",
+          "frustrat",
+          "grump",
+          "furious"
+         ],
+         [
+          "hurt",
+          "sad",
+          "upset",
+          "bummed"
+         ],
+         [
+          "something else",
+          "else",
+          "bad day",
+          "home",
+          "grade",
+          "test",
+          "tired",
+          "cranky"
+         ],
+         [
+          "embarrass",
+          "jealous",
+          "betray",
+          "ignor",
+          "left out",
+          "nervous",
+          "stress",
+          "worri"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at his arms and eyebrows. Name two feelings."
       },
       {
        "id": "s3-practice2-119",
@@ -3472,7 +4979,31 @@ window.HUB_CONTENT = {
          "step": "C"
         }
        ],
-       "sampleAnswer": "“Did I do something? I want to know.”"
+       "sampleAnswer": "“Did I do something? I want to know.”",
+       "check": {
+        "groups": [
+         [
+          "did i do",
+          "something wrong",
+          "what happened",
+          "whats wrong",
+          "whats up",
+          "are you okay",
+          "you okay",
+          "mad at me",
+          "sorry",
+          "ask",
+          "want to know",
+          "talk",
+          "why",
+          "upset",
+          "help",
+          "matter"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben is confused. What could he ask Omar?"
       },
       {
        "id": "s3-practice2-120",
@@ -3636,7 +5167,7 @@ window.HUB_CONTENT = {
      "Could he feel something else?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-04",
@@ -3709,7 +5240,28 @@ window.HUB_CONTENT = {
          "text": "Sure."
         }
        ],
-       "sampleAnswer": "Kai asks Ben to come to his game. Ben says, “Sure.”"
+       "sampleAnswer": "Kai asks Ben to come to his game. Ben says, “Sure.”",
+       "check": {
+        "groups": [
+         [
+          "invit",
+          "ask",
+          "game",
+          "friday",
+          "come"
+         ],
+         [
+          "sure",
+          "=yes",
+          "yeah",
+          "agree",
+          "okay",
+          "=ok"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Kai ask? What does Ben answer?"
       },
       {
        "id": "s4-core-130",
@@ -3764,7 +5316,32 @@ window.HUB_CONTENT = {
          "how": "Short and sharp. Roll your eyes.",
          "means": "Ugh. Fine. I don’t want to."
         }
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "happy",
+          "excit",
+          "bored",
+          "annoy",
+          "mad",
+          "sad",
+          "upset",
+          "tired",
+          "sarcas",
+          "differ",
+          "many way",
+          "glad",
+          "flat",
+          "angry",
+          "sound",
+          "tone",
+          "unsure"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Does “Sure” sound the same every time? How does it change?"
       },
       {
        "id": "s4-core-131",
@@ -3800,7 +5377,25 @@ window.HUB_CONTENT = {
          "text": "Sure."
         }
        ],
-       "sampleAnswer": "Only from Ben’s voice and face."
+       "sampleAnswer": "Only from Ben’s voice and face.",
+       "check": {
+        "groups": [
+         [
+          "voice",
+          "tone",
+          "face",
+          "sound",
+          "body",
+          "say it",
+          "eyes",
+          "express",
+          "look",
+          "ask"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben says one word. What else can Kai listen to or look at?"
       },
       {
        "id": "s4-core-132",
@@ -3840,7 +5435,49 @@ window.HUB_CONTENT = {
         "Yes, I want to go!",
         "I don’t care.",
         "I don’t want to go."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "=yes",
+          "yeah",
+          "excit",
+          "happy",
+          "glad",
+          "love to",
+          "cant wait",
+          "fun",
+          "will come",
+          "ill come",
+          "ill go",
+          "of course",
+          "definitely"
+         ],
+         [
+          "dont care",
+          "doesnt care",
+          "whatever",
+          "bored",
+          "meh",
+          "fine",
+          "maybe"
+         ],
+         [
+          "dont want",
+          "doesnt want",
+          "=no",
+          "not go",
+          "not come",
+          "busy",
+          "rather not",
+          "polite",
+          "annoy",
+          "wont"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think of a happy way and a bored way to say “Sure.”"
       },
       {
        "id": "s4-core-133",
@@ -3876,7 +5513,31 @@ window.HUB_CONTENT = {
          "text": "Sure."
         }
        ],
-       "sampleAnswer": "“You sure? It’s okay to say no.”"
+       "sampleAnswer": "“You sure? It’s okay to say no.”",
+       "check": {
+        "groups": [
+         [
+          "you sure",
+          "are you sure",
+          "really",
+          "for real",
+          "okay to say",
+          "say no",
+          "=no",
+          "dont have to",
+          "if you want",
+          "do you want",
+          "mean it",
+          "check",
+          "fine if",
+          "its okay",
+          "its ok",
+          "ask"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Kai ask Ben to check?"
       },
       {
        "id": "s4-core-134",
@@ -4175,7 +5836,27 @@ window.HUB_CONTENT = {
          "text": "Cool."
         }
        ],
-       "sampleAnswer": "Rosa shows Zoe her drawing. Zoe says, “Cool.”"
+       "sampleAnswer": "Rosa shows Zoe her drawing. Zoe says, “Cool.”",
+       "check": {
+        "groups": [
+         [
+          "draw",
+          "picture",
+          "art",
+          "sketch"
+         ],
+         [
+          "cool",
+          "nice",
+          "one word",
+          "respond",
+          "answer",
+          "repl"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Rosa show? What does Zoe say back?"
       },
       {
        "id": "s4-practice1-146",
@@ -4230,7 +5911,32 @@ window.HUB_CONTENT = {
          "how": "Slow, “Coo-ool.” Eyebrows up.",
          "means": "Wow, I didn’t know you could draw!"
         }
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "happy",
+          "excit",
+          "bored",
+          "annoy",
+          "mad",
+          "sad",
+          "surpris",
+          "wow",
+          "sarcas",
+          "differ",
+          "many way",
+          "glad",
+          "flat",
+          "sound",
+          "tone",
+          "unsure",
+          "amaz"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Does “Cool” sound the same every time? How does it change?"
       },
       {
        "id": "s4-practice1-147",
@@ -4266,7 +5972,30 @@ window.HUB_CONTENT = {
          "text": "Cool."
         }
        ],
-       "sampleAnswer": "Only from Zoe’s voice and face."
+       "sampleAnswer": "Only from Zoe’s voice and face.",
+       "check": {
+        "groups": [
+         [
+          "voice",
+          "tone",
+          "face",
+          "sound",
+          "body",
+          "eyes",
+          "express",
+          "look",
+          "=no",
+          "not really",
+          "doesnt know",
+          "not know",
+          "ask",
+          "maybe",
+          "only"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Zoe says one word. What else can Rosa look at or listen to?"
       },
       {
        "id": "s4-practice1-148",
@@ -4306,7 +6035,45 @@ window.HUB_CONTENT = {
         "I love it!",
         "I don’t care.",
         "Wow, I’m surprised!"
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "love",
+          "like",
+          "great",
+          "good",
+          "nice",
+          "awesome"
+         ],
+         [
+          "dont care",
+          "doesnt care",
+          "bored",
+          "whatever",
+          "meh",
+          "fine"
+         ],
+         [
+          "wow",
+          "surpris",
+          "shock",
+          "amaz",
+          "impress",
+          "didnt expect"
+         ],
+         [
+          "jealous",
+          "fake",
+          "polite",
+          "sarcas",
+          "bad",
+          "ugly"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think of a happy way and a bored way to say “Cool.”"
       },
       {
        "id": "s4-practice1-149",
@@ -4342,7 +6109,27 @@ window.HUB_CONTENT = {
          "text": "Cool."
         }
        ],
-       "sampleAnswer": "“Do you really like it?”"
+       "sampleAnswer": "“Do you really like it?”",
+       "check": {
+        "groups": [
+         [
+          "really like",
+          "do you like",
+          "you like",
+          "like it",
+          "think",
+          "honest",
+          "for real",
+          "truly",
+          "mean it",
+          "which part",
+          "favorite",
+          "sure"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Rosa is not sure what Zoe means. What could she check?"
       },
       {
        "id": "s4-practice1-150",
@@ -4600,7 +6387,25 @@ window.HUB_CONTENT = {
          "text": "Great."
         }
        ],
-       "sampleAnswer": "Mr. Cruz says there is a pop quiz. Omar says, “Great.”"
+       "sampleAnswer": "Mr. Cruz says there is a pop quiz. Omar says, “Great.”",
+       "check": {
+        "groups": [
+         [
+          "quiz",
+          "test",
+          "exam"
+         ],
+         [
+          "great",
+          "groan",
+          "mad",
+          "upset",
+          "annoy"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Mr. Cruz say? What does Omar say back?"
       },
       {
        "id": "s4-practice2-160",
@@ -4655,7 +6460,33 @@ window.HUB_CONTENT = {
          "how": "Soft and shaky.",
          "means": "Oh no. I’m not ready."
         }
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "happy",
+          "excit",
+          "bored",
+          "annoy",
+          "mad",
+          "sad",
+          "upset",
+          "worri",
+          "nervous",
+          "scared",
+          "sarcas",
+          "differ",
+          "many way",
+          "glad",
+          "flat",
+          "angry",
+          "sound",
+          "tone"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Does “Great” sound the same every time? How does it change?"
       },
       {
        "id": "s4-practice2-161",
@@ -4691,7 +6522,30 @@ window.HUB_CONTENT = {
          "text": "Great."
         }
        ],
-       "sampleAnswer": "Only from his voice and face."
+       "sampleAnswer": "Only from his voice and face.",
+       "check": {
+        "groups": [
+         [
+          "voice",
+          "tone",
+          "face",
+          "sound",
+          "body",
+          "eyes",
+          "express",
+          "look",
+          "=no",
+          "not really",
+          "doesnt know",
+          "not know",
+          "maybe",
+          "only",
+          "sarcas"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Omar says one word. What can Mr. Cruz hear and see?"
       },
       {
        "id": "s4-practice2-162",
@@ -4731,7 +6585,44 @@ window.HUB_CONTENT = {
         "Yes, I studied!",
         "Ugh, no.",
         "Oh no, I’m not ready."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "studi",
+          "ready",
+          "prepar",
+          "=yes",
+          "=yay",
+          "happy",
+          "excit",
+          "love"
+         ],
+         [
+          "ugh",
+          "=no",
+          "annoy",
+          "mad",
+          "hate",
+          "dont want",
+          "doesnt want",
+          "sarcas",
+          "upset",
+          "bad",
+          "groan"
+         ],
+         [
+          "not ready",
+          "worri",
+          "nervous",
+          "scared",
+          "oh no",
+          "forgot"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Did Omar study? Think of a happy way and a worried way."
       },
       {
        "id": "s4-practice2-163",
@@ -4767,7 +6658,31 @@ window.HUB_CONTENT = {
          "text": "Great."
         }
        ],
-       "sampleAnswer": "Ask, “Can I look at my notes first?”"
+       "sampleAnswer": "Ask, “Can I look at my notes first?”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "notes",
+          "look at",
+          "study",
+          "review",
+          "more time",
+          "later",
+          "teacher",
+          "help",
+          "breathe",
+          "calm",
+          "best",
+          "=try",
+          "talk",
+          "tell",
+          "relax"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Who could Omar talk to? What could he look at first?"
       },
       {
        "id": "s4-practice2-164",
@@ -4960,7 +6875,7 @@ window.HUB_CONTENT = {
      "Could you say it another way?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-05",
@@ -5041,7 +6956,30 @@ window.HUB_CONTENT = {
          "text": "That was SICK!"
         }
        ],
-       "sampleAnswer": "They are at the skate park. Kai just did a trick."
+       "sampleAnswer": "They are at the skate park. Kai just did a trick.",
+       "check": {
+        "groups": [
+         [
+          "skate",
+          "park",
+          "ramp",
+          "outside",
+          "outdoor"
+         ],
+         [
+          "trick",
+          "flip",
+          "jump",
+          "board",
+          "kickflip",
+          "ollie",
+          "landed",
+          "did something cool"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the place and at Kai. What did Kai just do?"
       },
       {
        "id": "s5-core-174",
@@ -5079,7 +7017,36 @@ window.HUB_CONTENT = {
          "text": "That was SICK!"
         }
        ],
-       "sampleAnswer": "Omar is smiling and pointing. Kai’s arms are up."
+       "sampleAnswer": "Omar is smiling and pointing. Kai’s arms are up.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "grin",
+          "happy",
+          "excit"
+         ],
+         [
+          "point"
+         ],
+         [
+          "arms up",
+          "arms are up",
+          "hands up",
+          "arm up",
+          "cheer"
+         ],
+         [
+          "trick",
+          "skate",
+          "board",
+          "park",
+          "ramp"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Omar’s face and hands. Look at Kai’s arms."
       },
       {
        "id": "s5-core-175",
@@ -5117,7 +7084,36 @@ window.HUB_CONTENT = {
          "text": "That was SICK!"
         }
        ],
-       "sampleAnswer": "They both know “sick” can mean cool."
+       "sampleAnswer": "They both know “sick” can mean cool.",
+       "check": {
+        "groups": [
+         [
+          "cool",
+          "awesome",
+          "good",
+          "great",
+          "amazing",
+          "nice",
+          "dope",
+          "rad",
+          "slang",
+          "means",
+          "meaning",
+          "compliment",
+          "not ill",
+          "not really sick",
+          "not sick"
+         ],
+         [
+          "trick",
+          "landed",
+          "skate",
+          "board"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about the word “sick.” What does it mean to skaters?"
       },
       {
        "id": "s5-core-176",
@@ -5159,7 +7155,42 @@ window.HUB_CONTENT = {
         "Cool! Awesome!",
         "Not well. Ill."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "cool",
+          "awesome",
+          "good",
+          "great",
+          "amazing",
+          "nice",
+          "dope",
+          "rad",
+          "epic",
+          "wow",
+          "impressive",
+          "fire",
+          "best"
+         ],
+         [
+          "ill",
+          "=ill",
+          "not well",
+          "not feel",
+          "throw",
+          "puke",
+          "vomit",
+          "flu",
+          "cold",
+          "germ",
+          "hurt",
+          "gross"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Omar is smiling. Is “sick” a good word or a bad word here?"
       },
       {
        "id": "s5-core-177",
@@ -5222,7 +7253,38 @@ window.HUB_CONTENT = {
          "text": "That was SICK!"
         }
        ],
-       "sampleAnswer": "Ask, “What do you mean?”"
+       "sampleAnswer": "Ask, “What do you mean?”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "what do you mean",
+          "what does it mean",
+          "what does that mean",
+          "whats that mean",
+          "question"
+         ],
+         [
+          "look it up",
+          "google",
+          "dictionary",
+          "search",
+          "look up"
+         ],
+         [
+          "clue",
+          "context",
+          "look at",
+          "listen",
+          "watch",
+          "think",
+          "guess",
+          "figure"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Who could help you learn the word? What could you say?"
       },
       {
        "id": "s5-core-179",
@@ -5443,7 +7505,32 @@ window.HUB_CONTENT = {
          "text": "This is fire!"
         }
        ],
-       "sampleAnswer": "They are at lunch. Jay has pizza."
+       "sampleAnswer": "They are at lunch. Jay has pizza.",
+       "check": {
+        "groups": [
+         [
+          "lunch",
+          "cafeteria",
+          "cafe",
+          "lunchroom",
+          "eat",
+          "food",
+          "table"
+         ],
+         [
+          "pizza",
+          "slice",
+          "holding",
+          "likes",
+          "loves",
+          "yummy",
+          "tasty",
+          "good"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the place. What is Jay holding?"
       },
       {
        "id": "s5-practice1-190",
@@ -5481,7 +7568,37 @@ window.HUB_CONTENT = {
          "text": "This is fire!"
         }
        ],
-       "sampleAnswer": "Jay is smiling. There is no real fire."
+       "sampleAnswer": "Jay is smiling. There is no real fire.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "grin",
+          "happy",
+          "excit"
+         ],
+         [
+          "pizza",
+          "food",
+          "lunch",
+          "eat",
+          "slice"
+         ],
+         [
+          "no real fire",
+          "no fire",
+          "isnt real",
+          "not real",
+          "not burning",
+          "no smoke",
+          "not on fire",
+          "safe",
+          "calm"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Jay’s face and hands. Is there a real fire?"
       },
       {
        "id": "s5-practice1-191",
@@ -5519,7 +7636,37 @@ window.HUB_CONTENT = {
          "text": "This is fire!"
         }
        ],
-       "sampleAnswer": "She knows “fire” can mean great."
+       "sampleAnswer": "She knows “fire” can mean great.",
+       "check": {
+        "groups": [
+         [
+          "great",
+          "good",
+          "cool",
+          "awesome",
+          "amazing",
+          "yummy",
+          "tasty",
+          "delicious",
+          "best",
+          "really good",
+          "slang",
+          "likes",
+          "loves",
+          "means"
+         ],
+         [
+          "no real fire",
+          "not real",
+          "not a real",
+          "isnt real",
+          "no fire",
+          "not burning"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about how kids use the word “fire.” Is it good or bad?"
       },
       {
        "id": "s5-practice1-192",
@@ -5561,7 +7708,34 @@ window.HUB_CONTENT = {
         "This is great!",
         "There is a real fire."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "great",
+          "good",
+          "cool",
+          "awesome",
+          "amazing",
+          "yummy",
+          "tasty",
+          "delicious",
+          "best",
+          "love",
+          "like"
+         ],
+         [
+          "real fire",
+          "burning",
+          "flame",
+          "hot",
+          "spicy",
+          "smoke"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Jay is smiling at his pizza. Is “fire” good or bad here?"
       },
       {
        "id": "s5-practice1-193",
@@ -5624,7 +7798,38 @@ window.HUB_CONTENT = {
          "text": "This is fire!"
         }
        ],
-       "sampleAnswer": "Ask, “What does that mean?”"
+       "sampleAnswer": "Ask, “What does that mean?”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "what do you mean",
+          "what does it mean",
+          "what does that mean",
+          "whats that mean",
+          "question"
+         ],
+         [
+          "look it up",
+          "google",
+          "dictionary",
+          "search",
+          "look up"
+         ],
+         [
+          "clue",
+          "context",
+          "look at",
+          "listen",
+          "watch",
+          "think",
+          "guess",
+          "figure"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Who could help you learn the word? What could you say?"
       },
       {
        "id": "s5-practice1-195",
@@ -5790,7 +7995,35 @@ window.HUB_CONTENT = {
          "text": "You’re on fire today!"
         }
        ],
-       "sampleAnswer": "They are in gym. Zoe is playing."
+       "sampleAnswer": "They are in gym. Zoe is playing.",
+       "check": {
+        "groups": [
+         [
+          "gym",
+          "court",
+          "field",
+          "pe class",
+          "=pe",
+          "game",
+          "practice",
+          "sport"
+         ],
+         [
+          "play",
+          "ball",
+          "basketball",
+          "soccer",
+          "score",
+          "shoot",
+          "dribbl",
+          "doing good",
+          "doing well",
+          "doing great"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the place. What does Zoe have? What is she doing?"
       },
       {
        "id": "s5-practice2-204",
@@ -5822,7 +8055,35 @@ window.HUB_CONTENT = {
          "text": "You’re on fire today!"
         }
        ],
-       "sampleAnswer": "Coach is smiling. There is no real fire."
+       "sampleAnswer": "Coach is smiling. There is no real fire.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "grin",
+          "happy",
+          "proud"
+         ],
+         [
+          "ball",
+          "play",
+          "score",
+          "shoot"
+         ],
+         [
+          "no real fire",
+          "no fire",
+          "isnt real",
+          "not real",
+          "not burning",
+          "no smoke",
+          "safe",
+          "calm"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the coach’s face. Is there a real fire?"
       },
       {
        "id": "s5-practice2-205",
@@ -5854,7 +8115,37 @@ window.HUB_CONTENT = {
          "text": "You’re on fire today!"
         }
        ],
-       "sampleAnswer": "She knows she is playing well."
+       "sampleAnswer": "She knows she is playing well.",
+       "check": {
+        "groups": [
+         [
+          "play",
+          "doing",
+          "good",
+          "great",
+          "well",
+          "awesome",
+          "best",
+          "score",
+          "shot",
+          "win"
+         ],
+         [
+          "compliment",
+          "praise",
+          "proud",
+          "likes",
+          "means",
+          "not real",
+          "not burning",
+          "no fire",
+          "isnt real",
+          "nice"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about how Zoe is doing in the game."
       },
       {
        "id": "s5-practice2-206",
@@ -5890,7 +8181,32 @@ window.HUB_CONTENT = {
         "You are playing great!",
         "You are burning."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "great",
+          "good",
+          "well",
+          "awesome",
+          "amazing",
+          "best",
+          "doing",
+          "score",
+          "cool",
+          "skill"
+         ],
+         [
+          "burn",
+          "real fire",
+          "flame",
+          "hot",
+          "smoke"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Coach is smiling. Is “on fire” good or bad here?"
       },
       {
        "id": "s5-practice2-207",
@@ -5922,7 +8238,35 @@ window.HUB_CONTENT = {
          "text": "You’re on fire today!"
         }
        ],
-       "sampleAnswer": "“Thanks, Coach!”"
+       "sampleAnswer": "“Thanks, Coach!”",
+       "check": {
+        "groups": [
+         [
+          "thank",
+          "thx",
+          "=ty",
+          "appreciat"
+         ],
+         [
+          "=yes",
+          "yeah",
+          "woo",
+          "lets go",
+          "cool",
+          "awesome",
+          "high five",
+          "smile",
+          "=yay"
+         ],
+         [
+          "what do you mean",
+          "what does that mean",
+          "ask"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Coach said something nice. What do you say back?"
       },
       {
        "id": "s5-practice2-208",
@@ -6053,7 +8397,7 @@ window.HUB_CONTENT = {
      "What clue helped you?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-06",
@@ -6132,7 +8476,47 @@ window.HUB_CONTENT = {
          "kind": "whisper"
         }
        ],
-       "sampleAnswer": "Rosa is at lunch. Ava and Kai whisper. They look at Rosa."
+       "sampleAnswer": "Rosa is at lunch. Ava and Kai whisper. They look at Rosa.",
+       "check": {
+        "groups": [
+         [
+          "whisper",
+          "secret",
+          "quiet",
+          "talk",
+          "psst"
+         ],
+         [
+          "laugh",
+          "giggl"
+         ],
+         [
+          "worri",
+          "nervous",
+          "scared",
+          "upset",
+          "sad",
+          "left out",
+          "looks at rosa",
+          "look at rosa",
+          "looking at rosa"
+         ],
+         [
+          "gift",
+          "present",
+          "surprise",
+          "birthday",
+          "party"
+         ],
+         [
+          "lunch",
+          "cafeteria",
+          "table"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ava and Kai. What are they doing? How does Rosa look?"
       },
       {
        "id": "s6-core-217",
@@ -6177,7 +8561,41 @@ window.HUB_CONTENT = {
          "kind": "whisper"
         }
        ],
-       "sampleAnswer": "They whisper. They look at Rosa. Kai laughs. Rosa looks worried."
+       "sampleAnswer": "They whisper. They look at Rosa. Kai laughs. Rosa looks worried.",
+       "check": {
+        "groups": [
+         [
+          "whisper",
+          "secret",
+          "psst",
+          "quiet"
+         ],
+         [
+          "laugh",
+          "giggl",
+          "smil"
+         ],
+         [
+          "worri",
+          "nervous",
+          "scared",
+          "upset",
+          "sad",
+          "look at rosa",
+          "looking at rosa",
+          "look at her",
+          "looking at her"
+         ],
+         [
+          "gift",
+          "present",
+          "box",
+          "under the table"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at each face. Look under the table too."
       },
       {
        "id": "s6-core-218",
@@ -6222,7 +8640,33 @@ window.HUB_CONTENT = {
          "kind": "whisper"
         }
        ],
-       "sampleAnswer": "Rosa can’t see it. You can! Rosa doesn’t know about the gift."
+       "sampleAnswer": "Rosa can’t see it. You can! Rosa doesn’t know about the gift.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "cant",
+          "can not",
+          "cannot",
+          "doesnt",
+          "does not",
+          "nope",
+          "not see",
+          "hidden",
+          "hide"
+         ],
+         [
+          "=yes",
+          "i can",
+          "you can",
+          "=yep",
+          "yeah",
+          "me too"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look under the table. Where is Rosa looking?"
       },
       {
        "id": "s6-core-219",
@@ -6272,7 +8716,44 @@ window.HUB_CONTENT = {
         "They are planning a surprise for Rosa!",
         "They are telling a joke."
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "check": {
+        "groups": [
+         [
+          "laugh at",
+          "laughing at",
+          "make fun",
+          "making fun",
+          "mean",
+          "talk about her",
+          "talking about her",
+          "gossip",
+          "about rosa"
+         ],
+         [
+          "surprise",
+          "gift",
+          "present",
+          "birthday",
+          "party",
+          "plan"
+         ],
+         [
+          "joke",
+          "funny",
+          "something else",
+          "video",
+          "meme"
+         ],
+         [
+          "secret",
+          "not about her",
+          "not about rosa"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Rosa thinks one thing. What does the gift tell you?"
       },
       {
        "id": "s6-core-220",
@@ -6317,7 +8798,40 @@ window.HUB_CONTENT = {
          "kind": "whisper"
         }
        ],
-       "sampleAnswer": "Ask, “What’s up?” or wait and see."
+       "sampleAnswer": "Ask, “What’s up?” or wait and see.",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "whats up",
+          "what is up",
+          "whats going on",
+          "what are you",
+          "whats funny",
+          "what is funny"
+         ],
+         [
+          "wait",
+          "see what happens",
+          "ignore",
+          "calm",
+          "relax",
+          "chill",
+          "dont worry",
+          "not worry",
+          "breathe"
+         ],
+         [
+          "talk to",
+          "tell",
+          "adult",
+          "teacher",
+          "friend"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Rosa ask Ava and Kai? Or could she wait?"
       },
       {
        "id": "s6-core-221",
@@ -6548,7 +9062,37 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Jay and Omar are laughing. Kai is close by."
+       "sampleAnswer": "Jay and Omar are laughing. Kai is close by.",
+       "check": {
+        "groups": [
+         [
+          "laugh",
+          "giggl",
+          "funny"
+         ],
+         [
+          "phone",
+          "video",
+          "screen",
+          "watch"
+         ],
+         [
+          "worri",
+          "nervous",
+          "scared",
+          "upset",
+          "sad",
+          "close by",
+          "near",
+          "nearby",
+          "next to",
+          "thinks they",
+          "think they"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Jay and Omar. What are they looking at?"
       },
       {
        "id": "s6-practice1-230",
@@ -6587,7 +9131,41 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "They are looking at a phone. They are not looking at Kai."
+       "sampleAnswer": "They are looking at a phone. They are not looking at Kai.",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "video",
+          "screen",
+          "cell"
+         ],
+         [
+          "not looking at kai",
+          "not at kai",
+          "arent looking",
+          "not looking at him",
+          "dont look at",
+          "dont see",
+          "looking away",
+          "looking down"
+         ],
+         [
+          "laugh",
+          "smil",
+          "funny"
+         ],
+         [
+          "worri",
+          "nervous",
+          "scared",
+          "upset",
+          "sad"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at what Jay is holding. Where are their eyes?"
       },
       {
        "id": "s6-practice1-231",
@@ -6626,7 +9204,28 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "No. They are looking at the phone."
+       "sampleAnswer": "No. They are looking at the phone.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "doesnt",
+          "probably not",
+          "maybe not",
+          "dont see",
+          "not looking"
+         ],
+         [
+          "phone",
+          "video",
+          "screen",
+          "busy"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are Jay and Omar looking? Can they see Kai?"
       },
       {
        "id": "s6-practice1-232",
@@ -6669,7 +9268,43 @@ window.HUB_CONTENT = {
         "They are laughing at Kai.",
         "They are laughing at a video."
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "check": {
+        "groups": [
+         [
+          "at kai",
+          "at him",
+          "make fun",
+          "making fun",
+          "mean",
+          "about kai",
+          "about him"
+         ],
+         [
+          "video",
+          "phone",
+          "meme",
+          "something funny",
+          "screen",
+          "post",
+          "picture",
+          "pic",
+          "tiktok",
+          "text"
+         ],
+         [
+          "joke",
+          "funny story",
+          "each other",
+          "something else",
+          "not at kai",
+          "not kai",
+          "not about kai"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Kai has one idea. What is on the phone?"
       },
       {
        "id": "s6-practice1-233",
@@ -6708,7 +9343,49 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Walk over and say, “What’s so funny?”"
+       "sampleAnswer": "Walk over and say, “What’s so funny?”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "whats so funny",
+          "whats funny",
+          "what is funny",
+          "whats up",
+          "what are you",
+          "can i see",
+          "let me see"
+         ],
+         [
+          "walk over",
+          "go over",
+          "join",
+          "sit with",
+          "look at the phone",
+          "watch",
+          "go see",
+          "see the"
+         ],
+         [
+          "ignore",
+          "walk away",
+          "relax",
+          "calm",
+          "dont worry",
+          "not worry",
+          "breathe",
+          "chill"
+         ],
+         [
+          "tell",
+          "adult",
+          "teacher",
+          "friend"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Kai ask Jay and Omar?"
       },
       {
        "id": "s6-practice1-234",
@@ -6917,7 +9594,35 @@ window.HUB_CONTENT = {
          "text": "What did you get?"
         }
        ],
-       "sampleAnswer": "Tests came back. Ben asks Zoe her grade."
+       "sampleAnswer": "Tests came back. Ben asks Zoe her grade.",
+       "check": {
+        "groups": [
+         [
+          "test",
+          "grade",
+          "quiz",
+          "score",
+          "paper",
+          "came back",
+          "handed back"
+         ],
+         [
+          "ask",
+          "wants to know",
+          "what she got",
+          "her grade"
+         ],
+         [
+          "a plus",
+          "=a",
+          "good grade",
+          "smil",
+          "proud"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Zoe’s paper. What is Ben asking about?"
       },
       {
        "id": "s6-practice2-242",
@@ -6955,7 +9660,28 @@ window.HUB_CONTENT = {
          "text": "What did you get?"
         }
        ],
-       "sampleAnswer": "Zoe has an A+. She is smiling."
+       "sampleAnswer": "Zoe has an A+. She is smiling.",
+       "check": {
+        "groups": [
+         [
+          "a plus",
+          "=a",
+          "good grade",
+          "100",
+          "grade",
+          "test",
+          "paper"
+         ],
+         [
+          "smil",
+          "grin",
+          "happy",
+          "proud"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Zoe’s paper and her face."
       },
       {
        "id": "s6-practice2-243",
@@ -6993,7 +9719,27 @@ window.HUB_CONTENT = {
          "text": "What did you get?"
         }
        ],
-       "sampleAnswer": "Not yet. He is asking."
+       "sampleAnswer": "Not yet. He is asking.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "not yet",
+          "nope",
+          "doesnt",
+          "does not"
+         ],
+         [
+          "ask",
+          "wants to know",
+          "didnt see",
+          "cant see",
+          "hasnt seen"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at what Ben says. Why would he ask?"
       },
       {
        "id": "s6-practice2-244",
@@ -7035,7 +9781,40 @@ window.HUB_CONTENT = {
         "Proud",
         "Happy",
         "A little shy to say"
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "proud",
+          "accomplish"
+         ],
+         [
+          "happy",
+          "glad",
+          "excit",
+          "great",
+          "good",
+          "joy",
+          "thrill",
+          "pumped"
+         ],
+         [
+          "shy",
+          "embarrass",
+          "nervous",
+          "awkward",
+          "modest",
+          "dont want to brag",
+          "not brag"
+         ],
+         [
+          "relie",
+          "surprise"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Zoe got an A+. Look at her smile."
       },
       {
        "id": "s6-practice2-245",
@@ -7073,7 +9852,40 @@ window.HUB_CONTENT = {
          "text": "What did you get?"
         }
        ],
-       "sampleAnswer": "“Nice job!”"
+       "sampleAnswer": "“Nice job!”",
+       "check": {
+        "groups": [
+         [
+          "nice job",
+          "good job",
+          "great job",
+          "nice work",
+          "good work",
+          "great work",
+          "congrat",
+          "congrad",
+          "awesome",
+          "way to go",
+          "proud",
+          "cool",
+          "nice",
+          "wow",
+          "smart"
+         ],
+         [
+          "how did you",
+          "help me",
+          "study",
+          "teach me"
+         ],
+         [
+          "i got",
+          "my grade"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Zoe did great. What kind words could Ben say?"
       },
       {
        "id": "s6-practice2-246",
@@ -7197,7 +10009,7 @@ window.HUB_CONTENT = {
      "Does your guess change?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-07",
@@ -7274,7 +10086,34 @@ window.HUB_CONTENT = {
          "text": "I’m fine!"
         }
        ],
-       "sampleAnswer": "Ava asks Lily if she is okay. Lily says, “I’m fine!”"
+       "sampleAnswer": "Ava asks Lily if she is okay. Lily says, “I’m fine!”",
+       "check": {
+        "groups": [
+         [
+          "fine",
+          "okay",
+          "=ok",
+          "alright",
+          "all right"
+         ],
+         [
+          "cry",
+          "tear",
+          "tissue",
+          "sad",
+          "upset",
+          "hurt"
+         ],
+         [
+          "ask",
+          "check",
+          "help",
+          "worri"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Listen to what Lily says. Look at her face too."
       },
       {
        "id": "s7-core-253",
@@ -7316,7 +10155,35 @@ window.HUB_CONTENT = {
          "text": "I’m fine!"
         }
        ],
-       "sampleAnswer": "No. Her words say fine. Her face is sad. She has tears and a tissue."
+       "sampleAnswer": "No. Her words say fine. Her face is sad. She has tears and a tissue.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "dont match",
+          "doesnt match",
+          "do not match",
+          "doesnt",
+          "different",
+          "not the same",
+          "nah"
+         ],
+         [
+          "sad",
+          "cry",
+          "tear",
+          "tissue",
+          "upset",
+          "hurt",
+          "not fine",
+          "not okay",
+          "not ok"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Lily says “fine.” Look at her eyes. Does she look fine?"
       },
       {
        "id": "s7-core-254",
@@ -7358,7 +10225,39 @@ window.HUB_CONTENT = {
          "text": "I’m fine!"
         }
        ],
-       "sampleAnswer": "Only what she sees and hears. She doesn’t know what happened."
+       "sampleAnswer": "Only what she sees and hears. She doesn’t know what happened.",
+       "check": {
+        "groups": [
+         [
+          "see",
+          "=see",
+          "sees",
+          "seen",
+          "hear",
+          "heard",
+          "look",
+          "tear",
+          "cry",
+          "tissue",
+          "sad",
+          "upset",
+          "not fine",
+          "not okay"
+         ],
+         [
+          "doesnt know",
+          "does not know",
+          "not know",
+          "didnt see",
+          "wasnt there",
+          "why",
+          "what happened",
+          "the reason"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about what Ava can see. What did she not see happen?"
       },
       {
        "id": "s7-core-255",
@@ -7404,7 +10303,53 @@ window.HUB_CONTENT = {
         "I’m not really fine.",
         "I don’t want to talk right now.",
         "I have a cold."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "not really fine",
+          "not fine",
+          "not okay",
+          "not ok",
+          "sad",
+          "upset",
+          "hurt",
+          "lying",
+          "lie",
+          "faking",
+          "pretend"
+         ],
+         [
+          "dont want to talk",
+          "not want to talk",
+          "doesnt want to talk",
+          "leave me alone",
+          "later",
+          "not now",
+          "space",
+          "alone",
+          "private",
+          "embarrass",
+          "dont want to say"
+         ],
+         [
+          "cold",
+          "sick",
+          "allerg",
+          "sneez",
+          "nose",
+          "something in her eye"
+         ],
+         [
+          "really fine",
+          "she is fine",
+          "okay now",
+          "better"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at her tears and tissue. Does she want to talk?"
       },
       {
        "id": "s7-core-256",
@@ -7446,7 +10391,46 @@ window.HUB_CONTENT = {
          "text": "I’m fine!"
         }
        ],
-       "sampleAnswer": "“Okay. I’m here if you want to talk.”"
+       "sampleAnswer": "“Okay. I’m here if you want to talk.”",
+       "check": {
+        "groups": [
+         [
+          "here for you",
+          "im here",
+          "here if",
+          "talk",
+          "want to talk"
+         ],
+         [
+          "ask",
+          "whats wrong",
+          "what happened",
+          "whats up",
+          "are you sure",
+          "you sure"
+         ],
+         [
+          "okay",
+          "=ok",
+          "alright",
+          "space",
+          "leave her",
+          "give her"
+         ],
+         [
+          "help",
+          "hug",
+          "tissue",
+          "sorry",
+          "care",
+          "adult",
+          "teacher",
+          "counselor"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Lily may not want to talk now. What kind words could Ava say?"
       },
       {
        "id": "s7-core-257",
@@ -7644,7 +10628,35 @@ window.HUB_CONTENT = {
          "text": "Nah, I’m not hungry."
         }
        ],
-       "sampleAnswer": "Jay offers pizza. Omar says he is not hungry."
+       "sampleAnswer": "Jay offers pizza. Omar says he is not hungry.",
+       "check": {
+        "groups": [
+         [
+          "pizza",
+          "food",
+          "lunch",
+          "share",
+          "offer",
+          "slice"
+         ],
+         [
+          "hungry",
+          "hungery",
+          "says no",
+          "said no",
+          "=nah",
+          "=no"
+         ],
+         [
+          "stare",
+          "staring",
+          "looks at",
+          "looking at"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at what Jay has. What does Omar say?"
       },
       {
        "id": "s7-practice1-265",
@@ -7680,7 +10692,32 @@ window.HUB_CONTENT = {
          "text": "Nah, I’m not hungry."
         }
        ],
-       "sampleAnswer": "No. He says not hungry, but he stares at the pizza. He has no lunch."
+       "sampleAnswer": "No. He says not hungry, but he stares at the pizza. He has no lunch.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "dont match",
+          "doesnt match",
+          "doesnt",
+          "different",
+          "=nah"
+         ],
+         [
+          "stare",
+          "staring",
+          "looks at",
+          "looking at",
+          "wants",
+          "no lunch",
+          "hungry",
+          "hungery"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Omar’s eyes. Does he have a lunch?"
       },
       {
        "id": "s7-practice1-266",
@@ -7716,7 +10753,35 @@ window.HUB_CONTENT = {
          "text": "Nah, I’m not hungry."
         }
        ],
-       "sampleAnswer": "Maybe not."
+       "sampleAnswer": "Maybe not.",
+       "check": {
+        "groups": [
+         [
+          "maybe",
+          "might",
+          "probably",
+          "not sure",
+          "nope",
+          "=yes",
+          "yeah",
+          "could",
+          "=no he",
+          "doesnt know",
+          "not know"
+         ],
+         [
+          "didnt see",
+          "doesnt see",
+          "cant see",
+          "wasnt looking",
+          "didnt notice",
+          "not tell",
+          "didnt tell"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Did Omar tell Jay? Did Jay look?"
       },
       {
        "id": "s7-practice1-267",
@@ -7756,7 +10821,42 @@ window.HUB_CONTENT = {
         "He is hungry but shy to say yes.",
         "He really is not hungry.",
         "He doesn’t like that kind of pizza."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "hungry",
+          "hungery",
+          "wants",
+          "shy",
+          "embarrass",
+          "polite",
+          "nice",
+          "dont want to take",
+          "not want to take",
+          "rude",
+          "starv"
+         ],
+         [
+          "really not",
+          "not hungry",
+          "full",
+          "ate",
+          "already"
+         ],
+         [
+          "dont like",
+          "doesnt like",
+          "not like",
+          "kind of pizza",
+          "type",
+          "allerg",
+          "picky"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at where Omar is staring. Does he have lunch?"
       },
       {
        "id": "s7-practice1-268",
@@ -7792,7 +10892,36 @@ window.HUB_CONTENT = {
          "text": "Nah, I’m not hungry."
         }
        ],
-       "sampleAnswer": "“You sure? I have extra.”"
+       "sampleAnswer": "“You sure? I have extra.”",
+       "check": {
+        "groups": [
+         [
+          "sure",
+          "really"
+         ],
+         [
+          "extra",
+          "plenty",
+          "enough",
+          "share",
+          "take one",
+          "take some",
+          "have some",
+          "have one",
+          "you can have",
+          "here"
+         ],
+         [
+          "no lunch",
+          "want half",
+          "want some",
+          "split",
+          "ask"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Omar has no lunch. How could Jay offer again?"
       },
       {
        "id": "s7-practice1-269",
@@ -7963,7 +11092,43 @@ window.HUB_CONTENT = {
          "text": "Yeah, I get it."
         }
        ],
-       "sampleAnswer": "Mr. Cruz asks if Rosa gets it. She says yes."
+       "sampleAnswer": "Mr. Cruz asks if Rosa gets it. She says yes.",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "check",
+          "understand",
+          "get it",
+          "gets it",
+          "got it",
+          "lesson",
+          "explain",
+          "teach"
+         ],
+         [
+          "says yes",
+          "said yes",
+          "=yes",
+          "yeah",
+          "says she",
+          "she gets"
+         ],
+         [
+          "confus",
+          "lost",
+          "not sure",
+          "dont get",
+          "doesnt get",
+          "hard",
+          "math",
+          "problem",
+          "board"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the board. What does Mr. Cruz ask Rosa?"
       },
       {
        "id": "s7-practice2-276",
@@ -7999,7 +11164,31 @@ window.HUB_CONTENT = {
          "text": "Yeah, I get it."
         }
        ],
-       "sampleAnswer": "No. She says she gets it. Her face looks confused."
+       "sampleAnswer": "No. She says she gets it. Her face looks confused.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "dont match",
+          "doesnt match",
+          "doesnt",
+          "different",
+          "=nah"
+         ],
+         [
+          "confus",
+          "lost",
+          "puzzl",
+          "not sure",
+          "stuck",
+          "dont get",
+          "doesnt get"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Rosa says yes. Look at her face. Does she look sure?"
       },
       {
        "id": "s7-practice2-277",
@@ -8035,7 +11224,33 @@ window.HUB_CONTENT = {
          "text": "Yeah, I get it."
         }
        ],
-       "sampleAnswer": "Not if he only hears her words."
+       "sampleAnswer": "Not if he only hears her words.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "doesnt",
+          "maybe",
+          "might",
+          "probably",
+          "not if",
+          "not sure"
+         ],
+         [
+          "words",
+          "hear",
+          "heard",
+          "says",
+          "face",
+          "see",
+          "=see",
+          "look"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Mr. Cruz hears “I get it.” Does he see her face?"
       },
       {
        "id": "s7-practice2-278",
@@ -8075,7 +11290,46 @@ window.HUB_CONTENT = {
         "I don’t get it, but I don’t want to say.",
         "I get some of it.",
         "I get it."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "dont get",
+          "doesnt get",
+          "dont understand",
+          "doesnt understand",
+          "confus",
+          "lost",
+          "stuck",
+          "help"
+         ],
+         [
+          "dont want to say",
+          "doesnt want to say",
+          "embarrass",
+          "shy",
+          "scared",
+          "afraid",
+          "nervous"
+         ],
+         [
+          "some",
+          "part",
+          "kind of",
+          "kinda",
+          "little",
+          "half"
+         ],
+         [
+          "she gets it",
+          "really gets",
+          "understands",
+          "=yes"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at her face. Does she really get it?"
       },
       {
        "id": "s7-practice2-279",
@@ -8111,7 +11365,40 @@ window.HUB_CONTENT = {
          "text": "Yeah, I get it."
         }
        ],
-       "sampleAnswer": "Rosa: “Can you show me again?” Mr. Cruz: “Want me to show it another way?”"
+       "sampleAnswer": "Rosa: “Can you show me again?” Mr. Cruz: “Want me to show it another way?”",
+       "check": {
+        "groups": [
+         [
+          "show me",
+          "again",
+          "another way",
+          "explain",
+          "help",
+          "repeat",
+          "one more time",
+          "go over",
+          "different way",
+          "slower"
+         ],
+         [
+          "confus",
+          "dont get",
+          "dont understand",
+          "lost",
+          "stuck",
+          "question",
+          "ask"
+         ],
+         [
+          "you sure",
+          "are you sure",
+          "look confused",
+          "seem confused"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Rosa ask for? How could Mr. Cruz help?"
       },
       {
        "id": "s7-practice2-280",
@@ -8243,7 +11530,7 @@ window.HUB_CONTENT = {
      "What could you ask?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-08",
@@ -8270,7 +11557,40 @@ window.HUB_CONTENT = {
        "inShort": false,
        "heading": "Warm-up",
        "question": "What do you remember about SCOPE? Say each step.",
-       "kind": "open"
+       "kind": "open",
+       "check": {
+        "groups": [
+         [
+          "=see",
+          "look",
+          "notice"
+         ],
+         [
+          "clue"
+         ],
+         [
+          "others",
+          "other people",
+          "know",
+          "knows"
+         ],
+         [
+          "possib",
+          "meaning",
+          "ideas",
+          "guess"
+         ],
+         [
+          "engag",
+          "act",
+          "talk",
+          "respond"
+         ]
+        ],
+        "need": 3
+       },
+       "hint": "Each letter is a step. What does S stand for?",
+       "sampleAnswer": "See. Clues. Others know. Possible meanings. Engage."
       },
       {
        "id": "s8-core-286",
@@ -8314,7 +11634,46 @@ window.HUB_CONTENT = {
          "text": "Nice try, Kai!"
         }
        ],
-       "sampleAnswer": "Kai missed the shot. Coach says, “Nice try!” Jay laughs."
+       "sampleAnswer": "Kai missed the shot. Coach says, “Nice try!” Jay laughs.",
+       "check": {
+        "groups": [
+         [
+          "miss",
+          "didnt make",
+          "didnt go in",
+          "air ball",
+          "airball",
+          "fail",
+          "bad shot"
+         ],
+         [
+          "laugh",
+          "giggl"
+         ],
+         [
+          "nice try",
+          "good try",
+          "encourag",
+          "coach"
+         ],
+         [
+          "basketball",
+          "hoop",
+          "gym",
+          "shot",
+          "shoot",
+          "ball"
+         ],
+         [
+          "embarrass",
+          "covers",
+          "upset",
+          "sad"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the ball and the hoop. Look at Jay."
       },
       {
        "id": "s8-core-287",
@@ -8358,7 +11717,40 @@ window.HUB_CONTENT = {
          "text": "Nice try, Kai!"
         }
        ],
-       "sampleAnswer": "Kai covers his face. Coach smiles. Jay covers his mouth and laughs."
+       "sampleAnswer": "Kai covers his face. Coach smiles. Jay covers his mouth and laughs.",
+       "check": {
+        "groups": [
+         [
+          "cover",
+          "hide",
+          "hiding",
+          "hands on his face",
+          "embarrass",
+          "upset",
+          "sad"
+         ],
+         [
+          "smil",
+          "kind",
+          "nice voice",
+          "happy"
+         ],
+         [
+          "laugh",
+          "giggl",
+          "mouth"
+         ],
+         [
+          "miss",
+          "hoop",
+          "ball",
+          "gym",
+          "court"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at each face. What is each person doing?"
       },
       {
        "id": "s8-core-288",
@@ -8402,7 +11794,28 @@ window.HUB_CONTENT = {
          "text": "Nice try, Kai!"
         }
        ],
-       "sampleAnswer": "He knows he missed. He doesn’t know why Jay is laughing."
+       "sampleAnswer": "He knows he missed. He doesn’t know why Jay is laughing.",
+       "check": {
+        "groups": [
+         [
+          "miss",
+          "didnt make",
+          "didnt go in",
+          "bad shot"
+         ],
+         [
+          "why",
+          "reason",
+          "what jay",
+          "what is funny",
+          "whats funny",
+          "laughing at",
+          "at him"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about the shot. Then think about why Jay laughs."
       },
       {
        "id": "s8-core-289",
@@ -8450,7 +11863,50 @@ window.HUB_CONTENT = {
         "Coach: “Good effort, keep going.”",
         "Jay is laughing at Kai.",
         "Jay is laughing at something else."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "good effort",
+          "effort",
+          "keep going",
+          "keep trying",
+          "try again",
+          "good job",
+          "encourag",
+          "dont give up",
+          "almost",
+          "close"
+         ],
+         [
+          "at kai",
+          "at him",
+          "make fun",
+          "making fun",
+          "teasing",
+          "being mean",
+          "is mean",
+          "so mean"
+         ],
+         [
+          "something else",
+          "joke",
+          "funny",
+          "not at kai",
+          "not kai",
+          "video",
+          "nervous"
+         ],
+         [
+          "mean it",
+          "sarcas",
+          "bad shot",
+          "not nice"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at Coach’s smile. Think of two reasons Jay could laugh."
       },
       {
        "id": "s8-core-290",
@@ -8494,7 +11950,45 @@ window.HUB_CONTENT = {
          "text": "Nice try, Kai!"
         }
        ],
-       "sampleAnswer": "“Thanks, Coach.” Then shoot again. If it bugs him, ask Jay, “What’s funny?”"
+       "sampleAnswer": "“Thanks, Coach.” Then shoot again. If it bugs him, ask Jay, “What’s funny?”",
+       "check": {
+        "groups": [
+         [
+          "thank",
+          "thx",
+          "=ty"
+         ],
+         [
+          "shoot again",
+          "try again",
+          "keep trying",
+          "keep going",
+          "practice",
+          "another shot",
+          "again"
+         ],
+         [
+          "ask",
+          "whats funny",
+          "what is funny",
+          "whats so funny",
+          "stop laugh",
+          "not funny",
+          "tell"
+         ],
+         [
+          "ignore",
+          "laugh too",
+          "laugh it off",
+          "shake it off",
+          "breathe",
+          "calm",
+          "dont worry"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Coach said “Nice try.” What could Kai say back or do next?"
       },
       {
        "id": "s8-core-291",
@@ -8807,7 +12301,32 @@ window.HUB_CONTENT = {
          "text": "My drawing!"
         }
        ],
-       "sampleAnswer": "The wind took Zoe’s drawing. Ben laughs."
+       "sampleAnswer": "The wind took Zoe’s drawing. Ben laughs.",
+       "check": {
+        "groups": [
+         [
+          "wind",
+          "blew",
+          "blow",
+          "flew",
+          "fly",
+          "away",
+          "lost"
+         ],
+         [
+          "laugh",
+          "giggl"
+         ],
+         [
+          "sad",
+          "upset",
+          "chase",
+          "run"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Zoe’s drawing. Where did it go? What is Ben doing?"
       },
       {
        "id": "s8-practice1-307",
@@ -8845,7 +12364,37 @@ window.HUB_CONTENT = {
          "text": "My drawing!"
         }
        ],
-       "sampleAnswer": "Zoe looks sad. Ben covers his mouth and laughs."
+       "sampleAnswer": "Zoe looks sad. Ben covers his mouth and laughs.",
+       "check": {
+        "groups": [
+         [
+          "sad",
+          "upset",
+          "frown",
+          "cry",
+          "mad",
+          "worri",
+          "shock",
+          "surprise"
+         ],
+         [
+          "laugh",
+          "giggl",
+          "mouth",
+          "smil"
+         ],
+         [
+          "blew",
+          "wind",
+          "flew",
+          "away",
+          "paper",
+          "drawing"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Zoe’s face. Look at Ben’s hand and mouth."
       },
       {
        "id": "s8-practice1-308",
@@ -8883,7 +12432,34 @@ window.HUB_CONTENT = {
          "text": "My drawing!"
         }
        ],
-       "sampleAnswer": "Maybe not."
+       "sampleAnswer": "Maybe not.",
+       "check": {
+        "groups": [
+         [
+          "maybe",
+          "might",
+          "probably",
+          "not sure",
+          "=no",
+          "nope",
+          "doesnt",
+          "=yes",
+          "yeah"
+         ],
+         [
+          "didnt know",
+          "doesnt know",
+          "not know",
+          "for art",
+          "art class",
+          "important",
+          "worked hard",
+          "special"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Did Zoe tell Ben why the drawing is special?"
       },
       {
        "id": "s8-practice1-309",
@@ -8925,7 +12501,46 @@ window.HUB_CONTENT = {
         "He thinks it is funny that it blew away.",
         "He is being mean.",
         "He is nervous and doesn’t know what to do."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "funny",
+          "silly",
+          "blew away",
+          "blow",
+          "wind",
+          "flew"
+         ],
+         [
+          "mean",
+          "rude",
+          "make fun",
+          "making fun",
+          "laugh at her",
+          "laughing at her",
+          "tease",
+          "teasing",
+          "bully"
+         ],
+         [
+          "nervous",
+          "doesnt know what to do",
+          "dont know what to do",
+          "awkward",
+          "shock",
+          "surprise",
+          "uncomfort"
+         ],
+         [
+          "something else",
+          "joke",
+          "not at her"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at Ben’s face. Is he mean, or does he think it’s funny?"
       },
       {
        "id": "s8-practice1-310",
@@ -8963,7 +12578,43 @@ window.HUB_CONTENT = {
          "text": "My drawing!"
         }
        ],
-       "sampleAnswer": "Zoe: “It’s not funny. That was for art class.” Ben: “Sorry! I’ll help you get it.”"
+       "sampleAnswer": "Zoe: “It’s not funny. That was for art class.” Ben: “Sorry! I’ll help you get it.”",
+       "check": {
+        "groups": [
+         [
+          "not funny",
+          "stop laugh",
+          "art class",
+          "for art",
+          "help me",
+          "can you help",
+          "stop",
+          "mean",
+          "please",
+          "that hurt",
+          "worked hard"
+         ],
+         [
+          "sorry",
+          "apolog",
+          "help",
+          "get it",
+          "chase",
+          "run after",
+          "catch",
+          "grab",
+          "find"
+         ],
+         [
+          "ask",
+          "tell",
+          "adult",
+          "teacher"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How could Ben help Zoe? What could Zoe tell Ben?"
       },
       {
        "id": "s8-practice1-311",
@@ -9186,7 +12837,40 @@ window.HUB_CONTENT = {
          "text": "Nice talking to you."
         }
        ],
-       "sampleAnswer": "Ava is on her phone. Rosa says, “Nice talking to you.”"
+       "sampleAnswer": "Ava is on her phone. Rosa says, “Nice talking to you.”",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "texting",
+          "screen",
+          "scroll"
+         ],
+         [
+          "ignor",
+          "not listen",
+          "isnt listen",
+          "not paying",
+          "not talking",
+          "not looking"
+         ],
+         [
+          "mad",
+          "=mad",
+          "upset",
+          "annoy",
+          "angry",
+          "eye roll",
+          "rolls her eyes",
+          "arms crossed",
+          "crossed",
+          "sarcas",
+          "nice talking"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at what Ava is doing. How does Rosa look?"
       },
       {
        "id": "s8-practice2-322",
@@ -9218,7 +12902,42 @@ window.HUB_CONTENT = {
          "text": "Nice talking to you."
         }
        ],
-       "sampleAnswer": "Rosa’s arms are crossed. She rolls her eyes. Her voice is sharp."
+       "sampleAnswer": "Rosa’s arms are crossed. She rolls her eyes. Her voice is sharp.",
+       "check": {
+        "groups": [
+         [
+          "cross",
+          "arms"
+         ],
+         [
+          "eye roll",
+          "roll",
+          "rolls her eyes"
+         ],
+         [
+          "sharp",
+          "mean voice",
+          "annoyed voice",
+          "tone",
+          "sarcas"
+         ],
+         [
+          "phone",
+          "not looking",
+          "ignor"
+         ],
+         [
+          "mad",
+          "=mad",
+          "upset",
+          "annoy",
+          "angry",
+          "frown"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Rosa’s arms and eyes. Look at Ava."
       },
       {
        "id": "s8-practice2-323",
@@ -9250,7 +12969,29 @@ window.HUB_CONTENT = {
          "text": "Nice talking to you."
         }
        ],
-       "sampleAnswer": "No. She is looking at her phone."
+       "sampleAnswer": "No. She is looking at her phone.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "doesnt",
+          "probably not",
+          "maybe not",
+          "not looking",
+          "didnt notice",
+          "didnt see"
+         ],
+         [
+          "phone",
+          "screen",
+          "texting",
+          "busy"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are Ava’s eyes? Can she see Rosa?"
       },
       {
        "id": "s8-practice2-324",
@@ -9286,7 +13027,45 @@ window.HUB_CONTENT = {
         "You are not talking to me.",
         "I feel left out."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "not talking",
+          "arent talking",
+          "you are not",
+          "you arent",
+          "ignor",
+          "not listen",
+          "pay attention",
+          "rude",
+          "put the phone",
+          "phone",
+          "sarcas",
+          "opposite"
+         ],
+         [
+          "left out",
+          "lonely",
+          "alone",
+          "hurt",
+          "sad",
+          "mad",
+          "=mad",
+          "upset",
+          "annoy",
+          "angry",
+          "dont care"
+         ],
+         [
+          "bye",
+          "leaving",
+          "done talking"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Rosa is not happy. Is Ava really talking with her?"
       },
       {
        "id": "s8-practice2-325",
@@ -9318,7 +13097,39 @@ window.HUB_CONTENT = {
          "text": "Nice talking to you."
         }
        ],
-       "sampleAnswer": "Put the phone down. “Sorry! What’s up?”"
+       "sampleAnswer": "Put the phone down. “Sorry! What’s up?”",
+       "check": {
+        "groups": [
+         [
+          "put",
+          "put down",
+          "put away",
+          "away",
+          "off",
+          "stop",
+          "close",
+          "look up"
+         ],
+         [
+          "sorry",
+          "apolog",
+          "my bad"
+         ],
+         [
+          "ask",
+          "whats up",
+          "what is up",
+          "whats wrong",
+          "are you okay",
+          "you okay",
+          "listen",
+          "talk",
+          "pay attention"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Ava do with her phone? What could she say?"
       },
       {
        "id": "s8-practice2-326",
@@ -9483,7 +13294,7 @@ window.HUB_CONTENT = {
      "What is a kind next step?"
     ]
    },
-   "contentRev": 1
+   "contentRev": 2
   },
   {
    "id": "scope-09",
@@ -9499,7 +13310,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -9549,7 +13360,33 @@ window.HUB_CONTENT = {
        "question": "What is happening?",
        "sampleAnswer": "Ben talks about Rosa. Omar says she needs a jacket.",
        "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
+       "check": {
+        "groups": [
+         [
+          "ben",
+          "omar",
+          "rosa",
+          "lunch",
+          "cafeteria"
+         ],
+         [
+          "talk",
+          "tell",
+          "cold",
+          "jacket",
+          "coat",
+          "rude",
+          "chill",
+          "mix",
+          "confus",
+          "misunderst",
+          "sweater"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Who is talking? What does Omar say about Rosa?"
       },
       {
        "id": "s9-core-03",
@@ -9572,7 +13409,16 @@ window.HUB_CONTENT = {
        "question": "Which word can mean two things? What clues help?",
        "sampleAnswer": "“Cold.” Ben says “cold to me.” That is about how Rosa acted.",
        "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
+       "check": {
+        "groups": [
+         [
+          "cold"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ben’s words. Which word has two meanings?"
       },
       {
        "id": "s9-core-04",
@@ -9595,7 +13441,44 @@ window.HUB_CONTENT = {
        "question": "What does Omar think “cold” means? What does Ben mean?",
        "sampleAnswer": "Omar thinks Rosa felt chilly. Ben means Rosa was not friendly.",
        "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
+       "check": {
+        "groups": [
+         [
+          "chill",
+          "freez",
+          "weather",
+          "temperat",
+          "jacket",
+          "coat",
+          "warm",
+          "sweater",
+          "outside",
+          "shiver"
+         ],
+         [
+          "friend",
+          "unfriend",
+          "nice",
+          "rude",
+          "ignor",
+          "unkind",
+          "mean to",
+          "was mean",
+          "being mean",
+          "act",
+          "treat",
+          "snob",
+          "attitude",
+          "talk",
+          "upset",
+          "=mad",
+          "angry"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Omar said jacket. Ben said “cold to me.” Think about both."
       },
       {
        "id": "s9-core-05",
@@ -9622,7 +13505,58 @@ window.HUB_CONTENT = {
        ],
        "bestIdea": 1,
        "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
+       "check": {
+        "groups": [
+         [
+          "chill",
+          "weather",
+          "freez",
+          "jacket",
+          "coat",
+          "temperat",
+          "outside",
+          "warm",
+          "sweater",
+          "shiver"
+         ],
+         [
+          "friend",
+          "unfriend",
+          "nice",
+          "rude",
+          "ignor",
+          "unkind",
+          "talk",
+          "snob",
+          "attitude",
+          "act",
+          "treat",
+          "distant",
+          "quiet",
+          "mean to",
+          "was mean",
+          "being mean"
+         ],
+         [
+          "sick",
+          "=ill",
+          "flu",
+          "cough",
+          "sneez",
+          "a cold"
+         ],
+         [
+          "=mad",
+          "angry",
+          "upset",
+          "annoy",
+          "grump"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "One meaning is about the weather. What about how people act?"
       },
       {
        "id": "s9-core-06",
@@ -9645,7 +13579,33 @@ window.HUB_CONTENT = {
        "question": "What can Ben say to fix the mix-up?",
        "sampleAnswer": "“I mean she wasn’t friendly. She didn’t talk to me.”",
        "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table"
+       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
+       "check": {
+        "groups": [
+         [
+          "friend",
+          "unfriend",
+          "nice",
+          "rude",
+          "ignor",
+          "talk",
+          "unkind",
+          "mean to",
+          "was mean",
+          "being mean",
+          "act",
+          "treat",
+          "didnt mean",
+          "i mean",
+          "explain",
+          "weather",
+          "jacket",
+          "=not that"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben can tell Omar what he really meant."
       },
       {
        "id": "s9-core-07",
@@ -9843,7 +13803,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -9893,7 +13853,28 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Rosa shows Zoe her drawing. Zoe says, “It’s nice.”"
+       "sampleAnswer": "Rosa shows Zoe her drawing. Zoe says, “It’s nice.”",
+       "check": {
+        "groups": [
+         [
+          "rosa",
+          "zoe",
+          "lunch"
+         ],
+         [
+          "draw",
+          "picture",
+          "art",
+          "show",
+          "like",
+          "pic",
+          "sketch",
+          "nice"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What does Rosa have? What does she ask Zoe?"
       },
       {
        "id": "s10-core-03",
@@ -9935,7 +13916,32 @@ window.HUB_CONTENT = {
          "how": "Voice goes up at the end.",
          "means": "I’m not sure what it is."
         }
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "warm",
+          "flat",
+          "unsure",
+          "=not sure",
+          "bored",
+          "excit",
+          "happy",
+          "fake",
+          "sarcas",
+          "differ",
+          "chang",
+          "tone",
+          "sound",
+          "=meh",
+          "confus",
+          "question",
+          "honest"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Does each voice sound the same? How does each one sound?"
       },
       {
        "id": "s10-core-04",
@@ -9958,7 +13964,35 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Does Rosa know what Zoe really thinks?",
-       "sampleAnswer": "Not for sure. She only has Zoe’s words, voice, and face."
+       "sampleAnswer": "Not for sure. She only has Zoe’s words, voice, and face.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "=not sure",
+          "=not really",
+          "maybe",
+          "unsure",
+          "cant tell",
+          "guess",
+          "doesnt know",
+          "=kind of",
+          "sort of",
+          "=might"
+         ],
+         [
+          "word",
+          "voice",
+          "face",
+          "tone",
+          "sound",
+          "look"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Can Rosa see inside Zoe’s head? What does Rosa have to go on?"
       },
       {
        "id": "s10-core-05",
@@ -9985,7 +14019,60 @@ window.HUB_CONTENT = {
         "Zoe really likes it.",
         "Zoe thinks it is just okay.",
         "Zoe is not sure what it is."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "really like",
+          "likes it",
+          "like it",
+          "love",
+          "good",
+          "great",
+          "awesome",
+          "cool",
+          "pretty",
+          "means it",
+          "beautiful",
+          "=likes"
+         ],
+         [
+          "okay",
+          "=ok",
+          "alright",
+          "fine",
+          "=meh",
+          "average",
+          "=so so",
+          "kinda",
+          "kind of",
+          "bored"
+         ],
+         [
+          "unsure",
+          "=not sure",
+          "confus",
+          "doesnt know",
+          "dont get",
+          "what it is",
+          "=weird"
+         ],
+         [
+          "doesnt like",
+          "dont like",
+          "hate",
+          "=bad",
+          "ugly",
+          "polite",
+          "lying",
+          "=lie",
+          "fake",
+          "feelings"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about different ways Zoe could say it. Happy? Flat?"
       },
       {
        "id": "s10-core-06",
@@ -10008,7 +14095,29 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "If Rosa isn’t sure, what can she say?",
-       "sampleAnswer": "“What part do you like best?”"
+       "sampleAnswer": "“What part do you like best?”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "part",
+          "best",
+          "favorite",
+          "fav",
+          "honest",
+          "truth",
+          "=do you like",
+          "what do you",
+          "=why",
+          "which",
+          "=for real",
+          "mean it",
+          "thank"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What question could Rosa ask Zoe about the drawing?"
       },
       {
        "id": "s10-core-07",
@@ -10216,7 +14325,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -10272,7 +14381,35 @@ window.HUB_CONTENT = {
        "question": "What is happening?",
        "sampleAnswer": "Omar’s pencil is gone. Kai asks if Ava blamed him.",
        "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
+       "check": {
+        "groups": [
+         [
+          "pencil",
+          "=pen"
+         ],
+         [
+          "gone",
+          "missing",
+          "lost",
+          "took",
+          "take",
+          "stole",
+          "steal",
+          "blame",
+          "ask",
+          "accus"
+         ],
+         [
+          "kai",
+          "ava",
+          "omar",
+          "class"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What is missing? What does Kai ask Ava?"
       },
       {
        "id": "s11-core-03",
@@ -10314,7 +14451,28 @@ window.HUB_CONTENT = {
         }
        ],
        "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
+       "check": {
+        "groups": [
+         [
+          "chang",
+          "differ",
+          "mean",
+          "stress",
+          "emphas",
+          "=took",
+          "=didnt",
+          "someone else",
+          "borrow",
+          "thinks",
+          "word you",
+          "word took",
+          "word didnt"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Does the meaning stay the same when a new word is loud?"
       },
       {
        "id": "s11-core-04",
@@ -10337,7 +14495,35 @@ window.HUB_CONTENT = {
        "question": "What does Kai want to know? What does Ava know?",
        "sampleAnswer": "Kai wants to know if Ava blamed him. Ava knows what she said and thinks.",
        "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
+       "check": {
+        "groups": [
+         [
+          "blame",
+          "accus",
+          "think he",
+          "thinks he",
+          "he took",
+          "took it",
+          "stole",
+          "did it",
+          "suspect",
+          "said he"
+         ],
+         [
+          "she said",
+          "she thinks",
+          "truth",
+          "own mind",
+          "meaning",
+          "what she meant",
+          "what she means",
+          "her own"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai is worried about one thing. What is it?"
       },
       {
        "id": "s11-core-05",
@@ -10364,7 +14550,55 @@ window.HUB_CONTENT = {
         "She didn’t say it, but she thinks it."
        ],
        "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
+       "check": {
+        "groups": [
+         [
+          "someone else",
+          "somebody else",
+          "other",
+          "another",
+          "=else",
+          "=jay",
+          "=ben",
+          "rosa"
+         ],
+         [
+          "borrow",
+          "used",
+          "use it",
+          "take it back",
+          "gave"
+         ],
+         [
+          "thinks",
+          "think it",
+          "didnt say",
+          "but she",
+          "believ",
+          "sure he",
+          "suspect",
+          "does think",
+          "meant it"
+         ],
+         [
+          "nobody",
+          "no one",
+          "fell",
+          "lost",
+          "dropped",
+          "misplac",
+          "missing"
+         ],
+         [
+          "didnt blame",
+          "not blaming",
+          "=not you"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Try a different loud word each time. What does it mean then?"
       },
       {
        "id": "s11-core-06",
@@ -10387,7 +14621,28 @@ window.HUB_CONTENT = {
        "question": "If Kai isn’t sure, what can he say?",
        "sampleAnswer": "“Do you think I took it? I didn’t.”",
        "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk"
+       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "think i",
+          "=did you",
+          "do you think",
+          "=didnt",
+          "wasnt me",
+          "not me",
+          "never",
+          "mean",
+          "blame",
+          "accus",
+          "what do you",
+          "really"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai can ask Ava what she means."
       },
       {
        "id": "s11-core-07",
@@ -10594,7 +14849,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -10646,7 +14901,37 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Kai does a trick at the skate park. Omar yells, “You’re killing it!”"
+       "sampleAnswer": "Kai does a trick at the skate park. Omar yells, “You’re killing it!”",
+       "check": {
+        "groups": [
+         [
+          "skate",
+          "park",
+          "board",
+          "ramp",
+          "trick",
+          "flip",
+          "jump",
+          "ollie",
+          "grind"
+         ],
+         [
+          "cheer",
+          "yell",
+          "kill",
+          "cool",
+          "good",
+          "great",
+          "awesome",
+          "excit",
+          "impress",
+          "watch",
+          "proud"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are they? What is Kai doing?"
       },
       {
        "id": "s12-core-03",
@@ -10665,7 +14950,35 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Find clues: place, face, body.",
-       "sampleAnswer": "They are at a skate park. Kai cheers. Omar points and looks excited."
+       "sampleAnswer": "They are at a skate park. Kai cheers. Omar points and looks excited.",
+       "check": {
+        "groups": [
+         [
+          "skate",
+          "park",
+          "ramp",
+          "board"
+         ],
+         [
+          "excit",
+          "happy",
+          "smil",
+          "cheer",
+          "point",
+          "=wow",
+          "whoa",
+          "grin",
+          "big eye",
+          "impress",
+          "hype",
+          "arms up",
+          "jump",
+          "mouth open"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the place. Look at Omar’s face and arms."
       },
       {
        "id": "s12-core-04",
@@ -10684,7 +14997,40 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Does Kai know what Omar means?",
-       "sampleAnswer": "Probably. They are at the skate park. Omar looks excited."
+       "sampleAnswer": "Probably. They are at the skate park. Omar looks excited.",
+       "check": {
+        "groups": [
+         [
+          "=yes",
+          "yeah",
+          "=yep",
+          "probab",
+          "likely",
+          "=prob",
+          "sure",
+          "think so",
+          "he knows",
+          "he gets",
+          "understand",
+          "=probly"
+         ],
+         [
+          "skate",
+          "park",
+          "excit",
+          "happy",
+          "smil",
+          "cheer",
+          "slang",
+          "compliment",
+          "good",
+          "great",
+          "praise"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the place and Omar’s face. Do they help Kai?"
       },
       {
        "id": "s12-core-05",
@@ -10707,7 +15053,31 @@ window.HUB_CONTENT = {
         "You are doing great!",
         "You are hurting something."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "great",
+          "good",
+          "awesome",
+          "amazing",
+          "cool",
+          "well",
+          "nice",
+          "rock",
+          "crush",
+          "=ace",
+          "skilled",
+          "best",
+          "sick",
+          "fire",
+          "talent",
+          "impress"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "They are at a skate park. Omar looks excited. Which meaning fits?"
       },
       {
        "id": "s12-core-06",
@@ -10726,7 +15096,29 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What can Kai say back?",
-       "sampleAnswer": "“Thanks! Want to try?”"
+       "sampleAnswer": "“Thanks! Want to try?”",
+       "check": {
+        "groups": [
+         [
+          "thank",
+          "thx",
+          "=ty",
+          "appreciat",
+          "try",
+          "teach",
+          "show you",
+          "turn",
+          "high five",
+          "fist bump",
+          "=yeah",
+          "glad",
+          "=bro",
+          "dude"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Omar said something nice. What do you say back to nice words?"
       },
       {
        "id": "s12-core-07",
@@ -10923,7 +15315,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -10973,7 +15365,23 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Rosa asks, “Is it cold in here?” Ben says, “Yeah, kind of.”"
+       "sampleAnswer": "Rosa asks, “Is it cold in here?” Ben says, “Yeah, kind of.”",
+       "check": {
+        "groups": [
+         [
+          "cold",
+          "chill",
+          "freez",
+          "window",
+          "wind",
+          "brr",
+          "shiver",
+          "temperat"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Rosa ask? What is open?"
       },
       {
        "id": "s13-core-03",
@@ -10996,7 +15404,32 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Find clues: face, body, place.",
-       "sampleAnswer": "Rosa hugs herself. She shivers. The window is open. Wind blows in."
+       "sampleAnswer": "Rosa hugs herself. She shivers. The window is open. Wind blows in.",
+       "check": {
+        "groups": [
+         [
+          "hug",
+          "shiver",
+          "shak",
+          "arms",
+          "cross",
+          "rub",
+          "curl",
+          "tremb",
+          "freez",
+          "goosebump"
+         ],
+         [
+          "window",
+          "wind",
+          "breez",
+          "open",
+          "air"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Rosa’s arms. Look at the window."
       },
       {
        "id": "s13-core-04",
@@ -11019,7 +15452,34 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What does Rosa want? Does Ben get it?",
-       "sampleAnswer": "Rosa may want the window closed. Ben only answers the question."
+       "sampleAnswer": "Rosa may want the window closed. Ben only answers the question.",
+       "check": {
+        "groups": [
+         [
+          "close",
+          "shut",
+          "window",
+          "warm",
+          "jacket",
+          "heat",
+          "sweater"
+         ],
+         [
+          "doesnt get",
+          "didnt get",
+          "only answer",
+          "just answer",
+          "didnt know",
+          "doesnt know",
+          "missed",
+          "didnt understand",
+          "doesnt understand",
+          "=not really"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the window. What might Rosa want Ben to do?"
       },
       {
        "id": "s13-core-05",
@@ -11046,7 +15506,44 @@ window.HUB_CONTENT = {
         "Are you cold too?",
         "Can you close the window?"
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "check": {
+        "groups": [
+         [
+          "=too",
+          "also",
+          "=you cold",
+          "are you cold",
+          "feel cold",
+          "ben cold",
+          "=same"
+         ],
+         [
+          "close",
+          "shut",
+          "window"
+         ],
+         [
+          "warm",
+          "jacket",
+          "heat",
+          "sweater",
+          "coat",
+          "hoodie"
+         ],
+         [
+          "just cold",
+          "she is cold",
+          "shes cold",
+          "im cold",
+          "she cold",
+          "freez",
+          "=chill"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Is Rosa only asking a question? Look at the open window."
       },
       {
        "id": "s13-core-06",
@@ -11069,7 +15566,29 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What could Ben say or do?",
-       "sampleAnswer": "Close the window. Or ask, “Want me to close it?”"
+       "sampleAnswer": "Close the window. Or ask, “Want me to close it?”",
+       "check": {
+        "groups": [
+         [
+          "close",
+          "shut",
+          "window",
+          "jacket",
+          "sweater",
+          "coat",
+          "hoodie",
+          "warm",
+          "heat",
+          "ask",
+          "=want me",
+          "should i",
+          "are you cold",
+          "teacher"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben is near the window. What could he do?"
       },
       {
        "id": "s13-core-07",
@@ -11262,7 +15781,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -11308,7 +15827,32 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Kai drops his tray. He says, “Great. Just great.”"
+       "sampleAnswer": "Kai drops his tray. He says, “Great. Just great.”",
+       "check": {
+        "groups": [
+         [
+          "drop",
+          "spill",
+          "fell",
+          "fall",
+          "tray",
+          "food",
+          "mess",
+          "floor",
+          "milk"
+         ],
+         [
+          "upset",
+          "=mad",
+          "angry",
+          "frustrat",
+          "annoy",
+          "sarcas"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the floor. What happened to Kai’s lunch?"
       },
       {
        "id": "s14-core-03",
@@ -11341,7 +15885,46 @@ window.HUB_CONTENT = {
          "how": "High and bright. Smile.",
          "means": "This is really good!"
         }
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "sarcas",
+          "=mad",
+          "angry",
+          "upset",
+          "annoy",
+          "frustrat",
+          "=sad",
+          "opposite",
+          "=not great",
+          "=not good",
+          "=bad",
+          "grump",
+          "flat",
+          "mock",
+          "fake",
+          "disappoint"
+         ],
+         [
+          "cover",
+          "hands",
+          "floor",
+          "spill",
+          "food",
+          "drop",
+          "tray",
+          "mess"
+         ],
+         [
+          "match",
+          "=doesnt mean",
+          "=wrong"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Does Kai sound happy? Look at the food on the floor."
       },
       {
        "id": "s14-core-04",
@@ -11360,7 +15943,39 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What do kids nearby see and hear?",
-       "sampleAnswer": "They see the spill. They hear his voice. They can guess he is upset."
+       "sampleAnswer": "They see the spill. They hear his voice. They can guess he is upset.",
+       "check": {
+        "groups": [
+         [
+          "spill",
+          "drop",
+          "tray",
+          "food",
+          "mess",
+          "floor",
+          "fell",
+          "fall",
+          "milk"
+         ],
+         [
+          "upset",
+          "=mad",
+          "angry",
+          "annoy",
+          "frustrat",
+          "=sad",
+          "sarcas",
+          "great",
+          "voice",
+          "tone",
+          "yell",
+          "groan",
+          "sigh"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What is on the floor? How does Kai’s voice sound?"
       },
       {
        "id": "s14-core-05",
@@ -11382,7 +15997,50 @@ window.HUB_CONTENT = {
        "sampleIdeas": [
         "This is bad. I’m upset.",
         "I feel silly. I’m joking about it."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "=mad",
+          "angry",
+          "annoy",
+          "frustrat",
+          "=ugh",
+          "hate",
+          "=grr"
+         ],
+         [
+          "=bad",
+          "upset",
+          "=sad",
+          "terribl",
+          "awful",
+          "worst",
+          "=not great",
+          "horribl",
+          "disappoint",
+          "=oh no",
+          "sarcas",
+          "opposite"
+         ],
+         [
+          "silly",
+          "joke",
+          "joking",
+          "funny",
+          "laugh",
+          "embarrass",
+          "dumb",
+          "stupid",
+          "kidding",
+          "haha",
+          "cringe",
+          "awkward"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Does Kai mean great? How might he feel? Could he be joking?"
       },
       {
        "id": "s14-core-06",
@@ -11401,7 +16059,38 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What could a kind friend say or do?",
-       "sampleAnswer": "“Oh no! I’ll help you clean up.”"
+       "sampleAnswer": "“Oh no! I’ll help you clean up.”",
+       "check": {
+        "groups": [
+         [
+          "help",
+          "clean",
+          "pick",
+          "napkin",
+          "paper towel",
+          "=mop",
+          "wipe",
+          "get you",
+          "new tray",
+          "more food",
+          "share",
+          "=oh no",
+          "are you okay",
+          "you okay",
+          "alright",
+          "sorry",
+          "=happens",
+          "all good",
+          "=its okay",
+          "dont worry",
+          "teacher",
+          "janitor",
+          "custodian"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai’s food is on the floor. How could a friend help?"
       },
       {
        "id": "s14-core-07",
@@ -11633,7 +16322,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -11684,7 +16373,30 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Lily is about to give a speech. Ava says, “Break a leg!”"
+       "sampleAnswer": "Lily is about to give a speech. Ava says, “Break a leg!”",
+       "check": {
+        "groups": [
+         [
+          "speech",
+          "talk",
+          "stage",
+          "present",
+          "speak",
+          "perform",
+          "show",
+          "play"
+         ],
+         [
+          "break",
+          "=leg",
+          "luck",
+          "nervous",
+          "scared"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Lily have to do? What does Ava say?"
       },
       {
        "id": "s15-core-03",
@@ -11708,7 +16420,46 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Find clues: face, place, who is talking.",
-       "sampleAnswer": "Lily looks nervous. She is on a stage. Ava is her friend."
+       "sampleAnswer": "Lily looks nervous. She is on a stage. Ava is her friend.",
+       "check": {
+        "groups": [
+         [
+          "nervous",
+          "scared",
+          "worri",
+          "afraid",
+          "anxious",
+          "shak",
+          "sweat",
+          "freak",
+          "stress",
+          "confus",
+          "unsure"
+         ],
+         [
+          "stage",
+          "auditor",
+          "microphone",
+          "=mic",
+          "podium",
+          "front",
+          "class",
+          "=gym",
+          "school",
+          "curtain",
+          "crowd"
+         ],
+         [
+          "friend",
+          "=ava",
+          "=bff",
+          "=pal",
+          "buddy"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Lily’s face. Where is she? Who is Ava to her?"
       },
       {
        "id": "s15-core-04",
@@ -11732,7 +16483,41 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What does Ava mean? What does Lily think?",
-       "sampleAnswer": "Ava means good luck. Lily thinks of a real broken leg."
+       "sampleAnswer": "Ava means good luck. Lily thinks of a real broken leg.",
+       "check": {
+        "groups": [
+         [
+          "luck",
+          "do great",
+          "do well",
+          "do good",
+          "got this",
+          "cheer",
+          "support",
+          "nice",
+          "encourag",
+          "nail it",
+          "rock it"
+         ],
+         [
+          "hurt",
+          "broke",
+          "broken",
+          "real",
+          "injur",
+          "fall",
+          "literal",
+          "actual",
+          "confus",
+          "weird",
+          "rude",
+          "=leg",
+          "break"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Ava is a friend. Lily thinks about the words for real."
       },
       {
        "id": "s15-core-05",
@@ -11760,7 +16545,54 @@ window.HUB_CONTENT = {
         "Hurt your leg.",
         "Good luck! Do great."
        ],
-       "bestIdea": 1
+       "bestIdea": 1,
+       "check": {
+        "groups": [
+         [
+          "hurt",
+          "injur",
+          "broke",
+          "broken",
+          "real",
+          "fall",
+          "fell",
+          "crack",
+          "literal",
+          "snap",
+          "=bad",
+          "your leg",
+          "her leg",
+          "legs"
+         ],
+         [
+          "luck",
+          "do great",
+          "do well",
+          "do good",
+          "got this",
+          "awesome",
+          "amazing",
+          "best",
+          "cheer",
+          "support",
+          "encourag",
+          "nail it",
+          "rock it"
+         ],
+         [
+          "rude",
+          "=fail",
+          "joke",
+          "joking",
+          "kidding",
+          "prank",
+          "trick",
+          "tease"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "One meaning is about a real leg. What do friends say before a show?"
       },
       {
        "id": "s15-core-06",
@@ -11784,7 +16616,26 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What can Lily say if she isn’t sure?",
-       "sampleAnswer": "“What does that mean?” Or just, “Thanks!”"
+       "sampleAnswer": "“What does that mean?” Or just, “Thanks!”",
+       "check": {
+        "groups": [
+         [
+          "thank",
+          "thx",
+          "=ty",
+          "ask",
+          "what does",
+          "mean",
+          "what do you",
+          "=huh",
+          "=why",
+          "appreciat",
+          "=you too"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Lily can ask a question. Or she can say something polite."
       },
       {
        "id": "s15-core-07",
@@ -11991,7 +16842,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -12010,7 +16861,37 @@ window.HUB_CONTENT = {
        "question": "What can change what words mean? Name as many as you can.",
        "role": "warmup",
        "heading": "Warm-up",
-       "inShort": false
+       "inShort": false,
+       "check": {
+        "groups": [
+         [
+          "tone",
+          "voice",
+          "sound",
+          "loud",
+          "stress",
+          "emphas",
+          "place",
+          "where",
+          "face",
+          "body",
+          "context",
+          "situat",
+          "person",
+          "sarcas",
+          "joke",
+          "idiom",
+          "look",
+          "expres",
+          "gestur",
+          "setting",
+          "clue"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think of the clues we look for in each lesson.",
+       "sampleAnswer": "Tone of voice, the loud word, the place, the face, and who is talking."
       },
       {
        "id": "s16-core-02",
@@ -12029,7 +16910,22 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Jay and Omar laugh at a phone. Jay tells Kai to come look."
+       "sampleAnswer": "Jay and Omar laugh at a phone. Jay tells Kai to come look.",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "video",
+          "laugh",
+          "watch",
+          "funny",
+          "look",
+          "show"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What are Jay and Omar looking at? What does Jay want?"
       },
       {
        "id": "s16-core-03",
@@ -12048,7 +16944,40 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Find clues: words, voice, face, place.",
-       "sampleAnswer": "“Sick” can mean cool or ill. Jay and Omar laugh. Kai looks unsure."
+       "sampleAnswer": "“Sick” can mean cool or ill. Jay and Omar laugh. Kai looks unsure.",
+       "check": {
+        "groups": [
+         [
+          "sick",
+          "cool",
+          "awesome",
+          "slang",
+          "=ill",
+          "two meaning"
+         ],
+         [
+          "laugh",
+          "smil",
+          "happy",
+          "excit",
+          "unsure",
+          "confus",
+          "=not sure",
+          "loud",
+          "funny",
+          "laf"
+         ],
+         [
+          "after school",
+          "outside",
+          "phone",
+          "video",
+          "hall"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Jay and Omar’s faces. Which word can mean two things?"
       },
       {
        "id": "s16-core-04",
@@ -12067,7 +16996,34 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What does Kai know? What doesn’t he know?",
-       "sampleAnswer": "He knows they are laughing. He doesn’t know what is on the phone."
+       "sampleAnswer": "He knows they are laughing. He doesn’t know what is on the phone.",
+       "check": {
+        "groups": [
+         [
+          "laugh",
+          "funny",
+          "=fun",
+          "happy",
+          "excit",
+          "smil",
+          "laf"
+         ],
+         [
+          "video",
+          "phone",
+          "what is on",
+          "whats on",
+          "what it is",
+          "the screen",
+          "cant see",
+          "didnt see",
+          "hasnt seen",
+          "=not seen"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai can see their faces. Can he see the phone?"
       },
       {
        "id": "s16-core-05",
@@ -12089,7 +17045,50 @@ window.HUB_CONTENT = {
        "sampleIdeas": [
         "Really cool. It’s a funny video.",
         "Gross, in a funny way."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "cool",
+          "awesome",
+          "amazing",
+          "great",
+          "good",
+          "epic",
+          "fire",
+          "=lit",
+          "dope",
+          "crazy",
+          "insane",
+          "funny",
+          "hilar",
+          "=lol",
+          "best",
+          "wild"
+         ],
+         [
+          "gross",
+          "disgust",
+          "nasty",
+          "=ew",
+          "yuck",
+          "weird"
+         ],
+         [
+          "=ill",
+          "throw up",
+          "puke",
+          "vomit",
+          "unhealthy",
+          "virus",
+          "germ",
+          "feel sick",
+          "makes you sick"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "They are laughing. Is it good? Could it be gross?"
       },
       {
        "id": "s16-core-06",
@@ -12108,7 +17107,30 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What could Kai say or do?",
-       "sampleAnswer": "Walk over and look. Or ask, “What is it?”"
+       "sampleAnswer": "Walk over and look. Or ask, “What is it?”",
+       "check": {
+        "groups": [
+         [
+          "walk",
+          "look",
+          "watch",
+          "come",
+          "=go",
+          "over",
+          "ask",
+          "what is it",
+          "=whats",
+          "show me",
+          "see",
+          "join",
+          "sure",
+          "coming",
+          "check"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Jay wants Kai to come. What could Kai do or ask?"
       },
       {
        "id": "s16-core-07",
@@ -12338,7 +17360,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -12388,7 +17410,31 @@ window.HUB_CONTENT = {
          "text": "Um… is it lunch yet?"
         }
        ],
-       "sampleAnswer": "Ava asks about the test. Ben talks about lunch instead."
+       "sampleAnswer": "Ava asks about the test. Ben talks about lunch instead.",
+       "check": {
+        "groups": [
+         [
+          "test",
+          "math",
+          "grade",
+          "score",
+          "quiz"
+         ],
+         [
+          "lunch",
+          "food",
+          "subject",
+          "ignor",
+          "avoid",
+          "dodge",
+          "chang",
+          "instead",
+          "hungry"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Ava ask about? What does Ben talk about?"
       },
       {
        "id": "s17-core-03",
@@ -12411,7 +17457,49 @@ window.HUB_CONTENT = {
          "text": "Um… is it lunch yet?"
         }
        ],
-       "sampleAnswer": "Ben does not say his grade. He changes the subject. He looks down. The paper has a red D."
+       "sampleAnswer": "Ben does not say his grade. He changes the subject. He looks down. The paper has a red D.",
+       "check": {
+        "groups": [
+         [
+          "subject",
+          "chang",
+          "lunch",
+          "avoid",
+          "ignor",
+          "dodge",
+          "didnt answer",
+          "doesnt answer",
+          "=um",
+          "=umm",
+          "=uh",
+          "pause"
+         ],
+         [
+          "down",
+          "=sad",
+          "upset",
+          "frown",
+          "embarrass",
+          "=shy",
+          "nervous",
+          "hide",
+          "quiet",
+          "away"
+         ],
+         [
+          "=red",
+          "=d",
+          "=f",
+          "bad grade",
+          "bad score",
+          "fail",
+          "paper",
+          "=low"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ben’s face and paper. Did he answer Ava?"
       },
       {
        "id": "s17-core-04",
@@ -12434,7 +17522,34 @@ window.HUB_CONTENT = {
          "text": "Um… is it lunch yet?"
         }
        ],
-       "sampleAnswer": "Ben knows his grade. Ava may not see the paper. She may not know it went badly."
+       "sampleAnswer": "Ben knows his grade. Ava may not see the paper. She may not know it went badly.",
+       "check": {
+        "groups": [
+         [
+          "grade",
+          "score",
+          "=d",
+          "=f",
+          "how he did",
+          "=bad",
+          "fail",
+          "result",
+          "badly"
+         ],
+         [
+          "didnt see",
+          "doesnt see",
+          "cant see",
+          "doesnt know",
+          "didnt know",
+          "no idea",
+          "paper",
+          "=clue"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben saw his paper. Did Ava see it?"
       },
       {
        "id": "s17-core-05",
@@ -12462,7 +17577,52 @@ window.HUB_CONTENT = {
         "He doesn’t want to talk about it now.",
         "He is just really hungry."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "=bad",
+          "fail",
+          "=d",
+          "=f",
+          "=low",
+          "poor",
+          "didnt do good",
+          "didnt do well",
+          "not good",
+          "not well",
+          "flunk",
+          "=bomb",
+          "messed up",
+          "=wrong"
+         ],
+         [
+          "talk",
+          "embarrass",
+          "=shy",
+          "private",
+          "avoid",
+          "=hide",
+          "secret",
+          "ashamed",
+          "upset",
+          "=sad",
+          "dont want",
+          "doesnt want",
+          "uncomfort",
+          "nervous"
+         ],
+         [
+          "hungry",
+          "starv",
+          "food",
+          "lunch",
+          "eat"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at his test paper. How might Ben feel about it?"
       },
       {
        "id": "s17-core-06",
@@ -12485,7 +17645,37 @@ window.HUB_CONTENT = {
          "text": "Um… is it lunch yet?"
         }
        ],
-       "sampleAnswer": "“Okay! Want to walk to lunch?” Later: “You okay?”"
+       "sampleAnswer": "“Okay! Want to walk to lunch?” Later: “You okay?”",
+       "check": {
+        "groups": [
+         [
+          "lunch",
+          "walk",
+          "eat",
+          "food",
+          "hungry",
+          "=go"
+         ],
+         [
+          "okay",
+          "alright",
+          "you good",
+          "=ok",
+          "are you",
+          "whats wrong",
+          "what happened",
+          "sorry",
+          "help",
+          "talk",
+          "dont worry",
+          "next time",
+          "study",
+          "ask"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben does not want to talk about the test. What could Ava say?"
       },
       {
        "id": "s17-core-07",
@@ -12687,7 +17877,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -12733,7 +17923,22 @@ window.HUB_CONTENT = {
          "text": "Brr. It’s so cold in here."
         }
        ],
-       "sampleAnswer": "Rosa is cold. The window is open. Ben is standing near her."
+       "sampleAnswer": "Rosa is cold. The window is open. Ben is standing near her.",
+       "check": {
+        "groups": [
+         [
+          "cold",
+          "chill",
+          "freez",
+          "window",
+          "wind",
+          "brr",
+          "shiver"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How does Rosa feel? What is open?"
       },
       {
        "id": "s18-core-03",
@@ -12752,7 +17957,33 @@ window.HUB_CONTENT = {
          "text": "Brr. It’s so cold in here."
         }
        ],
-       "sampleAnswer": "Rosa hugs herself and shivers. Wind blows in. She says it is cold."
+       "sampleAnswer": "Rosa hugs herself and shivers. Wind blows in. She says it is cold.",
+       "check": {
+        "groups": [
+         [
+          "hug",
+          "shiver",
+          "shak",
+          "arms",
+          "cross",
+          "rub",
+          "tremb",
+          "freez",
+          "goosebump",
+          "brr",
+          "cold"
+         ],
+         [
+          "window",
+          "wind",
+          "breez",
+          "open",
+          "air"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Rosa’s arms. Look at the window."
       },
       {
        "id": "s18-core-04",
@@ -12771,7 +18002,36 @@ window.HUB_CONTENT = {
          "text": "Brr. It’s so cold in here."
         }
        ],
-       "sampleAnswer": "She may want the window closed. Ben may think she is just talking."
+       "sampleAnswer": "She may want the window closed. Ben may think she is just talking.",
+       "check": {
+        "groups": [
+         [
+          "close",
+          "shut",
+          "window",
+          "warm",
+          "jacket",
+          "heat",
+          "sweater"
+         ],
+         [
+          "just talk",
+          "just saying",
+          "doesnt know",
+          "didnt know",
+          "doesnt get",
+          "didnt get",
+          "no idea",
+          "missed",
+          "doesnt understand",
+          "=not really",
+          "maybe not",
+          "=probably not"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the open window. What might Rosa want?"
       },
       {
        "id": "s18-core-05",
@@ -12795,7 +18055,45 @@ window.HUB_CONTENT = {
         "I am just saying I’m cold.",
         "I wish I had my jacket."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "close",
+          "shut",
+          "window"
+         ],
+         [
+          "just saying",
+          "just cold",
+          "shes cold",
+          "she is cold",
+          "im cold",
+          "telling",
+          "complain",
+          "freez",
+          "=chill",
+          "feels cold"
+         ],
+         [
+          "jacket",
+          "coat",
+          "sweater",
+          "hoodie",
+          "warm",
+          "heat",
+          "blanket"
+         ],
+         [
+          "=you cold",
+          "are you cold",
+          "=too",
+          "also"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at the window. Is Rosa only talking, or asking for help?"
       },
       {
        "id": "s18-core-06",
@@ -12814,7 +18112,29 @@ window.HUB_CONTENT = {
          "text": "Brr. It’s so cold in here."
         }
        ],
-       "sampleAnswer": "“Want me to close the window?” Then close it."
+       "sampleAnswer": "“Want me to close the window?” Then close it.",
+       "check": {
+        "groups": [
+         [
+          "close",
+          "shut",
+          "window",
+          "jacket",
+          "sweater",
+          "coat",
+          "hoodie",
+          "warm",
+          "heat",
+          "=want me",
+          "should i",
+          "are you cold",
+          "ask",
+          "teacher"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben is standing up. What could he do about the window?"
       },
       {
        "id": "s18-core-07",
@@ -13032,7 +18352,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -13078,7 +18398,26 @@ window.HUB_CONTENT = {
          "text": "Hey… I got a new ball."
         }
        ],
-       "sampleAnswer": "School is out. Jay and Kai walk away. Omar has a ball."
+       "sampleAnswer": "School is out. Jay and Kai walk away. Omar has a ball.",
+       "check": {
+        "groups": [
+         [
+          "ball",
+          "basketball",
+          "leav",
+          "walk",
+          "away",
+          "school is out",
+          "after school",
+          "home",
+          "=go",
+          "going",
+          "show"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where are Jay and Kai going? What does Omar have?"
       },
       {
        "id": "s19-core-03",
@@ -13097,7 +18436,32 @@ window.HUB_CONTENT = {
          "text": "Hey… I got a new ball."
         }
        ],
-       "sampleAnswer": "Omar holds the ball. He looks at Jay and Kai. He tells them about his new ball."
+       "sampleAnswer": "Omar holds the ball. He looks at Jay and Kai. He tells them about his new ball.",
+       "check": {
+        "groups": [
+         [
+          "ball",
+          "hold",
+          "look",
+          "watch",
+          "stare",
+          "tell",
+          "=hey",
+          "=new",
+          "walk away",
+          "leav",
+          "back",
+          "turn",
+          "=sad",
+          "hope",
+          "quiet",
+          "soft",
+          "pause"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What is Omar holding? Where is he looking?"
       },
       {
        "id": "s19-core-04",
@@ -13116,7 +18480,41 @@ window.HUB_CONTENT = {
          "text": "Hey… I got a new ball."
         }
        ],
-       "sampleAnswer": "Omar may want to play with them. Their backs are turned. They may not know or hear."
+       "sampleAnswer": "Omar may want to play with them. Their backs are turned. They may not know or hear.",
+       "check": {
+        "groups": [
+         [
+          "play",
+          "hoop",
+          "shoot",
+          "game",
+          "basketball",
+          "ball",
+          "hang",
+          "stay",
+          "join",
+          "come"
+         ],
+         [
+          "back",
+          "turn",
+          "didnt hear",
+          "cant hear",
+          "not hear",
+          "dont hear",
+          "doesnt hear",
+          "didnt see",
+          "cant see",
+          "didnt know",
+          "doesnt know",
+          "no idea",
+          "walking away",
+          "leaving"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the ball. Can Jay and Kai see Omar?"
       },
       {
        "id": "s19-core-05",
@@ -13140,7 +18538,44 @@ window.HUB_CONTENT = {
         "To show off his new ball",
         "For them to stay and hang out"
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "play",
+          "hoop",
+          "shoot",
+          "game",
+          "catch",
+          "pass",
+          "dribbl"
+         ],
+         [
+          "show",
+          "look at",
+          "brag",
+          "=see it",
+          "cool",
+          "proud",
+          "notice"
+         ],
+         [
+          "hang",
+          "stay",
+          "friend",
+          "together",
+          "join",
+          "=come",
+          "=wait",
+          "chill",
+          "lonely",
+          "alone",
+          "=with them"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "He has a new ball. They are leaving. What might he want?"
       },
       {
        "id": "s19-core-06",
@@ -13159,7 +18594,31 @@ window.HUB_CONTENT = {
          "text": "Hey… I got a new ball."
         }
        ],
-       "sampleAnswer": "Omar: “Want to play?” Jay or Kai: “Do you want to play?”"
+       "sampleAnswer": "Omar: “Want to play?” Jay or Kai: “Do you want to play?”",
+       "check": {
+        "groups": [
+         [
+          "play",
+          "hoop",
+          "shoot",
+          "game",
+          "join",
+          "hang",
+          "stay",
+          "=wait",
+          "come",
+          "try",
+          "=1v1",
+          "wanna",
+          "want to",
+          "nice ball",
+          "check it out",
+          "see it"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Omar can ask with clear words. What could he ask them?"
       },
       {
        "id": "s19-core-07",
@@ -13356,7 +18815,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -13403,7 +18862,24 @@ window.HUB_CONTENT = {
          "text": "Did Omar bump me on purpose?"
         }
        ],
-       "sampleAnswer": "Kai’s milk spilled near Omar’s table. Omar is on his phone."
+       "sampleAnswer": "Kai’s milk spilled near Omar’s table. Omar is on his phone.",
+       "check": {
+        "groups": [
+         [
+          "milk",
+          "spill",
+          "drop",
+          "fell",
+          "fall",
+          "bump",
+          "mess",
+          "knock",
+          "phone"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What happened to Kai’s milk? What is Omar doing?"
       },
       {
        "id": "s20-core-03",
@@ -13423,7 +18899,37 @@ window.HUB_CONTENT = {
          "text": "Did Omar bump me on purpose?"
         }
        ],
-       "sampleAnswer": "Omar looks at his phone, not at Kai. He smiles at the phone. He did not say anything mean."
+       "sampleAnswer": "Omar looks at his phone, not at Kai. He smiles at the phone. He did not say anything mean.",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "screen",
+          "=cell"
+         ],
+         [
+          "smil",
+          "happy",
+          "laugh",
+          "grin"
+         ],
+         [
+          "didnt say",
+          "not look",
+          "didnt look",
+          "wasnt look",
+          "not mean",
+          "didnt notice",
+          "=busy",
+          "distract",
+          "nothing mean",
+          "no words",
+          "quiet"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Where is Omar looking? What is his face doing?"
       },
       {
        "id": "s20-core-04",
@@ -13443,7 +18949,38 @@ window.HUB_CONTENT = {
          "text": "Did Omar bump me on purpose?"
         }
        ],
-       "sampleAnswer": "Kai knows his milk spilled. Omar may not even know it happened."
+       "sampleAnswer": "Kai knows his milk spilled. Omar may not even know it happened.",
+       "check": {
+        "groups": [
+         [
+          "spill",
+          "milk",
+          "drop",
+          "fell",
+          "bump",
+          "mess"
+         ],
+         [
+          "didnt know",
+          "doesnt know",
+          "didnt see",
+          "doesnt see",
+          "didnt notice",
+          "doesnt notice",
+          "didnt feel",
+          "no idea",
+          "not notice",
+          "not see",
+          "unaware",
+          "phone",
+          "=busy",
+          "missed",
+          "=clue"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Omar is looking at his phone. Did he see the milk?"
       },
       {
        "id": "s20-core-05",
@@ -13468,7 +19005,49 @@ window.HUB_CONTENT = {
         "Omar did not touch it at all.",
         "Omar did it on purpose."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "accident",
+          "mistake",
+          "=oops",
+          "didnt mean",
+          "not on purpose",
+          "by chance",
+          "slip",
+          "clumsy"
+         ],
+         [
+          "didnt touch",
+          "not touch",
+          "kai did",
+          "himself",
+          "tripped",
+          "=trip",
+          "on its own",
+          "wasnt omar",
+          "no one",
+          "nobody",
+          "someone else",
+          "kai bump",
+          "kai drop",
+          "kai knock"
+         ],
+         [
+          "on purpose",
+          "purpose",
+          "=meant to",
+          "prank",
+          "joke",
+          "trick",
+          "bully",
+          "wanted"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Was Omar looking? Could it be an accident or something else?"
       },
       {
        "id": "s20-core-06",
@@ -13488,7 +19067,36 @@ window.HUB_CONTENT = {
          "text": "Did Omar bump me on purpose?"
         }
        ],
-       "sampleAnswer": "Clean it up. Or ask calmly, “Hey, did you bump me?”"
+       "sampleAnswer": "Clean it up. Or ask calmly, “Hey, did you bump me?”",
+       "check": {
+        "groups": [
+         [
+          "clean",
+          "wipe",
+          "napkin",
+          "paper towel",
+          "=mop",
+          "pick",
+          "ask",
+          "=did you",
+          "calm",
+          "=its ok",
+          "okay",
+          "all good",
+          "=oops",
+          "teacher",
+          "new milk",
+          "another milk",
+          "get more",
+          "sorry",
+          "let it go",
+          "ignor",
+          "forget"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "The milk is on the floor. Kai can stay calm. What next?"
       },
       {
        "id": "s20-core-07",
@@ -13676,7 +19284,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -13722,7 +19330,41 @@ window.HUB_CONTENT = {
          "text": "Rosa! Wait!"
         }
        ],
-       "sampleAnswer": "Rosa is getting off the bus. A phone is on the floor. Ben points at it."
+       "sampleAnswer": "Rosa is getting off the bus. A phone is on the floor. Ben points at it.",
+       "check": {
+        "groups": [
+         [
+          "bus"
+         ],
+         [
+          "leav",
+          "get off",
+          "getting off",
+          "gets off",
+          "got off",
+          "exit",
+          "stand",
+          "get up",
+          "gets up"
+         ],
+         [
+          "phone",
+          "cell"
+         ],
+         [
+          "floor",
+          "drop",
+          "fell",
+          "forgot",
+          "left",
+          "yell",
+          "call",
+          "point"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Where are they? What is Rosa doing? What is on the floor?"
       },
       {
        "id": "s21-core-03",
@@ -13741,7 +19383,43 @@ window.HUB_CONTENT = {
          "text": "Rosa! Wait!"
         }
        ],
-       "sampleAnswer": "Rosa’s back is turned. The phone is by her seat. Ben looks worried."
+       "sampleAnswer": "Rosa’s back is turned. The phone is by her seat. Ben looks worried.",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "cell"
+         ],
+         [
+          "seat",
+          "floor",
+          "ground",
+          "by her"
+         ],
+         [
+          "back",
+          "turn",
+          "walk away",
+          "leav",
+          "not look",
+          "doesnt see",
+          "didnt see",
+          "does not see"
+         ],
+         [
+          "worri",
+          "yell",
+          "shout",
+          "call",
+          "wait",
+          "scared",
+          "nervous",
+          "point"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at the floor by the seat. Look at Ben's face."
       },
       {
        "id": "s21-core-04",
@@ -13760,7 +19438,50 @@ window.HUB_CONTENT = {
          "text": "Rosa! Wait!"
         }
        ],
-       "sampleAnswer": "Rosa thinks she has her phone. She does not know it fell. Ben saw it."
+       "sampleAnswer": "Rosa thinks she has her phone. She does not know it fell. Ben saw it.",
+       "check": {
+        "groups": [
+         [
+          "dont know",
+          "doesnt know",
+          "didnt know",
+          "does not know",
+          "did not know",
+          "dont realize",
+          "doesnt realize",
+          "forgot",
+          "no idea",
+          "didnt see",
+          "doesnt see",
+          "did not see",
+          "not see",
+          "thinks she has",
+          "think she has",
+          "didnt notice",
+          "doesnt notice",
+          "has no clue"
+         ],
+         [
+          "saw",
+          "sees",
+          "seen",
+          "notic",
+          "knows it",
+          "knows the phone",
+          "knows her phone",
+          "knew"
+         ],
+         [
+          "phone",
+          "cell",
+          "fell",
+          "drop",
+          "floor"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about the phone. Who saw it fall?"
       },
       {
        "id": "s21-core-05",
@@ -13783,7 +19504,39 @@ window.HUB_CONTENT = {
         "It is Rosa’s phone.",
         "It is someone else’s phone."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "rosa",
+          "her phone",
+          "hers"
+         ],
+         [
+          "someone",
+          "somebody",
+          "other",
+          "else",
+          "another",
+          "kid",
+          "student",
+          "person",
+          "driver",
+          "stranger",
+          "friend"
+         ],
+         [
+          "ben"
+         ],
+         [
+          "lost",
+          "nobody",
+          "no one"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at where the phone is. Who sat there? Who else rides the bus?"
       },
       {
        "id": "s21-core-06",
@@ -13802,7 +19555,37 @@ window.HUB_CONTENT = {
          "text": "Rosa! Wait!"
         }
        ],
-       "sampleAnswer": "“Rosa, is this your phone? It was on the floor.”"
+       "sampleAnswer": "“Rosa, is this your phone? It was on the floor.”",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "cell",
+          "is this your"
+         ],
+         [
+          "your",
+          "yours",
+          "drop",
+          "forgot",
+          "left",
+          "fell",
+          "floor",
+          "lost",
+          "here"
+         ],
+         [
+          "ask",
+          "give",
+          "hand",
+          "pick up",
+          "grab",
+          "take"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What did Rosa leave behind? What could Ben tell her?"
       },
       {
        "id": "s21-core-07",
@@ -13983,7 +19766,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -14035,7 +19818,42 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ava sends an excited text. Zoe texts back “k.”",
        "image": "assets/img/scene-lesson-22.webp",
-       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch",
+       "check": {
+        "groups": [
+         [
+          "text",
+          "messag",
+          "phone",
+          "chat"
+         ],
+         [
+          "art",
+          "project",
+          "finish",
+          "drawing",
+          "paint",
+          "picture",
+          "show"
+         ],
+         [
+          "=k",
+          "short",
+          "one letter",
+          "okay",
+          "=ok",
+          "dont care",
+          "doesnt care",
+          "reply",
+          "answer",
+          "back",
+          "respond",
+          "wrote"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at the two texts. What did Ava say? What did Zoe send?"
       },
       {
        "id": "s22-core-03",
@@ -14060,7 +19878,47 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Zoe sends one letter. There is no face. There is no voice.",
        "image": "assets/img/scene-lesson-22.webp",
-       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch",
+       "check": {
+        "groups": [
+         [
+          "=k",
+          "one letter",
+          "short",
+          "letter",
+          "small",
+          "tiny",
+          "quick",
+          "little",
+          "one word"
+         ],
+         [
+          "face",
+          "expression",
+          "see her",
+          "look"
+         ],
+         [
+          "voice",
+          "tone",
+          "sound",
+          "hear"
+         ],
+         [
+          "emoji",
+          "smil"
+         ],
+         [
+          "excit",
+          "=3 hours",
+          "three hours",
+          "long",
+          "exclam"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at how long Zoe's text is. What can't Ava see or hear?"
       },
       {
        "id": "s22-core-04",
@@ -14085,7 +19943,52 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ava sees “k.” She can’t see Zoe’s face. She doesn’t know if Zoe is busy.",
        "image": "assets/img/scene-lesson-22.webp",
-       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch",
+       "check": {
+        "groups": [
+         [
+          "=k",
+          "the text",
+          "the message",
+          "reply",
+          "answer",
+          "texted back"
+         ],
+         [
+          "cant see",
+          "can not see",
+          "cannot see",
+          "doesnt see",
+          "face",
+          "voice",
+          "tone",
+          "cant hear"
+         ],
+         [
+          "busy",
+          "feel",
+          "mood",
+          "care",
+          "like",
+          "mean",
+          "mad",
+          "happy",
+          "why",
+          "interest"
+         ],
+         [
+          "dont know",
+          "doesnt know",
+          "didnt know",
+          "not know",
+          "no idea",
+          "unsure",
+          "not sure"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Ava can read the text. What can't she see? What is she not sure about?"
       },
       {
        "id": "s22-core-05",
@@ -14114,7 +20017,62 @@ window.HUB_CONTENT = {
         "I don’t really care."
        ],
        "image": "assets/img/scene-lesson-22.webp",
-       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch",
+       "check": {
+        "groups": [
+         [
+          "okay",
+          "=ok",
+          "sure",
+          "yes",
+          "fine",
+          "yeah",
+          "alright",
+          "cool",
+          "will look",
+          "send it"
+         ],
+         [
+          "busy",
+          "doing something",
+          "homework",
+          "driving",
+          "class",
+          "hurry",
+          "rush",
+          "no time",
+          "later"
+         ],
+         [
+          "dont care",
+          "doesnt care",
+          "not care",
+          "bored",
+          "not interest",
+          "uninterest",
+          "whatever",
+          "rude"
+         ],
+         [
+          "mad",
+          "upset",
+          "angry",
+          "annoy",
+          "sad"
+         ],
+         [
+          "dont like",
+          "doesnt like",
+          "jealous"
+         ],
+         [
+          "tired",
+          "sleep"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think of two ways Zoe could feel. Is she happy? Busy? Something else?"
       },
       {
        "id": "s22-core-06",
@@ -14139,7 +20097,45 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“Is now a bad time? 🙂” Or wait and ask in person.",
        "image": "assets/img/scene-lesson-22.webp",
-       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch"
+       "imageAlt": "Split picture: Ava smiles at her phone next to her art project; Zoe looks at her phone on a couch",
+       "check": {
+        "groups": [
+         [
+          "bad time",
+          "busy",
+          "later",
+          "you okay",
+          "you ok",
+          "you good",
+          "everything",
+          "all good",
+          "alright",
+          "are you mad"
+         ],
+         [
+          "wait",
+          "in person",
+          "at school",
+          "tomorrow",
+          "call",
+          "face to face",
+          "talk"
+         ],
+         [
+          "ask",
+          "question"
+         ],
+         [
+          "pictur",
+          "photo",
+          "send",
+          "here it is",
+          "look at it"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ava can't see Zoe's face. What could she ask Zoe?"
       },
       {
        "id": "s22-core-07",
@@ -14356,7 +20352,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -14406,7 +20402,40 @@ window.HUB_CONTENT = {
          "text": "Nothing."
         }
        ],
-       "sampleAnswer": "Ben says hi. Omar says “Nothing” and looks away."
+       "sampleAnswer": "Ben says hi. Omar says “Nothing” and looks away.",
+       "check": {
+        "groups": [
+         [
+          "hall",
+          "school"
+         ],
+         [
+          "=hi",
+          "=hey",
+          "hello",
+          "greet",
+          "whats up",
+          "talk"
+         ],
+         [
+          "nothing",
+          "away",
+          "ignor",
+          "upset",
+          "sad",
+          "mad",
+          "grump",
+          "quiet",
+          "short",
+          "wont talk",
+          "doesnt talk",
+          "doesnt want",
+          "rude"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What does Ben say? How does Omar answer him?"
       },
       {
        "id": "s23-core-03",
@@ -14429,7 +20458,47 @@ window.HUB_CONTENT = {
          "text": "Nothing."
         }
        ],
-       "sampleAnswer": "Omar crosses his arms. He frowns. He looks away. His team lost this morning."
+       "sampleAnswer": "Omar crosses his arms. He frowns. He looks away. His team lost this morning.",
+       "check": {
+        "groups": [
+         [
+          "arm",
+          "cross"
+         ],
+         [
+          "frown",
+          "sad face",
+          "mad face",
+          "upset",
+          "angry",
+          "grump",
+          "sad",
+          "mad"
+         ],
+         [
+          "away",
+          "look down",
+          "wont look",
+          "no eye",
+          "doesnt look"
+         ],
+         [
+          "lost",
+          "lose",
+          "game",
+          "team"
+         ],
+         [
+          "nothing",
+          "short",
+          "quiet",
+          "one word",
+          "mumbl"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at Omar's arms and face. What happened this morning?"
       },
       {
        "id": "s23-core-04",
@@ -14452,7 +20521,47 @@ window.HUB_CONTENT = {
          "text": "Nothing."
         }
        ],
-       "sampleAnswer": "Ben knows Omar looks upset. He may not know about the game."
+       "sampleAnswer": "Ben knows Omar looks upset. He may not know about the game.",
+       "check": {
+        "groups": [
+         [
+          "upset",
+          "sad",
+          "mad",
+          "grump",
+          "=off",
+          "wrong",
+          "not okay",
+          "bad mood",
+          "quiet",
+          "nothing",
+          "unhappy",
+          "down",
+          "angry"
+         ],
+         [
+          "game",
+          "team",
+          "lost",
+          "lose",
+          "match"
+         ],
+         [
+          "dont know",
+          "doesnt know",
+          "didnt know",
+          "not know",
+          "wasnt there",
+          "was not there",
+          "missed",
+          "no idea",
+          "didnt see",
+          "didnt go"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Ben can see Omar's face. Was Ben at the game?"
       },
       {
        "id": "s23-core-05",
@@ -14480,7 +20589,59 @@ window.HUB_CONTENT = {
         "He is mad at Ben.",
         "He is tired."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "game",
+          "team",
+          "lost",
+          "lose"
+         ],
+         [
+          "mad at ben",
+          "angry at ben",
+          "mad at him",
+          "upset with ben",
+          "upset at ben",
+          "doesnt like ben",
+          "annoyed at ben",
+          "annoyed with ben",
+          "ben did"
+         ],
+         [
+          "tired",
+          "sleep"
+         ],
+         [
+          "bad day",
+          "rough day",
+          "bad morning",
+          "rough"
+         ],
+         [
+          "sick",
+          "hurt",
+          "not feel"
+         ],
+         [
+          "sad",
+          "bummed",
+          "unhappy",
+          "cry",
+          "disappoint"
+         ],
+         [
+          "grade",
+          "test",
+          "home",
+          "family",
+          "trouble"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What happened this morning? What else could make Omar act this way?"
       },
       {
        "id": "s23-core-06",
@@ -14503,7 +20664,45 @@ window.HUB_CONTENT = {
          "text": "Nothing."
         }
        ],
-       "sampleAnswer": "“Rough morning? I’m here if you want to talk.” If Omar says no, Ben can let it go."
+       "sampleAnswer": "“Rough morning? I’m here if you want to talk.” If Omar says no, Ben can let it go.",
+       "check": {
+        "groups": [
+         [
+          "you okay",
+          "you ok",
+          "you good",
+          "you alright",
+          "rough",
+          "bad day",
+          "whats wrong",
+          "what happened",
+          "sorry",
+          "game",
+          "here for you",
+          "im here",
+          "want to talk",
+          "wanna talk",
+          "talk about"
+         ],
+         [
+          "let it go",
+          "leave him",
+          "give him space",
+          "space",
+          "alone",
+          "drop it",
+          "its okay",
+          "thats okay",
+          "its fine",
+          "ask again",
+          "move on",
+          "walk away",
+          "later"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Ben check on Omar? What can he do if Omar says no?"
       },
       {
        "id": "s23-core-07",
@@ -14685,7 +20884,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -14704,7 +20903,43 @@ window.HUB_CONTENT = {
        "inShort": false,
        "heading": "Warm-up",
        "kind": "open",
-       "question": "What does “reading between the lines” mean? Say it in your own words."
+       "question": "What does “reading between the lines” mean? Say it in your own words.",
+       "check": {
+        "groups": [
+         [
+          "not say",
+          "dont say",
+          "didnt say",
+          "doesnt say",
+          "dont tell",
+          "not said",
+          "unsaid",
+          "hidden",
+          "hide",
+          "secret",
+          "real",
+          "true",
+          "clue",
+          "guess",
+          "figure out",
+          "inside",
+          "body",
+          "face",
+          "tone"
+         ],
+         [
+          "mean",
+          "feel",
+          "think",
+          "want",
+          "idea",
+          "message"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about what people mean but do not say out loud.",
+       "sampleAnswer": "It means you figure out what someone really means, even if they don't say it."
       },
       {
        "id": "s24-core-02",
@@ -14728,7 +20963,34 @@ window.HUB_CONTENT = {
          "text": "Are they laughing at me?"
         }
        ],
-       "sampleAnswer": "Jay and Omar laugh at Jay’s phone. Kai stands near them."
+       "sampleAnswer": "Jay and Omar laugh at Jay’s phone. Kai stands near them.",
+       "check": {
+        "groups": [
+         [
+          "laugh",
+          "funny",
+          "giggl",
+          "=lol"
+         ],
+         [
+          "video",
+          "phone",
+          "watch"
+         ],
+         [
+          "kai",
+          "apart",
+          "alone",
+          "away",
+          "left out",
+          "by himself",
+          "stand",
+          "side"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What are Jay and Omar looking at? Where is Kai?"
       },
       {
        "id": "s24-core-03",
@@ -14752,7 +21014,48 @@ window.HUB_CONTENT = {
          "text": "Are they laughing at me?"
         }
        ],
-       "sampleAnswer": "They look at the phone, not at Kai. Jay says, “Look at this one.” Kai looks unsure."
+       "sampleAnswer": "They look at the phone, not at Kai. Jay says, “Look at this one.” Kai looks unsure.",
+       "check": {
+        "groups": [
+         [
+          "phone",
+          "screen",
+          "video"
+         ],
+         [
+          "not at kai",
+          "not looking at kai",
+          "dont look at",
+          "arent looking at",
+          "not looking at him",
+          "not at him"
+         ],
+         [
+          "look at this",
+          "this one"
+         ],
+         [
+          "unsure",
+          "confus",
+          "worri",
+          "nervous",
+          "sad",
+          "left out",
+          "alone",
+          "apart",
+          "away",
+          "by himself",
+          "not sure"
+         ],
+         [
+          "laugh",
+          "smil",
+          "funny"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Where are Jay and Omar looking? How does Kai look?"
       },
       {
        "id": "s24-core-04",
@@ -14776,7 +21079,46 @@ window.HUB_CONTENT = {
          "text": "Are they laughing at me?"
         }
        ],
-       "sampleAnswer": "Kai can’t see the phone. Jay and Omar may not know Kai feels left out."
+       "sampleAnswer": "Kai can’t see the phone. Jay and Omar may not know Kai feels left out.",
+       "check": {
+        "groups": [
+         [
+          "cant see",
+          "cannot see",
+          "can not see",
+          "doesnt see",
+          "didnt see",
+          "not see",
+          "no idea",
+          "dont know",
+          "doesnt know",
+          "not sure",
+          "unsure"
+         ],
+         [
+          "phone",
+          "video",
+          "screen",
+          "funny",
+          "joke",
+          "why",
+          "what they"
+         ],
+         [
+          "left out",
+          "sad",
+          "upset",
+          "alone",
+          "feel bad",
+          "hurt",
+          "worried",
+          "feels",
+          "apart"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Can Kai see the phone? Do the boys know how Kai feels?"
       },
       {
        "id": "s24-core-05",
@@ -14805,7 +21147,45 @@ window.HUB_CONTENT = {
         "They are laughing at Kai.",
         "Kai wants to join in."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "video",
+          "phone",
+          "funny thing",
+          "joke",
+          "meme",
+          "something funny",
+          "something else",
+          "screen"
+         ],
+         [
+          "at kai",
+          "at him",
+          "about kai",
+          "about him",
+          "making fun",
+          "make fun"
+         ],
+         [
+          "join",
+          "see it",
+          "see the",
+          "watch",
+          "hang out",
+          "be friends",
+          "included",
+          "include",
+          "fit in",
+          "be part",
+          "with them",
+          "laugh too"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at what Jay says. What is on the phone? What does Kai want?"
       },
       {
        "id": "s24-core-06",
@@ -14829,7 +21209,41 @@ window.HUB_CONTENT = {
          "text": "Are they laughing at me?"
         }
        ],
-       "sampleAnswer": "“What are you watching? Can I see?”"
+       "sampleAnswer": "“What are you watching? Can I see?”",
+       "check": {
+        "groups": [
+         [
+          "what are you watch",
+          "whats so funny",
+          "what is so funny",
+          "whats funny",
+          "what is funny",
+          "what are you laugh",
+          "whats on",
+          "what you watch",
+          "what video",
+          "what is that"
+         ],
+         [
+          "can i see",
+          "let me see",
+          "show me",
+          "can i watch",
+          "join",
+          "look too",
+          "see it"
+         ],
+         [
+          "ask"
+         ],
+         [
+          "laughing at me",
+          "you laughing"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai can't see the phone. What could he ask?"
       },
       {
        "id": "s24-core-07",
@@ -15080,7 +21494,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -15100,7 +21514,11 @@ window.HUB_CONTENT = {
        "inShort": false,
        "kind": "open",
        "question": "A friend tells a story. You think, “Me too!” Tell about a time.",
-       "sampleAnswer": "My friend said he got a new game. I have that game too."
+       "sampleAnswer": "My friend said he got a new game. I have that game too.",
+       "check": {
+        "open": true
+       },
+       "hint": "Think of a time a friend's story was like yours."
       },
       {
        "id": "s25-core-02",
@@ -15123,7 +21541,36 @@ window.HUB_CONTENT = {
          "text": "Fun! I went fishing once. I caught a tiny fish. Did you catch any?"
         }
        ],
-       "sampleAnswer": "Jay tells Ava about fishing. Ava shares a short story too."
+       "sampleAnswer": "Jay tells Ava about fishing. Ava shares a short story too.",
+       "check": {
+        "groups": [
+         [
+          "fish",
+          "catch",
+          "caught"
+         ],
+         [
+          "lake",
+          "weekend",
+          "trip"
+         ],
+         [
+          "lunch",
+          "eat"
+         ],
+         [
+          "talk",
+          "tell",
+          "share",
+          "story",
+          "ask",
+          "chat",
+          "conversation"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What is Jay telling about? What does Ava do?"
       },
       {
        "id": "s25-core-03",
@@ -15146,7 +21593,39 @@ window.HUB_CONTENT = {
          "text": "Fun! I went fishing once. I caught a tiny fish. Did you catch any?"
         }
        ],
-       "sampleAnswer": "They both smile. Ava stays on fishing. She asks Jay a question."
+       "sampleAnswer": "They both smile. Ava stays on fishing. She asks Jay a question.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "happy",
+          "laugh"
+         ],
+         [
+          "ask",
+          "question",
+          "did you catch"
+         ],
+         [
+          "topic",
+          "same thing",
+          "stays on",
+          "listen"
+         ],
+         [
+          "fun",
+          "excit",
+          "interest"
+         ],
+         [
+          "share",
+          "story",
+          "both"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at their faces. What does Ava ask?"
       },
       {
        "id": "s25-core-04",
@@ -15169,7 +21648,27 @@ window.HUB_CONTENT = {
          "text": "Fun! I went fishing once. I caught a tiny fish. Did you catch any?"
         }
        ],
-       "sampleAnswer": "She knows Jay went fishing. She doesn’t know if he caught a fish."
+       "sampleAnswer": "She knows Jay went fishing. She doesn’t know if he caught a fish.",
+       "check": {
+        "groups": [
+         [
+          "caught",
+          "catch",
+          "if he got",
+          "got any",
+          "how many",
+          "how big"
+         ],
+         [
+          "went fish",
+          "fishing",
+          "lake",
+          "weekend"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ava's question. What does she want to find out?"
       },
       {
        "id": "s25-core-05",
@@ -15196,7 +21695,57 @@ window.HUB_CONTENT = {
         "To show she gets it.",
         "To show she likes fishing too.",
         "To keep the talk going."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "gets it",
+          "get it",
+          "understand",
+          "relate",
+          "same",
+          "=too",
+          "also",
+          "similar",
+          "me too",
+          "connect",
+          "in common"
+         ],
+         [
+          "like fish",
+          "likes fish",
+          "love fish",
+          "loves fish",
+          "enjoy",
+          "fun"
+         ],
+         [
+          "keep talk",
+          "keep the talk",
+          "keep the conversation",
+          "keep it going",
+          "keep talking",
+          "talk more",
+          "keep going",
+          "continue"
+         ],
+         [
+          "friend",
+          "nice",
+          "kind",
+          "care",
+          "interest",
+          "listen"
+         ],
+         [
+          "hear more",
+          "learn more",
+          "know more"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "How does sharing a story help a friend? Think of two reasons."
       },
       {
        "id": "s25-core-06",
@@ -15219,7 +21768,20 @@ window.HUB_CONTENT = {
          "text": "Fun! I went fishing once. I caught a tiny fish. Did you catch any?"
         }
        ],
-       "sampleAnswer": "She asks, “Did you catch any?”"
+       "sampleAnswer": "She asks, “Did you catch any?”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "question",
+          "did you catch",
+          "did you get",
+          "any fish"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Read the end of what Ava says."
       },
       {
        "id": "s25-core-07",
@@ -15419,7 +21981,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -15471,7 +22033,45 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Their team won. Kai and Lily cheer. Jay sits on the bench."
+       "sampleAnswer": "Their team won. Kai and Lily cheer. Jay sits on the bench.",
+       "check": {
+        "groups": [
+         [
+          "won",
+          "win",
+          "victor"
+         ],
+         [
+          "bench",
+          "didnt play",
+          "did not play",
+          "barely",
+          "sit",
+          "sat",
+          "not play",
+          "didnt get to play"
+         ],
+         [
+          "cheer",
+          "happy",
+          "excit",
+          "best game",
+          "celebrat"
+         ],
+         [
+          "sad",
+          "upset",
+          "mad",
+          "left out"
+         ],
+         [
+          "gym",
+          "=pe"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Who won? Where did Jay sit most of the game?"
       },
       {
        "id": "s26-core-03",
@@ -15495,7 +22095,43 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Kai has his arms up. Lily claps. Jay is slumped and looks down."
+       "sampleAnswer": "Kai has his arms up. Lily claps. Jay is slumped and looks down.",
+       "check": {
+        "groups": [
+         [
+          "arm",
+          "hands up",
+          "jump",
+          "cheer",
+          "clap",
+          "yell",
+          "excit",
+          "happy",
+          "smil"
+         ],
+         [
+          "slump",
+          "look down",
+          "head down",
+          "sad",
+          "frown",
+          "upset",
+          "hunch",
+          "quiet",
+          "alone"
+         ],
+         [
+          "best game",
+          "barely",
+          "bench",
+          "didnt play",
+          "did not play",
+          "not play"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at Kai's arms. Look at Jay's body and face."
       },
       {
        "id": "s26-core-04",
@@ -15519,7 +22155,43 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Kai knows they won. He may not know Jay feels left out."
+       "sampleAnswer": "Kai knows they won. He may not know Jay feels left out.",
+       "check": {
+        "groups": [
+         [
+          "won",
+          "win"
+         ],
+         [
+          "left out",
+          "sad",
+          "upset",
+          "bad",
+          "mad",
+          "disappoint",
+          "didnt play",
+          "did not play",
+          "barely",
+          "bench",
+          "unhappy"
+         ],
+         [
+          "dont know",
+          "doesnt know",
+          "didnt know",
+          "not know",
+          "no idea",
+          "didnt notice",
+          "doesnt notice",
+          "not notice",
+          "didnt see",
+          "doesnt see",
+          "forgot"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Kai is happy they won. Does he see how Jay feels?"
       },
       {
        "id": "s26-core-05",
@@ -15547,7 +22219,57 @@ window.HUB_CONTENT = {
         "Kai played a lot. Jay did not.",
         "Jay wanted to help the team.",
         "Jay may feel left out, even with a win."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "kai play",
+          "played a lot",
+          "played more",
+          "got to play",
+          "play a lot",
+          "kai did",
+          "more time"
+         ],
+         [
+          "jay didnt",
+          "jay did not",
+          "didnt play",
+          "did not play",
+          "not play",
+          "barely",
+          "bench",
+          "sat",
+          "sit"
+         ],
+         [
+          "help",
+          "wanted to play",
+          "want to play",
+          "wants to play",
+          "part",
+          "contribut"
+         ],
+         [
+          "left out",
+          "sad",
+          "upset",
+          "useless",
+          "alone",
+          "forgot",
+          "ignor"
+         ],
+         [
+          "won",
+          "win",
+          "happy",
+          "excit",
+          "fun"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Who got to play? Who sat? How did each one feel?"
       },
       {
        "id": "s26-core-06",
@@ -15571,7 +22293,43 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "“You okay? You didn’t get to play much.”"
+       "sampleAnswer": "“You okay? You didn’t get to play much.”",
+       "check": {
+        "groups": [
+         [
+          "you okay",
+          "you ok",
+          "you good",
+          "you alright",
+          "whats wrong",
+          "what happened",
+          "sorry",
+          "too bad"
+         ],
+         [
+          "didnt get to play",
+          "didnt play",
+          "barely",
+          "bench",
+          "next time",
+          "play more",
+          "coach",
+          "sat"
+         ],
+         [
+          "good job",
+          "great",
+          "still",
+          "team",
+          "helped",
+          "we won",
+          "together",
+          "nice"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Jay did not play much. What kind words could Kai say?"
       },
       {
        "id": "s26-core-07",
@@ -15746,7 +22504,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -15798,7 +22556,26 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Lily is about to give a speech. Ben gave one last week."
+       "sampleAnswer": "Lily is about to give a speech. Ben gave one last week.",
+       "check": {
+        "groups": [
+         [
+          "speech",
+          "present",
+          "speak",
+          "talk in front",
+          "report",
+          "public"
+         ],
+         [
+          "remember",
+          "last week",
+          "before"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Lily have to do next? What did Ben do last week?"
       },
       {
        "id": "s27-core-03",
@@ -15822,7 +22599,38 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "She holds her cards tight. She is shaking and sweating. Her face looks worried."
+       "sampleAnswer": "She holds her cards tight. She is shaking and sweating. Her face looks worried.",
+       "check": {
+        "groups": [
+         [
+          "card",
+          "paper",
+          "note",
+          "hold",
+          "grip",
+          "=tight",
+          "squeez"
+         ],
+         [
+          "shak",
+          "sweat",
+          "trembl",
+          "fidget",
+          "jitter"
+         ],
+         [
+          "worri",
+          "scared",
+          "nervous",
+          "face",
+          "frown",
+          "afraid",
+          "anxious"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Lily's hands and face."
       },
       {
        "id": "s27-core-04",
@@ -15846,7 +22654,43 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "He knows speeches can feel scary. He knows how his body felt."
+       "sampleAnswer": "He knows speeches can feel scary. He knows how his body felt.",
+       "check": {
+        "groups": [
+         [
+          "scar",
+          "nervous",
+          "hard",
+          "afraid",
+          "fear",
+          "worri",
+          "anxious",
+          "stress",
+          "butterfl"
+         ],
+         [
+          "body",
+          "shak",
+          "sweat",
+          "heart",
+          "stomach",
+          "tummy",
+          "hands"
+         ],
+         [
+          "okay",
+          "fine",
+          "get through",
+          "can do it",
+          "goes well",
+          "it ends",
+          "over fast",
+          "practice"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about how Ben felt before his speech."
       },
       {
        "id": "s27-core-05",
@@ -15874,7 +22718,43 @@ window.HUB_CONTENT = {
         "Nervous, like Ben was.",
         "Excited and a little nervous.",
         "Worried she will forget her words."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "nervous",
+          "anxious",
+          "butterfl",
+          "jitter",
+          "stress"
+         ],
+         [
+          "excit",
+          "happy",
+          "ready"
+         ],
+         [
+          "worri",
+          "forget",
+          "mess up",
+          "mistake",
+          "scared",
+          "afraid",
+          "fear",
+          "scary"
+         ],
+         [
+          "confident",
+          "calm",
+          "fine",
+          "okay",
+          "prepared",
+          "proud"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about how Ben felt. Could Lily feel something else too?"
       },
       {
        "id": "s27-core-06",
@@ -15898,7 +22778,42 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Ask, “Are you nervous? I was nervous for mine.”"
+       "sampleAnswer": "Ask, “Are you nervous? I was nervous for mine.”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "how do you feel",
+          "how are you",
+          "how you feel",
+          "you feel",
+          "you nervous",
+          "you scared",
+          "you ready",
+          "you worried",
+          "you okay",
+          "you ok",
+          "you good"
+         ],
+         [
+          "was nervous",
+          "was scared",
+          "me too",
+          "same",
+          "my speech",
+          "i felt"
+         ],
+         [
+          "look at her",
+          "watch her",
+          "her face",
+          "her body",
+          "her hands"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Ben ask Lily? He can tell about his speech too."
       },
       {
        "id": "s27-core-07",
@@ -16073,7 +22988,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -16125,7 +23040,36 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Lily is upset. She did not make the team. Ava is with her."
+       "sampleAnswer": "Lily is upset. She did not make the team. Ava is with her.",
+       "check": {
+        "groups": [
+         [
+          "cry",
+          "sad",
+          "upset",
+          "tears",
+          "unhappy",
+          "bummed"
+         ],
+         [
+          "team",
+          "soccer",
+          "tryout",
+          "cut",
+          "make it",
+          "didnt make"
+         ],
+         [
+          "comfort",
+          "help",
+          "with her",
+          "listen",
+          "hug"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How does Lily feel? What did she want to make?"
       },
       {
        "id": "s28-core-03",
@@ -16149,7 +23093,29 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Lily is crying. She is still talking about it."
+       "sampleAnswer": "Lily is crying. She is still talking about it.",
+       "check": {
+        "groups": [
+         [
+          "cry",
+          "tears",
+          "sad",
+          "upset",
+          "sobb"
+         ],
+         [
+          "still talk",
+          "talking about",
+          "wants to talk",
+          "keeps talk",
+          "still sad",
+          "just happen",
+          "really want"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Lily's face. Is she done talking yet?"
       },
       {
        "id": "s28-core-04",
@@ -16173,7 +23139,29 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Ava knows it happened to her too. Lily doesn’t know that."
+       "sampleAnswer": "Ava knows it happened to her too. Lily doesn’t know that.",
+       "check": {
+        "groups": [
+         [
+          "happened to her",
+          "happen to her",
+          "happened to ava",
+          "happen to ava",
+          "=too",
+          "also",
+          "same",
+          "last year",
+          "ava didnt",
+          "ava did not",
+          "she was cut",
+          "she got cut",
+          "been there",
+          "ava got cut"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What happened to Ava last year?"
       },
       {
        "id": "s28-core-05",
@@ -16201,7 +23189,49 @@ window.HUB_CONTENT = {
         "Not yet. Listen first.",
         "Maybe later, and keep it short.",
         "One short line could help: “That happened to me too.”"
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "not yet",
+          "not now",
+          "=no",
+          "wait",
+          "dont"
+         ],
+         [
+          "listen",
+          "hear her",
+          "let her talk",
+          "comfort",
+          "hug"
+         ],
+         [
+          "later",
+          "after",
+          "another time",
+          "when she"
+         ],
+         [
+          "short",
+          "quick",
+          "one line",
+          "brief",
+          "little"
+         ],
+         [
+          "yes",
+          "could help",
+          "feel better",
+          "not alone",
+          "understand",
+          "me too",
+          "happened to me"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Lily is crying. Should Ava talk or listen first? What about later?"
       },
       {
        "id": "s28-core-06",
@@ -16225,7 +23255,38 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "“I’m sorry. That’s really hard.” Then listen."
+       "sampleAnswer": "“I’m sorry. That’s really hard.” Then listen.",
+       "check": {
+        "groups": [
+         [
+          "sorry",
+          "hard",
+          "tough",
+          "sucks",
+          "stinks",
+          "bad",
+          "rough",
+          "sad"
+         ],
+         [
+          "listen",
+          "hug",
+          "here for you",
+          "im here",
+          "you okay",
+          "you ok",
+          "are you okay",
+          "want to talk",
+          "what happened",
+          "how do you feel",
+          "next year",
+          "try again",
+          "it will be"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Lily is sad. What kind words could Ava say first?"
       },
       {
        "id": "s28-core-07",
@@ -16434,7 +23495,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -16485,7 +23546,31 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Rosa tells a story. Kai listens.",
        "image": "assets/img/scene-lesson-29.webp",
-       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens",
+       "check": {
+        "groups": [
+         [
+          "tell",
+          "story",
+          "talk",
+          "share"
+         ],
+         [
+          "listen",
+          "nod",
+          "ask",
+          "interest"
+         ],
+         [
+          "corn",
+          "maze",
+          "lost",
+          "weekend"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Who is telling a story? What is Kai doing?"
       },
       {
        "id": "s29-core-03",
@@ -16508,7 +23593,34 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "He turns to her. He nods. He says, “No way!” He asks a question.",
        "image": "assets/img/scene-lesson-29.webp",
-       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens",
+       "check": {
+        "groups": [
+         [
+          "turn",
+          "face her",
+          "faces her",
+          "look at her",
+          "eye"
+         ],
+         [
+          "nod"
+         ],
+         [
+          "no way",
+          "react",
+          "wow",
+          "surprise"
+         ],
+         [
+          "ask",
+          "question",
+          "how did you get out"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Kai's body and head. What does he say?"
       },
       {
        "id": "s29-core-04",
@@ -16531,7 +23643,24 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "He wants to know how they got out.",
        "image": "assets/img/scene-lesson-29.webp",
-       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens",
+       "check": {
+        "groups": [
+         [
+          "got out",
+          "get out",
+          "getting out",
+          "escape",
+          "find the way",
+          "found the way",
+          "way out",
+          "exit",
+          "=out"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Read Kai's question again."
       },
       {
        "id": "s29-core-05",
@@ -16558,7 +23687,47 @@ window.HUB_CONTENT = {
         "It keeps the talk on Rosa."
        ],
        "image": "assets/img/scene-lesson-29.webp",
-       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens",
+       "check": {
+        "groups": [
+         [
+          "hear more",
+          "know more",
+          "learn more",
+          "more",
+          "curious",
+          "interest",
+          "wonder",
+          "want to know",
+          "find out",
+          "what happened",
+          "got out"
+         ],
+         [
+          "care",
+          "nice",
+          "kind",
+          "friend",
+          "polite"
+         ],
+         [
+          "keep",
+          "on rosa",
+          "about her",
+          "about rosa",
+          "going",
+          "continue"
+         ],
+         [
+          "listen",
+          "heard her",
+          "paying attention",
+          "pay attention"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Why do people ask questions? How does it make Rosa feel?"
       },
       {
        "id": "s29-core-06",
@@ -16581,7 +23750,37 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“Were you scared?” or “Would you go again?”",
        "image": "assets/img/scene-lesson-29.webp",
-       "imageAlt": "Hallway: Rosa tells a story and Kai listens"
+       "imageAlt": "Hallway: Rosa tells a story and Kai listens",
+       "check": {
+        "groups": [
+         [
+          "scared",
+          "afraid",
+          "fear",
+          "freak",
+          "worry"
+         ],
+         [
+          "again",
+          "go back",
+          "next time"
+         ],
+         [
+          "who",
+          "how long",
+          "how did",
+          "what did",
+          "where",
+          "did you",
+          "was it fun",
+          "fun",
+          "were you",
+          "find"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about the corn maze. What else could Kai wonder about?"
       },
       {
        "id": "s29-core-07",
@@ -16797,7 +23996,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -16817,7 +24016,40 @@ window.HUB_CONTENT = {
        "inShort": false,
        "kind": "open",
        "question": "What makes a good “me too” story?",
-       "sampleAnswer": "It is short. It is on topic. Then I turn back to my friend."
+       "sampleAnswer": "It is short. It is on topic. Then I turn back to my friend.",
+       "check": {
+        "groups": [
+         [
+          "short",
+          "quick",
+          "brief",
+          "small",
+          "little",
+          "not long"
+         ],
+         [
+          "topic",
+          "same",
+          "related",
+          "match",
+          "connect",
+          "similar",
+          "relate"
+         ],
+         [
+          "turn back",
+          "ask",
+          "back to",
+          "question",
+          "listen",
+          "let them talk",
+          "their turn",
+          "about them"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about how long it is. What do you do after?"
       },
       {
        "id": "s30-core-02",
@@ -16840,7 +24072,37 @@ window.HUB_CONTENT = {
          "text": "Yes! That trick took me weeks. How long did you practice?"
         }
        ],
-       "sampleAnswer": "Kai lands a trick. Omar cheers and shares a short story."
+       "sampleAnswer": "Kai lands a trick. Omar cheers and shares a short story.",
+       "check": {
+        "groups": [
+         [
+          "trick",
+          "land",
+          "skate",
+          "board",
+          "kickflip",
+          "ollie"
+         ],
+         [
+          "cheer",
+          "=happy",
+          "excit",
+          "proud",
+          "celebrat",
+          "yay",
+          "glad"
+         ],
+         [
+          "share",
+          "story",
+          "ask",
+          "practic",
+          "weeks"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What did Kai just do? What does Omar do?"
       },
       {
        "id": "s30-core-03",
@@ -16863,7 +24125,29 @@ window.HUB_CONTENT = {
          "text": "Yes! That trick took me weeks. How long did you practice?"
         }
        ],
-       "sampleAnswer": "Kai has his arms up. Omar points and looks excited."
+       "sampleAnswer": "Kai has his arms up. Omar points and looks excited.",
+       "check": {
+        "groups": [
+         [
+          "arm",
+          "hands up",
+          "jump",
+          "cheer",
+          "yell",
+          "smil"
+         ],
+         [
+          "point",
+          "excit",
+          "happy",
+          "proud",
+          "yes",
+          "finally"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Kai's arms. Look at Omar's face."
       },
       {
        "id": "s30-core-04",
@@ -16886,7 +24170,39 @@ window.HUB_CONTENT = {
          "text": "Yes! That trick took me weeks. How long did you practice?"
         }
        ],
-       "sampleAnswer": "He knows the trick is hard. He knows it takes practice."
+       "sampleAnswer": "He knows the trick is hard. He knows it takes practice.",
+       "check": {
+        "groups": [
+         [
+          "hard",
+          "tough",
+          "difficult",
+          "tricky",
+          "not easy"
+         ],
+         [
+          "practic",
+          "time",
+          "long",
+          "weeks",
+          "keep trying",
+          "try",
+          "many tries",
+          "work"
+         ],
+         [
+          "proud",
+          "feels good",
+          "good feeling",
+          "great",
+          "happy",
+          "excit",
+          "fun"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How long did the trick take Omar?"
       },
       {
        "id": "s30-core-05",
@@ -16913,7 +24229,46 @@ window.HUB_CONTENT = {
         "Proud",
         "Happy he did not give up",
         "Excited to try a new trick"
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "proud"
+         ],
+         [
+          "happy",
+          "glad",
+          "good"
+         ],
+         [
+          "didnt give up",
+          "did not give up",
+          "kept trying",
+          "hard work",
+          "practic"
+         ],
+         [
+          "excit",
+          "pump",
+          "hype",
+          "stoked",
+          "awesome"
+         ],
+         [
+          "reliev",
+          "finally"
+         ],
+         [
+          "confiden",
+          "cool",
+          "strong",
+          "skill",
+          "great"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Kai worked hard and did it. Think of two feeling words."
       },
       {
        "id": "s30-core-06",
@@ -16936,7 +24291,29 @@ window.HUB_CONTENT = {
          "text": "Yes! That trick took me weeks. How long did you practice?"
         }
        ],
-       "sampleAnswer": "Yes. He said one short line about him. Then he asked Kai a question."
+       "sampleAnswer": "Yes. He said one short line about him. Then he asked Kai a question.",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "question",
+          "how long"
+         ],
+         [
+          "short",
+          "one line",
+          "about him",
+          "his own",
+          "took him",
+          "weeks",
+          "his story",
+          "me too",
+          "shared"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Read what Omar says. How does it end?"
       },
       {
        "id": "s30-core-07",
@@ -17194,7 +24571,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -17213,7 +24590,11 @@ window.HUB_CONTENT = {
        "question": "Think of a problem you had at school. What happened?",
        "role": "warmup",
        "heading": "Warm-up",
-       "inShort": false
+       "inShort": false,
+       "check": {
+        "open": true
+       },
+       "hint": "Think of one time something went wrong at school."
       },
       {
        "id": "s31-core-02",
@@ -17233,7 +24614,25 @@ window.HUB_CONTENT = {
          "text": "Omar is laughing at me!"
         }
        ],
-       "sampleAnswer": "Kai spilled his milk. Omar smiles at his phone."
+       "sampleAnswer": "Kai spilled his milk. Omar smiles at his phone.",
+       "check": {
+        "groups": [
+         [
+          "spill",
+          "milk",
+          "drop",
+          "mess"
+         ],
+         [
+          "phone",
+          "smil",
+          "laugh",
+          "text"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What did Kai drop? What is Omar looking at?"
       },
       {
        "id": "s31-core-03",
@@ -17253,7 +24652,33 @@ window.HUB_CONTENT = {
          "text": "Omar is laughing at me!"
         }
        ],
-       "sampleAnswer": "The milk is on the floor. Kai rubs his head. Omar looks at his phone, not at Kai."
+       "sampleAnswer": "The milk is on the floor. Kai rubs his head. Omar looks at his phone, not at Kai.",
+       "check": {
+        "groups": [
+         [
+          "milk",
+          "floor",
+          "spill",
+          "mess",
+          "puddle"
+         ],
+         [
+          "rub",
+          "head",
+          "embarrass",
+          "=red"
+         ],
+         [
+          "phone",
+          "screen",
+          "not at kai",
+          "not looking at kai",
+          "not at him"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the floor. Where is Omar looking?"
       },
       {
        "id": "s31-core-04",
@@ -17273,7 +24698,37 @@ window.HUB_CONTENT = {
          "text": "Omar is laughing at me!"
         }
        ],
-       "sampleAnswer": "Kai knows he spilled. He does not know why Omar is smiling."
+       "sampleAnswer": "Kai knows he spilled. He does not know why Omar is smiling.",
+       "check": {
+        "groups": [
+         [
+          "spill",
+          "milk",
+          "drop",
+          "mess"
+         ],
+         [
+          "why",
+          "phone",
+          "what omar",
+          "what he",
+          "reason"
+         ],
+         [
+          "dont know",
+          "doesnt know",
+          "didnt know",
+          "not know",
+          "no idea",
+          "not sure",
+          "unsure",
+          "thinks",
+          "assum"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What did Kai do? Does he know why Omar smiles?"
       },
       {
        "id": "s31-core-05",
@@ -17297,7 +24752,46 @@ window.HUB_CONTENT = {
         "He saw something funny on his phone.",
         "He got a nice text.",
         "He saw Kai spill."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "funny",
+          "video",
+          "meme",
+          "joke",
+          "something on",
+          "phone",
+          "game",
+          "show",
+          "watch"
+         ],
+         [
+          "text",
+          "message",
+          "friend",
+          "good news",
+          "chat",
+          "nice"
+         ],
+         [
+          "saw kai",
+          "saw him",
+          "spill",
+          "milk",
+          "at kai",
+          "laugh at"
+         ],
+         [
+          "happy",
+          "good mood",
+          "remember",
+          "something else"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What is Omar looking at? Think of two things that make you smile."
       },
       {
        "id": "s31-core-06",
@@ -17317,7 +24811,33 @@ window.HUB_CONTENT = {
          "text": "Omar is laughing at me!"
         }
        ],
-       "sampleAnswer": "The real problem is the spilled milk. Kai can get napkins and clean it up."
+       "sampleAnswer": "The real problem is the spilled milk. Kai can get napkins and clean it up.",
+       "check": {
+        "groups": [
+         [
+          "milk",
+          "spill",
+          "mess",
+          "floor"
+         ],
+         [
+          "clean",
+          "napkin",
+          "paper towel",
+          "wipe",
+          "mop",
+          "towel",
+          "custodian",
+          "janitor",
+          "teacher",
+          "adult",
+          "new milk",
+          "another milk"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the floor. Is Omar really the problem?"
       },
       {
        "id": "s31-core-07",
@@ -17541,7 +25061,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -17594,7 +25114,31 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ben missed the bus. He is very upset.",
        "image": "assets/img/scene-lesson-32.webp",
-       "imageAlt": "Outside school: the bus drives away and Ben is upset"
+       "imageAlt": "Outside school: the bus drives away and Ben is upset",
+       "check": {
+        "groups": [
+         [
+          "bus",
+          "miss",
+          "drive away",
+          "drove"
+         ],
+         [
+          "upset",
+          "cry",
+          "yell",
+          "mad",
+          "sad",
+          "angry",
+          "scream",
+          "freak",
+          "tantrum",
+          "meltdown"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What drove away? How does Ben feel?"
       },
       {
        "id": "s32-core-03",
@@ -17613,7 +25157,31 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "His face is red. He yells and cries. He says, “The worst thing ever!”",
        "image": "assets/img/scene-lesson-32.webp",
-       "imageAlt": "Outside school: the bus drives away and Ben is upset"
+       "imageAlt": "Outside school: the bus drives away and Ben is upset",
+       "check": {
+        "groups": [
+         [
+          "=red",
+          "face"
+         ],
+         [
+          "yell",
+          "scream",
+          "shout",
+          "loud"
+         ],
+         [
+          "cry",
+          "tears",
+          "sob"
+         ],
+         [
+          "worst"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ben's face. What does he say and do?"
       },
       {
        "id": "s32-core-04",
@@ -17632,7 +25200,38 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ben knows the bus left. The office or his family can help him get home.",
        "image": "assets/img/scene-lesson-32.webp",
-       "imageAlt": "Outside school: the bus drives away and Ben is upset"
+       "imageAlt": "Outside school: the bus drives away and Ben is upset",
+       "check": {
+        "groups": [
+         [
+          "bus",
+          "left",
+          "gone",
+          "miss",
+          "drove"
+         ],
+         [
+          "office",
+          "family",
+          "mom",
+          "dad",
+          "parent",
+          "teacher",
+          "adult",
+          "principal",
+          "secretary",
+          "staff",
+          "grandma",
+          "grandpa",
+          "call home",
+          "friend",
+          "counsel",
+          "aide"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What did Ben see happen? Which grown-ups are still at school?"
       },
       {
        "id": "s32-core-05",
@@ -17654,7 +25253,46 @@ window.HUB_CONTENT = {
         "Not big. No one is hurt, and it can be fixed."
        ],
        "image": "assets/img/scene-lesson-32.webp",
-       "imageAlt": "Outside school: the bus drives away and Ben is upset"
+       "imageAlt": "Outside school: the bus drives away and Ben is upset",
+       "check": {
+        "groups": [
+         [
+          "medium",
+          "middle",
+          "kind of big",
+          "sort of"
+         ],
+         [
+          "small",
+          "little",
+          "not big",
+          "tiny",
+          "not that big",
+          "not a big",
+          "not very big"
+         ],
+         [
+          "fix",
+          "solv",
+          "ride",
+          "another way",
+          "call",
+          "adult",
+          "office",
+          "home",
+          "parent",
+          "help"
+         ],
+         [
+          "no one",
+          "nobody",
+          "not hurt",
+          "safe"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Is anyone hurt? Can the problem be fixed? Who can help?"
       },
       {
        "id": "s32-core-06",
@@ -17673,7 +25311,43 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Take a deep breath. Go to the office. Ask them to call home.",
        "image": "assets/img/scene-lesson-32.webp",
-       "imageAlt": "Outside school: the bus drives away and Ben is upset"
+       "imageAlt": "Outside school: the bus drives away and Ben is upset",
+       "check": {
+        "groups": [
+         [
+          "breath",
+          "calm",
+          "count",
+          "relax",
+          "chill"
+         ],
+         [
+          "office",
+          "teacher",
+          "adult",
+          "staff",
+          "principal",
+          "secretary",
+          "front desk",
+          "counsel"
+         ],
+         [
+          "call",
+          "phone",
+          "mom",
+          "dad",
+          "parent",
+          "family",
+          "home",
+          "ride",
+          "walk",
+          "next bus",
+          "wait"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Ben calm down? Who at school could help him?"
       },
       {
        "id": "s32-core-07",
@@ -17899,7 +25573,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -17950,7 +25624,36 @@ window.HUB_CONTENT = {
          "text": "What rule? I won fair!"
         }
        ],
-       "sampleAnswer": "Ben and Omar are arguing about a card game."
+       "sampleAnswer": "Ben and Omar are arguing about a card game.",
+       "check": {
+        "groups": [
+         [
+          "argu",
+          "fight",
+          "fite",
+          "fiting",
+          "disagree",
+          "upset",
+          "=mad",
+          "angry",
+          "yell",
+          "rule",
+          "cheat",
+          "fair"
+         ],
+         [
+          "card",
+          "game",
+          "play",
+          "won",
+          "win",
+          "lost",
+          "lose"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at what they played. Do they agree about it?"
       },
       {
        "id": "s33-core-03",
@@ -17973,7 +25676,31 @@ window.HUB_CONTENT = {
          "text": "What rule? I won fair!"
         }
        ],
-       "sampleAnswer": "Omar crosses his arms and frowns. Ben shrugs with his hands up. He looks confused."
+       "sampleAnswer": "Omar crosses his arms and frowns. Ben shrugs with his hands up. He looks confused.",
+       "check": {
+        "groups": [
+         [
+          "arm",
+          "frown",
+          "shrug",
+          "hand",
+          "face",
+          "=mad",
+          "angry",
+          "upset",
+          "confus",
+          "voice",
+          "yell",
+          "scowl",
+          "glare",
+          "eyebrow",
+          "annoy",
+          "frustr"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at their arms, hands, and faces."
       },
       {
        "id": "s33-core-04",
@@ -17996,7 +25723,33 @@ window.HUB_CONTENT = {
          "text": "What rule? I won fair!"
         }
        ],
-       "sampleAnswer": "Omar thinks Ben broke a rule. Ben thinks he won fair. Ben may not know that rule."
+       "sampleAnswer": "Omar thinks Ben broke a rule. Ben thinks he won fair. Ben may not know that rule.",
+       "check": {
+        "groups": [
+         [
+          "broke",
+          "cheat",
+          "rule",
+          "didnt count",
+          "did not count",
+          "unfair",
+          "lied"
+         ],
+         [
+          "won",
+          "win",
+          "fair",
+          "did nothing wrong",
+          "didnt know",
+          "did not know",
+          "doesnt know",
+          "does not know",
+          "never heard"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Read what each boy says. What does each one believe?"
       },
       {
        "id": "s33-core-05",
@@ -18023,7 +25776,57 @@ window.HUB_CONTENT = {
         "They learned different rules.",
         "Ben did not hear about that rule.",
         "Omar is upset that he lost."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "learn",
+          "different rule",
+          "other rule",
+          "house rule",
+          "taught",
+          "didnt know",
+          "did not know",
+          "didnt hear",
+          "did not hear",
+          "never heard",
+          "new rule",
+          "forgot",
+          "rules differ"
+         ],
+         [
+          "upset",
+          "=mad",
+          "angry",
+          "lost",
+          "lose",
+          "sore loser",
+          "jealous",
+          "wants to win",
+          "want to win"
+         ],
+         [
+          "cheat",
+          "lying",
+          "lied",
+          "made up",
+          "make up",
+          "making up",
+          "made it up",
+          "make it up"
+         ],
+         [
+          "misunderst",
+          "mix up",
+          "mixup",
+          "confus",
+          "didnt see",
+          "did not see"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Did they learn the same rules? How does Omar feel about losing?"
       },
       {
        "id": "s33-core-06",
@@ -18046,7 +25849,35 @@ window.HUB_CONTENT = {
          "text": "What rule? I won fair!"
         }
        ],
-       "sampleAnswer": "“What rule do you mean?” Then they can check the rules together."
+       "sampleAnswer": "“What rule do you mean?” Then they can check the rules together.",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "what rule",
+          "which rule",
+          "do you mean",
+          "check",
+          "read",
+          "look up",
+          "show me",
+          "explain",
+          "tell",
+          "agree",
+          "redo",
+          "play again",
+          "rematch",
+          "sorry",
+          "calm",
+          "compromise",
+          "talk",
+          "teacher",
+          "together"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Ben ask Omar about the rule?"
       },
       {
        "id": "s33-core-07",
@@ -18244,7 +26075,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -18295,7 +26126,31 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Lily and Jay both want the same computer.",
        "image": "assets/img/scene-lesson-34.webp",
-       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair",
+       "check": {
+        "groups": [
+         [
+          "computer",
+          "laptop",
+          "=pc",
+          "chromebook",
+          "librar"
+         ],
+         [
+          "want",
+          "need",
+          "fight",
+          "argu",
+          "share",
+          "both",
+          "first",
+          "same",
+          "turn"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at what Lily and Jay both want."
       },
       {
        "id": "s34-core-03",
@@ -18318,7 +26173,34 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "They both have work due today. “I need it more!” shows Jay is stressed.",
        "image": "assets/img/scene-lesson-34.webp",
-       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair",
+       "check": {
+        "groups": [
+         [
+          "due",
+          "deadline",
+          "need it more",
+          "here first",
+          "stress",
+          "worr",
+          "rush",
+          "hurry",
+          "upset",
+          "=mad",
+          "angry",
+          "frustr",
+          "yell",
+          "loud",
+          "exclamation",
+          "face",
+          "voice",
+          "nervous",
+          "annoy"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "When is their work due? Listen to how loud they talk."
       },
       {
        "id": "s34-core-04",
@@ -18341,7 +26223,29 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Lily knows she got there first. Jay knows his work is due soon. Both need to finish.",
        "image": "assets/img/scene-lesson-34.webp",
-       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair",
+       "check": {
+        "groups": [
+         [
+          "first",
+          "before",
+          "got there",
+          "was there"
+         ],
+         [
+          "due",
+          "finish",
+          "work",
+          "homework",
+          "project",
+          "assignment",
+          "need it more",
+          "deadline"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Who got there first? What do they both have to finish?"
       },
       {
        "id": "s34-core-05",
@@ -18368,7 +26272,54 @@ window.HUB_CONTENT = {
         "Ask the librarian. She may find another computer."
        ],
        "image": "assets/img/scene-lesson-34.webp",
-       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair",
+       "check": {
+        "groups": [
+         [
+          "turn",
+          "share",
+          "split",
+          "half",
+          "minutes",
+          "timer",
+          "together"
+         ],
+         [
+          "ask",
+          "librar",
+          "teacher",
+          "adult",
+          "another computer",
+          "other computer",
+          "different computer",
+          "wait",
+          "find"
+         ],
+         [
+          "grab",
+          "take it",
+          "push",
+          "fight",
+          "rock paper",
+          "flip",
+          "coin",
+          "steal"
+         ],
+         [
+          "phone",
+          "go home",
+          "later",
+          "tomorrow",
+          "lunch",
+          "after school",
+          "paper",
+          "pencil",
+          "write"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think of two ways. Could they share? Could someone help them?"
       },
       {
        "id": "s34-core-06",
@@ -18391,7 +26342,31 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“Let’s take turns. You go 15 minutes, then me.”",
        "image": "assets/img/scene-lesson-34.webp",
-       "imageAlt": "Library: Lily and Jay both reach for the same computer chair"
+       "imageAlt": "Library: Lily and Jay both reach for the same computer chair",
+       "check": {
+        "groups": [
+         [
+          "turn",
+          "share",
+          "split",
+          "half",
+          "minutes",
+          "you go",
+          "then me",
+          "after you",
+          "go first",
+          "librar",
+          "teacher",
+          "ask",
+          "together",
+          "timer",
+          "another computer",
+          "other computer"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can both of them get time on it?"
       },
       {
        "id": "s34-core-07",
@@ -18571,7 +26546,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -18590,7 +26565,52 @@ window.HUB_CONTENT = {
        "question": "How do you solve a problem? Say the steps you remember.",
        "role": "warmup",
        "heading": "Warm-up",
-       "inShort": false
+       "inShort": false,
+       "check": {
+        "groups": [
+         [
+          "see",
+          "look",
+          "notice",
+          "find the problem",
+          "problem is",
+          "how big",
+          "size",
+          "what happen"
+         ],
+         [
+          "solution",
+          "idea",
+          "think of",
+          "ways",
+          "choice",
+          "option",
+          "fix",
+          "plan",
+          "possib"
+         ],
+         [
+          "pick",
+          "choose",
+          "try",
+          "do it",
+          "talk",
+          "best",
+          "engage"
+         ],
+         [
+          "other",
+          "each person",
+          "both side",
+          "view",
+          "feel",
+          "clue"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What do you do first? What do you do next?",
+       "sampleAnswer": "See the problem. Think how each person sees it. Think of solutions. Pick a fair one and try it."
       },
       {
        "id": "s35-core-02",
@@ -18609,7 +26629,24 @@ window.HUB_CONTENT = {
          "text": "Omar! What happened here?"
         }
        ],
-       "sampleAnswer": "Omar’s drink spilled. Mom sees it. She looks upset."
+       "sampleAnswer": "Omar’s drink spilled. Mom sees it. She looks upset.",
+       "check": {
+        "groups": [
+         [
+          "spill",
+          "drop",
+          "mess",
+          "knock",
+          "juice",
+          "drink",
+          "cup",
+          "water",
+          "wet"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the floor. What happened to the cup?"
       },
       {
        "id": "s35-core-03",
@@ -18628,7 +26665,36 @@ window.HUB_CONTENT = {
          "text": "Omar! What happened here?"
         }
        ],
-       "sampleAnswer": "Mom has her hands on her hips. Omar rubs his neck and looks down. The cup is on the floor."
+       "sampleAnswer": "Mom has her hands on her hips. Omar rubs his neck and looks down. The cup is on the floor.",
+       "check": {
+        "groups": [
+         [
+          "hip",
+          "hand",
+          "neck",
+          "down",
+          "face",
+          "frown",
+          "cup",
+          "floor",
+          "mess",
+          "spill",
+          "eye",
+          "=mad",
+          "angry",
+          "upset",
+          "nervous",
+          "embarr",
+          "guilty",
+          "sorry",
+          "voice",
+          "yell",
+          "loud"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Mom’s hands. Look at Omar’s eyes and the floor."
       },
       {
        "id": "s35-core-04",
@@ -18647,7 +26713,43 @@ window.HUB_CONTENT = {
          "text": "Omar! What happened here?"
         }
        ],
-       "sampleAnswer": "Mom sees the spill. She doesn’t know how it happened. Omar knows what happened."
+       "sampleAnswer": "Mom sees the spill. She doesn’t know how it happened. Omar knows what happened.",
+       "check": {
+        "groups": [
+         [
+          "didnt see",
+          "did not see",
+          "wasnt there",
+          "was not there",
+          "not there",
+          "missed",
+          "how it",
+          "how",
+          "why",
+          "what happened"
+         ],
+         [
+          "he knows",
+          "he saw",
+          "omar saw",
+          "omar did",
+          "he did it",
+          "slip",
+          "accident",
+          "he spilled",
+          "omar spilled"
+         ],
+         [
+          "spill",
+          "mess",
+          "juice",
+          "cup",
+          "floor"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Did Mom see it happen? Who saw it?"
       },
       {
        "id": "s35-core-05",
@@ -18670,7 +26772,48 @@ window.HUB_CONTENT = {
         "The real problem is the spill.",
         "It is small. No one is hurt.",
         "Mom may think Omar was not careful."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "spill",
+          "mess",
+          "juice",
+          "drink",
+          "cup",
+          "floor",
+          "wet"
+         ],
+         [
+          "small",
+          "little",
+          "not big",
+          "tiny",
+          "no one hurt",
+          "no one is hurt",
+          "nobody",
+          "not hurt",
+          "easy",
+          "clean",
+          "minor",
+          "medium"
+         ],
+         [
+          "careless",
+          "not careful",
+          "mom mad",
+          "mom upset",
+          "angry",
+          "=mad",
+          "trouble",
+          "yell",
+          "lying",
+          "lie"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What is on the floor? Is anyone hurt? Can it be cleaned?"
       },
       {
        "id": "s35-core-06",
@@ -18689,7 +26832,38 @@ window.HUB_CONTENT = {
          "text": "Omar! What happened here?"
         }
        ],
-       "sampleAnswer": "“Sorry, Mom. It slipped. I’ll clean it up.” Then he gets a towel."
+       "sampleAnswer": "“Sorry, Mom. It slipped. I’ll clean it up.” Then he gets a towel.",
+       "check": {
+        "groups": [
+         [
+          "sorry",
+          "apolog",
+          "my bad",
+          "oops"
+         ],
+         [
+          "clean",
+          "towel",
+          "wipe",
+          "napkin",
+          "mop",
+          "pick up",
+          "fix"
+         ],
+         [
+          "slip",
+          "accident",
+          "didnt mean",
+          "did not mean",
+          "tell",
+          "explain",
+          "truth",
+          "honest"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Omar make it right with Mom and the floor?"
       },
       {
        "id": "s35-core-07",
@@ -18979,7 +27153,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -19026,7 +27200,35 @@ window.HUB_CONTENT = {
          "text": "Just get x by itself."
         }
        ],
-       "sampleAnswer": "Mr. Cruz teaches a math problem. Rosa looks confused."
+       "sampleAnswer": "Mr. Cruz teaches a math problem. Rosa looks confused.",
+       "check": {
+        "groups": [
+         [
+          "math",
+          "teach",
+          "explain",
+          "class",
+          "lesson",
+          "problem"
+         ],
+         [
+          "confus",
+          "lost",
+          "doesnt get",
+          "does not get",
+          "dont get",
+          "not get",
+          "doesnt understand",
+          "not understand",
+          "stuck",
+          "unsure",
+          "not sure",
+          "help"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What class is it? How does Rosa look?"
       },
       {
        "id": "s36-core-03",
@@ -19045,7 +27247,29 @@ window.HUB_CONTENT = {
          "text": "Just get x by itself."
         }
        ],
-       "sampleAnswer": "Her chin is on her hand. There is a question mark by her head."
+       "sampleAnswer": "Her chin is on her hand. There is a question mark by her head.",
+       "check": {
+        "groups": [
+         [
+          "chin",
+          "hand",
+          "question mark",
+          "face",
+          "frown",
+          "eyebrow",
+          "confus",
+          "scratch",
+          "head",
+          "stare",
+          "blank",
+          "lost",
+          "squint",
+          "bored"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Rosa’s chin and what is by her head."
       },
       {
        "id": "s36-core-04",
@@ -19064,7 +27288,37 @@ window.HUB_CONTENT = {
          "text": "Just get x by itself."
         }
        ],
-       "sampleAnswer": "He knows the math. He may not know Rosa is lost."
+       "sampleAnswer": "He knows the math. He may not know Rosa is lost.",
+       "check": {
+        "groups": [
+         [
+          "math",
+          "answer",
+          "how to",
+          "the problem",
+          "solve",
+          "=x"
+         ],
+         [
+          "rosa is lost",
+          "rosa lost",
+          "shes lost",
+          "she is lost",
+          "confus",
+          "doesnt get",
+          "does not get",
+          "dont get",
+          "not get",
+          "doesnt understand",
+          "not understand",
+          "needs help",
+          "stuck",
+          "lost"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "He knows the math. Does he know how Rosa feels?"
       },
       {
        "id": "s36-core-05",
@@ -19087,7 +27341,45 @@ window.HUB_CONTENT = {
         "Find out what x is.",
         "Move the other numbers away from x.",
         "Write x on its own line."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "find",
+          "solve",
+          "figure out",
+          "what x is",
+          "x equals",
+          "x is",
+          "answer",
+          "value",
+          "work out"
+         ],
+         [
+          "move",
+          "take away",
+          "other number",
+          "subtract",
+          "minus",
+          "divide",
+          "get rid",
+          "cancel",
+          "one side",
+          "other side",
+          "alone",
+          "plus"
+         ],
+         [
+          "write",
+          "own line",
+          "line",
+          "circle",
+          "box"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about finding x. Think about the other numbers near x."
       },
       {
        "id": "s36-core-06",
@@ -19106,7 +27398,49 @@ window.HUB_CONTENT = {
          "text": "Just get x by itself."
         }
        ],
-       "sampleAnswer": "Raise her hand at a pause. Ask, “Can you say that another way?”"
+       "sampleAnswer": "Raise her hand at a pause. Ask, “Can you say that another way?”",
+       "check": {
+        "groups": [
+         [
+          "ask him",
+          "ask the",
+          "ask mr",
+          "ask cruz",
+          "ask for",
+          "ask if",
+          "ask what",
+          "ask to",
+          "ask can",
+          "raise",
+          "hand",
+          "another way",
+          "explain again",
+          "say it again",
+          "repeat",
+          "again",
+          "help",
+          "what do you mean",
+          "dont get",
+          "dont understand",
+          "confused"
+         ],
+         [
+          "pause",
+          "after",
+          "when he stops",
+          "stops talking",
+          "done talking",
+          "work time",
+          "end of class",
+          "after class",
+          "right away",
+          "quiet",
+          "break"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Rosa get his attention? When is a good time?"
       },
       {
        "id": "s36-core-07",
@@ -19343,7 +27677,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -19393,7 +27727,34 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ben talks about Omar’s team. Omar gets upset.",
        "image": "assets/img/scene-lesson-37.webp",
-       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms",
+       "check": {
+        "groups": [
+         [
+          "upset",
+          "=mad",
+          "angry",
+          "hurt",
+          "sad",
+          "annoy",
+          "feel bad",
+          "offend",
+          "rude",
+          "mean",
+          "teas",
+          "made fun",
+          "insult"
+         ],
+         [
+          "team",
+          "lost",
+          "lose",
+          "game"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Ben talk about? How does Omar feel?"
       },
       {
        "id": "s37-core-03",
@@ -19416,7 +27777,32 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Omar says “Thanks a lot,” but he sounds upset. It may be sarcasm.",
        "image": "assets/img/scene-lesson-37.webp",
-       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms",
+       "check": {
+        "groups": [
+         [
+          "sarcas",
+          "thanks a lot",
+          "wow",
+          "tone",
+          "voice",
+          "sounds",
+          "frown",
+          "eye roll",
+          "rolls",
+          "upset",
+          "=mad",
+          "angry",
+          "not happy",
+          "not really thank",
+          "doesnt mean",
+          "annoy",
+          "face"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Listen to how Omar says “Thanks a lot.” Does he mean it?"
       },
       {
        "id": "s37-core-04",
@@ -19439,7 +27825,39 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ben knows he meant to be kind. Omar may think Ben is teasing him.",
        "image": "assets/img/scene-lesson-37.webp",
-       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms",
+       "check": {
+        "groups": [
+         [
+          "kind",
+          "nice",
+          "feel bad",
+          "sorry",
+          "meant well",
+          "didnt mean",
+          "care",
+          "help",
+          "friendly",
+          "sad for"
+         ],
+         [
+          "teas",
+          "made fun",
+          "making fun",
+          "make fun",
+          "mean",
+          "rude",
+          "joke",
+          "laugh",
+          "insult",
+          "bully",
+          "rub",
+          "mock"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben wanted to be kind. Did Omar hear it that way?"
       },
       {
        "id": "s37-core-05",
@@ -19466,7 +27884,49 @@ window.HUB_CONTENT = {
         "Ben feels bad for me."
        ],
        "image": "assets/img/scene-lesson-37.webp",
-       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms",
+       "check": {
+        "groups": [
+         [
+          "teas",
+          "fun of",
+          "mock",
+          "laugh",
+          "rude",
+          "mean",
+          "joke",
+          "insult",
+          "bully",
+          "rub"
+         ],
+         [
+          "team is bad",
+          "team bad",
+          "bad team",
+          "stinks",
+          "sucks",
+          "terrible",
+          "loser",
+          "trash",
+          "always lose",
+          "lose a lot",
+          "loses",
+          "weak"
+         ],
+         [
+          "sorry",
+          "feel bad",
+          "feels bad",
+          "sad for",
+          "kind",
+          "nice",
+          "care",
+          "sympath"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Could Ben be teasing? Could Ben feel bad for Omar?"
       },
       {
        "id": "s37-core-06",
@@ -19489,7 +27949,43 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“Sorry, I said that wrong. I meant that stinks. I know you love that team.”",
        "image": "assets/img/scene-lesson-37.webp",
-       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms"
+       "imageAlt": "Lunchroom: Ben talks to Omar, who has crossed arms",
+       "check": {
+        "groups": [
+         [
+          "sorry",
+          "apolog",
+          "my bad"
+         ],
+         [
+          "didnt mean",
+          "did not mean",
+          "i meant",
+          "meant",
+          "said it wrong",
+          "came out wrong",
+          "wrong way",
+          "joking",
+          "kidding"
+         ],
+         [
+          "stink",
+          "suck",
+          "bummer",
+          "too bad",
+          "feel bad",
+          "sad",
+          "next time",
+          "love that team",
+          "care",
+          "kind",
+          "nice",
+          "rough"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What did Ben really mean? How can he say sorry?"
       },
       {
        "id": "s37-core-07",
@@ -19681,7 +28177,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -19732,7 +28228,32 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Omar spilled juice. Mom is upset. They had a mix-up."
+       "sampleAnswer": "Omar spilled juice. Mom is upset. They had a mix-up.",
+       "check": {
+        "groups": [
+         [
+          "spill",
+          "juice",
+          "mess",
+          "drink",
+          "cup"
+         ],
+         [
+          "upset",
+          "=mad",
+          "angry",
+          "yell",
+          "trouble",
+          "mix up",
+          "mixup",
+          "misunderst",
+          "confus",
+          "thought"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the floor. How does Mom feel?"
       },
       {
        "id": "s38-core-03",
@@ -19756,7 +28277,35 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Mom has her hands on her hips. Her voice is upset. Omar looks down. Juice is on the floor."
+       "sampleAnswer": "Mom has her hands on her hips. Her voice is upset. Omar looks down. Juice is on the floor.",
+       "check": {
+        "groups": [
+         [
+          "hip",
+          "hand",
+          "voice",
+          "loud",
+          "yell",
+          "down",
+          "face",
+          "frown",
+          "juice",
+          "floor",
+          "spill",
+          "mess",
+          "upset",
+          "=mad",
+          "angry",
+          "exclamation",
+          "guilty",
+          "nervous",
+          "no drinks",
+          "couch"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Mom’s hands and Omar’s face. Listen to Mom’s voice."
       },
       {
        "id": "s38-core-04",
@@ -19780,7 +28329,27 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Mom meant no drinks in the room. Omar thought she meant just the couch."
+       "sampleAnswer": "Mom meant no drinks in the room. Omar thought she meant just the couch.",
+       "check": {
+        "groups": [
+         [
+          "room",
+          "in here",
+          "anywhere",
+          "whole",
+          "at all",
+          "floor",
+          "everywhere",
+          "house"
+         ],
+         [
+          "couch",
+          "sofa"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Mom said “in here.” Omar thought only one spot."
       },
       {
        "id": "s38-core-05",
@@ -19808,7 +28377,43 @@ window.HUB_CONTENT = {
         "Mom’s words were not clear.",
         "Omar heard only part of it.",
         "They each pictured something different."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "clear",
+          "confus",
+          "vague",
+          "didnt say",
+          "did not say",
+          "said couch",
+          "said the couch",
+          "her words",
+          "wording",
+          "explain",
+          "only said"
+         ],
+         [
+          "heard",
+          "hear",
+          "listen",
+          "part",
+          "missed",
+          "forgot"
+         ],
+         [
+          "different",
+          "differ",
+          "thought",
+          "pictured",
+          "two things",
+          "think",
+          "meant"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Were Mom’s words clear? Did Omar hear all of it?"
       },
       {
        "id": "s38-core-06",
@@ -19832,7 +28437,43 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "“Sorry about the mess. I thought you meant just the couch. I’ll clean it up. Next time I’ll drink in the kitchen.”"
+       "sampleAnswer": "“Sorry about the mess. I thought you meant just the couch. I’ll clean it up. Next time I’ll drink in the kitchen.”",
+       "check": {
+        "groups": [
+         [
+          "sorry",
+          "apolog",
+          "my bad"
+         ],
+         [
+          "clean",
+          "towel",
+          "wipe",
+          "mop",
+          "pick up"
+         ],
+         [
+          "thought",
+          "i meant",
+          "misunderst",
+          "mix up",
+          "mixup",
+          "didnt know",
+          "did not know",
+          "couch",
+          "confus"
+         ],
+         [
+          "next time",
+          "kitchen",
+          "wont",
+          "never",
+          "again"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Omar say sorry and help with the mess?"
       },
       {
        "id": "s38-core-07",
@@ -20025,7 +28666,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -20072,7 +28713,30 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Rosa is in class. The window is open. She is cold."
+       "sampleAnswer": "Rosa is in class. The window is open. She is cold.",
+       "check": {
+        "groups": [
+         [
+          "cold",
+          "freez",
+          "chilly",
+          "shiver",
+          "=icy"
+         ],
+         [
+          "window",
+          "wind",
+          "breeze"
+         ],
+         [
+          "focus",
+          "cant think",
+          "distract"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the window. How does Rosa feel?"
       },
       {
        "id": "s39-core-03",
@@ -20092,7 +28756,30 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "She hugs herself and shivers. Wind blows in the window."
+       "sampleAnswer": "She hugs herself and shivers. Wind blows in the window.",
+       "check": {
+        "groups": [
+         [
+          "hug",
+          "shiver",
+          "shake",
+          "arms",
+          "wind",
+          "breeze",
+          "window",
+          "cold",
+          "freez",
+          "goosebump",
+          "rub",
+          "teeth",
+          "chatter",
+          "jacket",
+          "sweater"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Rosa’s arms. What comes in the window?"
       },
       {
        "id": "s39-core-04",
@@ -20112,7 +28799,31 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Maybe not. He might see her shiver. He will know for sure if she tells him."
+       "sampleAnswer": "Maybe not. He might see her shiver. He will know for sure if she tells him.",
+       "check": {
+        "groups": [
+         [
+          "shiver",
+          "shake",
+          "see",
+          "notice",
+          "look",
+          "hug",
+          "watch"
+         ],
+         [
+          "tell",
+          "ask",
+          "says",
+          "say it",
+          "speak",
+          "talk",
+          "if she"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Ben see? What could Rosa tell him?"
       },
       {
        "id": "s39-core-05",
@@ -20136,7 +28847,44 @@ window.HUB_CONTENT = {
         "Close the window.",
         "Move to a warmer seat.",
         "Get her jacket."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "close",
+          "shut",
+          "window"
+         ],
+         [
+          "move",
+          "seat",
+          "switch",
+          "sit",
+          "change",
+          "different spot",
+          "warmer"
+         ],
+         [
+          "jacket",
+          "coat",
+          "sweater",
+          "hoodie",
+          "sweatshirt",
+          "blanket"
+         ],
+         [
+          "heat",
+          "turn up",
+          "thermostat",
+          "fan off",
+          "hall pass",
+          "nurse",
+          "break"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about the window. Think about her seat or her clothes."
       },
       {
        "id": "s39-core-06",
@@ -20156,7 +28904,35 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "She can ask Ben or the teacher: “Can we close the window, please? I’m cold.”"
+       "sampleAnswer": "She can ask Ben or the teacher: “Can we close the window, please? I’m cold.”",
+       "check": {
+        "groups": [
+         [
+          "teacher",
+          "=ben",
+          "=mr",
+          "=ms",
+          "=mrs",
+          "adult",
+          "friend",
+          "neighbor"
+         ],
+         [
+          "close",
+          "shut",
+          "window",
+          "cold",
+          "jacket",
+          "move",
+          "please",
+          "sweater",
+          "seat",
+          "freez"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Who is near Rosa? What can she ask them to do?"
       },
       {
        "id": "s39-core-07",
@@ -20352,7 +29128,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -20371,7 +29147,41 @@ window.HUB_CONTENT = {
        "inShort": false,
        "heading": "Warm-up",
        "kind": "open",
-       "question": "Say the five SCOPE steps. What does each step mean?"
+       "question": "Say the five SCOPE steps. What does each step mean?",
+       "check": {
+        "groups": [
+         [
+          "see",
+          "look",
+          "what is happening",
+          "whats happening"
+         ],
+         [
+          "clue"
+         ],
+         [
+          "other",
+          "what they know"
+         ],
+         [
+          "possib",
+          "meaning",
+          "ideas",
+          "guess"
+         ],
+         [
+          "engage",
+          "say something",
+          "do something",
+          "talk",
+          "respond",
+          "join"
+         ]
+        ],
+        "need": 3
+       },
+       "hint": "S, C, O, P, E. What word goes with each letter?",
+       "sampleAnswer": "See what is happening. Find clues. Think what others know. Think of possible meanings. Engage: say or do something."
       },
       {
        "id": "s40-core-02",
@@ -20391,7 +29201,24 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Jay and Omar laugh at a phone. Kai stands near them."
+       "sampleAnswer": "Jay and Omar laugh at a phone. Kai stands near them.",
+       "check": {
+        "groups": [
+         [
+          "laugh",
+          "giggl",
+          "funny",
+          "=lol"
+         ],
+         [
+          "phone",
+          "video",
+          "screen"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What are Jay and Omar looking at? What are they doing?"
       },
       {
        "id": "s40-core-03",
@@ -20411,7 +29238,33 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Jay and Omar laugh. Omar points at the phone. Kai has his hands in his pockets. He looks unsure."
+       "sampleAnswer": "Jay and Omar laugh. Omar points at the phone. Kai has his hands in his pockets. He looks unsure.",
+       "check": {
+        "groups": [
+         [
+          "laugh",
+          "smil",
+          "point",
+          "phone",
+          "pocket",
+          "hand",
+          "unsure",
+          "nervous",
+          "worr",
+          "not sure",
+          "after school",
+          "outside",
+          "hall",
+          "school",
+          "confus",
+          "sad",
+          "shy",
+          "look"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Kai’s hands. Look at what Omar points at."
       },
       {
        "id": "s40-core-04",
@@ -20431,7 +29284,29 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "He knows they are laughing. He doesn’t know what is on the phone."
+       "sampleAnswer": "He knows they are laughing. He doesn’t know what is on the phone.",
+       "check": {
+        "groups": [
+         [
+          "laugh",
+          "funny"
+         ],
+         [
+          "phone",
+          "video",
+          "screen",
+          "why",
+          "what is so funny",
+          "at him",
+          "about him",
+          "if its him",
+          "if it is him",
+          "joke"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai can hear them. Can he see the phone?"
       },
       {
        "id": "s40-core-05",
@@ -20455,7 +29330,46 @@ window.HUB_CONTENT = {
         "They see a funny video.",
         "A friend sent a joke.",
         "They are laughing at Kai."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "video",
+          "meme",
+          "tiktok",
+          "clip",
+          "picture",
+          "pic",
+          "photo",
+          "youtube"
+         ],
+         [
+          "joke",
+          "text",
+          "message",
+          "friend sent",
+          "game",
+          "post",
+          "story"
+         ],
+         [
+          "at kai",
+          "at him",
+          "about kai",
+          "about him",
+          "make fun",
+          "making fun",
+          "teas"
+         ],
+         [
+          "something funny",
+          "each other",
+          "remember"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "What could be on the phone? Could it be about Kai?"
       },
       {
        "id": "s40-core-06",
@@ -20475,7 +29389,35 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "He can ask, “What’s so funny? Can I see?”"
+       "sampleAnswer": "He can ask, “What’s so funny? Can I see?”",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "whats funny",
+          "what is funny",
+          "so funny",
+          "can i see",
+          "show me",
+          "let me see",
+          "what are you",
+          "whats up",
+          "hey",
+          "join",
+          "sit",
+          "watch",
+          "laugh",
+          "walk away",
+          "leave",
+          "ignore",
+          "smile",
+          "hello",
+          "=hi"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Kai ask them about the phone?"
       },
       {
        "id": "s40-core-07",
@@ -20729,7 +29671,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -20748,7 +29690,11 @@ window.HUB_CONTENT = {
        "inShort": false,
        "heading": "Warm-up",
        "kind": "open",
-       "question": "Name one food you like. Does everyone like it too?"
+       "question": "Name one food you like. Does everyone like it too?",
+       "check": {
+        "open": true
+       },
+       "hint": "Think of a food you love. Would every friend pick it?"
       },
       {
        "id": "s41-core-02",
@@ -20771,7 +29717,23 @@ window.HUB_CONTENT = {
          "text": "It costs three dollars."
         }
        ],
-       "sampleAnswer": "Jay and Omar eat lunch. They talk about the pizza."
+       "sampleAnswer": "Jay and Omar eat lunch. They talk about the pizza.",
+       "check": {
+        "groups": [
+         [
+          "pizza",
+          "lunch",
+          "eat",
+          "food",
+          "price",
+          "cost",
+          "talk",
+          "dollar"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at what Jay eats. What do they talk about?"
       },
       {
        "id": "s41-core-03",
@@ -20794,7 +29756,28 @@ window.HUB_CONTENT = {
          "text": "It costs three dollars."
         }
        ],
-       "sampleAnswer": "Jay smiles big. He loves the pizza. Omar looks calm. He talks about the price."
+       "sampleAnswer": "Jay smiles big. He loves the pizza. Omar looks calm. He talks about the price.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "happy",
+          "excit",
+          "love",
+          "best",
+          "grin",
+          "calm",
+          "price",
+          "cost",
+          "dollar",
+          "money",
+          "exclamation",
+          "loud"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Who smiles big? Who sounds calm?"
       },
       {
        "id": "s41-core-04",
@@ -20817,7 +29800,35 @@ window.HUB_CONTENT = {
          "text": "It costs three dollars."
         }
        ],
-       "sampleAnswer": "No one can check “best food ever.” Anyone can check the price on the menu."
+       "sampleAnswer": "No one can check “best food ever.” Anyone can check the price on the menu.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "cant",
+          "can not",
+          "cannot",
+          "opinion",
+          "only jay",
+          "what he thinks",
+          "jay thinks",
+          "not check"
+         ],
+         [
+          "=yes",
+          "menu",
+          "price",
+          "cost",
+          "dollar",
+          "fact",
+          "look it up",
+          "receipt",
+          "sign"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Can you prove “best food ever”? Can you prove a price?"
       },
       {
        "id": "s41-core-05",
@@ -20844,7 +29855,33 @@ window.HUB_CONTENT = {
         "“It costs three dollars” is a fact. We can check it.",
         "“The best food ever” is an opinion. It is what Jay thinks."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "omar",
+          "cost",
+          "price",
+          "dollar",
+          "three",
+          "=3"
+         ],
+         [
+          "jay",
+          "best",
+          "ever",
+          "love"
+         ],
+         [
+          "fact",
+          "opinion",
+          "check",
+          "true"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Which line can you check on a menu?"
       },
       {
        "id": "s41-core-06",
@@ -20867,7 +29904,31 @@ window.HUB_CONTENT = {
          "text": "It costs three dollars."
         }
        ],
-       "sampleAnswer": "“Cool. I like tacos more.”"
+       "sampleAnswer": "“Cool. I like tacos more.”",
+       "check": {
+        "groups": [
+         [
+          "i like",
+          "prefer",
+          "favorite",
+          "more",
+          "rather",
+          "not my",
+          "its okay",
+          "its ok",
+          "okay",
+          "fine",
+          "glad",
+          "cool",
+          "nice",
+          "good",
+          "each their own",
+          "different"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Omar share his own taste and stay kind?"
       },
       {
        "id": "s41-core-07",
@@ -21037,7 +30098,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -21091,7 +30152,24 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "The class watches a shark video. Mr. Cruz, Kai, and Lily each say something.",
        "image": "assets/img/scene-lesson-42.webp",
-       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared",
+       "check": {
+        "groups": [
+         [
+          "shark"
+         ],
+         [
+          "video",
+          "watch",
+          "science",
+          "class",
+          "learn",
+          "movie"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Mr. Cruz show the class?"
       },
       {
        "id": "s42-core-03",
@@ -21118,7 +30196,20 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“Awesome.” “I think.” “Scary.”",
        "image": "assets/img/scene-lesson-42.webp",
-       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared",
+       "check": {
+        "groups": [
+         [
+          "awesome",
+          "i think",
+          "scary",
+          "scare",
+          "cool"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Read what Kai and Lily say. Which words show feelings?"
       },
       {
        "id": "s42-core-04",
@@ -21145,7 +30236,34 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "No. Kai likes sharks. Lily thinks they are scary.",
        "image": "assets/img/scene-lesson-42.webp",
-       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nope",
+          "different",
+          "not the same",
+          "disagree"
+         ],
+         [
+          "like",
+          "love",
+          "awesome",
+          "cool"
+         ],
+         [
+          "scary",
+          "scare",
+          "afraid",
+          "fear",
+          "dont like",
+          "hate"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Kai say? What does Lily say?"
       },
       {
        "id": "s42-core-05",
@@ -21176,7 +30294,39 @@ window.HUB_CONTENT = {
        ],
        "bestIdea": 0,
        "image": "assets/img/scene-lesson-42.webp",
-       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared",
+       "check": {
+        "groups": [
+         [
+          "cruz",
+          "=mr",
+          "teacher",
+          "=30",
+          "thirty",
+          "miles",
+          "swim",
+          "number",
+          "speed",
+          "fast"
+         ],
+         [
+          "kai",
+          "lily",
+          "awesome",
+          "scary",
+          "kids"
+         ],
+         [
+          "fact",
+          "opinion",
+          "true",
+          "check",
+          "look it up"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Which line has a number you can look up?"
       },
       {
        "id": "s42-core-06",
@@ -21203,7 +30353,31 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“What makes them scary to you?”",
        "image": "assets/img/scene-lesson-42.webp",
-       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared"
+       "imageAlt": "Science class: Mr. Cruz points to a shark on the screen; Kai grins with excitement; Lily looks scared",
+       "check": {
+        "groups": [
+         [
+          "ask",
+          "why",
+          "what makes",
+          "how come",
+          "really",
+          "i think",
+          "i like",
+          "cool",
+          "okay",
+          "fine",
+          "respect",
+          "different",
+          "not scary",
+          "dont be scared",
+          "they wont",
+          "you think"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Kai ask Lily about her idea?"
       },
       {
        "id": "s42-core-07",
@@ -21398,7 +30572,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -21450,7 +30624,30 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Rosa and Ava both saw the same movie. Rosa says it was boring.",
        "image": "assets/img/scene-lesson-43.webp",
-       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray",
+       "check": {
+        "groups": [
+         [
+          "movie",
+          "film",
+          "show",
+          "watch"
+         ],
+         [
+          "boring",
+          "bored",
+          "didnt like",
+          "hated",
+          "not good",
+          "bad",
+          "loved",
+          "like",
+          "disagree"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What did Rosa and Ava both see? What does Rosa say?"
       },
       {
        "id": "s43-core-03",
@@ -21474,7 +30671,21 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“So boring.” That is an opinion word. Rosa says it like a fact.",
        "image": "assets/img/scene-lesson-43.webp",
-       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray",
+       "check": {
+        "groups": [
+         [
+          "boring",
+          "so boring",
+          "bored",
+          "loved",
+          "love",
+          "opinion"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Find the word that tells what Rosa thinks of the movie."
       },
       {
        "id": "s43-core-04",
@@ -21498,7 +30709,34 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Rosa knows what she thinks. She may not know Ava loved the movie.",
        "image": "assets/img/scene-lesson-43.webp",
-       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray",
+       "check": {
+        "groups": [
+         [
+          "loved",
+          "love",
+          "liked",
+          "like it",
+          "ava like",
+          "ava think",
+          "what ava",
+          "how ava",
+          "ava feels",
+          "ava felt"
+         ],
+         [
+          "her opinion",
+          "what she thinks",
+          "she thinks",
+          "own",
+          "boring",
+          "she didnt like",
+          "didnt like it"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Rosa knows her own view. Does she know Ava’s?"
       },
       {
        "id": "s43-core-05",
@@ -21526,7 +30764,37 @@ window.HUB_CONTENT = {
        ],
        "bestIdea": 0,
        "image": "assets/img/scene-lesson-43.webp",
-       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray",
+       "check": {
+        "groups": [
+         [
+          "opinion",
+          "her idea",
+          "her feeling",
+          "her view",
+          "not a fact",
+          "isnt a fact",
+          "personal",
+          "just her",
+          "only her",
+          "she thinks",
+          "its what",
+          "it is what"
+         ],
+         [
+          "cant check",
+          "can not check",
+          "cannot check",
+          "cant prove",
+          "not true for",
+          "ava loved",
+          "others like",
+          "some people"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Can anyone check if a movie is boring?"
       },
       {
        "id": "s43-core-06",
@@ -21550,7 +30818,30 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“I liked it, though. The ending was cool.”",
        "image": "assets/img/scene-lesson-43.webp",
-       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray"
+       "imageAlt": "Lunch table: Rosa waves her hand with a bored face while talking; Ava looks surprised and a little hurt; a movie ticket is by Ava's tray",
+       "check": {
+        "groups": [
+         [
+          "like",
+          "love",
+          "enjoy",
+          "fun",
+          "good",
+          "cool",
+          "favorite",
+          "different",
+          "okay",
+          "fine",
+          "disagree",
+          "why",
+          "what part",
+          "each their own",
+          "great"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Ava share what she thinks in a kind way?"
       },
       {
        "id": "s43-core-07",
@@ -21735,7 +31026,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -21785,7 +31076,26 @@ window.HUB_CONTENT = {
          "text": "I like your dog drawing more."
         }
        ],
-       "sampleAnswer": "Rosa shows Zoe a drawing. Zoe says she likes a different one more."
+       "sampleAnswer": "Rosa shows Zoe a drawing. Zoe says she likes a different one more.",
+       "check": {
+        "groups": [
+         [
+          "draw",
+          "art",
+          "picture",
+          "pic",
+          "sketch"
+         ],
+         [
+          "dog",
+          "favorite",
+          "different",
+          "other"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Rosa show Zoe? What does Zoe say?"
       },
       {
        "id": "s44-core-03",
@@ -21808,7 +31118,26 @@ window.HUB_CONTENT = {
          "text": "I like your dog drawing more."
         }
        ],
-       "sampleAnswer": "Rosa smiles big. Zoe has a small smile. It may mean she likes it, but not the most."
+       "sampleAnswer": "Rosa smiles big. Zoe has a small smile. It may mean she likes it, but not the most.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "grin",
+          "happy",
+          "proud",
+          "excit",
+          "unsure",
+          "not sure",
+          "small",
+          "little",
+          "voice",
+          "dog"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Compare the two smiles. Which one is bigger?"
       },
       {
        "id": "s44-core-04",
@@ -21831,7 +31160,28 @@ window.HUB_CONTENT = {
          "text": "I like your dog drawing more."
         }
        ],
-       "sampleAnswer": "Rosa thinks this one is her best. Zoe likes the dog drawing more."
+       "sampleAnswer": "Rosa thinks this one is her best. Zoe likes the dog drawing more.",
+       "check": {
+        "groups": [
+         [
+          "best",
+          "favorite",
+          "proud",
+          "new one",
+          "this one",
+          "good"
+         ],
+         [
+          "dog",
+          "other",
+          "old",
+          "different",
+          "more"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Which drawing does each girl like most?"
       },
       {
        "id": "s44-core-05",
@@ -21858,7 +31208,45 @@ window.HUB_CONTENT = {
         "No one is wrong. They have different opinions.",
         "Rosa could feel a little let down."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "nobody",
+          "no one",
+          "neither",
+          "not wrong",
+          "both right",
+          "both okay",
+          "opinion",
+          "different",
+          "everyone",
+          "each"
+         ],
+         [
+          "let down",
+          "sad",
+          "upset",
+          "hurt",
+          "disappoint",
+          "bummed",
+          "feel bad",
+          "=mad"
+         ],
+         [
+          "honest",
+          "truth",
+          "still like",
+          "likes both",
+          "nice",
+          "kind",
+          "not mean"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Is liking something a fact or an opinion? How might Rosa feel?"
       },
       {
        "id": "s44-core-06",
@@ -21881,7 +31269,31 @@ window.HUB_CONTENT = {
          "text": "I like your dog drawing more."
         }
        ],
-       "sampleAnswer": "“Cool. What do you like about the dog one?”"
+       "sampleAnswer": "“Cool. What do you like about the dog one?”",
+       "check": {
+        "groups": [
+         [
+          "thank",
+          "cool",
+          "okay",
+          "=ok",
+          "nice",
+          "glad",
+          "why",
+          "what do you like",
+          "what you like",
+          "dog one",
+          "i like",
+          "still",
+          "fair",
+          "good",
+          "both",
+          "maybe"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Rosa ask Zoe about the dog drawing?"
       },
       {
        "id": "s44-core-07",
@@ -22091,7 +31503,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -22110,7 +31522,33 @@ window.HUB_CONTENT = {
        "inShort": false,
        "heading": "Warm-up",
        "kind": "open",
-       "question": "What is a fact? What is an opinion? Give one of each."
+       "question": "What is a fact? What is an opinion? Give one of each.",
+       "check": {
+        "groups": [
+         [
+          "check",
+          "prove",
+          "true",
+          "real",
+          "look it up",
+          "for sure"
+         ],
+         [
+          "think",
+          "feel",
+          "believ",
+          "like",
+          "your idea",
+          "what you",
+          "not everyone",
+          "personal",
+          "best"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Which one can you prove? Which one is what you think?",
+       "sampleAnswer": "A fact can be checked. An opinion is what someone thinks. Fact: Dogs have four legs. Opinion: Dogs are the best pet."
       },
       {
        "id": "s45-core-02",
@@ -22133,7 +31571,21 @@ window.HUB_CONTENT = {
          "text": "Pizza day is every Friday."
         }
        ],
-       "sampleAnswer": "Jay and Ava eat pizza at lunch. They talk about pizza day."
+       "sampleAnswer": "Jay and Ava eat pizza at lunch. They talk about pizza day.",
+       "check": {
+        "groups": [
+         [
+          "pizza",
+          "lunch",
+          "eat",
+          "food",
+          "friday",
+          "talk"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What day is it? What are they eating?"
       },
       {
        "id": "s45-core-03",
@@ -22156,7 +31608,23 @@ window.HUB_CONTENT = {
          "text": "Pizza day is every Friday."
         }
        ],
-       "sampleAnswer": "Jay says “best” and “everyone.” Both smile."
+       "sampleAnswer": "Jay says “best” and “everyone.” Both smile.",
+       "check": {
+        "groups": [
+         [
+          "best",
+          "everyone",
+          "every friday",
+          "smil",
+          "happy",
+          "loves",
+          "love",
+          "grin"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look for big words in what Jay says. Look at their faces."
       },
       {
        "id": "s45-core-04",
@@ -22179,7 +31647,30 @@ window.HUB_CONTENT = {
          "text": "Pizza day is every Friday."
         }
        ],
-       "sampleAnswer": "Not everyone. We would have to ask each person."
+       "sampleAnswer": "Not everyone. We would have to ask each person.",
+       "check": {
+        "groups": [
+         [
+          "=no",
+          "not everyone",
+          "not all",
+          "nope",
+          "some people",
+          "some dont",
+          "probably not"
+         ],
+         [
+          "ask",
+          "survey",
+          "vote",
+          "poll",
+          "raise",
+          "hand"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Do all your friends like the same foods? How could you find out?"
       },
       {
        "id": "s45-core-05",
@@ -22206,7 +31697,31 @@ window.HUB_CONTENT = {
         "Ava said a fact. We can check the lunch menu.",
         "Jay said an opinion like it is a fact."
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "ava",
+          "friday",
+          "menu",
+          "calendar"
+         ],
+         [
+          "jay",
+          "best",
+          "everyone",
+          "love"
+         ],
+         [
+          "fact",
+          "opinion",
+          "check",
+          "true"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Which line can you check on the lunch menu?"
       },
       {
        "id": "s45-core-06",
@@ -22229,7 +31744,31 @@ window.HUB_CONTENT = {
          "text": "Pizza day is every Friday."
         }
        ],
-       "sampleAnswer": "“I like taco day more, but pizza is good too.”"
+       "sampleAnswer": "“I like taco day more, but pizza is good too.”",
+       "check": {
+        "groups": [
+         [
+          "prefer",
+          "favorite",
+          "i like",
+          "i love",
+          "rather",
+          "i think",
+          "for me",
+          "but pizza",
+          "pizza is",
+          "pizza good",
+          "cool",
+          "okay",
+          "fine",
+          "good too",
+          "also good",
+          "nice"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Ava share her own pick and stay kind?"
       },
       {
        "id": "s45-core-07",
@@ -22448,7 +31987,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -22499,7 +32038,32 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ava and Kai make a poster. Kai says Ava's letters are wrong. Ava is upset.",
        "image": "assets/img/scene-lesson-46.webp",
-       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks",
+       "check": {
+        "groups": [
+         [
+          "poster",
+          "project",
+          "letters",
+          "making",
+          "group"
+         ],
+         [
+          "wrong",
+          "argu",
+          "fight",
+          "upset",
+          "=mad",
+          "angry",
+          "disagree",
+          "rude",
+          "mean",
+          "bubble"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What are they making? What does Kai say?"
       },
       {
        "id": "s46-core-03",
@@ -22522,7 +32086,29 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Kai says “wrong.” Ava says “They're not wrong!” Her words sound upset.",
        "image": "assets/img/scene-lesson-46.webp",
-       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks",
+       "check": {
+        "groups": [
+         [
+          "wrong",
+          "upset",
+          "=mad",
+          "angry",
+          "exclamation",
+          "yell",
+          "loud",
+          "voice",
+          "rude",
+          "mean",
+          "defend",
+          "hurt",
+          "sad",
+          "argu"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What word does Kai use? How does Ava sound?"
       },
       {
        "id": "s46-core-04",
@@ -22545,7 +32131,36 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Kai thinks plain letters are the right way. Ava thinks bubble letters are fine.",
        "image": "assets/img/scene-lesson-46.webp",
-       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks",
+       "check": {
+        "groups": [
+         [
+          "plain",
+          "normal",
+          "regular",
+          "his way",
+          "right way",
+          "should",
+          "wrong",
+          "better",
+          "neat"
+         ],
+         [
+          "bubble",
+          "fine",
+          "okay",
+          "=ok",
+          "cool",
+          "her way",
+          "good",
+          "pretty",
+          "fun",
+          "creative"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Which letters does Kai use? Which does Ava use?"
       },
       {
        "id": "s46-core-05",
@@ -22572,7 +32187,45 @@ window.HUB_CONTENT = {
         "Kai may just like plain letters better."
        ],
        "image": "assets/img/scene-lesson-46.webp",
-       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks",
+       "check": {
+        "groups": [
+         [
+          "different",
+          "both work",
+          "both fine",
+          "both ok",
+          "both good",
+          "just style",
+          "style",
+          "not wrong",
+          "either",
+          "both"
+         ],
+         [
+          "read",
+          "messy",
+          "hard to see",
+          "cant see",
+          "rule",
+          "teacher said",
+          "instructions",
+          "match"
+         ],
+         [
+          "prefer",
+          "likes plain",
+          "like plain",
+          "his way",
+          "his style",
+          "opinion",
+          "better",
+          "favorite"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Do both kinds of letters work? Can people still read them?"
       },
       {
        "id": "s46-core-06",
@@ -22595,7 +32248,35 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“Your letters look different from mine. Should we match?”",
        "image": "assets/img/scene-lesson-46.webp",
-       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks"
+       "imageAlt": "Classroom: Ava, hands on hips, frowns while Kai points at her colorful bubble shapes on their shared poster; his half has plain blocks",
+       "check": {
+        "groups": [
+         [
+          "different",
+          "match",
+          "same",
+          "should we",
+          "can we",
+          "lets",
+          "how about",
+          "do you want",
+          "i like",
+          "cool",
+          "nice",
+          "both",
+          "together",
+          "agree",
+          "pick",
+          "style",
+          "prefer",
+          "i think",
+          "opinion",
+          "maybe"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Kai say his idea without the word “wrong”?"
       },
       {
        "id": "s46-core-07",
@@ -22795,7 +32476,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -22846,7 +32527,35 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Lily and Omar solve the same problem. They use different ways. Lily says Omar is wrong.",
        "image": "assets/img/scene-lesson-47.webp",
-       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways",
+       "check": {
+        "groups": [
+         [
+          "solv",
+          "problem",
+          "math",
+          "multipl",
+          "=24",
+          "times",
+          "answer",
+          "count"
+         ],
+         [
+          "different",
+          "wrong",
+          "argu",
+          "disagree",
+          "other way",
+          "another way",
+          "his way",
+          "her way",
+          "fight",
+          "rude"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at how each kid did the math. What does Lily say?"
       },
       {
        "id": "s47-core-03",
@@ -22869,7 +32578,26 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "They both got 24. Omar says, “But I got 24 too.”",
        "image": "assets/img/scene-lesson-47.webp",
-       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways",
+       "check": {
+        "groups": [
+         [
+          "both",
+          "same",
+          "=24",
+          "twenty"
+         ],
+         [
+          "different",
+          "count",
+          "add",
+          "=4 x 5",
+          "steps"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at their answers. What does Omar say?"
       },
       {
        "id": "s47-core-04",
@@ -22892,7 +32620,40 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Lily knows counting by 6s. Omar learned a different way. Lily may not know his way works.",
        "image": "assets/img/scene-lesson-47.webp",
-       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways",
+       "check": {
+        "groups": [
+         [
+          "count",
+          "=6s",
+          "=by =6",
+          "one way",
+          "her way",
+          "own way",
+          "teacher"
+         ],
+         [
+          "different way",
+          "other way",
+          "another way",
+          "his way",
+          "=4 x 5",
+          "add",
+          "learn"
+         ],
+         [
+          "works",
+          "right",
+          "correct",
+          "also",
+          "both",
+          "same",
+          "=24"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about the way each kid learned to do it."
       },
       {
        "id": "s47-core-05",
@@ -22919,7 +32680,55 @@ window.HUB_CONTENT = {
         "She is confused by his steps."
        ],
        "image": "assets/img/scene-lesson-47.webp",
-       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways",
+       "check": {
+        "groups": [
+         [
+          "one way",
+          "only way",
+          "only know",
+          "her way",
+          "own way"
+         ],
+         [
+          "teacher",
+          "taught",
+          "was told",
+          "learned"
+         ],
+         [
+          "confus",
+          "understand",
+          "doesnt get",
+          "does not get",
+          "steps",
+          "never seen",
+          "new to her",
+          "doesnt know his",
+          "does not know his"
+         ],
+         [
+          "mean",
+          "rude",
+          "show off",
+          "better",
+          "smart",
+          "jealous",
+          "compet",
+          "bossy",
+          "win"
+         ],
+         [
+          "mistake",
+          "looks wrong",
+          "different",
+          "weird",
+          "strange"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about what Lily knows. Does she know Omar’s way?"
       },
       {
        "id": "s47-core-06",
@@ -22942,7 +32751,41 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“We got the same answer. Show me your way?”",
        "image": "assets/img/scene-lesson-47.webp",
-       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways"
+       "imageAlt": "Math class: Lily points at Omar's whiteboard with a doubtful face; Omar shrugs and smiles; their boards show two different ways",
+       "check": {
+        "groups": [
+         [
+          "same answer",
+          "both got",
+          "both right",
+          "=24",
+          "you got it",
+          "cool",
+          "nice",
+          "good job",
+          "that works",
+          "works too",
+          "also right",
+          "right too",
+          "neat"
+         ],
+         [
+          "show me",
+          "how did you",
+          "teach me",
+          "explain",
+          "your way",
+          "different way",
+          "other way",
+          "ask"
+         ],
+         [
+          "sorry"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "They both got 24. What kind thing could Lily ask?"
       },
       {
        "id": "s47-core-07",
@@ -23118,7 +32961,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -23169,7 +33012,31 @@ window.HUB_CONTENT = {
          "text": "I like comics more."
         }
        ],
-       "sampleAnswer": "Rosa shows Zoe her drawing. Rosa is proud. Zoe likes a different kind of art."
+       "sampleAnswer": "Rosa shows Zoe her drawing. Rosa is proud. Zoe likes a different kind of art.",
+       "check": {
+        "groups": [
+         [
+          "draw",
+          "art",
+          "picture",
+          "show",
+          "paint",
+          "sketch",
+          "made"
+         ],
+         [
+          "comic",
+          "different",
+          "not sure",
+          "proud",
+          "excit",
+          "doesnt like",
+          "dont like"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at what Rosa holds up. How does she feel?"
       },
       {
        "id": "s48-core-03",
@@ -23193,7 +33060,36 @@ window.HUB_CONTENT = {
          "text": "I like comics more."
         }
        ],
-       "sampleAnswer": "Rosa smiles big and holds it up. Zoe has a small, flat smile."
+       "sampleAnswer": "Rosa smiles big and holds it up. Zoe has a small, flat smile.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "grin",
+          "happy",
+          "proud",
+          "excit",
+          "holds it",
+          "holds up",
+          "big"
+         ],
+         [
+          "flat",
+          "small",
+          "little smile",
+          "not sure",
+          "unsure",
+          "awkward",
+          "fake",
+          "meh",
+          "bored",
+          "not happy",
+          "comic"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Rosa’s smile. Now look at Zoe’s smile."
       },
       {
        "id": "s48-core-04",
@@ -23217,7 +33113,33 @@ window.HUB_CONTENT = {
          "text": "I like comics more."
         }
        ],
-       "sampleAnswer": "She knows she worked hard. She does not know Zoe likes comics more."
+       "sampleAnswer": "She knows she worked hard. She does not know Zoe likes comics more.",
+       "check": {
+        "groups": [
+         [
+          "hard",
+          "work",
+          "made it",
+          "proud",
+          "last night",
+          "effort",
+          "drew",
+          "draw",
+          "good"
+         ],
+         [
+          "comic",
+          "zoe likes",
+          "different",
+          "other art",
+          "not her favorite",
+          "zoe doesnt",
+          "zoe does not"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about the drawing. Think about what Zoe likes."
       },
       {
        "id": "s48-core-05",
@@ -23245,7 +33167,57 @@ window.HUB_CONTENT = {
         "She does not love this style.",
         "She is not sure what to say.",
         "She is just tired."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "not love",
+          "doesnt like",
+          "does not like",
+          "dont like",
+          "not like",
+          "not her style",
+          "not into",
+          "style",
+          "likes comics",
+          "comic",
+          "not her thing",
+          "meh",
+          "boring"
+         ],
+         [
+          "not sure",
+          "unsure",
+          "what to say",
+          "confus",
+          "awkward",
+          "shy"
+         ],
+         [
+          "tired",
+          "sleepy",
+          "bored"
+         ],
+         [
+          "polite",
+          "be nice",
+          "be kind",
+          "not hurt",
+          "feelings",
+          "fake"
+         ],
+         [
+          "happy",
+          "a little",
+          "kind of likes",
+          "sort of likes",
+          "jealous",
+          "envy"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Zoe likes comics more. What might she be thinking?"
       },
       {
        "id": "s48-core-06",
@@ -23269,7 +33241,39 @@ window.HUB_CONTENT = {
          "text": "I like comics more."
         }
        ],
-       "sampleAnswer": "“You worked hard on that. I like the sun.”"
+       "sampleAnswer": "“You worked hard on that. I like the sun.”",
+       "check": {
+        "groups": [
+         [
+          "worked hard",
+          "hard work",
+          "nice",
+          "cool",
+          "good",
+          "great",
+          "awesome",
+          "like the",
+          "love",
+          "pretty",
+          "talent",
+          "wow",
+          "amazing",
+          "beautiful",
+          "sun",
+          "colors"
+         ],
+         [
+          "ask",
+          "how did",
+          "how long",
+          "what is it",
+          "tell me",
+          "show me"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Rosa worked hard. What kind words could Zoe say?"
       },
       {
        "id": "s48-core-07",
@@ -23445,7 +33449,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -23496,7 +33500,35 @@ window.HUB_CONTENT = {
          "text": "Wait, what?"
         }
        ],
-       "sampleAnswer": "Ben gave Omar the wrong time. Omar missed half the game. Omar is upset."
+       "sampleAnswer": "Ben gave Omar the wrong time. Omar missed half the game. Omar is upset.",
+       "check": {
+        "groups": [
+         [
+          "wrong time",
+          "time",
+          "said =5",
+          "=5",
+          "=4",
+          "mix",
+          "mistake",
+          "told"
+         ],
+         [
+          "miss",
+          "late"
+         ],
+         [
+          "upset",
+          "=mad",
+          "angry",
+          "frustrat",
+          "annoy",
+          "yell"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the time Ben said. What did Omar miss?"
       },
       {
        "id": "s49-core-03",
@@ -23519,7 +33551,29 @@ window.HUB_CONTENT = {
          "text": "Wait, what?"
         }
        ],
-       "sampleAnswer": "Omar's arms are crossed. He frowns. Ben shrugs with his hands up."
+       "sampleAnswer": "Omar's arms are crossed. He frowns. Ben shrugs with his hands up.",
+       "check": {
+        "groups": [
+         [
+          "arms",
+          "cross",
+          "frown",
+          "=mad",
+          "angry",
+          "upset",
+          "glare"
+         ],
+         [
+          "shrug",
+          "hands up",
+          "confus",
+          "surpris",
+          "wait what"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Omar’s arms. Look at Ben’s hands."
       },
       {
        "id": "s49-core-04",
@@ -23542,7 +33596,33 @@ window.HUB_CONTENT = {
          "text": "Wait, what?"
         }
        ],
-       "sampleAnswer": "Omar knows he missed the game. Ben may not know he said the wrong time."
+       "sampleAnswer": "Omar knows he missed the game. Ben may not know he said the wrong time.",
+       "check": {
+        "groups": [
+         [
+          "miss",
+          "half"
+         ],
+         [
+          "wrong time",
+          "said the wrong",
+          "mistake",
+          "mix",
+          "forgot",
+          "doesnt remember",
+          "didnt know",
+          "not know he",
+          "thinks he said",
+          "=4",
+          "=5",
+          "real time",
+          "doesnt realize",
+          "confus"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about what Omar missed. Does Ben know his mistake?"
       },
       {
        "id": "s49-core-05",
@@ -23569,7 +33649,49 @@ window.HUB_CONTENT = {
         "He is confused.",
         "He doesn't remember saying 5.",
         "He feels bad and doesn't know what to say."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "confus",
+          "doesnt understand",
+          "not sure",
+          "unsure",
+          "surpris",
+          "what happened"
+         ],
+         [
+          "remember",
+          "forgot",
+          "forget",
+          "said =4",
+          "didnt say"
+         ],
+         [
+          "feel bad",
+          "feels bad",
+          "sorry",
+          "guilt",
+          "embarrass",
+          "what to say",
+          "awkward",
+          "nervous"
+         ],
+         [
+          "dont care",
+          "doesnt care",
+          "not his fault",
+          "not care",
+          "whatever"
+         ],
+         [
+          "mistake",
+          "mix"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Ben says “Wait, what?” What might he be thinking or feeling?"
       },
       {
        "id": "s49-core-06",
@@ -23592,7 +33714,37 @@ window.HUB_CONTENT = {
          "text": "Wait, what?"
         }
        ],
-       "sampleAnswer": "“Oh no. You're right, I mixed it up. I'm sorry.”"
+       "sampleAnswer": "“Oh no. You're right, I mixed it up. I'm sorry.”",
+       "check": {
+        "groups": [
+         [
+          "sorry",
+          "apolog",
+          "my bad",
+          "=oops",
+          "oh =no"
+         ],
+         [
+          "youre right",
+          "my fault",
+          "mix",
+          "mistake",
+          "i was wrong",
+          "messed up",
+          "mess up",
+          "i said the wrong",
+          "said wrong"
+         ],
+         [
+          "make it up",
+          "next time",
+          "watch",
+          "replay"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ben made a mistake. What two words can fix it?"
       },
       {
        "id": "s49-core-07",
@@ -23777,7 +33929,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -23796,7 +33948,34 @@ window.HUB_CONTENT = {
        "kind": "open",
        "question": "How can you tell if something is wrong or just different?",
        "inShort": false,
-       "heading": "Warm-up"
+       "heading": "Warm-up",
+       "check": {
+        "groups": [
+         [
+          "hurt",
+          "harm",
+          "break a rule",
+          "rule",
+          "safe",
+          "danger",
+          "mean",
+          "unfair"
+         ],
+         [
+          "works",
+          "still work",
+          "still right",
+          "same answer",
+          "both right",
+          "result",
+          "does the job",
+          "gets it done"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about Omar’s math. Did his way still work?",
+       "sampleAnswer": "Ask: Does it break a rule or hurt someone? If it works and is safe, it is just different."
       },
       {
        "id": "s50-core-02",
@@ -23819,7 +33998,34 @@ window.HUB_CONTENT = {
          "text": "Nice shot, Zoe!"
         }
        ],
-       "sampleAnswer": "Zoe shoots a different way. She makes it. Jay says it's wrong. Coach says nice shot."
+       "sampleAnswer": "Zoe shoots a different way. She makes it. Jay says it's wrong. Coach says nice shot.",
+       "check": {
+        "groups": [
+         [
+          "shoot",
+          "shot",
+          "free throw",
+          "basket",
+          "ball",
+          "two hands",
+          "low",
+          "hoop"
+         ],
+         [
+          "different",
+          "wrong",
+          "not how",
+          "made it",
+          "makes it",
+          "went in",
+          "score",
+          "nice shot",
+          "coach"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at how Zoe shoots. What do Jay and Coach say?"
       },
       {
        "id": "s50-core-03",
@@ -23842,7 +34048,31 @@ window.HUB_CONTENT = {
          "text": "Nice shot, Zoe!"
         }
        ],
-       "sampleAnswer": "Zoe smiles. Coach smiles and says “Nice shot.” The ball went in."
+       "sampleAnswer": "Zoe smiles. Coach smiles and says “Nice shot.” The ball went in.",
+       "check": {
+        "groups": [
+         [
+          "smil",
+          "grin",
+          "happy"
+         ],
+         [
+          "nice shot",
+          "coach",
+          "went in",
+          "made it",
+          "makes",
+          "scored",
+          "ball"
+         ],
+         [
+          "different",
+          "two hands"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Did the ball go in? What does Coach say?"
       },
       {
        "id": "s50-core-04",
@@ -23865,7 +34095,29 @@ window.HUB_CONTENT = {
          "text": "Nice shot, Zoe!"
         }
        ],
-       "sampleAnswer": "Jay knows one way to shoot. Zoe knows her way works for her."
+       "sampleAnswer": "Jay knows one way to shoot. Zoe knows her way works for her.",
+       "check": {
+        "groups": [
+         [
+          "one way",
+          "only way",
+          "only one",
+          "normal way",
+          "regular way",
+          "usual"
+         ],
+         [
+          "works",
+          "her way",
+          "own way",
+          "makes",
+          "good at",
+          "made"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about how many ways Jay knows. Does Zoe’s way work?"
       },
       {
        "id": "s50-core-05",
@@ -23892,7 +34144,42 @@ window.HUB_CONTENT = {
         "Different. It works, and no rule says no.",
         "Jay may think there is only one right way.",
         "Jay may want to help, but said it in a rude way."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "different",
+          "not wrong"
+         ],
+         [
+          "works",
+          "went in",
+          "made it",
+          "makes it",
+          "no rule",
+          "allowed",
+          "rule",
+          "coach"
+         ],
+         [
+          "one right way",
+          "one way",
+          "only way",
+          "only one"
+         ],
+         [
+          "help",
+          "rude",
+          "mean",
+          "jealous",
+          "show off",
+          "teas",
+          "bossy"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Did her shot go in? What might Jay be thinking?"
       },
       {
        "id": "s50-core-06",
@@ -23915,7 +34202,35 @@ window.HUB_CONTENT = {
          "text": "Nice shot, Zoe!"
         }
        ],
-       "sampleAnswer": "“Whoa, that's a different way. Can you show me?”"
+       "sampleAnswer": "“Whoa, that's a different way. Can you show me?”",
+       "check": {
+        "groups": [
+         [
+          "different way",
+          "cool",
+          "nice",
+          "good shot",
+          "nice shot",
+          "awesome",
+          "wow",
+          "great",
+          "works",
+          "new way"
+         ],
+         [
+          "show me",
+          "teach",
+          "how do you",
+          "how did you",
+          "ask"
+         ],
+         [
+          "sorry"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "It went in. What kind words could Jay say?"
       },
       {
        "id": "s50-core-07",
@@ -24145,7 +34460,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -24192,7 +34507,32 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Lily is on stage. She has to give a speech. She says she has butterflies in her stomach."
+       "sampleAnswer": "Lily is on stage. She has to give a speech. She says she has butterflies in her stomach.",
+       "check": {
+        "groups": [
+         [
+          "speech",
+          "stage",
+          "talk",
+          "present",
+          "turn",
+          "speak",
+          "front"
+         ],
+         [
+          "butterfl",
+          "nervous",
+          "scared",
+          "worr",
+          "stomach",
+          "afraid",
+          "anxious",
+          "freak"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Lily have to do next?"
       },
       {
        "id": "s51-core-03",
@@ -24211,7 +34551,34 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Find clues. Look at her face and body.",
-       "sampleAnswer": "She looks worried. She is shaking and sweating. Her turn is next."
+       "sampleAnswer": "She looks worried. She is shaking and sweating. Her turn is next.",
+       "check": {
+        "groups": [
+         [
+          "worr",
+          "nervous",
+          "scared",
+          "afraid",
+          "anxious"
+         ],
+         [
+          "shak",
+          "sweat",
+          "trembl",
+          "jitter",
+          "fidget"
+         ],
+         [
+          "next",
+          "speech",
+          "stomach",
+          "butterfl",
+          "hand on"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at her hands and face. Is she calm?"
       },
       {
        "id": "s51-core-04",
@@ -24230,7 +34597,32 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "How does Lily feel inside? How can others tell?",
-       "sampleAnswer": "She feels nervous. Others can see her shake and her worried face."
+       "sampleAnswer": "She feels nervous. Others can see her shake and her worried face.",
+       "check": {
+        "groups": [
+         [
+          "nervous",
+          "scared",
+          "worr",
+          "afraid",
+          "anxious",
+          "butterfl",
+          "freak",
+          "stress"
+         ],
+         [
+          "shak",
+          "sweat",
+          "trembl",
+          "fidget",
+          "worried face",
+          "scared face",
+          "pale"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Her turn is next. What feeling makes you shake?"
       },
       {
        "id": "s51-core-05",
@@ -24254,7 +34646,45 @@ window.HUB_CONTENT = {
         "Her stomach feels jumpy and funny.",
         "Real bugs are in her stomach. (These are just the words. It does not fit.)"
        ],
-       "bestIdea": 0
+       "bestIdea": 0,
+       "check": {
+        "groups": [
+         [
+          "nervous",
+          "scared",
+          "worr",
+          "afraid",
+          "anxious",
+          "freak",
+          "stage fright",
+          "fear"
+         ],
+         [
+          "jumpy",
+          "funny",
+          "weird",
+          "flutter",
+          "sick",
+          "tickl",
+          "stomach hurt",
+          "tummy",
+          "queasy"
+         ],
+         [
+          "real bug",
+          "bugs",
+          "real butterfl",
+          "insect",
+          "ate"
+         ],
+         [
+          "excit",
+          "cant wait"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Her turn is next. How might her body feel inside?"
       },
       {
        "id": "s51-core-06",
@@ -24273,7 +34703,46 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What could a friend say to Lily?",
-       "sampleAnswer": "“You got this. Take a deep breath.”"
+       "sampleAnswer": "“You got this. Take a deep breath.”",
+       "check": {
+        "groups": [
+         [
+          "you got this",
+          "you can do",
+          "got this",
+          "good luck",
+          "do great",
+          "youll be fine",
+          "be fine",
+          "be okay",
+          "be =ok",
+          "believe",
+          "proud",
+          "awesome",
+          "great"
+         ],
+         [
+          "breath",
+          "calm",
+          "relax",
+          "slow"
+         ],
+         [
+          "ask",
+          "are you okay",
+          "are you =ok",
+          "its okay",
+          "its =ok",
+          "normal",
+          "me too",
+          "help",
+          "hug",
+          "practice"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Lily is nervous. What words could help her feel calm?"
       },
       {
        "id": "s51-core-07",
@@ -24534,7 +35003,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -24581,7 +35050,26 @@ window.HUB_CONTENT = {
        "question": "What is happening?",
        "sampleAnswer": "Jay is late again. Coach Kim says he is on thin ice.",
        "image": "assets/img/scene-lesson-52.webp",
-       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall",
+       "check": {
+        "groups": [
+         [
+          "late",
+          "tardy"
+         ],
+         [
+          "thin ice",
+          "trouble",
+          "warn",
+          "serious",
+          "=mad",
+          "upset",
+          "angry"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What did Jay do again? What does Coach say?"
       },
       {
        "id": "s52-core-03",
@@ -24600,7 +35088,39 @@ window.HUB_CONTENT = {
        "question": "What clues can help you guess?",
        "sampleAnswer": "Jay was late before. Coach looks serious. There is no ice in the gym.",
        "image": "assets/img/scene-lesson-52.webp",
-       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall",
+       "check": {
+        "groups": [
+         [
+          "before",
+          "again",
+          "two times",
+          "twice",
+          "=3",
+          "three",
+          "keeps",
+          "always",
+          "a lot"
+         ],
+         [
+          "serious",
+          "=mad",
+          "upset",
+          "angry",
+          "strict",
+          "stern",
+          "face"
+         ],
+         [
+          "no ice",
+          "gym",
+          "not real ice",
+          "not ice"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How many times was Jay late? How does Coach look?"
       },
       {
        "id": "s52-core-04",
@@ -24619,7 +35139,37 @@ window.HUB_CONTENT = {
        "question": "Does Jay know this idiom? What does Coach want him to know?",
        "sampleAnswer": "Jay may not know it. Coach wants him to know he is close to trouble.",
        "image": "assets/img/scene-lesson-52.webp",
-       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall",
+       "check": {
+        "groups": [
+         [
+          "may not",
+          "might not",
+          "doesnt know",
+          "not know it",
+          "probably not",
+          "maybe not",
+          "never heard",
+          "new to him",
+          "confus"
+         ],
+         [
+          "trouble",
+          "close",
+          "careful",
+          "warn",
+          "last chance",
+          "one more",
+          "stop being late",
+          "on time",
+          "punish",
+          "bench",
+          "kick"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Coach looks serious. What could happen if Jay is late again?"
       },
       {
        "id": "s52-core-05",
@@ -24643,7 +35193,40 @@ window.HUB_CONTENT = {
        ],
        "bestIdea": 0,
        "image": "assets/img/scene-lesson-52.webp",
-       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall",
+       "check": {
+        "groups": [
+         [
+          "trouble",
+          "punish",
+          "bench",
+          "kick",
+          "consequence",
+          "last chance",
+          "warn",
+          "close"
+         ],
+         [
+          "careful",
+          "upset",
+          "=mad",
+          "angry",
+          "annoy",
+          "serious",
+          "frustrat",
+          "fed up"
+         ],
+         [
+          "stop",
+          "on time",
+          "change",
+          "better",
+          "last time"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "There is no ice in the gym. Why is Coach serious?"
       },
       {
        "id": "s52-core-06",
@@ -24662,7 +35245,34 @@ window.HUB_CONTENT = {
        "question": "If Jay is not sure what it means, what can he do?",
        "sampleAnswer": "Say sorry. Then ask, “Do you mean I could get in trouble?”",
        "image": "assets/img/scene-lesson-52.webp",
-       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall"
+       "imageAlt": "Gym: Jay rushes in the door with his bag, looking worried; Coach Kim stands with arms crossed and a stern face; the clock is on the wall",
+       "check": {
+        "groups": [
+         [
+          "sorry",
+          "apolog"
+         ],
+         [
+          "ask",
+          "do you mean",
+          "what does",
+          "mean by",
+          "explain",
+          "tell me"
+         ],
+         [
+          "on time",
+          "be early",
+          "wont be late",
+          "not be late",
+          "try harder",
+          "promise",
+          "next time"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What could Jay ask Coach?"
       },
       {
        "id": "s52-core-07",
@@ -24885,7 +35495,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -24932,7 +35542,33 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Kai dropped his tray. Food is on the floor. He says, “Well, that went well.”"
+       "sampleAnswer": "Kai dropped his tray. Food is on the floor. He says, “Well, that went well.”",
+       "check": {
+        "groups": [
+         [
+          "drop",
+          "fell",
+          "fall",
+          "spill",
+          "trip"
+         ],
+         [
+          "tray",
+          "food",
+          "lunch",
+          "floor",
+          "mess"
+         ],
+         [
+          "went well",
+          "sarcas",
+          "jok",
+          "kidding"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Look at the floor. What happened to Kai’s lunch?"
       },
       {
        "id": "s53-core-03",
@@ -24965,7 +35601,42 @@ window.HUB_CONTENT = {
          "how": "Over the top. Big voice. Small laugh.",
          "means": "I know it’s bad. I’m trying to laugh about it."
         }
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "not match",
+          "dont match",
+          "doesnt match",
+          "opposite",
+          "sarcas",
+          "not mean",
+          "doesnt mean",
+          "jok",
+          "kidding",
+          "not true"
+         ],
+         [
+          "floor",
+          "drop",
+          "food",
+          "tray",
+          "mess",
+          "spill",
+          "bad"
+         ],
+         [
+          "tone",
+          "flat",
+          "sounds",
+          "annoyed",
+          "sigh",
+          "cover"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Do his words match what happened?"
       },
       {
        "id": "s53-core-04",
@@ -24984,7 +35655,36 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "Does Kai really think it went well? How do you know?",
-       "sampleAnswer": "Probably not. He dropped his food. He covers his face."
+       "sampleAnswer": "Probably not. He dropped his food. He covers his face.",
+       "check": {
+        "groups": [
+         [
+          "probably not",
+          "=no",
+          "not really",
+          "nope",
+          "didnt go",
+          "went bad",
+          "badly",
+          "bad",
+          "sarcas",
+          "jok",
+          "kidding"
+         ],
+         [
+          "drop",
+          "food",
+          "floor",
+          "tray",
+          "spill",
+          "mess",
+          "cover",
+          "hide"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the floor. Look at his face."
       },
       {
        "id": "s53-core-05",
@@ -25006,7 +35706,54 @@ window.HUB_CONTENT = {
        "sampleIdeas": [
         "That went badly.",
         "I feel silly, so I’m making a joke."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "bad",
+          "terrible",
+          "awful",
+          "not well",
+          "didnt go well",
+          "went wrong",
+          "horrible",
+          "worst",
+          "fail",
+          "oops",
+          "opposite"
+         ],
+         [
+          "silly",
+          "jok",
+          "funny",
+          "laugh",
+          "embarrass",
+          "awkward",
+          "dumb",
+          "stupid"
+         ],
+         [
+          "=mad",
+          "annoy",
+          "frustrat",
+          "upset",
+          "angry"
+         ],
+         [
+          "sarcas",
+          "kidding"
+         ],
+         [
+          "sad",
+          "hungry",
+          "lost his lunch",
+          "no food",
+          "no lunch"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "His food is on the floor. Did it really go well?"
       },
       {
        "id": "s53-core-06",
@@ -25025,7 +35772,38 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What could a friend say or do?",
-       "sampleAnswer": "“Oh no! Want help cleaning up?”"
+       "sampleAnswer": "“Oh no! Want help cleaning up?”",
+       "check": {
+        "groups": [
+         [
+          "help",
+          "clean",
+          "pick up",
+          "napkin",
+          "mop"
+         ],
+         [
+          "oh =no",
+          "are you okay",
+          "are you =ok",
+          "you okay",
+          "its okay",
+          "its =ok",
+          "happens",
+          "no big deal",
+          "dont worry",
+          "laugh",
+          "share",
+          "my food",
+          "my lunch",
+          "get another",
+          "new tray",
+          "buy"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Kai’s food is on the floor. How could a friend help?"
       },
       {
        "id": "s53-core-07",
@@ -25260,7 +36038,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -25313,7 +36091,30 @@ window.HUB_CONTENT = {
        "question": "What is happening?",
        "sampleAnswer": "Ben tripped and dropped his books. Jay says, “Smooth move.”",
        "image": "assets/img/scene-lesson-54.webp",
-       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up",
+       "check": {
+        "groups": [
+         [
+          "trip",
+          "fell",
+          "fall",
+          "drop",
+          "stumbl"
+         ],
+         [
+          "book"
+         ],
+         [
+          "smooth",
+          "jok",
+          "teas",
+          "help",
+          "pick"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Ben’s books. What happened to him?"
       },
       {
        "id": "s54-core-03",
@@ -25332,7 +36133,30 @@ window.HUB_CONTENT = {
        "question": "What clues tell you if it is friendly or unkind?",
        "sampleAnswer": "Jay is his good friend. He grins. He helps pick up the books.",
        "image": "assets/img/scene-lesson-54.webp",
-       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up",
+       "check": {
+        "groups": [
+         [
+          "good friend",
+          "best friend",
+          "his friend",
+          "are friends",
+          "buddy",
+          "pal"
+         ],
+         [
+          "grin",
+          "smil",
+          "laugh"
+         ],
+         [
+          "help",
+          "pick"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Jay’s face. What does Jay do with the books?"
       },
       {
        "id": "s54-core-04",
@@ -25351,7 +36175,36 @@ window.HUB_CONTENT = {
        "question": "What does Jay know? What does Ben know about Jay?",
        "sampleAnswer": "Jay knows Ben is not hurt. Ben knows Jay likes to joke.",
        "image": "assets/img/scene-lesson-54.webp",
-       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up",
+       "check": {
+        "groups": [
+         [
+          "not hurt",
+          "okay",
+          "fine",
+          "=ok",
+          "alright",
+          "all right"
+         ],
+         [
+          "jok",
+          "teas",
+          "funny",
+          "kidding",
+          "messing",
+          "playing"
+         ],
+         [
+          "good friend",
+          "best friend",
+          "likes him",
+          "nice",
+          "friends"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about how they are friends. Is Ben hurt?"
       },
       {
        "id": "s54-core-05",
@@ -25375,7 +36228,41 @@ window.HUB_CONTENT = {
        ],
        "bestIdea": 0,
        "image": "assets/img/scene-lesson-54.webp",
-       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up",
+       "check": {
+        "groups": [
+         [
+          "clumsy",
+          "teas",
+          "jok",
+          "kidding",
+          "playing",
+          "funny",
+          "laugh",
+          "messing",
+          "not smooth",
+          "opposite",
+          "sarcas"
+         ],
+         [
+          "okay",
+          "=ok",
+          "help",
+          "you good",
+          "care"
+         ],
+         [
+          "making fun",
+          "mean",
+          "rude",
+          "insult",
+          "laugh at",
+          "bully"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Jay grins and helps. Is he being mean or friendly?"
       },
       {
        "id": "s54-core-06",
@@ -25394,7 +36281,38 @@ window.HUB_CONTENT = {
        "question": "What could Ben say back?",
        "sampleAnswer": "Laugh and say, “Yep. I’m so graceful.”",
        "image": "assets/img/scene-lesson-54.webp",
-       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up"
+       "imageAlt": "Hallway: Ben kneels by his dropped books, looking embarrassed; Jay grins and helps pick them up",
+       "check": {
+        "groups": [
+         [
+          "laugh",
+          "haha",
+          "=lol",
+          "jok",
+          "smile",
+          "grin"
+         ],
+         [
+          "graceful",
+          "smooth",
+          "yep",
+          "yeah",
+          "i know",
+          "thanks",
+          "thank",
+          "oops",
+          "thats me",
+          "my bad",
+          "ninja",
+          "skill",
+          "=pro",
+          "planned",
+          "meant to"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Jay is joking. How could Ben joke back?"
       },
       {
        "id": "s54-core-07",
@@ -25634,7 +36552,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -25653,7 +36571,43 @@ window.HUB_CONTENT = {
        "heading": "Warm-up",
        "inShort": false,
        "kind": "open",
-       "question": "What is an idiom? What is sarcasm? Give one example of each."
+       "question": "What is an idiom? What is sarcasm? Give one example of each.",
+       "check": {
+        "groups": [
+         [
+          "saying",
+          "phrase",
+          "words mean",
+          "means something",
+          "not literal",
+          "figure",
+          "expression",
+          "piece of cake",
+          "butterfl",
+          "thin ice",
+          "break a leg",
+          "raining cats",
+          "hit the",
+          "cost an arm"
+         ],
+         [
+          "opposite",
+          "not what you mean",
+          "dont mean",
+          "do not mean",
+          "dont really mean",
+          "jok",
+          "kidding",
+          "went well",
+          "super easy",
+          "smooth move",
+          "fake"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think of “piece of cake.” Think of Kai’s “that went well.”",
+       "sampleAnswer": "An idiom is a saying that means something else, like “piece of cake.” Sarcasm is saying the opposite of what you mean, like “Well, that went well.”"
       },
       {
        "id": "s55-core-02",
@@ -25676,7 +36630,33 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Mr. Cruz says the problem is a piece of cake. Rosa is stuck. She says, “Oh, sure. Super easy.”"
+       "sampleAnswer": "Mr. Cruz says the problem is a piece of cake. Rosa is stuck. She says, “Oh, sure. Super easy.”",
+       "check": {
+        "groups": [
+         [
+          "piece of cake",
+          "cake",
+          "easy",
+          "simple"
+         ],
+         [
+          "stuck",
+          "confus",
+          "hard",
+          "doesnt get",
+          "doesnt understand",
+          "lost",
+          "struggl"
+         ],
+         [
+          "sarcas",
+          "jok",
+          "kidding"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Rosa. Is the problem easy for her?"
       },
       {
        "id": "s55-core-03",
@@ -25713,7 +36693,38 @@ window.HUB_CONTENT = {
          "how": "Bright and happy. Nod.",
          "means": "Yes! I get it now."
         }
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "confus",
+          "puzzl",
+          "lost",
+          "frown",
+          "worr"
+         ],
+         [
+          "stuck",
+          "hard",
+          "doesnt get",
+          "cant do",
+          "not easy"
+         ],
+         [
+          "dont match",
+          "doesnt match",
+          "opposite",
+          "sarcas",
+          "flat",
+          "tone",
+          "annoy",
+          "sigh",
+          "roll"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Do her words match how she looks?"
       },
       {
        "id": "s55-core-04",
@@ -25736,7 +36747,32 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What does Mr. Cruz know? What may he not know?",
-       "sampleAnswer": "He knows the math. He may not know Rosa is stuck."
+       "sampleAnswer": "He knows the math. He may not know Rosa is stuck.",
+       "check": {
+        "groups": [
+         [
+          "math",
+          "how to",
+          "answer",
+          "solve",
+          "easy for him",
+          "easy"
+         ],
+         [
+          "stuck",
+          "confus",
+          "hard for",
+          "doesnt get",
+          "doesnt understand",
+          "needs help",
+          "lost",
+          "sarcas",
+          "joking"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Mr. Cruz knows the math. Does he know how Rosa feels?"
       },
       {
        "id": "s55-core-05",
@@ -25763,7 +36799,37 @@ window.HUB_CONTENT = {
         "Mr. Cruz means the problem is easy.",
         "Rosa means it is not easy for her.",
         "Rosa is joking to hide that she is stuck."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "easy",
+          "simple",
+          "not hard",
+          "no problem"
+         ],
+         [
+          "not easy",
+          "hard",
+          "difficult",
+          "tough",
+          "stuck",
+          "confus",
+          "opposite"
+         ],
+         [
+          "jok",
+          "kidding",
+          "sarcas",
+          "hide",
+          "embarrass",
+          "pretend",
+          "not mean it"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Is it easy for Mr. Cruz? Is it easy for Rosa?"
       },
       {
        "id": "s55-core-06",
@@ -25786,7 +36852,30 @@ window.HUB_CONTENT = {
         }
        ],
        "question": "What could Rosa do?",
-       "sampleAnswer": "Raise her hand. Say, “I’m stuck. Can you show me?”"
+       "sampleAnswer": "Raise her hand. Say, “I’m stuck. Can you show me?”",
+       "check": {
+        "groups": [
+         [
+          "raise",
+          "hand"
+         ],
+         [
+          "ask",
+          "help",
+          "show me",
+          "explain",
+          "stuck",
+          "dont get",
+          "dont understand",
+          "confus",
+          "again",
+          "tell",
+          "go over"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Rosa is stuck. Who can help her? What can she ask?"
       },
       {
        "id": "s55-core-07",
@@ -26069,7 +37158,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -26088,7 +37177,11 @@ window.HUB_CONTENT = {
        "kind": "open",
        "heading": "Warm-up",
        "question": "Think of a time you argued with a friend. Was it about something big or small?",
-       "inShort": false
+       "inShort": false,
+       "check": {
+        "open": true
+       },
+       "hint": "Was it a big deal or a small thing?"
       },
       {
        "id": "s56-core-02",
@@ -26112,7 +37205,34 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Jay takes the last slice of pizza. Omar watches."
+       "sampleAnswer": "Jay takes the last slice of pizza. Omar watches.",
+       "check": {
+        "groups": [
+         [
+          "slice",
+          "pizza",
+          "piece",
+          "food"
+         ],
+         [
+          "take",
+          "taki",
+          "took",
+          "ate",
+          "eat",
+          "grab"
+         ],
+         [
+          "watch",
+          "wants",
+          "wanted",
+          "upset",
+          "=mad"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at the pizza. Who gets the last one?"
       },
       {
        "id": "s56-core-03",
@@ -26136,7 +37256,41 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Omar has his arms crossed. His face looks calm. Jay is smiling."
+       "sampleAnswer": "Omar has his arms crossed. His face looks calm. Jay is smiling.",
+       "check": {
+        "groups": [
+         [
+          "arms",
+          "cross",
+          "fold"
+         ],
+         [
+          "calm",
+          "fine",
+          "okay",
+          "not =mad",
+          "not upset",
+          "relax",
+          "chill",
+          "normal",
+          "flat"
+         ],
+         [
+          "smil",
+          "happy",
+          "=yum"
+         ],
+         [
+          "quiet",
+          "didnt say",
+          "annoy",
+          "upset",
+          "=mad"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Look at Omar’s arms and face. Is he calm or upset?"
       },
       {
        "id": "s56-core-04",
@@ -26160,7 +37314,33 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Maybe not. Omar did not say anything."
+       "sampleAnswer": "Maybe not. Omar did not say anything.",
+       "check": {
+        "groups": [
+         [
+          "maybe not",
+          "probably not",
+          "=no",
+          "might not",
+          "doesnt know",
+          "does not know",
+          "didnt know",
+          "not sure"
+         ],
+         [
+          "didnt say",
+          "did not say",
+          "quiet",
+          "said nothing",
+          "never said",
+          "didnt tell",
+          "did not tell",
+          "didnt ask"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Did Omar say he wanted it?"
       },
       {
        "id": "s56-core-05",
@@ -26188,7 +37368,54 @@ window.HUB_CONTENT = {
         "Small. It is just one slice.",
         "Small, but Omar may feel a little left out.",
         "It is big only if Jay always takes the last one."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "small",
+          "little",
+          "not big",
+          "no big deal",
+          "not a big deal",
+          "just pizza",
+          "one slice",
+          "just a slice",
+          "doesnt matter",
+          "minor"
+         ],
+         [
+          "left out",
+          "sad",
+          "upset",
+          "hungry",
+          "annoy",
+          "bummed",
+          "jealous",
+          "=mad",
+          "hurt"
+         ],
+         [
+          "always",
+          "every time",
+          "keeps",
+          "all the time",
+          "a lot",
+          "big if",
+          "share",
+          "split",
+          "ask"
+         ],
+         [
+          "rude",
+          "selfish",
+          "greedy",
+          "unfair",
+          "not fair"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "It is one slice. How might Omar feel?"
       },
       {
        "id": "s56-core-06",
@@ -26212,7 +37439,39 @@ window.HUB_CONTENT = {
          "kind": "think"
         }
        ],
-       "sampleAnswer": "Let it go. Or say, “Next time can we split it?”"
+       "sampleAnswer": "Let it go. Or say, “Next time can we split it?”",
+       "check": {
+        "groups": [
+         [
+          "let it go",
+          "let go",
+          "ignore",
+          "forget",
+          "move on",
+          "fine",
+          "okay",
+          "=ok"
+         ],
+         [
+          "next time",
+          "split",
+          "share",
+          "half",
+          "ask",
+          "can i have",
+          "save",
+          "take turns",
+          "my turn",
+          "fair"
+         ],
+         [
+          "wanted",
+          "want"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Is it big or small? What could Omar say next time?"
       },
       {
        "id": "s56-core-07",
@@ -26407,7 +37666,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -26457,7 +37716,28 @@ window.HUB_CONTENT = {
          "text": "Ugh. That’s dumb."
         }
        ],
-       "sampleAnswer": "Ben shares an idea. Omar says it is dumb and looks away."
+       "sampleAnswer": "Ben shares an idea. Omar says it is dumb and looks away.",
+       "check": {
+        "groups": [
+         [
+          "idea",
+          "video"
+         ],
+         [
+          "dumb",
+          "stupid",
+          "mean",
+          "rude",
+          "look away",
+          "looks away",
+          "arms",
+          "doesnt like",
+          "ugh"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Ben share? What does Omar say?"
       },
       {
        "id": "s57-core-03",
@@ -26480,7 +37760,33 @@ window.HUB_CONTENT = {
          "text": "Ugh. That’s dumb."
         }
        ],
-       "sampleAnswer": "Omar says “dumb.” He crosses his arms. He looks away. Ben shrugs and looks confused."
+       "sampleAnswer": "Omar says “dumb.” He crosses his arms. He looks away. Ben shrugs and looks confused.",
+       "check": {
+        "groups": [
+         [
+          "dumb",
+          "ugh"
+         ],
+         [
+          "cross",
+          "arms",
+          "fold"
+         ],
+         [
+          "look away",
+          "looks away",
+          "away",
+          "eyes",
+          "roll"
+         ],
+         [
+          "shrug",
+          "confus"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Listen to Omar’s words. Look at his arms and eyes."
       },
       {
        "id": "s57-core-04",
@@ -26503,7 +37809,29 @@ window.HUB_CONTENT = {
          "text": "Ugh. That’s dumb."
         }
        ],
-       "sampleAnswer": "Ben may feel hurt. He does not know why Omar doesn’t like the idea."
+       "sampleAnswer": "Ben may feel hurt. He does not know why Omar doesn’t like the idea.",
+       "check": {
+        "groups": [
+         [
+          "hurt",
+          "sad",
+          "upset",
+          "bad",
+          "embarrass",
+          "confus",
+          "=mad",
+          "bummed"
+         ],
+         [
+          "why",
+          "reason",
+          "what omar",
+          "what is wrong"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How would you feel if a friend called your idea dumb?"
       },
       {
        "id": "s57-core-05",
@@ -26530,7 +37858,51 @@ window.HUB_CONTENT = {
         "He does not like videos.",
         "He is in a bad mood.",
         "He has a different idea."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "like video",
+          "videos",
+          "video",
+          "hate"
+         ],
+         [
+          "bad mood",
+          "mood",
+          "grumpy",
+          "tired",
+          "bad day",
+          "upset",
+          "=mad",
+          "stress"
+         ],
+         [
+          "different idea",
+          "own idea",
+          "other idea",
+          "better idea",
+          "his idea",
+          "another idea"
+         ],
+         [
+          "mean",
+          "rude",
+          "bully",
+          "jealous",
+          "doesnt like ben",
+          "show off"
+         ],
+         [
+          "lazy",
+          "work",
+          "dont want",
+          "doesnt want"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about Omar’s day. Does he have his own idea?"
       },
       {
        "id": "s57-core-06",
@@ -26553,7 +37925,38 @@ window.HUB_CONTENT = {
          "text": "Ugh. That’s dumb."
         }
        ],
-       "sampleAnswer": "“I’m not sure about a video. Can we try a poster?”"
+       "sampleAnswer": "“I’m not sure about a video. Can we try a poster?”",
+       "check": {
+        "groups": [
+         [
+          "not sure",
+          "maybe",
+          "what about",
+          "how about",
+          "can we",
+          "another",
+          "other idea",
+          "poster",
+          "different",
+          "try"
+         ],
+         [
+          "ask",
+          "why",
+          "tell me"
+         ],
+         [
+          "good",
+          "nice",
+          "cool",
+          "interest",
+          "okay",
+          "thanks"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How can Omar share his own idea in a kind way?"
       },
       {
        "id": "s57-core-07",
@@ -26773,7 +38176,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -26823,7 +38226,29 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ava and Lily want to do different things.",
        "image": "assets/img/scene-lesson-58.webp",
-       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV",
+       "check": {
+        "groups": [
+         [
+          "different",
+          "both want",
+          "disagree",
+          "argu",
+          "fight",
+          "cant decide",
+          "dont agree"
+         ],
+         [
+          "game",
+          "show",
+          "watch",
+          "board",
+          "=tv"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Ava want? What does Lily want?"
       },
       {
        "id": "s58-core-03",
@@ -26846,7 +38271,28 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Lily says “Let’s watch.” Ava says “But I want…” Both want their own way.",
        "image": "assets/img/scene-lesson-58.webp",
-       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV",
+       "check": {
+        "groups": [
+         [
+          "lets watch",
+          "watch",
+          "show"
+         ],
+         [
+          "but i want",
+          "i want",
+          "game"
+         ],
+         [
+          "own way",
+          "both want",
+          "different"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Listen to Lily’s words. Listen to Ava’s words."
       },
       {
        "id": "s58-core-04",
@@ -26869,7 +38315,27 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "She knows what she wants. She doesn’t know how much the show matters to Lily.",
        "image": "assets/img/scene-lesson-58.webp",
-       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV",
+       "check": {
+        "groups": [
+         [
+          "what she wants",
+          "wants",
+          "game",
+          "board"
+         ],
+         [
+          "show",
+          "matters",
+          "important",
+          "how much",
+          "why",
+          "big deal"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Ava knows what she wants. Does she know how Lily feels?"
       },
       {
        "id": "s58-core-05",
@@ -26896,7 +38362,49 @@ window.HUB_CONTENT = {
         "Ask: “Is this show a big deal to you?”"
        ],
        "image": "assets/img/scene-lesson-58.webp",
-       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV",
+       "check": {
+        "groups": [
+         [
+          "let it go",
+          "let go",
+          "sure",
+          "okay",
+          "fine",
+          "watch the show",
+          "watch",
+          "agree"
+         ],
+         [
+          "compromise",
+          "both",
+          "one show",
+          "then a game",
+          "then play",
+          "after",
+          "first",
+          "turns",
+          "split",
+          "half"
+         ],
+         [
+          "ask",
+          "big deal",
+          "why"
+         ],
+         [
+          "something else",
+          "different thing",
+          "new thing",
+          "flip",
+          "coin",
+          "rock paper",
+          "vote"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Could they do both? Could Ava let it go?"
       },
       {
        "id": "s58-core-06",
@@ -26919,7 +38427,40 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“How about one show, then the game?”",
        "image": "assets/img/scene-lesson-58.webp",
-       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV"
+       "imageAlt": "Living room: Ava sits on the floor holding up a board game; Lily on the couch points the TV remote at the TV",
+       "check": {
+        "groups": [
+         [
+          "how about",
+          "what if",
+          "one show",
+          "after",
+          "first",
+          "both",
+          "turns",
+          "compromise",
+          "half"
+         ],
+         [
+          "sure",
+          "okay",
+          "=ok",
+          "fine",
+          "lets watch",
+          "lets do",
+          "your choice",
+          "you pick"
+         ],
+         [
+          "ask",
+          "big deal",
+          "why",
+          "what show"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "How could they both get a turn?"
       },
       {
        "id": "s58-core-07",
@@ -27110,7 +38651,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -27160,7 +38701,27 @@ window.HUB_CONTENT = {
          "text": "I don’t know. My balance is not great."
         }
        ],
-       "sampleAnswer": "Kai is skating. He wants Omar to try the ramp."
+       "sampleAnswer": "Kai is skating. He wants Omar to try the ramp.",
+       "check": {
+        "groups": [
+         [
+          "skat",
+          "board",
+          "ramp"
+         ],
+         [
+          "try",
+          "push",
+          "wants omar",
+          "get on",
+          "scared",
+          "nervous",
+          "balance"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What is Kai doing? What does he want Omar to do?"
       },
       {
        "id": "s59-core-03",
@@ -27183,7 +38744,30 @@ window.HUB_CONTENT = {
          "text": "I don’t know. My balance is not great."
         }
        ],
-       "sampleAnswer": "Kai says “Go down the ramp!” Omar says “I don’t know.” He says his balance is not great."
+       "sampleAnswer": "Kai says “Go down the ramp!” Omar says “I don’t know.” He says his balance is not great.",
+       "check": {
+        "groups": [
+         [
+          "go down",
+          "get on",
+          "ramp"
+         ],
+         [
+          "says i dont know",
+          "said i dont know",
+          "balance",
+          "not great",
+          "not good",
+          "unsure",
+          "not sure",
+          "hesita",
+          "nervous",
+          "scared"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Listen to Omar. What does he say about his balance?"
       },
       {
        "id": "s59-core-04",
@@ -27206,7 +38790,34 @@ window.HUB_CONTENT = {
          "text": "I don’t know. My balance is not great."
         }
        ],
-       "sampleAnswer": "Omar may feel nervous. Kai forgets that skating is new and hard for Omar."
+       "sampleAnswer": "Omar may feel nervous. Kai forgets that skating is new and hard for Omar.",
+       "check": {
+        "groups": [
+         [
+          "nervous",
+          "scared",
+          "worr",
+          "afraid",
+          "unsure",
+          "not sure",
+          "anxious",
+          "pressur",
+          "shy",
+          "uncomfort"
+         ],
+         [
+          "new",
+          "hard",
+          "balance",
+          "not good",
+          "cant skate",
+          "never",
+          "doesnt know how"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Omar says his balance is not great. How might he feel?"
       },
       {
        "id": "s59-core-05",
@@ -27233,7 +38844,49 @@ window.HUB_CONTENT = {
         "He is scared to fall.",
         "He wants to watch first.",
         "He does not want to skate."
-       ]
+       ],
+       "check": {
+        "groups": [
+         [
+          "scared",
+          "fall",
+          "afraid",
+          "hurt",
+          "nervous",
+          "worr",
+          "fear"
+         ],
+         [
+          "watch first",
+          "watch",
+          "learn",
+          "later",
+          "first"
+         ],
+         [
+          "doesnt want",
+          "does not want",
+          "dont want",
+          "not want",
+          "not fun",
+          "boring",
+          "hate",
+          "not interest"
+         ],
+         [
+          "balance",
+          "not good",
+          "bad at",
+          "cant skate",
+          "new",
+          "never",
+          "embarrass",
+          "laugh"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Think about falling. Think about what Omar wants to do."
       },
       {
        "id": "s59-core-06",
@@ -27256,7 +38909,45 @@ window.HUB_CONTENT = {
          "text": "I don’t know. My balance is not great."
         }
        ],
-       "sampleAnswer": "“Want to just stand on the board on the grass first?”"
+       "sampleAnswer": "“Want to just stand on the board on the grass first?”",
+       "check": {
+        "groups": [
+         [
+          "grass",
+          "stand",
+          "start small",
+          "start slow",
+          "slow",
+          "small",
+          "easy",
+          "first",
+          "practice",
+          "hold"
+         ],
+         [
+          "want to",
+          "do you want",
+          "you want",
+          "ask",
+          "only if",
+          "your choice",
+          "no pressure",
+          "its okay",
+          "its =ok",
+          "its fine",
+          "dont have to",
+          "okay if"
+         ],
+         [
+          "watch",
+          "help",
+          "show you",
+          "teach"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Is there an easier way for Omar to start? Kai could ask."
       },
       {
        "id": "s59-core-07",
@@ -27446,7 +39137,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -27465,7 +39156,45 @@ window.HUB_CONTENT = {
        "kind": "open",
        "heading": "Warm-up",
        "question": "What did we learn about friends this unit? Name one idea.",
-       "inShort": false
+       "inShort": false,
+       "check": {
+        "groups": [
+         [
+          "let go",
+          "let it go",
+          "small",
+          "big",
+          "matter",
+          "important"
+         ],
+         [
+          "respect",
+          "kind",
+          "nice",
+          "listen"
+         ],
+         [
+          "ask",
+          "push",
+          "pressur"
+         ],
+         [
+          "compromise",
+          "share",
+          "take turns",
+          "agree",
+          "both"
+         ],
+         [
+          "different",
+          "wrong",
+          "sorry"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Think about the pizza, the skate park, or the show.",
+       "sampleAnswer": "Some things are big and some are small. Let small things go. Ask, don’t push."
       },
       {
        "id": "s60-core-02",
@@ -27488,7 +39217,27 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Zoe and Rosa make a poster. They don’t agree on the color. Rosa wants to copy Ben’s work.",
        "image": "assets/img/scene-lesson-60.webp",
-       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background",
+       "check": {
+        "groups": [
+         [
+          "color",
+          "blue",
+          "green",
+          "disagree",
+          "dont agree",
+          "argu"
+         ],
+         [
+          "copy",
+          "cheat",
+          "steal",
+          "facts"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What do they not agree on? What does Rosa want to do?"
       },
       {
        "id": "s60-core-03",
@@ -27511,7 +39260,26 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Rosa says “Fine” about blue. Then she says “He won’t know.”",
        "image": "assets/img/scene-lesson-60.webp",
-       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background",
+       "check": {
+        "groups": [
+         [
+          "fine",
+          "blue"
+         ],
+         [
+          "wont know",
+          "he wont",
+          "copy",
+          "cheat",
+          "facts",
+          "sneak",
+          "secret"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Listen to Rosa. What does she say about Ben?"
       },
       {
        "id": "s60-core-04",
@@ -27534,7 +39302,22 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "Ben doesn’t know Rosa wants to copy his facts.",
        "image": "assets/img/scene-lesson-60.webp",
-       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background",
+       "check": {
+        "groups": [
+         [
+          "copy",
+          "cheat",
+          "steal",
+          "take his",
+          "use his",
+          "facts",
+          "work"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "What does Rosa want to do with Ben’s facts?"
       },
       {
        "id": "s60-core-05",
@@ -27561,7 +39344,33 @@ window.HUB_CONTENT = {
         "Rosa may not know copying is wrong."
        ],
        "image": "assets/img/scene-lesson-60.webp",
-       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background",
+       "check": {
+        "groups": [
+         [
+          "color",
+          "blue",
+          "green"
+         ],
+         [
+          "copy",
+          "cheat",
+          "steal",
+          "facts"
+         ],
+         [
+          "wrong",
+          "not okay",
+          "not allowed",
+          "rule",
+          "trouble",
+          "unfair",
+          "not fair"
+         ]
+        ],
+        "need": 2
+       },
+       "hint": "Which one could get you in trouble? Which one does not matter?"
       },
       {
        "id": "s60-core-06",
@@ -27584,7 +39393,41 @@ window.HUB_CONTENT = {
        ],
        "sampleAnswer": "“Blue or green is fine with me. But let’s not copy. We can find our own facts.”",
        "image": "assets/img/scene-lesson-60.webp",
-       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background"
+       "imageAlt": "Classroom: Rosa whispers to Zoe and points at a notebook on another desk; Zoe looks uneasy; Ben works in the background",
+       "check": {
+        "groups": [
+         [
+          "not copy",
+          "dont copy",
+          "no copying",
+          "shouldnt copy",
+          "stop",
+          "is cheating",
+          "thats cheating",
+          "wrong",
+          "not fair",
+          "unfair",
+          "not right",
+          "our own",
+          "own facts",
+          "ourselves",
+          "find",
+          "research"
+         ],
+         [
+          "fine",
+          "okay",
+          "=ok",
+          "either",
+          "blue or green",
+          "green",
+          "compromise",
+          "both"
+         ]
+        ],
+        "need": 1
+       },
+       "hint": "Is the color a big deal? Is copying okay?"
       },
       {
        "id": "s60-core-07",
