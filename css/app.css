@@ -368,3 +368,8 @@ body.presenting { overflow: hidden; }
 .typed[readonly]{background:var(--soft)}
 .typed-row{align-items:center;gap:.8em;flex-wrap:wrap}
 .typed-row .btn.go{font-size:1.1em;padding:.55em 1.1em}
+.mark-say{display:inline-flex;gap:.4em}
+.btn.mk-yes{background:#DCFCE7;border-color:#15803D;color:#14532D;font-weight:800}
+.btn.mk-no{background:#FFF1E6;border-color:#C2410C;color:#7C2D12;font-weight:800}
+.fb.hintshow{background:#FEF9C3}
+.hint b{font-weight:800}

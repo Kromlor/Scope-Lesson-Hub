@@ -163,3 +163,16 @@ UPDATE: TYPED ANSWERS, "CHECK MY ANSWER" (October 21, 2026) · v2.1
   first try, draft kept on refresh, open question, talk cards spoken, saved record, both-students
   hide/reveal, setting off).
 - Full test run: 17 of 17 pass.
+
+UPDATE: SPOKEN ANSWERS + HINT BUTTON (October 28, 2026) · v2.2
+- At the SLP's request, open questions no longer show an answer box. The question shows; the student
+  answers the SLP out loud. The SLP panel has "✓ Correct" (screen: "Yes!") and "✗ Not yet" (screen:
+  "Try again"), and "💡 Give a hint", which shows the card's hint on the student screen.
+- Hints are now teacher-controlled on every card (the student "Need a hint?" button was removed).
+  All 407 open questions have a hint (written last week).
+- Records save the marks and whether a hint was given; the CSV export has a new last column, "Hint given".
+- Two students, "Both practice each skill": marks stay hidden until both have answered, then the
+  reveal shows "said: correct / not yet" for each student.
+- Typing with automatic checking is still available but off by default (Settings > Answer boxes).
+- Tests: new "spoken" test; the "typed" test now turns typing on first.
+- Full test run: 18 of 18 pass.

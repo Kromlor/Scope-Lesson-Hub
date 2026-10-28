@@ -115,7 +115,7 @@
         ${c.image ? '' : saysHTML}${line}${tones}
         <div class="qrow"><h2 class="question">${H.esc(c.question)}</h2>${H.voice.btn(c.question, t.variant === 'main' ? c.questionRec : (c.alt && c.alt.questionRec))}</div>
         <div id="answer"></div>
-        ${c.hint ? `<div class="hintbox"><button class="btn small" id="hintbtn">Need a hint?</button><p class="hint hidden" id="hinttxt">${H.esc(c.hint)} ${H.voice.btn(c.hint)}</p></div>` : ''}
+        ${c.hint && !Ses.spoken(c) && !Ses.typed(c) ? `<div class="hintbox"><p class="hint hidden" id="hinttxt"><b>Hint:</b> ${H.esc(c.hint)} ${H.voice.btn(c.hint)}</p></div>` : ''}
         ${(c.starters || []).length ? `<div class="starters" aria-label="Sentence starters"><span class="small muted">Sentence starters:</span>${c.starters.map(s => `<button class="starter" data-say="${H.esc(s)}">${H.esc(s)}</button>`).join('')}</div>` : ''}
         ${(c.prompts || []).length ? `<ul class="prompts">${c.prompts.map(p => `<li>${H.esc(p)} ${H.voice.btn(p)}</li>`).join('')}</ul>` : ''}
         <div id="feedback" aria-live="polite"></div>
@@ -134,8 +134,8 @@
     const prev = r && r.found || [];
     prev.forEach(i => { const b = H.$(`[data-clue="${i}"]`, stage); if (b) { b.classList.add('found'); const k = c.clues[i]; const li = document.createElement('li'); li.dataset.cl = i; li.value = i + 1; li.innerHTML = `${k.step && steps[k.step] ? `<span class="mini" style="--c:${steps[k.step].color}">${k.step}</span>` : ''}${H.esc(k.label)}`; H.$('#cluelist').appendChild(li); } });
     H.$$('[data-tone]', stage).forEach(b => b.onclick = () => { b.querySelector('.means').classList.remove('hidden'); const tt = b.querySelector('.tapto'); tt && tt.remove(); });
-    const hb = H.$('#hintbtn'); if (hb) hb.onclick = () => { H.$('#hinttxt').classList.remove('hidden'); hb.remove(); const rr = r0(); rr.hintShown = true; persist(); };
-    if (r && r.hintShown && hb) { H.$('#hinttxt').classList.remove('hidden'); hb.remove(); }
+    const hb = H.$('#hintbtn'); if (hb) hb.onclick = () => { H.$('#hinttxt').classList.remove('hidden'); hb.remove(); const rr = r0(); rr.hintShown = true; persist(); const sh = H.$('#slphint'); if (sh) sh.remove(); };
+    if (r && r.hintShown && H.$('#hinttxt')) H.$('#hinttxt').classList.remove('hidden');
     drawAnswer(t);
   }
   const r0 = () => ensureResp(turn());
@@ -158,6 +158,7 @@
     if (c.kind === 'open' && Ses.typed(c)) return drawTyped(t, c, box, fb, r, hs);
     if (c.kind === 'open') {
       box.innerHTML = `<p class="openq">${S.students.length > 1 && t.studentId ? H.esc(stu(t.studentId).name) + ', say' : 'Say'} your answer out loud.</p>`;
+      if (Ses.spoken(c)) return drawSpoken(t, c, fb, r, hs);
       if (hs.revealed || (!t.hideUntilBoth && r && r.showSample)) showSample(c, fb);
       if (t.hideUntilBoth && !hs.revealed) fb.innerHTML = hs.bothAnswered ? revealBtn() : '';
       wireReveal(t);
@@ -198,7 +199,9 @@
     drawSlpEvidence(t);
   }
   /* ---------- typed answers on open questions ("Check my answer") ---------- */
-  Ses.typed = c => c.kind === 'open' && c.role !== 'discussion' && !(H.prefs && H.prefs.typedAnswers === false);
+  Ses.typed = c => c.kind === 'open' && c.role !== 'discussion' && !!(H.prefs && H.prefs.typedAnswers === true);
+  // spoken open questions the SLP marks Correct / Not yet (the default)
+  Ses.spoken = c => c.kind === 'open' && c.role !== 'discussion' && !Ses.typed(c);
   function drawTyped(t, c, box, fb, r, hs) {
     const ra = r ? r.attempts.filter(a => a.round === r.round) : [];
     const last = ra[ra.length - 1];
@@ -238,6 +241,40 @@
     wireReveal(t);
     drawSlpEvidence(t);
   }
+  /* spoken answers: the SLP listens and presses Correct / Not yet; Give a hint shows the hint on screen */
+  function drawSpoken(t, c, fb, r, hs) {
+    const ra = r ? r.attempts.filter(a => a.round === r.round) : [];
+    const last = ra[ra.length - 1];
+    const hintHTML = r && r.hintShown && c.hint ? `<div class="fb hintshow"><b>Hint:</b> ${H.esc(c.hint)} ${H.voice.btn('Hint. ' + c.hint)}</div>` : '';
+    const sample = () => { const d = document.createElement('div'); showSample(c, d); return d.innerHTML; };
+    let html = '';
+    if (t.hideUntilBoth && !hs.revealed) {
+      html = (last ? (hs.bothAnswered ? revealBtn() : `<div class="fb wait">Answer saved. ${hs.partner && hs.partner.id === S.turns[S.pos + 1]?.id ? 'Next it’s ' + H.esc(stu(hs.partner.studentId).name) + '’s turn.' : 'The answer shows after both students answer.'}</div>`) : '') + hintHTML;
+    } else if (hs.revealed) {
+      html = bothAnswersHTML(t) + sample();
+    } else {
+      if (last && last.correct === true) html = `<div class="fb ok"><b>Yes!</b> That’s right. ${H.voice.btn('Yes! That’s right.')}</div>`;
+      else if (last && last.correct === false) html = `<div class="fb no"><b>Try again.</b> ${H.voice.btn('Try again.')}</div>`;
+      html += hintHTML + (r && r.showSample ? sample() : '');
+    }
+    fb.innerHTML = html;
+    wireReveal(t);
+    drawSlpEvidence(t);
+  }
+  function markSpoken(t, ok) {
+    const r = ensureResp(t), hs = hiddenState(t);
+    if (S.pausedAt || hs.revealed) return;
+    r.attempts.push({ text: ok ? 'Said out loud: correct' : 'Said out loud: not yet', correct: ok, spoken: true, round: r.round, at: Date.now() });
+    if (t.hideUntilBoth) r.ready = true;
+    persist(); drawAnswer(t); drawSlp(t);
+  }
+  function giveHint(t) {
+    const r = ensureResp(t); r.hintShown = true; persist();
+    const ht = H.$('#hinttxt'); if (ht) ht.classList.remove('hidden');
+    if (Ses.spoken(view(t))) drawAnswer(t);
+    drawSlp(t);
+  }
+
   function checkTyped(t) {
     const c = view(t), r = ensureResp(t), hs = hiddenState(t);
     if (S.pausedAt || hs.revealed) return;
@@ -264,7 +301,7 @@
   function wireReveal(t) { const b = H.$('#reveal'); if (b) b.onclick = () => { S.revealed[t.group] = true; persist(); drawAnswer(t); drawSlp(t); }; }
   function bothAnswersHTML(t) {
     const ts = S.turns.filter(x => x.group === t.group);
-    return `<ul class="both-ans">${ts.map(x => { const rr = resp(x), c = view(x); const a = rr && rr.attempts[rr.attempts.length - 1]; const i = markIdx(x.studentId); return `<li>${H.markHTML(i)} <b>${H.esc(stu(x.studentId).name)}</b> ${c.kind === 'open' ? 'wrote' : 'chose'}: ${a ? H.esc(answerText(c, a)) + (a.correct === true ? ' ✓' : a.correct === false ? ' ✗' : '') : '<i>no answer</i>'}</li>`; }).join('')}</ul>`;
+    return `<ul class="both-ans">${ts.map(x => { const rr = resp(x), c = view(x); const a = rr && rr.attempts[rr.attempts.length - 1]; const i = markIdx(x.studentId); return `<li>${H.markHTML(i)} <b>${H.esc(stu(x.studentId).name)}</b> ${a && a.spoken ? 'said:' : c.kind === 'open' ? 'wrote:' : 'chose:'} ${a && a.spoken ? (a.correct ? 'correct' : 'not yet') : a ? H.esc(answerText(c, a)) + (a.correct === true ? ' ✓' : a.correct === false ? ' ✗' : '') : '<i>no answer</i>'}</li>`; }).join('')}</ul>`;
   }
   function showSample(c, fb) {
     const ideas = c.sampleIdeas || [];
@@ -338,7 +375,9 @@
         <div class="slp-inputs ${r && (r.verbal || r.note) || S.showInputs ? '' : 'hidden'}" id="slpin"><label>Student said (optional)<input id="verbal" value="${H.esc(r ? r.verbal : '')}" placeholder="Type the student’s words"></label><label>Note<input id="note" value="${H.esc(r ? r.note : '')}" placeholder="Prompts used, ideas"></label></div>` : (S.preview ? '<p class="small">Preview: ratings are off and nothing is saved.</p>' : '<p class="small">Shared talk card. Nothing is scored. Use the session notes at the end for anything to remember.</p>')}
         <div class="row slp-tools">
           ${canRate ? `<button class="btn small" id="togin" aria-expanded="${!H.$('#slpin') || !H.$('#slpin').classList.contains('hidden')}">Student’s words / note</button>` : ''}
-          ${c.kind === 'open' ? `<button class="btn small" id="sample" ${t.hideUntilBoth && !hs.revealed ? 'disabled title="Hidden until both students answer"' : ''}>${r && r.showSample ? 'Hide' : 'Show'} sample answer</button>${t.hideUntilBoth && !hs.revealed && !(Ses.typed(c) && r && r.attempts.length) ? '<button class="btn small" id="ready">Mark answered</button>' : ''}` : ''}
+          ${c.kind === 'open' ? `<button class="btn small" id="sample" ${t.hideUntilBoth && !hs.revealed ? 'disabled title="Hidden until both students answer"' : ''}>${r && r.showSample ? 'Hide' : 'Show'} sample answer</button>${t.hideUntilBoth && !hs.revealed && !Ses.spoken(c) && !(Ses.typed(c) && r && r.attempts.length) ? '<button class="btn small" id="ready">Mark answered</button>' : ''}` : ''}
+          ${Ses.spoken(c) && (canRate || S.preview) ? (() => { const ra = r ? r.attempts.filter(a => a.round === r.round) : [], la = ra[ra.length - 1]; const done = hs.revealed || (la && la.correct === true); return done ? '' : `<span class="mark-say"><button class="btn small mk-yes" id="mk_yes" title="The student said a right answer">✓ Correct</button><button class="btn small mk-no" id="mk_no" title="Not yet: the student tries again">✗ Not yet</button></span>`; })() : ''}
+          ${c.hint && !(r && r.hintShown) && c.kind !== 'sort' && !hs.revealed ? `<button class="btn small" id="slphint" title="Show the hint on the student screen">💡 Give a hint</button>` : ''}
           ${(() => { if (!Ses.typed(c) || !r || (t.hideUntilBoth && !hs.revealed)) return ''; const ra = r.attempts.filter(a => a.round === r.round), la = ra[ra.length - 1]; return la && la.correct === false ? '<button class="btn small" id="accept" title="The answer is right but worded differently">Count as correct</button>' : ''; })()}
           ${c.modeling ? `<button class="btn small" id="peek">Hold: how to say it</button><span class="peekout hidden" id="peekout">Say it: <b>${H.esc(c.modeling.say)}</b>. ${H.esc(c.modeling.how || '')}</span>` : ''}
           ${c.slpNote ? `<details class="slpnote"><summary>SLP directions</summary><p>${H.esc(c.slpNote)}</p></details>` : ''}
@@ -360,6 +399,9 @@
     const nt = H.$('#note'); if (nt) nt.oninput = () => { ensureResp(t).note = nt.value; persist(); };
     const sm = H.$('#sample'); if (sm) sm.onclick = () => { const rr = ensureResp(t); rr.showSample = !rr.showSample; persist(); if (Ses.typed(c)) drawAnswer(t); else if (rr.showSample) showSample(c, H.$('#feedback')); else H.$('#feedback').innerHTML = ''; drawSlp(t); };
     const ac = H.$('#accept'); if (ac) ac.onclick = () => acceptTyped(t);
+    const my = H.$('#mk_yes'); if (my) my.onclick = () => markSpoken(t, true);
+    const mn = H.$('#mk_no'); if (mn) mn.onclick = () => markSpoken(t, false);
+    const gh = H.$('#slphint'); if (gh) gh.onclick = () => giveHint(t);
     const rd = H.$('#ready'); if (rd) rd.onclick = () => { const rr = ensureResp(t); rr.ready = true; persist(); drawAnswer(t); H.toast('Marked as answered.'); };
     const pk = H.$('#peek'); if (pk) { const o = H.$('#peekout'); const show = e => { e.preventDefault(); o.classList.remove('hidden'); }; const hide = () => o.classList.add('hidden'); pk.addEventListener('pointerdown', show); pk.addEventListener('pointerup', hide); pk.addEventListener('pointerleave', hide); pk.addEventListener('keydown', e => { if (e.key === ' ' || e.key === 'Enter') show(e); }); pk.addEventListener('keyup', hide); }
     H.$('#lnotes').onclick = () => H.modal(`<h2 id="modal-title">Lesson notes</h2>${S.goal ? `<p><b>Student goal:</b> ${H.esc(S.goal)}</p>` : ''}<div class="prose pre">${H.esc(S.slpNotes || 'No notes for this lesson.')}</div><div class="actions"><button class="btn primary" data-close>Close</button></div>`);
@@ -373,7 +415,7 @@
   }
   function drawSlpEvidence(t) {
     const ev = H.$('#evidence'); if (!ev) return; const r = resp(t), c = view(t);
-    if (!r || !r.attempts.length) { ev.textContent = c.kind === 'open' ? (Ses.typed(c) ? 'Waiting for a typed answer. A spoken answer is fine too: rate what the student said.' : 'Open answer: rate what the student said.') : 'No answer yet.'; return; }
+    if (!r || !r.attempts.length) { ev.textContent = c.kind === 'open' ? (Ses.typed(c) ? 'Waiting for a typed answer. A spoken answer is fine too: rate what the student said.' : Ses.spoken(c) ? 'Listen to the answer, then press Correct or Not yet.' : 'Open answer: rate what the student said.') : 'No answer yet.'; return; }
     const first = r.attempts[0];
     const hidden = t.hideUntilBoth && !S.revealed[t.group];
     ev.innerHTML = `First response: <b>${H.esc(answerText(c, first))}</b>${hidden ? '' : first.correct === true ? (first.slpAccepted ? ' (counted correct by SLP)' : ' (correct)') : first.correct === false ? ' (not correct)' : first.result === 'open' ? ' (no single right answer)' : ''} · ${r.attempts.length} attempt${r.attempts.length > 1 ? 's' : ''}${r.round > 1 ? ' · repeated' : ''}. <span class="muted">A correct tap is not the same as independent. Choose the rating.</span>`;
@@ -474,7 +516,7 @@
     const ans = (r.attempts || []).map((a, k) => `${k === 0 ? 'First: ' : 'Then: '}${H.esc(a.text != null ? a.text : '')}${a.correct === true ? ' ✓' : a.correct === false ? ' ✗' : ''}`).join('<br>');
     const need = r.role === 'check' && !r.rating;
     return `<tr class="${need ? 'need' : ''}"><td>${i + 1}</td><td><span class="small muted">${H.esc((H.L.ROLES[r.role] || {}).label || '')}${r.variant === 'alt' ? ' · second-student question' : ''}</span><br>${H.esc(r.question)}</td>
-      <td>${ans || (kind === 'open' ? '<span class="muted">Spoken answer</span>' : '<span class="muted">No answer</span>')}${r.verbal ? `<br><i>Said: “${H.esc(r.verbal)}”</i>` : ''}${r.note ? `<br><span class="small">Note: ${H.esc(r.note)}</span>` : ''}</td>
+      <td>${ans || (kind === 'open' ? '<span class="muted">Spoken answer</span>' : '<span class="muted">No answer</span>')}${r.hintShown ? '<br><span class="small">Hint given</span>' : ''}${r.verbal ? `<br><i>Said: “${H.esc(r.verbal)}”</i>` : ''}${r.note ? `<br><span class="small">Note: ${H.esc(r.note)}</span>` : ''}</td>
       <td>${editable ? `<label class="sr" for="rt_${H.esc(r.turnId)}">Rating</label><select id="rt_${H.esc(r.turnId)}" data-rt="${H.esc(r.turnId)}">${need ? '<option value="">Needs a rating</option>' : ''}${H.L.RATINGS.filter(x => !(r.role === 'check' && x.k === 'N')).map(x => `<option value="${x.k}" ${(r.rating || 'N') === x.k ? 'selected' : ''}>${x.label}</option>`).join('')}</select>` : H.esc(H.L.ratingLabel(r.rating || 'N'))}</td></tr>`;
   };
 
@@ -519,7 +561,7 @@
         length: S.length, mode: S.mode, students: S.students.map(s => ({ id: s.id, name: s.name })), notes: Object.assign({}, S.notes),
         responses: S.students.flatMap(s => studentResponses(s.id)).map(r => ({
           turnId: r.turnId, studentId: r.studentId, cardId: r.cardId, cardIdx: r.cardIdx, cardNumber: r.cardIdx + 1, role: r.role, kind: r.kind, variant: r.variant, question: r.question,
-          attempts: r.attempts.map(a => Object.assign({ text: a.text, correct: a.correct, round: a.round, at: a.at }, a.result ? { typed: true, result: a.result } : {}, a.slpAccepted ? { slpAccepted: true } : {})), verbal: r.verbal || '', note: r.note || '', rating: r.rating || 'N'
+          attempts: r.attempts.map(a => Object.assign({ text: a.text, correct: a.correct, round: a.round, at: a.at }, a.result ? { typed: true, result: a.result } : {}, a.slpAccepted ? { slpAccepted: true } : {}, a.spoken ? { spoken: true } : {})), verbal: r.verbal || '', note: r.note || '', hintShown: !!r.hintShown, rating: r.rating || 'N'
         }))
       };
       if (rec.responses.some(r => r.role === 'check' && !['I', 'H', 'X', 'S'].includes(r.rating))) throw new Error('Every quick check needs a rating or Skipped.');

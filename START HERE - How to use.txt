@@ -28,14 +28,14 @@ RUN A LESSON (one or two students)
 7. At the end, check each student's summary, add notes, and press Save session.
    If the laptop restarts or the page refreshes, the session picks up where you left off.
 
-TYPED ANSWERS ("Check my answer")
-- On open questions students type an answer and press "Check my answer" (or Enter).
-  Right: "Yes!"  First miss: "Try again" + a hint.  Second miss: the sample answer shows.
-- The checker looks for key words and allows small spelling slips. It can miss a good answer worded
-  another way, so your panel has "Count as correct". You still choose the rating.
-- Questions with no single right answer (personal questions) just say thanks. Talk-it-through cards stay spoken.
-- Students can still answer out loud. To turn typing off: Settings > Answer boxes.
-- Change a card's key words in the editor ("Check my answer" key words), and try an answer there first.
+MARKING ANSWERS AND GIVING HINTS
+- Students answer open questions out loud, to you. The question shows on screen; there is no typing.
+- Press "Correct" in your panel: the screen shows "Yes!". Press "Not yet": the screen shows "Try again."
+- Press "Give a hint" when the student needs one: the card's hint shows on the student screen
+  (choice cards too). Hints only appear when you press the button.
+- "Show sample answer" is still in your panel. Talk-it-through cards are not marked.
+- You still choose the rating. Records show the marks and "Hint given" (also in the CSV export).
+- Optional: Settings > Answer boxes can switch on typing with automatic "Check my answer".
 
 TWO STUDENTS
 - Alternate questions: students take turns on different cards. "Talk it through" cards are shared and not scored.

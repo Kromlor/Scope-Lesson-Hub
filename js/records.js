@@ -95,11 +95,11 @@
   const row = a => a.map(cell).join(',');
   const yn = b => b === true ? 'Yes' : b === false ? 'No' : '';
   R.csvResponses = (sessions, onlyStudent) => {
-    const out = [row(['Session ID', 'Date', 'Student', 'Lesson #', 'Lesson', 'Unit', 'Part', 'Length', 'Turn mode', 'Card #', 'Card type', 'Question', 'Second-student question', 'First response', 'First response correct', 'Later attempts', 'Number of attempts', 'Student said (SLP entered)', 'Rating', 'Counts toward accuracy', 'Item note', 'Session minutes'])];
+    const out = [row(['Session ID', 'Date', 'Student', 'Lesson #', 'Lesson', 'Unit', 'Part', 'Length', 'Turn mode', 'Card #', 'Card type', 'Question', 'Second-student question', 'First response', 'First response correct', 'Later attempts', 'Number of attempts', 'Student said (SLP entered)', 'Rating', 'Counts toward accuracy', 'Item note', 'Session minutes', 'Hint given'])];
     sessions.forEach(s => s.students.filter(st => !onlyStudent || st.id === onlyStudent).forEach(st => s.responses.filter(r => r.studentId === st.id).forEach(r => {
       const a = r.attempts || [];
       out.push(row([s.id, s.date, st.name, s.lessonNumber || '', s.lessonTitle, s.unit, s.setName, s.length, modeName(s.mode), r.cardNumber, (H.L.ROLES[r.role] || {}).label || r.role, r.question, r.variant === 'alt' ? 'Yes' : 'No',
-        a[0] ? a[0].text : '', a[0] ? yn(a[0].correct) : '', a.slice(1).map(x => x.text + (x.correct === true ? ' (correct)' : x.correct === false ? ' (not correct)' : '')).join(' | '), a.length, r.verbal, H.L.ratingLabel(r.rating), ['I', 'H', 'X'].includes(r.rating) ? 'Yes' : 'No', r.note, s.minutes]));
+        a[0] ? a[0].text : '', a[0] ? yn(a[0].correct) : '', a.slice(1).map(x => x.text + (x.correct === true ? ' (correct)' : x.correct === false ? ' (not correct)' : '')).join(' | '), a.length, r.verbal, H.L.ratingLabel(r.rating), ['I', 'H', 'X'].includes(r.rating) ? 'Yes' : 'No', r.note, s.minutes, r.hintShown ? 'Yes' : 'No']));
     })));
     return out.join('\r\n');
   };
