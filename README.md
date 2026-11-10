@@ -1,6 +1,6 @@
 # SCOPE Lesson Hub
 
-Lesson hub for middle school speech-language sessions (one laptop, one or two students). A pre-lesson with intro slides ("Meet SCOPE", presented right in the hub; PowerPoint copy in `slides/`) plus 60 SCOPE lessons across 10 units: clues and context, multiple meanings, reading between the lines, relating experiences, solving problems, speaking up, fact vs. opinion, being wrong vs. being different, idioms and sarcasm, and interpersonal negotiation.
+Lesson hub for middle school speech-language sessions (one laptop, one or two students). A pre-lesson with intro slides ("Meet SCOPE", presented right in the hub; PowerPoint copy in `slides/`) plus 68 SCOPE lessons across 11 units: clues and context, multiple interpretations, reading between the lines, relating experiences, solving problems, speaking up, fact vs. opinion, being wrong vs. being different, idioms and sarcasm, interpersonal negotiation, and figurative language.
 
 **Open the app:** https://kromlor.github.io/Scope-Lesson-Hub/
 

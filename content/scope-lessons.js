@@ -1,7 +1,7 @@
 /* SCOPE lesson content migrated from SCOPE-Perspective-Lab-Warm-Voice.html.
    Edit lessons inside the app (Edit button). This file only seeds a new laptop. */
 window.HUB_CONTENT = {
- "contentVersion": 7,
+ "contentVersion": 8,
  "source": "SCOPE-Perspective-Lab-Warm-Voice.html",
  "lessons": [
   {
@@ -13299,18 +13299,19 @@ window.HUB_CONTENT = {
   {
    "id": "scope-09",
    "number": 9,
-   "title": "Words with more than one meaning",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "title": "More than one idea",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Understanding multiple-meaning words",
-   "goal": "I can use clues to pick the right meaning of a word.",
-   "slpNotes": "Multiple-meaning words are a common source of confusion. Have the student say both meanings out loud before choosing, then name the word or place that decides it. If the student picks the wrong meaning, ask, “Where are they? What other words help?”\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Thinking of more than one meaning",
+   "goal": "I can think of more than one idea about what is happening.",
+   "slpNotes": "This lesson starts Unit 2: one situation can have more than one logical meaning. Watch for two patterns: students who jump to the first idea that pops up, and students who lock on to one idea as if nothing else is possible. Model the frame “It could be… or it could be…” out loud, and praise a second and third idea more than a fast first one. Then show how the person can check by asking.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.5"
+    "R.2",
+    "C.6"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 4,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -13324,465 +13325,328 @@ window.HUB_CONTENT = {
      "name": "Core lesson",
      "cards": [
       {
-       "id": "s9-core-01",
-       "kind": "choice",
-       "question": "Which clue helps you know what a word means?",
-       "choices": [
-        "Only the first letter",
-        "The other words and the place"
-       ],
-       "correct": [
-        1
-       ],
-       "explanation": "Other words and the place are clues.",
        "role": "warmup",
        "heading": "Warm-up",
-       "inShort": false
+       "inShort": false,
+       "kind": "open",
+       "question": "Mr. Cruz says, “See me after class.” What could he want? Say 2 ideas.",
+       "sampleIdeas": [
+        "You are in trouble.",
+        "You did a great job.",
+        "He needs help with something."
+       ],
+       "hint": "Could it be something bad? Could it be something good?",
+       "id": "s9-core-01"
       },
       {
-       "id": "s9-core-02",
        "role": "explore",
        "kind": "open",
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "context": "At lunch, Ben tells Omar about Rosa.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
          "who": "Ben",
-         "text": "Rosa was so cold to me today."
+         "text": "Hey, Omar!"
         },
         {
          "who": "Omar",
-         "text": "She should wear a jacket."
+         "text": "Hey."
         }
        ],
-       "question": "What is happening?",
-       "sampleAnswer": "Ben talks about Rosa. Omar says she needs a jacket.",
-       "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
-       "check": {
-        "groups": [
-         [
-          "ben",
-          "omar",
-          "rosa",
-          "lunch",
-          "cafeteria"
-         ],
-         [
-          "talk",
-          "tell",
-          "cold",
-          "jacket",
-          "coat",
-          "rude",
-          "chill",
-          "mix",
-          "confus",
-          "misunderst",
-          "sweater"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "Who is talking? What does Omar say about Rosa?"
+       "question": "Where is Omar? What is he doing?",
+       "sampleAnswer": "Omar is in the hall. He stands alone. He says only “Hey.”",
+       "hint": "Look at the place. Look at what Omar does.",
+       "id": "s9-core-02"
       },
       {
-       "id": "s9-core-03",
        "role": "explore",
        "kind": "open",
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "context": "At lunch, Ben tells Omar about Rosa.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
          "who": "Ben",
-         "text": "Rosa was so cold to me today."
+         "text": "Hey, Omar!"
         },
         {
          "who": "Omar",
-         "text": "She should wear a jacket."
+         "text": "Hey."
         }
        ],
-       "question": "Which word can mean two things? What clues help?",
-       "sampleAnswer": "“Cold.” Ben says “cold to me.” That is about how Rosa acted.",
-       "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
-       "check": {
-        "groups": [
-         [
-          "cold"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Look at Ben’s words. Which word has two meanings?"
+       "question": "What clues do you see and hear?",
+       "sampleAnswer": "His arms are crossed. He frowns. He says just one word.",
+       "hint": "Look at his face and arms. Listen to his one word.",
+       "id": "s9-core-03"
       },
       {
-       "id": "s9-core-04",
        "role": "explore",
        "kind": "open",
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "context": "At lunch, Ben tells Omar about Rosa.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
          "who": "Ben",
-         "text": "Rosa was so cold to me today."
+         "text": "Hey, Omar!"
         },
         {
          "who": "Omar",
-         "text": "She should wear a jacket."
+         "text": "Hey."
         }
        ],
-       "question": "What does Omar think “cold” means? What does Ben mean?",
-       "sampleAnswer": "Omar thinks Rosa felt chilly. Ben means Rosa was not friendly.",
-       "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
-       "check": {
-        "groups": [
-         [
-          "chill",
-          "freez",
-          "weather",
-          "temperat",
-          "jacket",
-          "coat",
-          "warm",
-          "sweater",
-          "outside",
-          "shiver"
-         ],
-         [
-          "friend",
-          "unfriend",
-          "nice",
-          "rude",
-          "ignor",
-          "unkind",
-          "mean to",
-          "was mean",
-          "being mean",
-          "act",
-          "treat",
-          "snob",
-          "attitude",
-          "talk",
-          "upset",
-          "=mad",
-          "angry"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "Omar said jacket. Ben said “cold to me.” Think about both."
+       "question": "What does Ben know? What doesn’t he know?",
+       "sampleAnswer": "Ben sees Omar frown. He does not know why.",
+       "hint": "Can Ben see inside Omar’s head?",
+       "id": "s9-core-04"
       },
       {
-       "id": "s9-core-05",
        "role": "explore",
        "kind": "open",
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "context": "At lunch, Ben tells Omar about Rosa.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
          "who": "Ben",
-         "text": "Rosa was so cold to me today."
+         "text": "Hey, Omar!"
         },
         {
          "who": "Omar",
-         "text": "She should wear a jacket."
+         "text": "Hey."
         }
        ],
-       "question": "What could “cold” mean? Give 2 ideas.",
+       "question": "Why could Omar look like this? Give 3 ideas.",
        "sampleIdeas": [
-        "Chilly, like the weather.",
-        "Not friendly. She didn’t talk much."
+        "He is mad at someone.",
+        "He is worried about a test.",
+        "He is tired or cold."
        ],
-       "bestIdea": 1,
-       "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
-       "check": {
-        "groups": [
-         [
-          "chill",
-          "weather",
-          "freez",
-          "jacket",
-          "coat",
-          "temperat",
-          "outside",
-          "warm",
-          "sweater",
-          "shiver"
-         ],
-         [
-          "friend",
-          "unfriend",
-          "nice",
-          "rude",
-          "ignor",
-          "unkind",
-          "talk",
-          "snob",
-          "attitude",
-          "act",
-          "treat",
-          "distant",
-          "quiet",
-          "mean to",
-          "was mean",
-          "being mean"
-         ],
-         [
-          "sick",
-          "=ill",
-          "flu",
-          "cough",
-          "sneez",
-          "a cold"
-         ],
-         [
-          "=mad",
-          "angry",
-          "upset",
-          "annoy",
-          "grump"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "One meaning is about the weather. What about how people act?"
+       "hint": "Think of a mad reason, a worried reason, and a body reason.",
+       "id": "s9-core-05"
       },
       {
-       "id": "s9-core-06",
        "role": "explore",
        "kind": "open",
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "context": "At lunch, Ben tells Omar about Rosa.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
          "who": "Ben",
-         "text": "Rosa was so cold to me today."
+         "text": "Hey, Omar!"
         },
         {
          "who": "Omar",
-         "text": "She should wear a jacket."
+         "text": "Hey."
         }
        ],
-       "question": "What can Ben say to fix the mix-up?",
-       "sampleAnswer": "“I mean she wasn’t friendly. She didn’t talk to me.”",
-       "image": "assets/img/scene-lesson-09.webp",
-       "imageAlt": "Lunchroom: Ben and Omar talk at a table",
-       "check": {
-        "groups": [
-         [
-          "friend",
-          "unfriend",
-          "nice",
-          "rude",
-          "ignor",
-          "talk",
-          "unkind",
-          "mean to",
-          "was mean",
-          "being mean",
-          "act",
-          "treat",
-          "didnt mean",
-          "i mean",
-          "explain",
-          "weather",
-          "jacket",
-          "=not that"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Ben can tell Omar what he really meant."
+       "question": "Ben isn’t sure. What could he say?",
+       "sampleAnswer": "“You okay? You look like something is up.”",
+       "hint": "Ben doesn’t know for sure. What could he ask?",
+       "id": "s9-core-06"
       },
       {
-       "id": "s9-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "Think of a word with two meanings. Say both.",
+       "inShort": true,
+       "question": "Why is it smart to think of more than one idea?",
        "prompts": [
-        "How do you know which meaning someone means?"
+        "What can go wrong if you only think of the first idea?"
        ],
        "starters": [
-        "One meaning is…",
-        "The other meaning is…",
-        "The clue that helps me is…"
+        "It could be… or it could be…",
+        "Another idea is…",
+        "If I lock on to one idea…",
+        "I can wait for more clues and…"
        ],
-       "inShort": true
+       "id": "s9-core-07"
       },
       {
-       "id": "s9-core-08",
        "role": "practice",
-       "heading": "Which meaning fits?",
+       "heading": "More than one idea",
        "inShort": true,
        "kind": "choice",
-       "question": "Jay grabs a bat for his baseball game. What is the bat?",
+       "context": "Zoe texts Ava: “Can’t come today.”",
+       "question": "Which answer shows more than one idea?",
        "choices": [
-        "A stick to hit the ball",
-        "An animal that flies at night"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "At a baseball game, a bat hits the ball."
-      },
-      {
-       "id": "s9-core-09",
-       "role": "practice",
-       "heading": "Which meaning fits?",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Mr. Cruz says, “Turn off the light.” What is the light?",
-       "choices": [
-        "Not heavy",
-        "The lamp in the room"
+        "Zoe is mad at me. That’s it.",
+        "Zoe could be sick. Or busy. Or mad.",
+        "Zoe never wants to see me."
        ],
        "correct": [
         1
        ],
-       "explanation": "You turn off a lamp. “Turn off” is the clue."
+       "explanation": "A good thinker lists a few ideas first.",
+       "hint": "Which answer gives more than one reason?",
+       "id": "s9-core-08"
       },
       {
-       "id": "s9-core-10",
        "role": "practice",
-       "heading": "Which meaning fits?",
+       "heading": "More than one idea",
        "inShort": true,
        "kind": "choice",
-       "question": "Ava picks up her bag. She says, “This bag is light.” What does she mean?",
+       "context": "Jay sits on the bench at practice. Coach Kim did not put him in.",
+       "question": "Kai thinks, “Jay must be in trouble.” Is that the only idea?",
        "choices": [
-        "It is easy to carry.",
-        "It is bright."
+        "No. Jay could be hurt or resting.",
+        "Yes. That is the only idea."
        ],
        "correct": [
         0
        ],
-       "explanation": "She picks it up. Light means not heavy."
+       "explanation": "Trouble is one idea. Jay could also be hurt, tired, or resting.",
+       "hint": "Think of other reasons a player sits on the bench.",
+       "id": "s9-core-09"
       },
       {
-       "id": "s9-core-11",
        "role": "practice",
-       "heading": "Which meaning fits?",
+       "heading": "More than one idea",
+       "inShort": true,
+       "kind": "choice",
+       "context": "Lily laughs while she reads a text. Rosa walks by. Rosa thinks, “She is laughing at me.”",
+       "question": "What is Rosa doing?",
+       "choices": [
+        "Thinking of many ideas",
+        "Asking a question",
+        "Locking on to one idea"
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Rosa picked one idea fast. The text could be about anything.",
+       "hint": "Did Rosa think of any other reasons?",
+       "id": "s9-core-10"
+      },
+      {
+       "role": "practice",
+       "heading": "More than one idea",
        "inShort": false,
        "kind": "sort",
-       "question": "What does “point” mean? Tap a card, then tap a box.",
+       "context": "It is 10:00 in the morning. Ben’s mom comes to pick him up early. She looks calm.",
+       "question": "Which ideas could be true? Tap a card, then tap a box.",
        "sort": {
         "bins": [
-         "Point = a score",
-         "Point = an idea"
+         "Could be true",
+         "Does not fit"
         ],
         "items": [
          {
-          "text": "We won by one point.",
+          "text": "He has a dentist visit.",
           "bin": 0
          },
          {
-          "text": "Kai made a good point in class.",
+          "text": "Mom is very angry.",
           "bin": 1
          },
          {
-          "text": "Zoe got a point for her team.",
+          "text": "They are visiting family.",
           "bin": 0
          },
          {
-          "text": "What is the point of the story?",
+          "text": "School is over for the day.",
           "bin": 1
+         },
+         {
+          "text": "He has a doctor visit.",
+          "bin": 0
          }
         ]
        },
-       "explanation": "Games have points you score. Talks have points that are ideas."
+       "explanation": "Many ideas fit. Some don’t fit the clues: Mom looks calm, and it is early.",
+       "hint": "Check each idea with the clues: early and calm.",
+       "id": "s9-core-11"
       },
       {
-       "id": "s9-core-12",
-       "role": "practice",
-       "heading": "Which meaning fits?",
-       "inShort": false,
-       "kind": "choice",
-       "question": "Coach Kim says, “Don’t trip on the cones.” What does “trip” mean?",
-       "choices": [
-        "Fall over something",
-        "Go on a trip"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Cones are on the floor. You could fall on them."
-      },
-      {
-       "id": "s9-core-13",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "The class goes on a trip to the zoo. “Trip” means…",
+       "question": "What does a good thinker do?",
        "choices": [
-        "Falling down",
-        "Going to visit a place"
+        "Picks the first idea and stops",
+        "Thinks of more than one idea",
+        "Never decides anything"
        ],
        "correct": [
         1
        ],
-       "explanation": "Going to the zoo is a trip."
+       "explanation": "Think of a few ideas. Then use clues or ask.",
+       "hint": "What did we practice today?",
+       "id": "s9-core-12"
       },
       {
-       "id": "s9-core-14",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "In music, Lily sings at a high pitch. “Pitch” means…",
+       "context": "Omar waves at Kai. Kai doesn’t wave back.",
+       "question": "Which is another idea besides “Kai is mad”?",
        "choices": [
-        "How high or low a sound is",
-        "A throw in baseball"
+        "Kai didn’t see Omar.",
+        "Kai is mad at Omar.",
+        "Kai hates everyone."
        ],
        "correct": [
         0
        ],
-       "explanation": "Music is the clue. Pitch is how high a sound is."
+       "explanation": "Maybe Kai just didn’t see the wave.",
+       "hint": "Could Kai have missed the wave?",
+       "id": "s9-core-13"
       },
       {
-       "id": "s9-core-15",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "Rosa has a cold. She stays home. “Cold” means…",
+       "question": "What does it mean to “lock on” to an idea?",
        "choices": [
-        "She is not friendly.",
-        "She is sick."
+        "Ask the person",
+        "Look for more clues",
+        "Stick to one idea, no matter what"
        ],
        "correct": [
-        1
+        2
        ],
-       "explanation": "Staying home is a clue. She is sick."
+       "explanation": "Locking on means you won’t let go of one idea, even with new clues.",
+       "hint": "Think of a lock. It holds on tight.",
+       "id": "s9-core-14"
       },
       {
-       "id": "s9-core-16",
        "role": "check",
        "heading": "Quick check",
        "inShort": false,
        "kind": "choice",
-       "question": "You aren’t sure which meaning someone means. What can you do?",
+       "context": "Ava says, “We need to talk later.”",
+       "question": "What is a good thing to do?",
        "choices": [
-        "Look for clues and ask.",
-        "Pick the first meaning you think of."
+        "Panic. Ava must be mad.",
+        "Think of a few ideas. Then ask her.",
+        "Ignore Ava all day."
        ],
        "correct": [
-        0
+        1
        ],
-       "explanation": "Clues help. Asking helps too."
+       "explanation": "It could be good news or a question. Think, then ask.",
+       "hint": "Think of ideas first. Then what can you do?",
+       "id": "s9-core-15"
       }
      ]
     }
@@ -13791,19 +13655,19 @@ window.HUB_CONTENT = {
   {
    "id": "scope-10",
    "number": 10,
-   "title": "Same words, different tone",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "title": "What could make me feel like this? (Part 1)",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Hearing how tone changes meaning",
-   "goal": "I can hear how a voice changes what the same words mean.",
-   "slpNotes": "The read-aloud voice cannot do tone. YOU say each line. Hold the Peek button to see how to read it; the student should not see it. Exaggerate first, then make it more subtle. After each item, have the student say the line in the other tone.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Many causes for happy and sad faces",
+   "goal": "I can name many reasons someone could look happy or sad.",
+   "slpNotes": "You make each face; hold the Peek button to see how. The key question is “What could make me feel like this?” Push for 3 or more causes from different parts of life (school, home, friends, sports). Stress that a face can show a feeling, but it does not tell you the reason. Students who lock on to one cause can practice saying “Or maybe…” before you mark the item.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.5",
-    "C.2"
+    "R.2",
+    "C.6"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -13817,494 +13681,362 @@ window.HUB_CONTENT = {
      "name": "Core lesson",
      "cards": [
       {
-       "id": "s10-core-01",
+       "role": "warmup",
+       "heading": "Warm-up",
+       "inShort": false,
        "kind": "choice",
-       "question": "Lily says, “I got a point in the game.” What does “point” mean?",
+       "context": "Remember Omar frowning in the hall?",
+       "question": "What did we learn about why he frowned?",
        "choices": [
-        "An idea",
-        "A score"
+        "There is only one reason.",
+        "There could be many reasons."
        ],
        "correct": [
         1
        ],
-       "explanation": "In a game, a point is a score.",
-       "role": "warmup",
-       "heading": "Warm-up",
-       "inShort": false
+       "explanation": "A frown can have many reasons. We think of more than one.",
+       "hint": "Think back to our list of ideas about Omar.",
+       "id": "s10-core-01"
       },
       {
-       "id": "s10-core-02",
        "role": "explore",
        "kind": "open",
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-cafe-04.webp",
-       "imageAlt": "Lunchroom: Rosa holds up a drawing and smiles. Zoe stands next to her with a small smile.",
-       "context": "At lunch, Rosa shows Zoe her drawing.",
+       "image": "assets/img/face-rosa-sad.webp",
+       "imageAlt": "Close-up of Rosa’s face",
+       "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
-         "who": "Rosa",
-         "text": "Do you like my drawing?"
+         "who": "Ben",
+         "text": "Hi, Rosa!"
         },
         {
-         "who": "Zoe",
-         "text": "It’s nice."
+         "who": "Rosa",
+         "text": "Hi.",
+         "kind": "whisper"
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Rosa shows Zoe her drawing. Zoe says, “It’s nice.”",
-       "check": {
-        "groups": [
-         [
-          "rosa",
-          "zoe",
-          "lunch"
-         ],
-         [
-          "draw",
-          "picture",
-          "art",
-          "show",
-          "like",
-          "pic",
-          "sketch",
-          "nice"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "What does Rosa have? What does she ask Zoe?"
+       "sampleAnswer": "Rosa comes into class. Ben says hi. Rosa says a quiet hi.",
+       "hint": "Who comes in? What does each person say?",
+       "id": "s10-core-02"
       },
       {
-       "id": "s10-core-03",
        "role": "explore",
        "kind": "open",
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-cafe-04.webp",
-       "imageAlt": "Lunchroom: Rosa holds up a drawing and smiles. Zoe stands next to her with a small smile.",
-       "context": "At lunch, Rosa shows Zoe her drawing.",
+       "image": "assets/img/face-rosa-sad.webp",
+       "imageAlt": "Close-up of Rosa’s face",
+       "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
+         "who": "Ben",
+         "text": "Hi, Rosa!"
+        },
+        {
          "who": "Rosa",
-         "text": "Do you like my drawing?"
-        },
-        {
-         "who": "Zoe",
-         "text": "It’s nice."
+         "text": "Hi.",
+         "kind": "whisper"
         }
        ],
-       "question": "Listen to the voice. Tap each card below.",
-       "sampleAnswer": "The same words can sound warm, flat, or unsure.",
-       "line": "It’s nice.",
+       "question": "Watch my face. What clues do you see on Rosa?",
        "needsModeling": true,
-       "tones": [
-        {
-         "tone": "Warm",
-         "how": "Warm voice. Big smile.",
-         "means": "I really like it!"
-        },
-        {
-         "tone": "Flat",
-         "how": "Flat and slow. Small smile.",
-         "means": "It’s okay. I don’t love it."
-        },
-        {
-         "tone": "Unsure",
-         "how": "Voice goes up at the end.",
-         "means": "I’m not sure what it is."
-        }
-       ],
-       "check": {
-        "groups": [
-         [
-          "warm",
-          "flat",
-          "unsure",
-          "=not sure",
-          "bored",
-          "excit",
-          "happy",
-          "fake",
-          "sarcas",
-          "differ",
-          "chang",
-          "tone",
-          "sound",
-          "=meh",
-          "confus",
-          "question",
-          "honest"
-         ]
-        ],
-        "need": 1
+       "modeling": {
+        "say": "Sad face",
+        "how": "Mouth turns down. Brows up in the middle. Eyes look down. Slow sigh."
        },
-       "hint": "Does each voice sound the same? How does each one sound?"
+       "sampleAnswer": "Her mouth turns down. Her eyes look sad. Her voice is quiet.",
+       "hint": "Look at her mouth and eyes. Listen to her voice.",
+       "id": "s10-core-03"
       },
       {
-       "id": "s10-core-04",
        "role": "explore",
        "kind": "open",
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-cafe-04.webp",
-       "imageAlt": "Lunchroom: Rosa holds up a drawing and smiles. Zoe stands next to her with a small smile.",
-       "context": "At lunch, Rosa shows Zoe her drawing.",
+       "image": "assets/img/face-rosa-sad.webp",
+       "imageAlt": "Close-up of Rosa’s face",
+       "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
-         "who": "Rosa",
-         "text": "Do you like my drawing?"
+         "who": "Ben",
+         "text": "Hi, Rosa!"
         },
         {
-         "who": "Zoe",
-         "text": "It’s nice."
+         "who": "Rosa",
+         "text": "Hi.",
+         "kind": "whisper"
         }
        ],
-       "question": "Does Rosa know what Zoe really thinks?",
-       "sampleAnswer": "Not for sure. She only has Zoe’s words, voice, and face.",
-       "check": {
-        "groups": [
-         [
-          "=no",
-          "nope",
-          "=not sure",
-          "=not really",
-          "maybe",
-          "unsure",
-          "cant tell",
-          "guess",
-          "doesnt know",
-          "=kind of",
-          "sort of",
-          "=might"
-         ],
-         [
-          "word",
-          "voice",
-          "face",
-          "tone",
-          "sound",
-          "look"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Can Rosa see inside Zoe’s head? What does Rosa have to go on?"
+       "question": "Does Ben know why Rosa looks like this?",
+       "sampleAnswer": "No. He sees her face, but she did not say why.",
+       "hint": "Did Rosa tell Ben the reason?",
+       "id": "s10-core-04"
       },
       {
-       "id": "s10-core-05",
        "role": "explore",
        "kind": "open",
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-cafe-04.webp",
-       "imageAlt": "Lunchroom: Rosa holds up a drawing and smiles. Zoe stands next to her with a small smile.",
-       "context": "At lunch, Rosa shows Zoe her drawing.",
+       "image": "assets/img/face-rosa-sad.webp",
+       "imageAlt": "Close-up of Rosa’s face",
+       "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
-         "who": "Rosa",
-         "text": "Do you like my drawing?"
+         "who": "Ben",
+         "text": "Hi, Rosa!"
         },
         {
-         "who": "Zoe",
-         "text": "It’s nice."
+         "who": "Rosa",
+         "text": "Hi.",
+         "kind": "whisper"
         }
        ],
-       "question": "What could “It’s nice” mean? Give 2 ideas.",
+       "question": "What could make Rosa feel like this? Give 3 ideas.",
        "sampleIdeas": [
-        "Zoe really likes it.",
-        "Zoe thinks it is just okay.",
-        "Zoe is not sure what it is."
+        "She got a bad grade.",
+        "Her pet is sick.",
+        "A friend was mean to her."
        ],
-       "check": {
-        "groups": [
-         [
-          "really like",
-          "likes it",
-          "like it",
-          "love",
-          "good",
-          "great",
-          "awesome",
-          "cool",
-          "pretty",
-          "means it",
-          "beautiful",
-          "=likes"
-         ],
-         [
-          "okay",
-          "=ok",
-          "alright",
-          "fine",
-          "=meh",
-          "average",
-          "=so so",
-          "kinda",
-          "kind of",
-          "bored"
-         ],
-         [
-          "unsure",
-          "=not sure",
-          "confus",
-          "doesnt know",
-          "dont get",
-          "what it is",
-          "=weird"
-         ],
-         [
-          "doesnt like",
-          "dont like",
-          "hate",
-          "=bad",
-          "ugly",
-          "polite",
-          "lying",
-          "=lie",
-          "fake",
-          "feelings"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "Think about different ways Zoe could say it. Happy? Flat?"
+       "hint": "Think about school, home, and friends.",
+       "id": "s10-core-05"
       },
       {
-       "id": "s10-core-06",
        "role": "explore",
        "kind": "open",
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-cafe-04.webp",
-       "imageAlt": "Lunchroom: Rosa holds up a drawing and smiles. Zoe stands next to her with a small smile.",
-       "context": "At lunch, Rosa shows Zoe her drawing.",
+       "image": "assets/img/face-rosa-sad.webp",
+       "imageAlt": "Close-up of Rosa’s face",
+       "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
-         "who": "Rosa",
-         "text": "Do you like my drawing?"
+         "who": "Ben",
+         "text": "Hi, Rosa!"
         },
         {
-         "who": "Zoe",
-         "text": "It’s nice."
+         "who": "Rosa",
+         "text": "Hi.",
+         "kind": "whisper"
         }
        ],
-       "question": "If Rosa isn’t sure, what can she say?",
-       "sampleAnswer": "“What part do you like best?”",
-       "check": {
-        "groups": [
-         [
-          "ask",
-          "part",
-          "best",
-          "favorite",
-          "fav",
-          "honest",
-          "truth",
-          "=do you like",
-          "what do you",
-          "=why",
-          "which",
-          "=for real",
-          "mean it",
-          "thank"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "What question could Rosa ask Zoe about the drawing?"
+       "question": "What could Ben say or do?",
+       "sampleAnswer": "“You seem down. Are you okay?” Or give her some space.",
+       "hint": "Ben could ask. Or he could give her space.",
+       "id": "s10-core-06"
       },
       {
-       "id": "s10-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "Say “Nice job” in a warm voice. Now say it in a flat voice.",
+       "inShort": true,
+       "question": "Watch my happy face. What could make me feel like this?",
        "prompts": [
-        "How did the meaning change?"
+        "Why can’t a face tell you the reason?"
        ],
        "starters": [
-        "The warm voice meant…",
-        "The flat voice meant…",
-        "I could tell by…"
+        "Maybe you…",
+        "It could be because…",
+        "Another reason could be…",
+        "A face shows the feeling, but…"
        ],
-       "inShort": true
+       "id": "s10-core-07"
       },
       {
-       "id": "s10-core-08",
        "role": "practice",
-       "heading": "What does it mean?",
+       "heading": "What could cause it?",
        "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "question": "Look at my face. Which could make me feel like this? There may be more than one.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Happy face",
+        "how": "Big smile. Cheeks up. Eyes crinkle."
+       },
        "choices": [
-        "I am really thankful.",
-        "I am upset with you."
+        "I got a good grade.",
+        "I lost my phone.",
+        "My friend is coming over."
+       ],
+       "correct": [
+        0,
+        2
+       ],
+       "explanation": "A good grade or a friend could both cause a smile.",
+       "hint": "Pick the ones that would make you smile.",
+       "id": "s10-core-08"
+      },
+      {
+       "role": "practice",
+       "heading": "What could cause it?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "Look at my face. Which could make me feel like this?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Sad face",
+        "how": "Mouth turns down. Brows up in the middle. Eyes look down. Slow sigh."
+       },
+       "choices": [
+        "We won the game.",
+        "I got free pizza.",
+        "My best friend moved away."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "A friend moving away could make someone sad.",
+       "hint": "Which one would make a person feel down?",
+       "id": "s10-core-09"
+      },
+      {
+       "role": "practice",
+       "heading": "What could cause it?",
+       "inShort": true,
+       "kind": "choice",
+       "image": "assets/img/scene-cafe-05.webp",
+       "imageAlt": "Lunchroom: Jay eats pizza with a big smile",
+       "context": "Jay smiles big at lunch.",
+       "question": "Kai says, “Jay is happy because of the pizza.” Could there be other reasons?",
+       "choices": [
+        "Yes. There could be many.",
+        "No. It must be the pizza."
        ],
        "correct": [
         0
        ],
-       "explanation": "A warm voice means thank you.",
-       "line": "Thanks a lot.",
-       "modeling": {
-        "say": "Warm",
-        "how": "Warm voice. Smile."
-       },
-       "needsModeling": true
+       "explanation": "Maybe it’s the pizza. He could also have good news or a fun plan.",
+       "hint": "What else could make Jay smile today?",
+       "id": "s10-core-10"
       },
       {
-       "id": "s10-core-09",
        "role": "practice",
-       "heading": "What does it mean?",
+       "heading": "What could cause it?",
+       "inShort": false,
+       "kind": "sort",
+       "question": "Could it make you happy or sad? Tap a card, then tap a box.",
+       "sort": {
+        "bins": [
+         "Could make me happy",
+         "Could make me sad"
+        ],
+        "items": [
+         {
+          "text": "My team won.",
+          "bin": 0
+         },
+         {
+          "text": "My dog is sick.",
+          "bin": 1
+         },
+         {
+          "text": "I made a new friend.",
+          "bin": 0
+         },
+         {
+          "text": "I missed the bus.",
+          "bin": 1
+         },
+         {
+          "text": "No homework tonight.",
+          "bin": 0
+         },
+         {
+          "text": "My friend is mad at me.",
+          "bin": 1
+         }
+        ]
+       },
+       "explanation": "Lots of different things can cause the same face.",
+       "hint": "For each one, think: smile or frown?",
+       "id": "s10-core-11"
+      },
+      {
+       "role": "check",
+       "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "question": "One sad face can have…",
        "choices": [
-        "I am upset with you.",
-        "I am really thankful."
+        "many possible reasons",
+        "only one reason"
        ],
        "correct": [
         0
        ],
-       "explanation": "A low, sharp voice sounds upset.",
-       "line": "Thanks a lot.",
-       "modeling": {
-        "say": "Annoyed",
-        "how": "Low and sharp. Roll your eyes."
-       },
-       "needsModeling": true
+       "explanation": "Many things can make a person sad.",
+       "hint": "Think of our list for Rosa.",
+       "id": "s10-core-12"
       },
       {
-       "id": "s10-core-10",
-       "role": "practice",
-       "heading": "What does it mean?",
+       "role": "check",
+       "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "image": "assets/img/face-lily-laugh.webp",
+       "imageAlt": "Close-up of Lily laughing",
+       "question": "Lily looks like this. Which could be the reason?",
        "choices": [
-        "I don’t want to go.",
-        "I am excited."
+        "A friend told a joke.",
+        "She got good news.",
+        "Both could be true."
        ],
        "correct": [
-        1
+        0,
+        1,
+        2
        ],
-       "explanation": "High and fast sounds excited.",
-       "line": "I can’t wait.",
-       "modeling": {
-        "say": "Excited",
-        "how": "High and fast. Big smile."
-       },
-       "needsModeling": true
+       "explanation": "All of these fit. A laugh can have many causes.",
+       "hint": "Can a laugh come from more than one thing?",
+       "id": "s10-core-13"
       },
       {
-       "id": "s10-core-11",
-       "role": "practice",
-       "heading": "What does it mean?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "Look at my face. Which could make me feel like this?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Sad face",
+        "how": "Mouth turns down. Brows up in the middle. Eyes look down. Slow sigh."
+       },
+       "choices": [
+        "I got a new bike.",
+        "Summer break starts tomorrow.",
+        "My grandpa is sick."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "A sick grandpa could make someone sad.",
+       "hint": "Which one is bad news?",
+       "id": "s10-core-14"
+      },
+      {
+       "role": "check",
+       "heading": "Quick check",
        "inShort": false,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "question": "You see a friend smiling. What do you know?",
        "choices": [
-        "I am excited.",
-        "I don’t want to go."
+        "Why they are smiling",
+        "That they are smiling at you",
+        "They look happy, but not why"
        ],
        "correct": [
-        1
+        2
        ],
-       "explanation": "Low and slow with a sigh sounds like no fun.",
-       "line": "I can’t wait.",
-       "modeling": {
-        "say": "Dreading",
-        "how": "Sigh first. Low, slow, flat."
-       },
-       "needsModeling": true
-      },
-      {
-       "id": "s10-core-12",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Listen. How does it sound?",
-       "choices": [
-        "😠 Grumpy",
-        "😀 Happy",
-        "🤩 Excited"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Low, flat, and slow sounds grumpy.",
-       "line": "Good morning.",
-       "modeling": {
-        "say": "Grumpy",
-        "how": "Low, flat, slow. Frown."
-       },
-       "needsModeling": true
-      },
-      {
-       "id": "s10-core-13",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Listen. Does she want to help?",
-       "choices": [
-        "No, not really",
-        "Yes"
-       ],
-       "correct": [
-        1
-       ],
-       "explanation": "Bright and quick sounds like a real yes.",
-       "line": "Sure, I’ll help.",
-       "modeling": {
-        "say": "Happy",
-        "how": "Bright and quick. Smile."
-       },
-       "needsModeling": true
-      },
-      {
-       "id": "s10-core-14",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Listen. Does she want to help?",
-       "choices": [
-        "No, not really",
-        "Yes, a lot"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "A sigh and a flat voice sound like she doesn’t want to.",
-       "line": "Sure, I’ll help.",
-       "modeling": {
-        "say": "Annoyed",
-        "how": "Sigh first. Flat voice."
-       },
-       "needsModeling": true
-      },
-      {
-       "id": "s10-core-15",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": false,
-       "kind": "choice",
-       "question": "You can’t tell what a tone means. What can you do?",
-       "choices": [
-        "Ask what they mean.",
-        "Decide they are mad."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Asking is a good way to check."
+       "explanation": "A smile shows a feeling. It doesn’t tell the reason.",
+       "hint": "Does a smile tell you the reason?",
+       "id": "s10-core-15"
       }
      ]
     }
@@ -14313,19 +14045,19 @@ window.HUB_CONTENT = {
   {
    "id": "scope-11",
    "number": 11,
-   "title": "Which word gets the stress?",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "title": "What could make me feel like this? (Part 2)",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Hearing how word stress changes meaning",
-   "goal": "I can hear which word is loud and what it means.",
-   "slpNotes": "YOU say each line. The stressed word is in CAPITALS; make it louder, longer, and a little higher. Hold the Peek button to see which word to stress. Have the student copy you, then try stressing a different word and say how the meaning changes.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Many causes for surprise, disgust, and fear",
+   "goal": "I can name many reasons someone could look surprised, grossed out, or scared.",
+   "slpNotes": "You make each face; hold the Peek button to see how. Surprise is a good teaching face because it can come from good news or bad news, so the face alone often can’t tell you which. Keep asking “What could make me feel like this?” and push for several causes. If a student locks on, ask “Could it be something good? Something bad?”\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.5",
-    "C.2"
+    "R.2",
+    "C.6"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 4,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -14339,496 +14071,367 @@ window.HUB_CONTENT = {
      "name": "Core lesson",
      "cards": [
       {
-       "id": "s11-core-01",
-       "kind": "choice",
-       "question": "Listen. What does it mean?",
-       "choices": [
-        "I’m amazed!",
-        "I don’t care."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "High voice and big eyes sound amazed.",
-       "line": "Wow.",
-       "modeling": {
-        "say": "Amazed",
-        "how": "High voice. Big eyes."
-       },
        "role": "warmup",
        "heading": "Warm-up",
        "inShort": false,
-       "needsModeling": true
+       "kind": "choice",
+       "question": "Ben looks surprised. Which is true?",
+       "choices": [
+        "It must be good news.",
+        "It could be good or bad news.",
+        "It must be bad news."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A face shows a feeling. The reason could be many things.",
+       "hint": "Remember: one face, many reasons.",
+       "id": "s11-core-01"
       },
       {
-       "id": "s11-core-02",
        "role": "explore",
        "kind": "open",
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "context": "In class, Omar’s pencil is gone. Kai asks Ava about it.",
+       "image": "assets/img/scene-hall-06.webp",
+       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Did you say I took Omar’s pencil?"
-        },
-        {
-         "who": "Ava",
-         "text": "I didn’t say you took it."
+         "who": "Rosa",
+         "text": "No way!"
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Omar’s pencil is gone. Kai asks if Ava blamed him.",
-       "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
-       "check": {
-        "groups": [
-         [
-          "pencil",
-          "=pen"
-         ],
-         [
-          "gone",
-          "missing",
-          "lost",
-          "took",
-          "take",
-          "stole",
-          "steal",
-          "blame",
-          "ask",
-          "accus"
-         ],
-         [
-          "kai",
-          "ava",
-          "omar",
-          "class"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "What is missing? What does Kai ask Ava?"
+       "sampleAnswer": "Rosa is in the hall. She stops and covers her mouth. She says, “No way!”",
+       "hint": "Where is Rosa? What does she do and say?",
+       "id": "s11-core-02"
       },
       {
-       "id": "s11-core-03",
        "role": "explore",
        "kind": "open",
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "context": "In class, Omar’s pencil is gone. Kai asks Ava about it.",
+       "image": "assets/img/scene-hall-06.webp",
+       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Did you say I took Omar’s pencil?"
-        },
-        {
-         "who": "Ava",
-         "text": "I didn’t say you took it."
+         "who": "Rosa",
+         "text": "No way!"
         }
        ],
-       "question": "Listen for the loud word. Tap each card below.",
-       "sampleAnswer": "The loud word changes what Ava means.",
-       "line": "I didn’t say you took it.",
+       "question": "Listen to how “No way!” can sound. Tap each card.",
+       "line": "No way!",
        "needsModeling": true,
        "tones": [
         {
-         "tone": "I didn’t SAY you took it.",
-         "how": "Stress “say.”",
-         "means": "I didn’t say it. But I might think it."
+         "tone": "Happy surprise",
+         "how": "High and bright. Big smile. Eyes wide.",
+         "means": "That is great news!"
         },
         {
-         "tone": "I didn’t say YOU took it.",
-         "how": "Stress “you.”",
-         "means": "I think someone else took it."
+         "tone": "Upset surprise",
+         "how": "Low and slow. Hand on chest.",
+         "means": "Oh no. That is bad news."
         },
         {
-         "tone": "I didn’t say you TOOK it.",
-         "how": "Stress “took.”",
-         "means": "Maybe you just borrowed it."
+         "tone": "Grossed out",
+         "how": "Scrunch your nose. Lean back.",
+         "means": "Ew! That is gross!"
         }
        ],
-       "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
-       "check": {
-        "groups": [
-         [
-          "chang",
-          "differ",
-          "mean",
-          "stress",
-          "emphas",
-          "=took",
-          "=didnt",
-          "someone else",
-          "borrow",
-          "thinks",
-          "word you",
-          "word took",
-          "word didnt"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Does the meaning stay the same when a new word is loud?"
+       "sampleAnswer": "Wide eyes. Hand on her mouth. “No way!” can sound happy, upset, or grossed out.",
+       "hint": "Look at her eyes and hand. Listen to the voice.",
+       "id": "s11-core-03"
       },
       {
-       "id": "s11-core-04",
        "role": "explore",
        "kind": "open",
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "context": "In class, Omar’s pencil is gone. Kai asks Ava about it.",
+       "image": "assets/img/scene-hall-06.webp",
+       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Did you say I took Omar’s pencil?"
-        },
-        {
-         "who": "Ava",
-         "text": "I didn’t say you took it."
+         "who": "Rosa",
+         "text": "No way!"
         }
        ],
-       "question": "What does Kai want to know? What does Ava know?",
-       "sampleAnswer": "Kai wants to know if Ava blamed him. Ava knows what she said and thinks.",
-       "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
-       "check": {
-        "groups": [
-         [
-          "blame",
-          "accus",
-          "think he",
-          "thinks he",
-          "he took",
-          "took it",
-          "stole",
-          "did it",
-          "suspect",
-          "said he"
-         ],
-         [
-          "she said",
-          "she thinks",
-          "truth",
-          "own mind",
-          "meaning",
-          "what she meant",
-          "what she means",
-          "her own"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Kai is worried about one thing. What is it?"
+       "question": "Do we know what Rosa saw or heard?",
+       "sampleAnswer": "No. We see her face. We don’t know what made her react.",
+       "hint": "Can we see what Rosa is reacting to?",
+       "id": "s11-core-04"
       },
       {
-       "id": "s11-core-05",
        "role": "explore",
        "kind": "open",
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "context": "In class, Omar’s pencil is gone. Kai asks Ava about it.",
+       "image": "assets/img/scene-hall-06.webp",
+       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Did you say I took Omar’s pencil?"
-        },
-        {
-         "who": "Ava",
-         "text": "I didn’t say you took it."
+         "who": "Rosa",
+         "text": "No way!"
         }
        ],
-       "question": "What could Ava mean? Give 2 ideas.",
+       "question": "What could make Rosa feel like this? Give 3 ideas.",
        "sampleIdeas": [
-        "Someone else took it.",
-        "Kai just borrowed it.",
-        "She didn’t say it, but she thinks it."
+        "She heard good news, like a snow day.",
+        "She heard bad news about a friend.",
+        "She saw something gross, like a bug."
        ],
-       "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
-       "check": {
-        "groups": [
-         [
-          "someone else",
-          "somebody else",
-          "other",
-          "another",
-          "=else",
-          "=jay",
-          "=ben",
-          "rosa"
-         ],
-         [
-          "borrow",
-          "used",
-          "use it",
-          "take it back",
-          "gave"
-         ],
-         [
-          "thinks",
-          "think it",
-          "didnt say",
-          "but she",
-          "believ",
-          "sure he",
-          "suspect",
-          "does think",
-          "meant it"
-         ],
-         [
-          "nobody",
-          "no one",
-          "fell",
-          "lost",
-          "dropped",
-          "misplac",
-          "missing"
-         ],
-         [
-          "didnt blame",
-          "not blaming",
-          "=not you"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "Try a different loud word each time. What does it mean then?"
+       "hint": "Think of good news, bad news, and something gross.",
+       "id": "s11-core-05"
       },
       {
-       "id": "s11-core-06",
        "role": "explore",
        "kind": "open",
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "context": "In class, Omar’s pencil is gone. Kai asks Ava about it.",
+       "image": "assets/img/scene-hall-06.webp",
+       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Did you say I took Omar’s pencil?"
-        },
-        {
-         "who": "Ava",
-         "text": "I didn’t say you took it."
+         "who": "Rosa",
+         "text": "No way!"
         }
        ],
-       "question": "If Kai isn’t sure, what can he say?",
-       "sampleAnswer": "“Do you think I took it? I didn’t.”",
-       "image": "assets/img/scene-lesson-11.webp",
-       "imageAlt": "Classroom: Kai talks to Ava at her desk while Omar looks at his desk",
-       "check": {
-        "groups": [
-         [
-          "ask",
-          "think i",
-          "=did you",
-          "do you think",
-          "=didnt",
-          "wasnt me",
-          "not me",
-          "never",
-          "mean",
-          "blame",
-          "accus",
-          "what do you",
-          "really"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Kai can ask Ava what she means."
+       "question": "What could you say to Rosa?",
+       "sampleAnswer": "“Whoa! What happened?”",
+       "hint": "Ask a question to find out.",
+       "id": "s11-core-06"
       },
       {
-       "id": "s11-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "Say “I like your hat.” Make a different word loud each time.",
+       "inShort": true,
+       "question": "Watch my scared face. What could make me feel like this?",
        "prompts": [
-        "Which way sounds kind? Which way sounds odd?"
+        "Can a surprised face mean good news or bad news? How?"
        ],
        "starters": [
-        "When I stressed ___, it meant…",
-        "The loud word was…",
-        "It sounded…"
+        "Maybe you saw…",
+        "It could be because…",
+        "A surprise is good when…",
+        "A surprise is bad when…"
        ],
-       "inShort": true
+       "id": "s11-core-07"
       },
       {
-       "id": "s11-core-08",
        "role": "practice",
-       "heading": "Which word gets the stress?",
+       "heading": "What could cause it?",
        "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "question": "Look at my face. Which could make me feel like this? There may be more than one.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Grossed out",
+        "how": "Scrunch your nose. Pull your top lip up. Lean back."
+       },
        "choices": [
-        "I want it, not you.",
-        "Not the blue one. The red one."
+        "Smelly gym socks",
+        "A new video game",
+        "Moldy bread"
+       ],
+       "correct": [
+        0,
+        2
+       ],
+       "explanation": "Socks and mold could both gross someone out.",
+       "hint": "What would make you wrinkle your nose?",
+       "id": "s11-core-08"
+      },
+      {
+       "role": "practice",
+       "heading": "What could cause it?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "Look at my face. Which could make me feel like this? There may be more than one.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Scared",
+        "how": "Eyes wide. Mouth open. Lean back. Hands up a little."
+       },
+       "choices": [
+        "I won a prize.",
+        "A big dog runs at me.",
+        "I hear a loud bang in the dark."
+       ],
+       "correct": [
+        1,
+        2
+       ],
+       "explanation": "A running dog or a loud bang could both scare someone.",
+       "hint": "Which ones would make your heart race?",
+       "id": "s11-core-09"
+      },
+      {
+       "role": "practice",
+       "heading": "What could cause it?",
+       "inShort": true,
+       "kind": "choice",
+       "image": "assets/img/face-omar-scared.webp",
+       "imageAlt": "Close-up of Omar looking scared",
+       "context": "Omar looks like this before class.",
+       "question": "Kai says, “Omar is scared of the test.” Is that the only idea?",
+       "choices": [
+        "Yes. It has to be the test.",
+        "No. Something else could scare him."
        ],
        "correct": [
         1
        ],
-       "explanation": "“Red” is loud. The color matters.",
-       "line": "I want the RED one.",
-       "modeling": {
-        "say": "Stress “red”",
-        "how": "Say “red” louder and longer."
-       },
-       "needsModeling": true
+       "explanation": "The test is one idea. He could be scared of a speech, or something at home.",
+       "hint": "What else could scare someone before class?",
+       "id": "s11-core-10"
       },
       {
-       "id": "s11-core-09",
        "role": "practice",
-       "heading": "Which word gets the stress?",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Listen. What does it mean?",
-       "choices": [
-        "It’s lunch, not a snack.",
-        "It’s mine, not yours."
-       ],
-       "correct": [
-        1
-       ],
-       "explanation": "“My” is loud. It’s about who owns it.",
-       "line": "That’s MY lunch.",
-       "modeling": {
-        "say": "Stress “my”",
-        "how": "Say “my” louder and longer."
+       "heading": "What could cause it?",
+       "inShort": false,
+       "kind": "sort",
+       "question": "Good surprise or bad surprise? Tap a card, then tap a box.",
+       "sort": {
+        "bins": [
+         "Good surprise",
+         "Bad surprise"
+        ],
+        "items": [
+         {
+          "text": "A pop quiz",
+          "bin": 1
+         },
+         {
+          "text": "A surprise party for you",
+          "bin": 0
+         },
+         {
+          "text": "Your bike has a flat tire.",
+          "bin": 1
+         },
+         {
+          "text": "A snow day",
+          "bin": 0
+         },
+         {
+          "text": "A friend gives you a gift.",
+          "bin": 0
+         }
+        ]
        },
-       "needsModeling": true
+       "explanation": "A surprised face can mean good or bad. The face alone may not tell you.",
+       "hint": "Would you smile or frown after this surprise?",
+       "id": "s11-core-11"
       },
       {
-       "id": "s11-core-10",
        "role": "practice",
-       "heading": "Which word gets the stress?",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Listen. What does it mean?",
-       "choices": [
-        "I thought it was a game, not a test.",
-        "I thought the test was another day."
-       ],
-       "correct": [
-        1
-       ],
-       "explanation": "“Today” is loud. The day is the surprise.",
-       "line": "We have a test TODAY?",
-       "modeling": {
-        "say": "Stress “today”",
-        "how": "Go up high on “today.” Look surprised."
-       },
-       "needsModeling": true
-      },
-      {
-       "id": "s11-core-11",
-       "role": "practice",
-       "heading": "Which word gets the stress?",
+       "heading": "What could cause it?",
        "inShort": false,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "image": "assets/img/face-ben-surprised.webp",
+       "imageAlt": "Close-up of Ben looking surprised",
+       "context": "Ben looks at his test score. He makes this face.",
+       "question": "Which ideas could be true?",
        "choices": [
-        "I thought it was another day.",
-        "I thought it was a game, not a test."
+        "He did better than he thought.",
+        "He did worse than he thought.",
+        "Both could be true."
        ],
        "correct": [
-        1
+        0,
+        1,
+        2
        ],
-       "explanation": "“Test” is loud. The test is the surprise.",
-       "line": "We have a TEST today?",
-       "modeling": {
-        "say": "Stress “test”",
-        "how": "Go up high on “test.” Look surprised."
-       },
-       "needsModeling": true
+       "explanation": "Surprise can come from good or bad news. You could ask him.",
+       "hint": "Could the score be good news? Could it be bad news?",
+       "id": "s11-core-12"
       },
       {
-       "id": "s11-core-12",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does the loud word tell you?",
+       "question": "Look at my face. Which could make me feel like this?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Grossed out",
+        "how": "Scrunch your nose. Pull your top lip up. Lean back."
+       },
        "choices": [
-        "Kai ate it, not someone else.",
-        "It was my cookie, not yours."
+        "A funny movie",
+        "A trash can that stinks",
+        "A warm hug"
        ],
        "correct": [
         1
        ],
-       "explanation": "“My” is loud. It’s about whose cookie.",
-       "line": "Kai ate MY cookie.",
-       "modeling": {
-        "say": "Stress “my”",
-        "how": "Say “my” louder and longer."
-       },
-       "needsModeling": true
+       "explanation": "A stinky trash can could gross someone out.",
+       "hint": "What would make you scrunch your nose?",
+       "id": "s11-core-13"
       },
       {
-       "id": "s11-core-13",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does the loud word tell you?",
+       "question": "A scared face tells you…",
        "choices": [
-        "It was my cookie, not yours.",
-        "Kai ate it, not someone else."
+        "exactly what scared the person",
+        "the feeling, maybe, but not the cause"
        ],
        "correct": [
         1
        ],
-       "explanation": "“Kai” is loud. It’s about who ate it.",
-       "line": "KAI ate my cookie.",
-       "modeling": {
-        "say": "Stress “Kai”",
-        "how": "Say “Kai” louder and longer."
-       },
-       "needsModeling": true
+       "explanation": "We can guess the feeling. We still don’t know the cause.",
+       "hint": "Can you see what scared them?",
+       "id": "s11-core-14"
       },
       {
-       "id": "s11-core-14",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "context": "Lily gasps and covers her mouth.",
+       "question": "What is the best first thought?",
        "choices": [
-        "I need help from you, not someone else.",
-        "I need help right away."
+        "Something surprised her. It could be good or bad.",
+        "She must be in big trouble."
        ],
        "correct": [
-        1
+        0
        ],
-       "explanation": "“Now” is loud. The time matters.",
-       "line": "Can you help me NOW?",
-       "modeling": {
-        "say": "Stress “now”",
-        "how": "Say “now” louder and longer."
-       },
-       "needsModeling": true
+       "explanation": "Think of more than one idea. Then look for clues or ask.",
+       "hint": "Which answer gives more than one idea?",
+       "id": "s11-core-15"
       },
       {
-       "id": "s11-core-15",
        "role": "check",
        "heading": "Quick check",
        "inShort": false,
        "kind": "choice",
-       "question": "Same words. A different loud word. The meaning can…",
+       "question": "You don’t know why a friend looks scared. What can you do?",
        "choices": [
-        "Never change",
-        "Change"
+        "Laugh at them",
+        "Walk away fast",
+        "Ask, “Are you okay?”"
        ],
        "correct": [
-        1
+        2
        ],
-       "explanation": "The loud word can change the meaning."
+       "explanation": "Asking helps you find out the real reason.",
+       "hint": "How can you find out the reason?",
+       "id": "s11-core-16"
       }
      ]
     }
@@ -14837,19 +14440,19 @@ window.HUB_CONTENT = {
   {
    "id": "scope-12",
    "number": 12,
-   "title": "Same words, different place",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "title": "Shrugs and thumbs up",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Using the place to figure out meaning",
-   "goal": "I can use the place to figure out what words mean.",
-   "slpNotes": "This lesson connects the See step to meaning: the setting often decides what a phrase means. For each item, have the student name the place first, then choose. Contrast pairs help: ask, “What would it mean somewhere else?”\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Shrugs and thumbs-up with several meanings",
+   "goal": "I can think of different meanings for a shrug or a thumbs up.",
+   "slpNotes": "You model every gesture; hold the Peek button to see how. A shrug can mean “I don’t know,” “I don’t care,” or “I didn’t do it.” A thumbs up can mean “Good for you,” “I’m okay,” or “I won.” Have students say all the meanings first, then use the question asked and the face to pick the one that fits best. When it is still unclear, they can ask.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.5",
-    "R.2"
+    "R.2",
+    "C.2"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -14863,438 +14466,348 @@ window.HUB_CONTENT = {
      "name": "Core lesson",
      "cards": [
       {
-       "id": "s12-core-01",
-       "kind": "choice",
-       "question": "Listen. What does the loud word tell you?",
-       "choices": [
-        "Maybe I took a different pen.",
-        "I didn’t take any pen."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "“Your” is loud. It hints I took a different pen.",
-       "line": "I didn’t take YOUR pen.",
-       "modeling": {
-        "say": "Stress “your”",
-        "how": "Say “your” louder and longer."
-       },
        "role": "warmup",
        "heading": "Warm-up",
        "inShort": false,
-       "needsModeling": true
+       "kind": "choice",
+       "context": "Remember the surprised faces?",
+       "question": "A friend gasps and covers their mouth. What do we know?",
+       "choices": [
+        "It is bad news for sure.",
+        "It is good news for sure.",
+        "It could be good or bad news."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Surprise can come from good or bad news.",
+       "hint": "Think about good surprises and bad surprises.",
+       "id": "s12-core-01"
       },
       {
-       "id": "s12-core-02",
        "role": "explore",
        "kind": "open",
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
-       "context": "At the skate park, Kai does a big trick. Omar watches.",
+       "image": "assets/img/scene-hall-05.webp",
+       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
          "who": "Omar",
-         "text": "Whoa! You’re killing it!"
+         "text": "Who bent my poster?"
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Kai does a trick at the skate park. Omar yells, “You’re killing it!”",
-       "check": {
-        "groups": [
-         [
-          "skate",
-          "park",
-          "board",
-          "ramp",
-          "trick",
-          "flip",
-          "jump",
-          "ollie",
-          "grind"
-         ],
-         [
-          "cheer",
-          "yell",
-          "kill",
-          "cool",
-          "good",
-          "great",
-          "awesome",
-          "excit",
-          "impress",
-          "watch",
-          "proud"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Where are they? What is Kai doing?"
+       "sampleAnswer": "Omar’s poster got bent. He asks who did it. Ben shrugs.",
+       "hint": "What happened to the poster? What does Ben do?",
+       "id": "s12-core-02"
       },
       {
-       "id": "s12-core-03",
        "role": "explore",
        "kind": "open",
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
-       "context": "At the skate park, Kai does a big trick. Omar watches.",
+       "image": "assets/img/scene-hall-05.webp",
+       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
          "who": "Omar",
-         "text": "Whoa! You’re killing it!"
+         "text": "Who bent my poster?"
         }
        ],
-       "question": "Find clues: place, face, body.",
-       "sampleAnswer": "They are at a skate park. Kai cheers. Omar points and looks excited.",
-       "check": {
-        "groups": [
-         [
-          "skate",
-          "park",
-          "ramp",
-          "board"
-         ],
-         [
-          "excit",
-          "happy",
-          "smil",
-          "cheer",
-          "point",
-          "=wow",
-          "whoa",
-          "grin",
-          "big eye",
-          "impress",
-          "hype",
-          "arms up",
-          "jump",
-          "mouth open"
-         ]
-        ],
-        "need": 1
+       "question": "Watch me shrug. What clues do you see on Ben and Omar?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Shrug",
+        "how": "Lift both shoulders. Turn palms up. Eyebrows up."
        },
-       "hint": "Look at the place. Look at Omar’s face and arms."
+       "sampleAnswer": "Ben shrugs with palms up. He looks confused. Omar frowns with arms crossed.",
+       "hint": "Look at Ben’s shoulders and face. Then look at Omar.",
+       "id": "s12-core-03"
       },
       {
-       "id": "s12-core-04",
        "role": "explore",
        "kind": "open",
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
-       "context": "At the skate park, Kai does a big trick. Omar watches.",
+       "image": "assets/img/scene-hall-05.webp",
+       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
          "who": "Omar",
-         "text": "Whoa! You’re killing it!"
+         "text": "Who bent my poster?"
         }
        ],
-       "question": "Does Kai know what Omar means?",
-       "sampleAnswer": "Probably. They are at the skate park. Omar looks excited.",
-       "check": {
-        "groups": [
-         [
-          "=yes",
-          "yeah",
-          "=yep",
-          "probab",
-          "likely",
-          "=prob",
-          "sure",
-          "think so",
-          "he knows",
-          "he gets",
-          "understand",
-          "=probly"
-         ],
-         [
-          "skate",
-          "park",
-          "excit",
-          "happy",
-          "smil",
-          "cheer",
-          "slang",
-          "compliment",
-          "good",
-          "great",
-          "praise"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Look at the place and Omar’s face. Do they help Kai?"
+       "question": "What does Omar know? What doesn’t he know?",
+       "sampleAnswer": "He knows his poster is bent. He doesn’t know who did it or what Ben’s shrug means.",
+       "hint": "Did Ben say any words?",
+       "id": "s12-core-04"
       },
       {
-       "id": "s12-core-05",
        "role": "explore",
        "kind": "open",
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
-       "context": "At the skate park, Kai does a big trick. Omar watches.",
+       "image": "assets/img/scene-hall-05.webp",
+       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
          "who": "Omar",
-         "text": "Whoa! You’re killing it!"
+         "text": "Who bent my poster?"
         }
        ],
-       "question": "What could “You’re killing it” mean? Which fits here?",
+       "question": "What could Ben’s shrug mean? Give 3 ideas.",
        "sampleIdeas": [
-        "You are doing great!",
-        "You are hurting something."
+        "I don’t know who did it.",
+        "I didn’t do it.",
+        "I don’t care."
        ],
        "bestIdea": 0,
-       "check": {
-        "groups": [
-         [
-          "great",
-          "good",
-          "awesome",
-          "amazing",
-          "cool",
-          "well",
-          "nice",
-          "rock",
-          "crush",
-          "=ace",
-          "skilled",
-          "best",
-          "sick",
-          "fire",
-          "talent",
-          "impress"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "They are at a skate park. Omar looks excited. Which meaning fits?"
+       "hint": "Think: don’t know, didn’t do it, or don’t care.",
+       "id": "s12-core-05"
       },
       {
-       "id": "s12-core-06",
        "role": "explore",
        "kind": "open",
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
-       "context": "At the skate park, Kai does a big trick. Omar watches.",
+       "image": "assets/img/scene-hall-05.webp",
+       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
          "who": "Omar",
-         "text": "Whoa! You’re killing it!"
+         "text": "Who bent my poster?"
         }
        ],
-       "question": "What can Kai say back?",
-       "sampleAnswer": "“Thanks! Want to try?”",
-       "check": {
-        "groups": [
-         [
-          "thank",
-          "thx",
-          "=ty",
-          "appreciat",
-          "try",
-          "teach",
-          "show you",
-          "turn",
-          "high five",
-          "fist bump",
-          "=yeah",
-          "glad",
-          "=bro",
-          "dude"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Omar said something nice. What do you say back to nice words?"
+       "question": "What could Omar say to find out?",
+       "sampleAnswer": "“Wait, do you know who did it? Or are you saying it wasn’t you?”",
+       "hint": "What question could Omar ask Ben?",
+       "id": "s12-core-06"
       },
       {
-       "id": "s12-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "“It’s a zoo in here.” What does it mean at the zoo? What about in a loud class?",
+       "inShort": true,
+       "question": "Show me a shrug. Now a thumbs up. What could each one mean?",
        "prompts": [
-        "Why does the place matter?"
+        "How can you tell which meaning someone means?"
        ],
        "starters": [
-        "At the zoo, it means…",
-        "In class, it means…",
-        "The place tells me…"
+        "A shrug could mean…",
+        "A thumbs up could mean…",
+        "If someone asks ___, it probably means…",
+        "If I’m not sure, I could ask…"
        ],
-       "inShort": true
+       "id": "s12-core-07"
       },
       {
-       "id": "s12-core-08",
        "role": "practice",
-       "heading": "Where are they?",
+       "heading": "What does it mean here?",
        "inShort": true,
        "kind": "choice",
-       "question": "What does Mr. Cruz mean?",
+       "context": "Mr. Cruz asks, “Where is the answer key?” Kai shrugs. He looks puzzled.",
+       "question": "Watch me. What could Kai’s shrug mean here?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Shrug: I don’t know",
+        "how": "Shoulders up, palms up. Puzzled face."
+       },
        "choices": [
-        "The room is loud and wild.",
-        "There are animals in the room."
+        "I don’t care.",
+        "I don’t know.",
+        "I won."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A puzzled face and a question about where something is: “I don’t know.”",
+       "hint": "Look at his face. What did Mr. Cruz ask?",
+       "id": "s12-core-08"
+      },
+      {
+       "role": "practice",
+       "heading": "What does it mean here?",
+       "inShort": true,
+       "kind": "choice",
+       "context": "Ava asks Jay, “Pizza or tacos for the party?” Jay shrugs and smiles.",
+       "question": "Watch me. What could Jay’s shrug mean here?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Shrug: I don’t care",
+        "how": "Small, easy shrug. Relaxed smile."
+       },
+       "choices": [
+        "Either one is fine with me.",
+        "I didn’t do it.",
+        "I’m scared."
        ],
        "correct": [
         0
        ],
-       "explanation": "The class is loud. That is the clue.",
-       "context": "The class is very loud.",
-       "says": [
-        {
-         "who": "Mr. Cruz",
-         "text": "It’s a zoo in here!"
-        }
-       ]
+       "explanation": "An easy shrug and a smile can mean, “I don’t mind. Both are fine.”",
+       "hint": "Does Jay look worried or easygoing?",
+       "id": "s12-core-09"
       },
       {
-       "id": "s12-core-09",
        "role": "practice",
-       "heading": "Where are they?",
+       "heading": "What does it mean here?",
        "inShort": true,
        "kind": "choice",
-       "question": "What does Mr. Cruz mean?",
+       "context": "Mom sees a spilled cup. She asks Omar, “Did you do this?” Omar shrugs and shakes his head.",
+       "question": "Watch me. What could Omar’s shrug mean here?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Shrug: I didn’t do it",
+        "how": "Shoulders up, hands open wide. Shake your head."
+       },
        "choices": [
-        "Start working.",
-        "Jump in the water."
+        "I did it on purpose.",
+        "I’m happy about it.",
+        "It wasn’t me."
        ],
        "correct": [
-        0
+        2
        ],
-       "explanation": "They are in class, not at a pool.",
-       "context": "In class, Mr. Cruz hands out a project.",
-       "says": [
-        {
-         "who": "Mr. Cruz",
-         "text": "Okay, dive in!"
-        }
-       ]
+       "explanation": "Open hands and a head shake can mean, “It wasn’t me.”",
+       "hint": "What does a head shake add?",
+       "id": "s12-core-10"
       },
       {
-       "id": "s12-core-10",
        "role": "practice",
-       "heading": "Where are they?",
-       "inShort": true,
-       "kind": "choice",
-       "question": "What does Jay mean?",
-       "choices": [
-        "My arm hurts a lot.",
-        "I am doing great."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "He is at the nurse with a cast. His arm hurts.",
-       "image": "assets/img/scene-nurse-02.webp",
-       "imageAlt": "Nurse’s office: Jay sits with a cast on his arm, looking down.",
-       "context": "Jay is at the nurse’s office.",
-       "says": [
-        {
-         "who": "Jay",
-         "text": "My arm is killing me."
-        }
-       ]
-      },
-      {
-       "id": "s12-core-11",
-       "role": "practice",
-       "heading": "Where are they?",
+       "heading": "What does it mean here?",
        "inShort": false,
        "kind": "choice",
-       "question": "What does Jay mean?",
+       "context": "Lily trips in the hall. Zoe looks worried. Lily gives her a thumbs up.",
+       "question": "Watch me. What could Lily’s thumbs up mean here?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Thumbs up: I’m okay",
+        "how": "Thumb up. Small smile. Nod."
+       },
        "choices": [
-        "The pizza is burning.",
-        "The pizza is really good."
+        "I won!",
+        "Good for you.",
+        "I’m okay."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "After a fall, a thumbs up can mean, “I’m okay. Don’t worry.”",
+       "hint": "What just happened to Lily?",
+       "id": "s12-core-11"
+      },
+      {
+       "role": "practice",
+       "heading": "What does it mean here?",
+       "inShort": false,
+       "kind": "choice",
+       "context": "Jay’s game just ended. He looks at the score. He turns to his family and gives a big thumbs up.",
+       "question": "Watch me. What could Jay’s thumbs up mean here?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Thumbs up: I won",
+        "how": "Big thumbs up, arm high. Huge smile."
+       },
+       "choices": [
+        "I’m hurt.",
+        "We won!",
+        "I don’t know."
        ],
        "correct": [
         1
        ],
-       "explanation": "He is smiling and eating. “Fire” means really good.",
-       "image": "assets/img/scene-cafe-05.webp",
-       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
-       "context": "At lunch, Jay eats pizza.",
-       "says": [
-        {
-         "who": "Jay",
-         "text": "This pizza is fire!"
-        }
-       ]
+       "explanation": "At the end of a game, a big thumbs up can mean, “We won!”",
+       "hint": "He just looked at the score. What could it show?",
+       "id": "s12-core-12"
       },
       {
-       "id": "s12-core-12",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "On the bus, Jay laughs and says, “I’m dead!” What does he mean?",
+       "question": "A shrug can mean…",
        "choices": [
-        "He is hurt.",
-        "That is so funny."
-       ],
-       "correct": [
-        1
-       ],
-       "explanation": "He is laughing. It means something is very funny."
-      },
-      {
-       "id": "s12-core-13",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Mom looks in your room. She says, “Your room is a zoo!” What does she mean?",
-       "choices": [
-        "Your room is very messy.",
-        "Your room has pets."
+        "many things, like “I don’t know” or “I don’t care”",
+        "only “I don’t know”"
        ],
        "correct": [
         0
        ],
-       "explanation": "At home, it means messy."
+       "explanation": "A shrug has many meanings. The situation helps you pick.",
+       "hint": "Think of all the shrugs we practiced.",
+       "id": "s12-core-13"
       },
       {
-       "id": "s12-core-14",
        "role": "check",
        "heading": "Quick check",
        "inShort": true,
        "kind": "choice",
-       "question": "In math, Mr. Cruz says, “Let’s break it down.” What does he mean?",
+       "context": "Rosa sings a solo at the concert. Her friend in the crowd gives her a thumbs up.",
+       "question": "What could the thumbs up mean here?",
        "choices": [
-        "Let’s break something.",
-        "Let’s go step by step."
+        "I’m lost.",
+        "Great job!",
+        "I didn’t do it."
        ],
        "correct": [
         1
        ],
-       "explanation": "In math class, it means go step by step."
+       "explanation": "From a friend in the crowd, it can mean “Good for you!”",
+       "hint": "What did Rosa just do?",
+       "id": "s12-core-14"
       },
       {
-       "id": "s12-core-15",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "context": "Ben asks, “Want to sit by the window?” Zoe shrugs. She keeps reading.",
+       "question": "Watch me. What could Zoe’s shrug mean here?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Shrug: I don’t care",
+        "how": "Small shrug. Flat face. Eyes stay on the book."
+       },
+       "choices": [
+        "I won.",
+        "I’m scared.",
+        "It doesn’t matter to me."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "A small shrug while she keeps reading can mean, “I don’t mind.”",
+       "hint": "Does Zoe seem to care where she sits?",
+       "id": "s12-core-15"
+      },
+      {
        "role": "check",
        "heading": "Quick check",
        "inShort": false,
        "kind": "choice",
-       "question": "To know what words mean, what should you look at?",
+       "question": "You aren’t sure what a shrug means. What can you do?",
        "choices": [
-        "The place and what is happening",
-        "Only the words"
+        "Guess and get mad",
+        "Ask, “Do you mean you don’t know?”",
+        "Shrug back and leave"
        ],
        "correct": [
-        0
+        1
        ],
-       "explanation": "The place is a big clue."
+       "explanation": "Asking is the best way to check what someone means.",
+       "hint": "How can you find out for sure?",
+       "id": "s12-core-16"
       }
      ]
     }
@@ -15303,19 +14816,19 @@ window.HUB_CONTENT = {
   {
    "id": "scope-13",
    "number": 13,
-   "title": "Said vs. meant",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "title": "Head on hand, hands on hips",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Understanding hints and polite refusals",
-   "goal": "I can figure out what someone means, not just what they say.",
-   "slpNotes": "Indirect requests and polite refusals are often missed by literal thinkers. For each item, ask two questions: “What did they say?” and “What do they want?” Role-play the Engage step so the student practices a response, such as closing the window or offering a pencil.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Reading postures with more than one meaning",
+   "goal": "I can think of more than one meaning for a body posture.",
+   "slpNotes": "You model each posture; the student should watch you, not just read. Head on hand can mean sleepy, sad, bored, or not feeling well. Hands on hips can mean scolding, accusing, doubting, not backing down, or proud (and sometimes just catching your breath). Push for at least two ideas before the student picks one, then use the place and the words to narrow it down.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.5",
-    "R.7"
+    "R.2",
+    "C.2"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -15331,15 +14844,24 @@ window.HUB_CONTENT = {
       {
        "id": "s13-core-01",
        "kind": "choice",
-       "question": "In a loud class, “It’s a zoo in here” means…",
+       "question": "Coach asks who left the balls out. Jay shrugs. What could the shrug mean?",
        "choices": [
-        "There are animals.",
-        "The room is loud."
+        "I won the game.",
+        "I didn't do it.",
+        "I don't know."
        ],
        "correct": [
-        1
+        1,
+        2
        ],
-       "explanation": "The place tells you. The room is loud.",
+       "explanation": "A shrug can mean “I don't know” or “I didn't do it.”",
+       "hint": "Think about what Coach asked. What could a shrug answer?",
+       "line": "(Shrug)",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Shrug",
+        "how": "Lift both shoulders. Turn palms up. Small frown."
+       },
        "role": "warmup",
        "heading": "Warm-up",
        "inShort": false
@@ -15351,37 +14873,12 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa sits at a desk hugging herself and shivering. Wind blows in the open window. Ben stands nearby.",
-       "context": "In class, the window is open. Wind blows in. Ben stands near Rosa.",
-       "says": [
-        {
-         "who": "Rosa",
-         "text": "Is it cold in here?"
-        },
-        {
-         "who": "Ben",
-         "text": "Yeah, kind of."
-        }
-       ],
-       "question": "What is happening?",
-       "sampleAnswer": "Rosa asks, “Is it cold in here?” Ben says, “Yeah, kind of.”",
-       "check": {
-        "groups": [
-         [
-          "cold",
-          "chill",
-          "freez",
-          "window",
-          "wind",
-          "brr",
-          "shiver",
-          "temperat"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "What does Rosa ask? What is open?"
+       "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
+       "image": "assets/img/scene-cafe-01.webp",
+       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "question": "What is happening? Where is Kai?",
+       "sampleAnswer": "Kai is at lunch. He sits alone. His head is on his hand.",
+       "hint": "Look at the place. Look at who is at the table."
       },
       {
        "id": "s13-core-03",
@@ -15390,46 +14887,18 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa sits at a desk hugging herself and shivering. Wind blows in the open window. Ben stands nearby.",
-       "context": "In class, the window is open. Wind blows in. Ben stands near Rosa.",
-       "says": [
-        {
-         "who": "Rosa",
-         "text": "Is it cold in here?"
-        },
-        {
-         "who": "Ben",
-         "text": "Yeah, kind of."
-        }
-       ],
-       "question": "Find clues: face, body, place.",
-       "sampleAnswer": "Rosa hugs herself. She shivers. The window is open. Wind blows in.",
-       "check": {
-        "groups": [
-         [
-          "hug",
-          "shiver",
-          "shak",
-          "arms",
-          "cross",
-          "rub",
-          "curl",
-          "tremb",
-          "freez",
-          "goosebump"
-         ],
-         [
-          "window",
-          "wind",
-          "breez",
-          "open",
-          "air"
-         ]
-        ],
-        "need": 1
+       "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
+       "image": "assets/img/scene-cafe-01.webp",
+       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "question": "Watch me. What clues do you see on Kai's body and face?",
+       "line": "(Head on hand)",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Head on hand",
+        "how": "Rest your cheek on one hand. Look down. Let your shoulders drop."
        },
-       "hint": "Look at Rosa’s arms. Look at the window."
+       "sampleAnswer": "His head is on his hand. He looks down. He is not eating.",
+       "hint": "Look at his head, his eyes, and his food."
       },
       {
        "id": "s13-core-04",
@@ -15438,48 +14907,12 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa sits at a desk hugging herself and shivering. Wind blows in the open window. Ben stands nearby.",
-       "context": "In class, the window is open. Wind blows in. Ben stands near Rosa.",
-       "says": [
-        {
-         "who": "Rosa",
-         "text": "Is it cold in here?"
-        },
-        {
-         "who": "Ben",
-         "text": "Yeah, kind of."
-        }
-       ],
-       "question": "What does Rosa want? Does Ben get it?",
-       "sampleAnswer": "Rosa may want the window closed. Ben only answers the question.",
-       "check": {
-        "groups": [
-         [
-          "close",
-          "shut",
-          "window",
-          "warm",
-          "jacket",
-          "heat",
-          "sweater"
-         ],
-         [
-          "doesnt get",
-          "didnt get",
-          "only answer",
-          "just answer",
-          "didnt know",
-          "doesnt know",
-          "missed",
-          "didnt understand",
-          "doesnt understand",
-          "=not really"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Look at the window. What might Rosa want Ben to do?"
+       "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
+       "image": "assets/img/scene-cafe-01.webp",
+       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "question": "What do we know about Kai? What don't we know?",
+       "sampleAnswer": "We know he sits alone with his head on his hand. We don't know why.",
+       "hint": "Can we see inside his head? What is still a mystery?"
       },
       {
        "id": "s13-core-05",
@@ -15488,62 +14921,16 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa sits at a desk hugging herself and shivering. Wind blows in the open window. Ben stands nearby.",
-       "context": "In class, the window is open. Wind blows in. Ben stands near Rosa.",
-       "says": [
-        {
-         "who": "Rosa",
-         "text": "Is it cold in here?"
-        },
-        {
-         "who": "Ben",
-         "text": "Yeah, kind of."
-        }
-       ],
-       "question": "What could Rosa mean? Give 2 ideas.",
+       "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
+       "image": "assets/img/scene-cafe-01.webp",
+       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "question": "What could head on hand mean here? Give 3 ideas.",
        "sampleIdeas": [
-        "Are you cold too?",
-        "Can you close the window?"
+        "He is tired or sleepy.",
+        "He is sad about something.",
+        "He is bored, or he doesn't feel well."
        ],
-       "bestIdea": 1,
-       "check": {
-        "groups": [
-         [
-          "=too",
-          "also",
-          "=you cold",
-          "are you cold",
-          "feel cold",
-          "ben cold",
-          "=same"
-         ],
-         [
-          "close",
-          "shut",
-          "window"
-         ],
-         [
-          "warm",
-          "jacket",
-          "heat",
-          "sweater",
-          "coat",
-          "hoodie"
-         ],
-         [
-          "just cold",
-          "she is cold",
-          "shes cold",
-          "im cold",
-          "she cold",
-          "freez",
-          "=chill"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "Is Rosa only asking a question? Look at the open window."
+       "hint": "Think: tired, sad, bored, or sick. Which could fit?"
       },
       {
        "id": "s13-core-06",
@@ -15552,215 +14939,238 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa sits at a desk hugging herself and shivering. Wind blows in the open window. Ben stands nearby.",
-       "context": "In class, the window is open. Wind blows in. Ben stands near Rosa.",
-       "says": [
-        {
-         "who": "Rosa",
-         "text": "Is it cold in here?"
-        },
-        {
-         "who": "Ben",
-         "text": "Yeah, kind of."
-        }
-       ],
-       "question": "What could Ben say or do?",
-       "sampleAnswer": "Close the window. Or ask, “Want me to close it?”",
-       "check": {
-        "groups": [
-         [
-          "close",
-          "shut",
-          "window",
-          "jacket",
-          "sweater",
-          "coat",
-          "hoodie",
-          "warm",
-          "heat",
-          "ask",
-          "=want me",
-          "should i",
-          "are you cold",
-          "teacher"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Ben is near the window. What could he do?"
+       "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
+       "image": "assets/img/scene-cafe-01.webp",
+       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "question": "What could a friend say to Kai?",
+       "sampleAnswer": "“Hey, you okay? Want to sit with us?”",
+       "hint": "How could a friend check how Kai feels?"
       },
       {
        "id": "s13-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "Mom says, “The trash is full.” What does she want you to do?",
+       "question": "Put your head on your hand. What could people think you feel?",
        "prompts": [
-        "Why do people give hints instead of just asking?"
+        "Now put your hands on your hips. What could that mean?"
        ],
        "starters": [
-        "She said…",
-        "But she meant…",
-        "People hint because…"
+        "It could mean…",
+        "It could also mean…",
+        "I can tell more if…",
+        "I could ask…"
        ],
        "inShort": true
       },
       {
        "id": "s13-core-08",
-       "role": "practice",
-       "heading": "What do they mean?",
-       "inShort": true,
        "kind": "choice",
-       "question": "What does Ava mean?",
+       "question": "Mom has her hands on her hips. Omar's cup spilled. What could she mean?",
        "choices": [
-        "Do you have two? Just say yes or no.",
-        "Can I borrow one?"
+        "I'm sleepy.",
+        "You need to clean this up.",
+        "Who did this?"
        ],
        "correct": [
-        1
+        1,
+        2
        ],
-       "explanation": "She is asking to borrow one.",
-       "context": "Ava sits by you. You have two pencils.",
-       "says": [
-        {
-         "who": "Ava",
-         "text": "Do you have an extra pencil?"
-        }
-       ]
+       "explanation": "Hands on hips plus a mess can mean scolding or asking who did it.",
+       "hint": "Look at the floor. Look at Mom's face.",
+       "image": "assets/img/scene-home-01.webp",
+       "imageAlt": "Living room: Mom with hands on hips, Omar looking down, a spilled cup on the floor",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Hands on hips",
+        "how": "Stand tall. Put both hands on your hips. Keep a firm face."
+       },
+       "role": "practice",
+       "heading": "What could it mean?",
+       "inShort": true
       },
       {
        "id": "s13-core-09",
-       "role": "practice",
-       "heading": "What do they mean?",
-       "inShort": true,
        "kind": "choice",
-       "question": "What does Lily mean?",
+       "question": "Zoe runs the mile first. She stands with hands on hips and smiles. What could it mean?",
        "choices": [
-        "I love homework.",
-        "I probably can’t come."
+        "She is scolding someone.",
+        "She is proud.",
+        "She is catching her breath."
        ],
        "correct": [
-        1
+        1,
+        2
        ],
-       "explanation": "This is a polite way to say no.",
-       "context": "Jay asks Lily to come to his game.",
-       "says": [
-        {
-         "who": "Lily",
-         "text": "I have a lot of homework."
-        }
-       ]
+       "explanation": "She smiles, so it could be proud. Runners also rest with hands on hips.",
+       "hint": "She just ran. She smiles. Think of two ideas.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Proud",
+        "how": "Hands on hips. Chest up. Big smile. Breathe hard."
+       },
+       "role": "practice",
+       "heading": "What could it mean?",
+       "inShort": true
       },
       {
        "id": "s13-core-10",
-       "role": "practice",
-       "heading": "What do they mean?",
-       "inShort": true,
        "kind": "choice",
-       "question": "What does Mr. Cruz want?",
+       "question": "Ben's head is on his hand. He yawns. What could it mean?",
        "choices": [
-        "Please pick it up.",
-        "Nothing. He just sees paper."
+        "He is mad at Mr. Cruz.",
+        "He is sleepy.",
+        "He is bored."
        ],
        "correct": [
-        0
+        1,
+        2
        ],
-       "explanation": "Class is ending. He wants the floor clean.",
-       "context": "Class is almost over. Mr. Cruz looks at the floor.",
-       "says": [
-        {
-         "who": "Mr. Cruz",
-         "text": "There’s a lot of paper on the floor."
-        }
-       ]
+       "explanation": "A yawn can mean sleepy or bored. Both fit.",
+       "hint": "What does a yawn usually tell you?",
+       "image": "assets/img/scene-class-08.webp",
+       "imageAlt": "Classroom: Ben sits at a desk, head on hand, yawning with eyes closed",
+       "role": "practice",
+       "heading": "What could it mean?",
+       "inShort": true
       },
       {
        "id": "s13-core-11",
+       "kind": "sort",
+       "question": "Which meanings could fit each posture? Tap a card, then tap a box.",
+       "sort": {
+        "bins": [
+         "Head on hand",
+         "Hands on hips"
+        ],
+        "items": [
+         {
+          "text": "I'm sleepy.",
+          "bin": 0
+         },
+         {
+          "text": "You're in trouble.",
+          "bin": 1
+         },
+         {
+          "text": "I don't feel well.",
+          "bin": 0
+         },
+         {
+          "text": "I'm not backing down.",
+          "bin": 1
+         },
+         {
+          "text": "I'm bored.",
+          "bin": 0
+         },
+         {
+          "text": "I did it! I'm proud.",
+          "bin": 1
+         }
+        ]
+       },
+       "explanation": "Head on hand: sleepy, bored, sick, or sad. Hands on hips: scolding, proud, or not backing down.",
+       "hint": "Try the posture yourself. Then say each card.",
        "role": "practice",
-       "heading": "What do they mean?",
-       "inShort": false,
-       "kind": "choice",
-       "question": "What does Omar mean?",
-       "choices": [
-        "Not this Saturday.",
-        "Yes, I’ll come Saturday."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "It is a polite no for now. Kai can ask again later.",
-       "context": "Kai asks Omar to hang out Saturday.",
-       "says": [
-        {
-         "who": "Omar",
-         "text": "Maybe another time."
-        }
-       ]
+       "heading": "What could it mean?",
+       "inShort": false
       },
       {
        "id": "s13-core-12",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Mom’s hands are full. She says, “Can you get the door?” What does she want?",
+       "question": "Jay says, “I didn't take your seat.” Kai stands with hands on hips. What could Kai mean?",
        "choices": [
-        "Open the door for her.",
-        "Tell her if you are able to."
+        "I'm sleepy.",
+        "I don't believe you.",
+        "I'm not moving."
        ],
        "correct": [
-        0
+        1,
+        2
        ],
-       "explanation": "She wants you to open it."
+       "explanation": "Hands on hips can mean doubting or not backing down.",
+       "hint": "Is Kai relaxed, or is he standing his ground?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Doubting",
+        "how": "Hands on hips. Tilt your head. Raise one eyebrow."
+       },
+       "role": "practice",
+       "heading": "What could it mean?",
+       "inShort": false
       },
       {
        "id": "s13-core-13",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Zoe says, “I’m kind of busy right now.” What does she mean?",
+       "question": "Can head on hand mean only one thing?",
        "choices": [
-        "Talk to me now.",
-        "Please come back later."
+        "Yes, only one thing",
+        "No, it can mean many things"
        ],
        "correct": [
         1
        ],
-       "explanation": "It is a polite way to say not now."
+       "explanation": "It can mean sleepy, sad, bored, or sick.",
+       "hint": "Think of the ideas from today.",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s13-core-14",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Coach Kim says, “Is that your water bottle on the floor?” What does she want?",
+       "question": "The team is late to practice. Coach Kim stands with hands on hips. What could it mean?",
        "choices": [
-        "Pick it up.",
-        "Just say yes or no."
+        "Great job, team!",
+        "I feel sleepy.",
+        "Hurry up. You're late."
        ],
        "correct": [
-        0
+        2
        ],
-       "explanation": "She wants it off the floor."
+       "explanation": "Late team plus hands on hips can mean “Hurry up.”",
+       "hint": "What did the team do? How might Coach feel?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s13-core-15",
+       "kind": "choice",
+       "question": "Rosa's head is on her hand in class. Which ideas could fit?",
+       "choices": [
+        "She is cheering.",
+        "She is tired.",
+        "She feels sick."
+       ],
+       "correct": [
+        1,
+        2
+       ],
+       "explanation": "Tired or sick both could fit. Cheering does not.",
+       "hint": "Would someone cheer with their head on their hand?",
        "role": "check",
        "heading": "Quick check",
-       "inShort": false,
+       "inShort": true
+      },
+      {
+       "id": "s13-core-16",
        "kind": "choice",
-       "question": "You aren’t sure if someone is hinting. What can you do?",
+       "question": "A friend has his head on his hand. You don't know why. What can you do?",
        "choices": [
-        "Do nothing.",
-        "Ask, “Do you want me to…?”"
+        "Decide he is mad at you.",
+        "Ask, “You okay?”",
+        "Walk away fast."
        ],
        "correct": [
         1
        ],
-       "explanation": "Asking helps you check."
+       "explanation": "Asking is the best way to find out.",
+       "hint": "How can you find out what he feels?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": false
       }
      ]
     }
@@ -15769,19 +15179,19 @@ window.HUB_CONTENT = {
   {
    "id": "scope-14",
    "number": 14,
-   "title": "Sarcasm and joking",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "title": "Riddles: clue by clue",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Noticing sarcasm and friendly joking",
-   "goal": "I can tell when someone is joking or using sarcasm.",
-   "slpNotes": "YOU say each line; hold Peek to see the tone. Teach three sarcasm clues: a flat or exaggerated voice, words that don’t match the situation, and the face. Spend time on friendly joking versus mean teasing: the key clue is how the other person reacts. When unsure, the student can ask, “Are you kidding?”\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Ruling guesses in and out with clues",
+   "goal": "I can list many guesses and rule them out clue by clue.",
+   "slpNotes": "Riddles train flexible thinking: after one clue many answers fit, and each new clue rules some in or out. Write the guesses on a whiteboard and cross them out as you go, saying why each one stays or goes. Praise lots of guesses on clue 1; the goal is not speed but staying open until enough clues are in. The explore uses the shell riddle from the source page as the model.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.7",
+    "R.2",
     "R.5"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -15797,15 +15207,18 @@ window.HUB_CONTENT = {
       {
        "id": "s14-core-01",
        "kind": "choice",
-       "question": "You invite Lily over. She says, “I have a lot of homework.” She means…",
+       "question": "Omar's head is on his hand during a long movie. What could it mean?",
        "choices": [
-        "Yes, I’ll come!",
-        "Probably not today."
+        "He is bored.",
+        "He is scolding someone.",
+        "He is sleepy."
        ],
        "correct": [
-        1
+        0,
+        2
        ],
-       "explanation": "It is a polite no.",
+       "explanation": "Head on hand in a long movie can mean bored or sleepy.",
+       "hint": "Think about a long movie. How could he feel?",
        "role": "warmup",
        "heading": "Warm-up",
        "inShort": false
@@ -15817,42 +15230,24 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-cafe-08.webp",
-       "imageAlt": "Lunchroom: Kai covers his face with his hand. Spilled food and a tray are on the floor.",
-       "context": "At lunch, Kai drops his tray. Food spills on the floor.",
+       "context": "Mr. Cruz gives the class a riddle. He gives one clue at a time.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Great. Just great."
+         "who": "Mr. Cruz",
+         "text": "Clue 1: It has a shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 2: You eat what is inside the shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 3: You can fry it or scramble it."
         }
        ],
        "question": "What is happening?",
-       "sampleAnswer": "Kai drops his tray. He says, “Great. Just great.”",
-       "check": {
-        "groups": [
-         [
-          "drop",
-          "spill",
-          "fell",
-          "fall",
-          "tray",
-          "food",
-          "mess",
-          "floor",
-          "milk"
-         ],
-         [
-          "upset",
-          "=mad",
-          "angry",
-          "frustrat",
-          "annoy",
-          "sarcas"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Look at the floor. What happened to Kai’s lunch?"
+       "sampleAnswer": "Mr. Cruz gives a riddle. He gives one clue at a time.",
+       "hint": "Who is talking? How does he give the clues?"
       },
       {
        "id": "s14-core-03",
@@ -15861,70 +15256,24 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-cafe-08.webp",
-       "imageAlt": "Lunchroom: Kai covers his face with his hand. Spilled food and a tray are on the floor.",
-       "context": "At lunch, Kai drops his tray. Food spills on the floor.",
+       "context": "Mr. Cruz gives the class a riddle. He gives one clue at a time.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Great. Just great."
-        }
-       ],
-       "question": "Listen to the voice. Tap each card below.",
-       "sampleAnswer": "Kai covers his face. Food is on the floor. “Great” doesn’t match what happened.",
-       "line": "Great. Just great.",
-       "needsModeling": true,
-       "tones": [
-        {
-         "tone": "Sarcastic",
-         "how": "Slow, low, flat. Sigh.",
-         "means": "This is bad. I’m upset."
+         "who": "Mr. Cruz",
+         "text": "Clue 1: It has a shell."
         },
         {
-         "tone": "Happy",
-         "how": "High and bright. Smile.",
-         "means": "This is really good!"
+         "who": "Mr. Cruz",
+         "text": "Clue 2: You eat what is inside the shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 3: You can fry it or scramble it."
         }
        ],
-       "check": {
-        "groups": [
-         [
-          "sarcas",
-          "=mad",
-          "angry",
-          "upset",
-          "annoy",
-          "frustrat",
-          "=sad",
-          "opposite",
-          "=not great",
-          "=not good",
-          "=bad",
-          "grump",
-          "flat",
-          "mock",
-          "fake",
-          "disappoint"
-         ],
-         [
-          "cover",
-          "hands",
-          "floor",
-          "spill",
-          "food",
-          "drop",
-          "tray",
-          "mess"
-         ],
-         [
-          "match",
-          "=doesnt mean",
-          "=wrong"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Does Kai sound happy? Look at the food on the floor."
+       "question": "Use Clue 1 only. What things have a shell? Name as many as you can.",
+       "sampleAnswer": "Egg, snail, turtle, peanut, walnut, armadillo, lobster.",
+       "hint": "Think of animals, nuts, and foods with a hard outside."
       },
       {
        "id": "s14-core-04",
@@ -15933,49 +15282,24 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-cafe-08.webp",
-       "imageAlt": "Lunchroom: Kai covers his face with his hand. Spilled food and a tray are on the floor.",
-       "context": "At lunch, Kai drops his tray. Food spills on the floor.",
+       "context": "Mr. Cruz gives the class a riddle. He gives one clue at a time.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Great. Just great."
+         "who": "Mr. Cruz",
+         "text": "Clue 1: It has a shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 2: You eat what is inside the shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 3: You can fry it or scramble it."
         }
        ],
-       "question": "What do kids nearby see and hear?",
-       "sampleAnswer": "They see the spill. They hear his voice. They can guess he is upset.",
-       "check": {
-        "groups": [
-         [
-          "spill",
-          "drop",
-          "tray",
-          "food",
-          "mess",
-          "floor",
-          "fell",
-          "fall",
-          "milk"
-         ],
-         [
-          "upset",
-          "=mad",
-          "angry",
-          "annoy",
-          "frustrat",
-          "=sad",
-          "sarcas",
-          "great",
-          "voice",
-          "tone",
-          "yell",
-          "groan",
-          "sigh"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "What is on the floor? How does Kai’s voice sound?"
+       "question": "What does Mr. Cruz know that we don't know yet?",
+       "sampleAnswer": "He knows the answer. We only know the clues so far.",
+       "hint": "Who already knows the answer?"
       },
       {
        "id": "s14-core-05",
@@ -15984,63 +15308,28 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-cafe-08.webp",
-       "imageAlt": "Lunchroom: Kai covers his face with his hand. Spilled food and a tray are on the floor.",
-       "context": "At lunch, Kai drops his tray. Food spills on the floor.",
+       "context": "Mr. Cruz gives the class a riddle. He gives one clue at a time.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Great. Just great."
+         "who": "Mr. Cruz",
+         "text": "Clue 1: It has a shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 2: You eat what is inside the shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 3: You can fry it or scramble it."
         }
        ],
-       "question": "What could “great” mean here? Give 2 ideas.",
+       "question": "After Clue 2, which guess is out? After Clue 3, what is left?",
        "sampleIdeas": [
-        "This is bad. I’m upset.",
-        "I feel silly. I’m joking about it."
+        "Clue 2: Armadillo is out. We don't eat it. Clam is a new guess.",
+        "Clue 3: Only egg fits. You fry or scramble eggs."
        ],
-       "check": {
-        "groups": [
-         [
-          "=mad",
-          "angry",
-          "annoy",
-          "frustrat",
-          "=ugh",
-          "hate",
-          "=grr"
-         ],
-         [
-          "=bad",
-          "upset",
-          "=sad",
-          "terribl",
-          "awful",
-          "worst",
-          "=not great",
-          "horribl",
-          "disappoint",
-          "=oh no",
-          "sarcas",
-          "opposite"
-         ],
-         [
-          "silly",
-          "joke",
-          "joking",
-          "funny",
-          "laugh",
-          "embarrass",
-          "dumb",
-          "stupid",
-          "kidding",
-          "haha",
-          "cringe",
-          "awkward"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "Does Kai mean great? How might he feel? Could he be joking?"
+       "bestIdea": 1,
+       "hint": "Check each guess. Does it still fit the new clue?"
       },
       {
        "id": "s14-core-06",
@@ -16049,259 +15338,220 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-cafe-08.webp",
-       "imageAlt": "Lunchroom: Kai covers his face with his hand. Spilled food and a tray are on the floor.",
-       "context": "At lunch, Kai drops his tray. Food spills on the floor.",
+       "context": "Mr. Cruz gives the class a riddle. He gives one clue at a time.",
        "says": [
         {
-         "who": "Kai",
-         "text": "Great. Just great."
+         "who": "Mr. Cruz",
+         "text": "Clue 1: It has a shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 2: You eat what is inside the shell."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "Clue 3: You can fry it or scramble it."
         }
        ],
-       "question": "What could a kind friend say or do?",
-       "sampleAnswer": "“Oh no! I’ll help you clean up.”",
-       "check": {
-        "groups": [
-         [
-          "help",
-          "clean",
-          "pick",
-          "napkin",
-          "paper towel",
-          "=mop",
-          "wipe",
-          "get you",
-          "new tray",
-          "more food",
-          "share",
-          "=oh no",
-          "are you okay",
-          "you okay",
-          "alright",
-          "sorry",
-          "=happens",
-          "all good",
-          "=its okay",
-          "dont worry",
-          "teacher",
-          "janitor",
-          "custodian"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Kai’s food is on the floor. How could a friend help?"
+       "question": "After Clue 1, what could you say if you are not sure yet?",
+       "sampleAnswer": "“It could be an egg or a turtle. Can I have another clue?”",
+       "hint": "You can share more than one guess. You can ask for more."
       },
       {
        "id": "s14-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "What is the difference between a friendly joke and mean teasing?",
+       "question": "Why is it smart to keep many guesses after one clue?",
        "prompts": [
-        "If you aren’t sure it was a joke, what can you do?"
+        "When do you know the answer for sure?"
        ],
        "starters": [
-        "A friendly joke…",
-        "Mean teasing…",
-        "I can ask…"
+        "After one clue, it could be…",
+        "This clue rules out…",
+        "It still fits because…",
+        "Now I know it is…"
        ],
        "inShort": true
       },
       {
        "id": "s14-core-08",
-       "role": "practice",
-       "heading": "Joking or not?",
-       "inShort": true,
        "kind": "choice",
-       "question": "Listen. Does she really think it’s wonderful?",
+       "question": "Clue 1: It is round. Guesses: ball, orange, cookie. Clue 2: You can eat it. Which guess is out?",
        "choices": [
-        "Yes. She loves rain.",
-        "No. It’s sarcasm."
+        "Orange",
+        "Ball",
+        "Cookie"
        ],
        "correct": [
         1
        ],
-       "explanation": "Rain ruins field day. The flat voice is a clue.",
-       "context": "It starts to rain on field day.",
-       "line": "Oh, wonderful.",
-       "modeling": {
-        "say": "Sarcastic",
-        "how": "Slow and flat. Roll your eyes."
-       },
-       "needsModeling": true
+       "explanation": "You can't eat a ball. It is ruled out.",
+       "hint": "Check each guess. Can you eat it?",
+       "role": "practice",
+       "heading": "Clue by clue",
+       "inShort": true
       },
       {
        "id": "s14-core-09",
-       "role": "practice",
-       "heading": "Joking or not?",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Listen. Is Ben being sarcastic?",
-       "choices": [
-        "No. He means it.",
-        "Yes. He’s teasing."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "A warm voice and a good grade match. He means it.",
-       "context": "Zoe gets an A+ on her test. Ben talks to her.",
-       "line": "Wow, you’re so smart.",
-       "modeling": {
-        "say": "Sincere",
-        "how": "Warm voice. Big smile."
-       },
-       "needsModeling": true
-      },
-      {
-       "id": "s14-core-10",
-       "role": "practice",
-       "heading": "Joking or not?",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Is this friendly joking or mean teasing?",
-       "choices": [
-        "Probably friendly joking",
-        "Mean teasing"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Jay laughs too. They are friends. It is probably a friendly joke.",
-       "context": "Jay misses an easy shot. Omar and Jay both laugh.",
-       "says": [
-        {
-         "who": "Omar",
-         "text": "Nice shot, superstar!"
-        }
-       ],
-       "hint": "Look at Jay. Is he laughing too?"
-      },
-      {
-       "id": "s14-core-11",
-       "role": "practice",
-       "heading": "Joking or not?",
-       "inShort": false,
-       "kind": "choice",
-       "question": "Is this friendly joking or mean teasing?",
-       "choices": [
-        "Mean teasing",
-        "Friendly joking"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Rosa is not laughing. She looks down. That is a clue it hurt.",
-       "context": "Rosa trips in the hall. A kid laughs and says, “Nice moves!” Rosa looks down."
-      },
-      {
-       "id": "s14-core-12",
-       "role": "practice",
-       "heading": "Joking or not?",
-       "inShort": false,
        "kind": "sort",
-       "question": "Which are clues for sarcasm? Tap a card, then tap a box.",
+       "question": "Clue 1: It has wheels. Clue 2: It has no motor. Sort the guesses. Tap a card, then tap a box.",
        "sort": {
         "bins": [
-         "Sarcasm clue",
-         "Not a clue"
+         "Still fits",
+         "Ruled out"
         ],
         "items": [
          {
-          "text": "A flat or slow voice",
-          "bin": 0
-         },
-         {
-          "text": "Words don’t match what happened",
-          "bin": 0
-         },
-         {
-          "text": "An eye roll",
-          "bin": 0
-         },
-         {
-          "text": "The color of their shirt",
+          "text": "Car",
           "bin": 1
          },
          {
-          "text": "What day it is",
+          "text": "Bike",
+          "bin": 0
+         },
+         {
+          "text": "Bus",
           "bin": 1
+         },
+         {
+          "text": "Skateboard",
+          "bin": 0
+         },
+         {
+          "text": "Wagon",
+          "bin": 0
          }
         ]
        },
-       "explanation": "Voice, face, and a mismatch are clues."
+       "explanation": "Cars and buses have motors, so they are out. Bike, skateboard, and wagon still fit.",
+       "hint": "Does it have a motor? If yes, it is ruled out.",
+       "role": "practice",
+       "heading": "Clue by clue",
+       "inShort": true
+      },
+      {
+       "id": "s14-core-10",
+       "kind": "choice",
+       "question": "Clue 1: It has wings. Which list of guesses fits?",
+       "choices": [
+        "Fish, dog, snake",
+        "Bird, plane, bee, bat",
+        "Car, boat, bike"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Birds, planes, bees, and bats all have wings.",
+       "hint": "Picture each thing. Does it have wings?",
+       "role": "practice",
+       "heading": "Clue by clue",
+       "inShort": true
+      },
+      {
+       "id": "s14-core-11",
+       "kind": "choice",
+       "question": "Clue 1: It has keys. Clue 2: Its keys are black and white. You play songs on it. What is it?",
+       "choices": [
+        "A car",
+        "A laptop",
+        "A piano"
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Black and white keys you play songs on: a piano.",
+       "hint": "Which one do you play music on?",
+       "role": "practice",
+       "heading": "Clue by clue",
+       "inShort": false
+      },
+      {
+       "id": "s14-core-12",
+       "kind": "choice",
+       "question": "Clue 1: It is cold. Clue 2: You can eat it. Is there just one answer yet?",
+       "choices": [
+        "Yes. It is ice cream.",
+        "No. Ice cream, a popsicle, or ice could fit."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Many cold foods still fit. You need more clues.",
+       "hint": "Can you think of more than one cold food?",
+       "role": "practice",
+       "heading": "Clue by clue",
+       "inShort": false
       },
       {
        "id": "s14-core-13",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does Ben mean?",
+       "question": "After just one clue, how many guesses should you think of?",
        "choices": [
-        "This is perfect timing.",
-        "This is bad timing."
+        "Just the first one",
+        "Many guesses"
        ],
        "correct": [
         1
        ],
-       "explanation": "His phone died. The flat voice is sarcasm.",
-       "context": "Ben’s phone dies in the middle of a game.",
-       "line": "Perfect timing.",
-       "modeling": {
-        "say": "Sarcastic",
-        "how": "Flat. Sigh. Shake your head."
-       },
-       "needsModeling": true
+       "explanation": "One clue fits many things. List many.",
+       "hint": "Does one clue fit only one thing?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s14-core-14",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Kai’s team wins. He smiles big and says, “Best day ever!” Is he sarcastic?",
+       "question": "Clue 1: It lives in water. Guesses: fish, frog, shark, cat. Which guess is out?",
        "choices": [
-        "No",
-        "Yes"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "His words match what happened. He means it."
-      },
-      {
-       "id": "s14-core-15",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
-       "kind": "choice",
-       "question": "Which is a clue for sarcasm?",
-       "choices": [
-        "The words don’t match what happened.",
-        "The person says thank you."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "A mismatch is a big clue."
-      },
-      {
-       "id": "s14-core-16",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": false,
-       "kind": "choice",
-       "question": "You can’t tell if your friend is joking. What can you do?",
-       "choices": [
-        "Get mad right away.",
-        "Ask, “Are you kidding?”"
+        "Frog",
+        "Cat",
+        "Shark"
        ],
        "correct": [
         1
        ],
-       "explanation": "Asking helps you check."
+       "explanation": "Cats do not live in water.",
+       "hint": "Which one lives on land?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
+      },
+      {
+       "id": "s14-core-15",
+       "kind": "choice",
+       "question": "Clue 1: It is yellow. Clue 2: You peel it. Clue 3: Monkeys love it. What is it?",
+       "choices": [
+        "A lemon",
+        "A banana",
+        "A school bus"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "All three clues fit a banana.",
+       "hint": "Check each guess with all three clues.",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
+      },
+      {
+       "id": "s14-core-16",
+       "kind": "choice",
+       "question": "A new clue rules out one of your guesses. What do you do?",
+       "choices": [
+        "Keep the guess anyway.",
+        "Take it off your list."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "If a clue rules it out, cross it off.",
+       "hint": "Does the guess still fit the clues?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": false
       }
      ]
     }
@@ -16310,19 +15560,19 @@ window.HUB_CONTENT = {
   {
    "id": "scope-15",
    "number": 15,
-   "title": "Idioms and expressions",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "title": "New clues change my ideas",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Understanding common idioms",
-   "goal": "I can figure out what common sayings really mean.",
-   "slpNotes": "Idioms can’t be understood word for word. For each one, have the student say the word-for-word picture first (it can be funny), then the real meaning, then a time they could use it. Point out that the situation is the best clue for a new idiom, and asking is fine.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Updating ideas when new clues appear",
+   "goal": "I can change my idea when I get a new clue.",
+   "slpNotes": "This lesson moves riddle thinking into social scenes. First list several ideas from the first clue (the body or face), then add the new clue (words, place, or more facts) and rule ideas in or out together. Watch for students who “lock on” to their first idea; name it kindly and ask, “Does that still fit the new clue?” If a student is still unsure after the new clue, asking is the right move.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.5",
-    "R.7"
+    "R.2",
+    "C.6"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -16338,15 +15588,17 @@ window.HUB_CONTENT = {
       {
        "id": "s15-core-01",
        "kind": "choice",
-       "question": "It rains on picnic day. Jay says, “Awesome,” in a flat voice. He is…",
+       "question": "Clue 1: It has stripes. Guesses: zebra, tiger, candy cane, shirt. Clue 2: It is an animal. Which still fit?",
        "choices": [
-        "Being sarcastic",
-        "Really happy"
+        "Candy cane and shirt",
+        "Zebra and tiger",
+        "Only the shirt"
        ],
        "correct": [
-        0
+        1
        ],
-       "explanation": "Rain and a flat voice don’t match “awesome.”",
+       "explanation": "Zebras and tigers are animals with stripes.",
+       "hint": "Which guesses are animals?",
        "role": "warmup",
        "heading": "Warm-up",
        "inShort": false
@@ -16358,45 +15610,18 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-stage-01.webp",
-       "imageAlt": "Stage: Lily holds note cards. She looks worried and is shaking.",
-       "context": "Lily has to give a speech. She is nervous. Her friend Ava talks to her first.",
+       "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
        "says": [
         {
-         "who": "Ava",
-         "text": "Break a leg, Lily!"
-        },
-        {
-         "who": "Lily",
-         "kind": "think",
-         "text": "Break a leg? Why would she say that?"
+         "who": "Omar",
+         "text": "Ugh. I forgot my gym shoes. Now I have to sit out."
         }
        ],
-       "question": "What is happening?",
-       "sampleAnswer": "Lily is about to give a speech. Ava says, “Break a leg!”",
-       "check": {
-        "groups": [
-         [
-          "speech",
-          "talk",
-          "stage",
-          "present",
-          "speak",
-          "perform",
-          "show",
-          "play"
-         ],
-         [
-          "break",
-          "=leg",
-          "luck",
-          "nervous",
-          "scared"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "What does Lily have to do? What does Ava say?"
+       "question": "What do you see first, before Omar talks?",
+       "sampleAnswer": "Omar stands alone in the hall. His arms are crossed. He frowns.",
+       "hint": "Look at his arms and his face."
       },
       {
        "id": "s15-core-03",
@@ -16405,61 +15630,18 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-stage-01.webp",
-       "imageAlt": "Stage: Lily holds note cards. She looks worried and is shaking.",
-       "context": "Lily has to give a speech. She is nervous. Her friend Ava talks to her first.",
+       "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
        "says": [
         {
-         "who": "Ava",
-         "text": "Break a leg, Lily!"
-        },
-        {
-         "who": "Lily",
-         "kind": "think",
-         "text": "Break a leg? Why would she say that?"
+         "who": "Omar",
+         "text": "Ugh. I forgot my gym shoes. Now I have to sit out."
         }
        ],
-       "question": "Find clues: face, place, who is talking.",
-       "sampleAnswer": "Lily looks nervous. She is on a stage. Ava is her friend.",
-       "check": {
-        "groups": [
-         [
-          "nervous",
-          "scared",
-          "worri",
-          "afraid",
-          "anxious",
-          "shak",
-          "sweat",
-          "freak",
-          "stress",
-          "confus",
-          "unsure"
-         ],
-         [
-          "stage",
-          "auditor",
-          "microphone",
-          "=mic",
-          "podium",
-          "front",
-          "class",
-          "=gym",
-          "school",
-          "curtain",
-          "crowd"
-         ],
-         [
-          "friend",
-          "=ava",
-          "=bff",
-          "=pal",
-          "buddy"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Look at Lily’s face. Where is she? Who is Ava to her?"
+       "question": "What is the first clue? What is the new clue?",
+       "sampleAnswer": "First clue: arms crossed and a frown. New clue: he forgot his gym shoes.",
+       "hint": "First look at his body. Then listen to his words."
       },
       {
        "id": "s15-core-04",
@@ -16468,56 +15650,18 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-stage-01.webp",
-       "imageAlt": "Stage: Lily holds note cards. She looks worried and is shaking.",
-       "context": "Lily has to give a speech. She is nervous. Her friend Ava talks to her first.",
+       "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
        "says": [
         {
-         "who": "Ava",
-         "text": "Break a leg, Lily!"
-        },
-        {
-         "who": "Lily",
-         "kind": "think",
-         "text": "Break a leg? Why would she say that?"
+         "who": "Omar",
+         "text": "Ugh. I forgot my gym shoes. Now I have to sit out."
         }
        ],
-       "question": "What does Ava mean? What does Lily think?",
-       "sampleAnswer": "Ava means good luck. Lily thinks of a real broken leg.",
-       "check": {
-        "groups": [
-         [
-          "luck",
-          "do great",
-          "do well",
-          "do good",
-          "got this",
-          "cheer",
-          "support",
-          "nice",
-          "encourag",
-          "nail it",
-          "rock it"
-         ],
-         [
-          "hurt",
-          "broke",
-          "broken",
-          "real",
-          "injur",
-          "fall",
-          "literal",
-          "actual",
-          "confus",
-          "weird",
-          "rude",
-          "=leg",
-          "break"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "Ava is a friend. Lily thinks about the words for real."
+       "question": "Someone walks by and only sees his face. What do they know? What don't they know?",
+       "sampleAnswer": "They know he looks upset. They don't know why until he talks.",
+       "hint": "Did they hear what Omar said?"
       },
       {
        "id": "s15-core-05",
@@ -16526,73 +15670,22 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-stage-01.webp",
-       "imageAlt": "Stage: Lily holds note cards. She looks worried and is shaking.",
-       "context": "Lily has to give a speech. She is nervous. Her friend Ava talks to her first.",
+       "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
        "says": [
         {
-         "who": "Ava",
-         "text": "Break a leg, Lily!"
-        },
-        {
-         "who": "Lily",
-         "kind": "think",
-         "text": "Break a leg? Why would she say that?"
+         "who": "Omar",
+         "text": "Ugh. I forgot my gym shoes. Now I have to sit out."
         }
        ],
-       "question": "What could “break a leg” mean? Give 2 ideas.",
+       "question": "Before he talks, what could it mean? After he talks, which ideas are out?",
        "sampleIdeas": [
-        "Hurt your leg.",
-        "Good luck! Do great."
+        "Before: he is mad at a friend, cold, sad, or worried.",
+        "After: he is upset about his gym shoes.",
+        "“Mad at a friend” and “cold” are ruled out."
        ],
-       "bestIdea": 1,
-       "check": {
-        "groups": [
-         [
-          "hurt",
-          "injur",
-          "broke",
-          "broken",
-          "real",
-          "fall",
-          "fell",
-          "crack",
-          "literal",
-          "snap",
-          "=bad",
-          "your leg",
-          "her leg",
-          "legs"
-         ],
-         [
-          "luck",
-          "do great",
-          "do well",
-          "do good",
-          "got this",
-          "awesome",
-          "amazing",
-          "best",
-          "cheer",
-          "support",
-          "encourag",
-          "nail it",
-          "rock it"
-         ],
-         [
-          "rude",
-          "=fail",
-          "joke",
-          "joking",
-          "kidding",
-          "prank",
-          "trick",
-          "tease"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "One meaning is about a real leg. What do friends say before a show?"
+       "hint": "List ideas from his body. Then check them with his words."
       },
       {
        "id": "s15-core-06",
@@ -16601,227 +15694,194 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-stage-01.webp",
-       "imageAlt": "Stage: Lily holds note cards. She looks worried and is shaking.",
-       "context": "Lily has to give a speech. She is nervous. Her friend Ava talks to her first.",
+       "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
+       "image": "assets/img/scene-hall-04.webp",
+       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
        "says": [
         {
-         "who": "Ava",
-         "text": "Break a leg, Lily!"
-        },
-        {
-         "who": "Lily",
-         "kind": "think",
-         "text": "Break a leg? Why would she say that?"
+         "who": "Omar",
+         "text": "Ugh. I forgot my gym shoes. Now I have to sit out."
         }
        ],
-       "question": "What can Lily say if she isn’t sure?",
-       "sampleAnswer": "“What does that mean?” Or just, “Thanks!”",
-       "check": {
-        "groups": [
-         [
-          "thank",
-          "thx",
-          "=ty",
-          "ask",
-          "what does",
-          "mean",
-          "what do you",
-          "=huh",
-          "=why",
-          "appreciat",
-          "=you too"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Lily can ask a question. Or she can say something polite."
+       "question": "What could you say to Omar now?",
+       "sampleAnswer": "“That stinks. Want to ask Coach if there are extra shoes?”",
+       "hint": "Now you know the problem. How could you help?"
       },
       {
        "id": "s15-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "Have you heard a saying that confused you? What did it mean?",
+       "question": "Tell about a time you changed your mind after a new clue.",
        "prompts": [
-        "How can you figure out a saying you don’t know?"
+        "Why is it hard to let go of your first idea?"
        ],
        "starters": [
-        "I heard…",
         "At first I thought…",
-        "It really means…"
+        "Then I found out…",
+        "So I changed my idea to…",
+        "It was hard because…"
        ],
        "inShort": true
       },
       {
        "id": "s15-core-08",
-       "role": "practice",
-       "heading": "What does it mean?",
-       "inShort": true,
        "kind": "choice",
-       "question": "Before the test, Mr. Cruz says, “Hit the books tonight.” What does he mean?",
+       "question": "Ava doesn't answer Lily's text. Lily thinks Ava is mad. New clue: Mr. Cruz kept Ava's phone in class. What fits now?",
        "choices": [
-        "Study tonight.",
-        "Hit your books with your hand."
+        "Ava is mad at Lily.",
+        "Ava hates texting.",
+        "Ava couldn't see the text."
        ],
        "correct": [
-        0
+        2
        ],
-       "explanation": "Before a test, it means study."
+       "explanation": "She didn't have her phone. She couldn't answer.",
+       "hint": "Did Ava have her phone?",
+       "role": "practice",
+       "heading": "New clue, new idea",
+       "inShort": true
       },
       {
        "id": "s15-core-09",
-       "role": "practice",
-       "heading": "What does it mean?",
-       "inShort": true,
        "kind": "choice",
-       "question": "Omar says, “I’m on the fence about the game.” What does he mean?",
+       "question": "Kai trips. Jay laughs. Kai thinks Jay is laughing at him. New clue: Jay is watching a video. Which idea fits better now?",
        "choices": [
-        "He can’t decide.",
-        "He is sitting on a fence."
+        "Jay is laughing at the video.",
+        "Jay is laughing at Kai."
        ],
        "correct": [
         0
        ],
-       "explanation": "On the fence means not sure yet."
+       "explanation": "The new clue points to the video. Kai can still ask to check.",
+       "hint": "Where are Jay's eyes?",
+       "role": "practice",
+       "heading": "New clue, new idea",
+       "inShort": true
       },
       {
        "id": "s15-core-10",
-       "role": "practice",
-       "heading": "What does it mean?",
-       "inShort": true,
-       "kind": "choice",
-       "question": "What does Lily mean?",
-       "choices": [
-        "She is outside in the rain.",
-        "She feels a little sick."
-       ],
-       "correct": [
-        1
-       ],
-       "explanation": "She is at the nurse. Under the weather means a little sick.",
-       "image": "assets/img/scene-nurse-01.webp",
-       "imageAlt": "Nurse’s office: Lily holds a thermometer and looks sick.",
-       "context": "Lily is at the nurse’s office.",
-       "says": [
-        {
-         "who": "Lily",
-         "text": "I’m under the weather."
-        }
-       ]
-      },
-      {
-       "id": "s15-core-11",
-       "role": "practice",
-       "heading": "What does it mean?",
-       "inShort": false,
        "kind": "sort",
-       "question": "Sort each saying by what it means. Tap a card, then tap a box.",
+       "question": "Rosa is not at lunch. New clue: her seat in class was empty all day. Sort the ideas. Tap a card, then tap a box.",
        "sort": {
         "bins": [
-         "Nervous",
-         "Tell a secret"
+         "Still fits",
+         "Ruled out"
         ],
         "items": [
          {
-          "text": "Cold feet",
+          "text": "She is eating in the library.",
+          "bin": 1
+         },
+         {
+          "text": "She is home sick.",
           "bin": 0
          },
          {
-          "text": "Spill the beans",
+          "text": "She is on a family trip.",
+          "bin": 0
+         },
+         {
+          "text": "She is sitting at a new table.",
           "bin": 1
          },
          {
-          "text": "Let the cat out of the bag",
-          "bin": 1
-         },
-         {
-          "text": "Butterflies in my stomach",
+          "text": "She has a doctor visit.",
           "bin": 0
          }
         ]
        },
-       "explanation": "Cold feet and butterflies mean nervous. The others mean telling a secret."
+       "explanation": "Her seat was empty all day, so she likely wasn't at school. Ideas about being at school are ruled out.",
+       "hint": "Was Rosa at school today? Check each idea.",
+       "role": "practice",
+       "heading": "New clue, new idea",
+       "inShort": true
+      },
+      {
+       "id": "s15-core-11",
+       "kind": "choice",
+       "question": "Coach Kim frowns at the team. Ben thinks she is mad at them. New clue: she is looking at the rain. The game may be canceled. What fits now?",
+       "choices": [
+        "She is happy.",
+        "She is upset about the rain.",
+        "She is mad at the team."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "She is looking at the rain. The game may be off.",
+       "hint": "What is Coach looking at?",
+       "role": "practice",
+       "heading": "New clue, new idea",
+       "inShort": false
       },
       {
        "id": "s15-core-12",
-       "role": "practice",
-       "heading": "What does it mean?",
-       "inShort": false,
        "kind": "choice",
-       "question": "Jay planned to try out for the team. Now he has cold feet. How does he feel?",
+       "question": "Kai sees Omar and Lily laughing. He thinks they're laughing at him. New clue: they're watching a funny video. What now?",
        "choices": [
-        "His feet are cold",
-        "Nervous about trying out"
+        "They are still laughing at Kai.",
+        "They are laughing at the video."
        ],
        "correct": [
         1
        ],
-       "explanation": "Cold feet means nervous."
+       "explanation": "The new clue changes the idea.",
+       "hint": "What are they looking at?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s15-core-13",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Kai says, “Don’t spill the beans about the party.” What does he mean?",
+       "question": "What does “lock on” to an idea mean?",
        "choices": [
-        "Don’t tell the secret.",
-        "Don’t drop your food."
+        "Keep one idea, even when clues change.",
+        "Change ideas when new clues come."
        ],
        "correct": [
         0
        ],
-       "explanation": "Spill the beans means tell a secret."
+       "explanation": "Locking on means you won't let go of your first idea.",
+       "hint": "Think of a lock. Does it move?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s15-core-14",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Zoe says, “I have cold feet about the play.” What does she mean?",
+       "question": "Ben's mom is quiet in the car. Ben thinks she is mad. New clue: she says, “Long day at work.” What fits now?",
        "choices": [
-        "She needs socks.",
-        "She is nervous."
+        "She is mad at Ben.",
+        "She is tired from work."
        ],
        "correct": [
         1
        ],
-       "explanation": "Cold feet means nervous."
+       "explanation": "Her words point to a long, tiring day.",
+       "hint": "Listen to what Mom says.",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s15-core-15",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Coach Kim says, “Break a leg in the game!” What does she mean?",
+       "question": "A new clue doesn't match your idea. What should you do?",
        "choices": [
-        "Get hurt.",
-        "Good luck!"
+        "Keep your idea anyway.",
+        "Change your idea, or ask."
        ],
        "correct": [
         1
        ],
-       "explanation": "Break a leg means good luck."
-      },
-      {
-       "id": "s15-core-16",
+       "explanation": "New clues can change your idea. Asking helps too.",
+       "hint": "Does your idea still fit?",
        "role": "check",
        "heading": "Quick check",
-       "inShort": false,
-       "kind": "choice",
-       "question": "You hear a saying you don’t know. What can you do?",
-       "choices": [
-        "Look at clues and ask what it means.",
-        "Take it word for word."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Clues and asking help you figure it out."
+       "inShort": false
       }
      ]
     }
@@ -16831,18 +15891,18 @@ window.HUB_CONTENT = {
    "id": "scope-16",
    "number": 16,
    "title": "Unit 2 check",
-   "unit": "SCOPE Unit 2: One Statement, Many Meanings",
+   "unit": "SCOPE Unit 2: Multiple Interpretations",
    "program": "SCOPE",
-   "skill": "Unit 2 review: one statement, many meanings",
-   "goal": "I can use clues to figure out what someone means.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. In the explore scene, look for several clues at once: a multiple-meaning word, tone, the place, and faces. The quick check has 8 items, one or more per lesson in the unit, for a better data point. YOU say any line marked for modeling.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "skill": "Unit 2 review: more than one idea",
+   "goal": "I can think of more than one idea and change it with new clues.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud and push for at least two ideas at the P step. Model the gestures on the check cards that need them. The quick check has 8 items covering lessons 9–15 for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
-    "R.5",
-    "R.7"
+    "R.2",
+    "C.6"
    ],
    "status": "ready",
-   "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
+   "contentRev": 10,
    "media": [],
    "video": {
     "url": "",
@@ -16858,40 +15918,12 @@ window.HUB_CONTENT = {
       {
        "id": "s16-core-01",
        "kind": "open",
-       "question": "What can change what words mean? Name as many as you can.",
+       "question": "What does it mean to have “more than one idea”?",
+       "sampleAnswer": "A face or a scene can mean more than one thing. I think of a few ideas, not just the first one.",
+       "hint": "Think of a shrug. Does it mean just one thing?",
        "role": "warmup",
        "heading": "Warm-up",
-       "inShort": false,
-       "check": {
-        "groups": [
-         [
-          "tone",
-          "voice",
-          "sound",
-          "loud",
-          "stress",
-          "emphas",
-          "place",
-          "where",
-          "face",
-          "body",
-          "context",
-          "situat",
-          "person",
-          "sarcas",
-          "joke",
-          "idiom",
-          "look",
-          "expres",
-          "gestur",
-          "setting",
-          "clue"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Think of the clues we look for in each lesson.",
-       "sampleAnswer": "Tone of voice, the loud word, the place, the face, and who is talking."
+       "inShort": false
       },
       {
        "id": "s16-core-02",
@@ -16900,32 +15932,12 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-outside-02.webp",
-       "imageAlt": "Outside school: Jay and Omar laugh at a phone. Kai stands near them with his hands in his pockets.",
-       "context": "After school, Jay and Omar laugh at a phone. Kai stands near them.",
-       "says": [
-        {
-         "who": "Jay",
-         "text": "Kai, come here! This video is sick!"
-        }
-       ],
+       "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
+       "image": "assets/img/scene-bus-03.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
        "question": "What is happening?",
-       "sampleAnswer": "Jay and Omar laugh at a phone. Jay tells Kai to come look.",
-       "check": {
-        "groups": [
-         [
-          "phone",
-          "video",
-          "laugh",
-          "watch",
-          "funny",
-          "look",
-          "show"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "What are Jay and Omar looking at? What does Jay want?"
+       "sampleAnswer": "Ava and Rosa are on the bus. Ava looks at her phone. Rosa crosses her arms.",
+       "hint": "Where are they? What is each girl doing?"
       },
       {
        "id": "s16-core-03",
@@ -16934,50 +15946,12 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-outside-02.webp",
-       "imageAlt": "Outside school: Jay and Omar laugh at a phone. Kai stands near them with his hands in his pockets.",
-       "context": "After school, Jay and Omar laugh at a phone. Kai stands near them.",
-       "says": [
-        {
-         "who": "Jay",
-         "text": "Kai, come here! This video is sick!"
-        }
-       ],
-       "question": "Find clues: words, voice, face, place.",
-       "sampleAnswer": "“Sick” can mean cool or ill. Jay and Omar laugh. Kai looks unsure.",
-       "check": {
-        "groups": [
-         [
-          "sick",
-          "cool",
-          "awesome",
-          "slang",
-          "=ill",
-          "two meaning"
-         ],
-         [
-          "laugh",
-          "smil",
-          "happy",
-          "excit",
-          "unsure",
-          "confus",
-          "=not sure",
-          "loud",
-          "funny",
-          "laf"
-         ],
-         [
-          "after school",
-          "outside",
-          "phone",
-          "video",
-          "hall"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Look at Jay and Omar’s faces. Which word can mean two things?"
+       "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
+       "image": "assets/img/scene-bus-03.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "question": "Find clues: faces, bodies, and the place.",
+       "sampleAnswer": "Ava smiles at her phone. Rosa crosses her arms. Rosa looks over at Ava. Her face looks unsure.",
+       "hint": "Look at Ava's face. Look at Rosa's arms and eyes."
       },
       {
        "id": "s16-core-04",
@@ -16986,44 +15960,12 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-outside-02.webp",
-       "imageAlt": "Outside school: Jay and Omar laugh at a phone. Kai stands near them with his hands in his pockets.",
-       "context": "After school, Jay and Omar laugh at a phone. Kai stands near them.",
-       "says": [
-        {
-         "who": "Jay",
-         "text": "Kai, come here! This video is sick!"
-        }
-       ],
-       "question": "What does Kai know? What doesn’t he know?",
-       "sampleAnswer": "He knows they are laughing. He doesn’t know what is on the phone.",
-       "check": {
-        "groups": [
-         [
-          "laugh",
-          "funny",
-          "=fun",
-          "happy",
-          "excit",
-          "smil",
-          "laf"
-         ],
-         [
-          "video",
-          "phone",
-          "what is on",
-          "whats on",
-          "what it is",
-          "the screen",
-          "cant see",
-          "didnt see",
-          "hasnt seen",
-          "=not seen"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Kai can see their faces. Can he see the phone?"
+       "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
+       "image": "assets/img/scene-bus-03.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "question": "What does Ava know? What doesn't she know?",
+       "sampleAnswer": "Ava knows what is on her phone. She may not see how Rosa looks.",
+       "hint": "Where are Ava's eyes looking?"
       },
       {
        "id": "s16-core-05",
@@ -17032,63 +15974,16 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-outside-02.webp",
-       "imageAlt": "Outside school: Jay and Omar laugh at a phone. Kai stands near them with his hands in his pockets.",
-       "context": "After school, Jay and Omar laugh at a phone. Kai stands near them.",
-       "says": [
-        {
-         "who": "Jay",
-         "text": "Kai, come here! This video is sick!"
-        }
-       ],
-       "question": "What could “sick” mean here? Give 2 ideas.",
+       "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
+       "image": "assets/img/scene-bus-03.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "question": "Why could Rosa cross her arms? Give 3 ideas.",
        "sampleIdeas": [
-        "Really cool. It’s a funny video.",
-        "Gross, in a funny way."
+        "She feels left out.",
+        "She is cold.",
+        "She is annoyed that Ava isn't talking to her."
        ],
-       "check": {
-        "groups": [
-         [
-          "cool",
-          "awesome",
-          "amazing",
-          "great",
-          "good",
-          "epic",
-          "fire",
-          "=lit",
-          "dope",
-          "crazy",
-          "insane",
-          "funny",
-          "hilar",
-          "=lol",
-          "best",
-          "wild"
-         ],
-         [
-          "gross",
-          "disgust",
-          "nasty",
-          "=ew",
-          "yuck",
-          "weird"
-         ],
-         [
-          "=ill",
-          "throw up",
-          "puke",
-          "vomit",
-          "unhealthy",
-          "virus",
-          "germ",
-          "feel sick",
-          "makes you sick"
-         ]
-        ],
-        "need": 2
-       },
-       "hint": "They are laughing. Is it good? Could it be gross?"
+       "hint": "Crossed arms can mean many things. Think of three."
       },
       {
        "id": "s16-core-06",
@@ -17097,250 +15992,258 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-outside-02.webp",
-       "imageAlt": "Outside school: Jay and Omar laugh at a phone. Kai stands near them with his hands in his pockets.",
-       "context": "After school, Jay and Omar laugh at a phone. Kai stands near them.",
-       "says": [
-        {
-         "who": "Jay",
-         "text": "Kai, come here! This video is sick!"
-        }
-       ],
-       "question": "What could Kai say or do?",
-       "sampleAnswer": "Walk over and look. Or ask, “What is it?”",
-       "check": {
-        "groups": [
-         [
-          "walk",
-          "look",
-          "watch",
-          "come",
-          "=go",
-          "over",
-          "ask",
-          "what is it",
-          "=whats",
-          "show me",
-          "see",
-          "join",
-          "sure",
-          "coming",
-          "check"
-         ]
-        ],
-        "need": 1
-       },
-       "hint": "Jay wants Kai to come. What could Kai do or ask?"
+       "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
+       "image": "assets/img/scene-bus-03.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "question": "What could Rosa say or do?",
+       "sampleAnswer": "“What's so funny? Can I see?”",
+       "hint": "How could Rosa join in or find out more?"
       },
       {
        "id": "s16-core-07",
        "role": "discussion",
        "kind": "open",
        "heading": "Talk it through",
-       "question": "Which clue helps you most: words, voice, stress, place, or face?",
+       "question": "Which is harder for you: thinking of many ideas, or changing your idea?",
        "prompts": [
-        "When you still aren’t sure, what can you do?"
+        "What helps you not lock on to one idea?"
        ],
        "starters": [
-        "The clue that helps me most is…",
-        "When I’m not sure, I…"
+        "It is harder for me to…",
+        "One thing that helps is…",
+        "I can ask…"
        ],
        "inShort": true
       },
       {
        "id": "s16-core-08",
-       "role": "practice",
-       "heading": "Unit 2 mix",
-       "inShort": true,
        "kind": "choice",
-       "question": "Ava says, “That’s a fair point.” What does “point” mean?",
+       "question": "Rosa looks like this. What could make her feel this way?",
        "choices": [
-        "A good idea",
-        "A score in a game"
+        "She is falling asleep.",
+        "A friend jumps out and says “Boo!”",
+        "She gets a surprise A on a test."
        ],
        "correct": [
-        0
+        1,
+        2
        ],
-       "explanation": "In a talk, a point is an idea."
+       "explanation": "Surprise can come from a scare or from good news.",
+       "hint": "Look at her eyes and mouth. What could surprise her?",
+       "image": "assets/img/face-rosa-surprised.webp",
+       "imageAlt": "Close-up of Rosa's face",
+       "role": "practice",
+       "heading": "Unit 2 mix",
+       "inShort": true
       },
       {
        "id": "s16-core-09",
-       "role": "practice",
-       "heading": "Unit 2 mix",
-       "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does Lily mean?",
+       "question": "Watch me. Jay gives a thumbs up after the game. What could it mean?",
        "choices": [
-        "This is bad.",
-        "This is great."
+        "I'm okay.",
+        "I'm sad.",
+        "Good job."
        ],
        "correct": [
-        0
+        0,
+        2
        ],
-       "explanation": "Her pencil broke. The flat voice is sarcasm.",
-       "context": "Lily’s pencil breaks during a test.",
-       "line": "Oh, that’s just perfect.",
+       "explanation": "A thumbs up can mean “I'm okay” or “Good job.”",
+       "hint": "Think of two good things a thumbs up can say.",
+       "line": "(Thumbs up)",
+       "needsModeling": true,
        "modeling": {
-        "say": "Sarcastic",
-        "how": "Flat. Sigh."
+        "say": "Thumbs up",
+        "how": "Raise one thumb. Small smile. Nod."
        },
-       "needsModeling": true
+       "role": "practice",
+       "heading": "Unit 2 mix",
+       "inShort": true
       },
       {
        "id": "s16-core-10",
-       "role": "practice",
-       "heading": "Unit 2 mix",
-       "inShort": true,
        "kind": "choice",
-       "question": "Omar says, “I’m on the fence about pizza or tacos.” What does he mean?",
+       "question": "Clue 1: It has pages. Guesses: book, notebook, comic, backpack. Which guess is out?",
        "choices": [
-        "He sits on a fence.",
-        "He can’t decide."
+        "Book",
+        "Backpack",
+        "Comic"
        ],
        "correct": [
         1
        ],
-       "explanation": "On the fence means not sure yet."
+       "explanation": "A backpack has no pages.",
+       "hint": "Which one has no pages?",
+       "role": "practice",
+       "heading": "Unit 2 mix",
+       "inShort": true
       },
       {
        "id": "s16-core-11",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "At a baseball game, Coach Kim says, “Great pitch!” What is a pitch?",
+       "question": "Lily is quiet at lunch. How many ideas could be right?",
        "choices": [
-        "How high a sound is",
-        "A throw to the batter"
+        "Only one",
+        "More than one"
        ],
        "correct": [
         1
        ],
-       "explanation": "At a baseball game, a pitch is a throw."
+       "explanation": "She could be tired, sad, or just thinking.",
+       "hint": "Think of a few reasons someone is quiet.",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s16-core-12",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does it mean?",
+       "question": "Lily looks like this. What could make her feel this way?",
        "choices": [
-        "I like your shirt.",
-        "I don’t like your shirt."
+        "She lost her phone.",
+        "Her friend told a funny joke.",
+        "She got an A."
        ],
        "correct": [
-        0
+        1,
+        2
        ],
-       "explanation": "A warm voice means she likes it.",
-       "line": "Nice shirt.",
-       "modeling": {
-        "say": "Warm",
-        "how": "Warm voice. Smile."
-       },
-       "needsModeling": true
+       "explanation": "Joy can come from a joke or good news.",
+       "hint": "What makes people laugh or smile big?",
+       "image": "assets/img/face-lily-laugh.webp",
+       "imageAlt": "Close-up of Lily's face",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s16-core-13",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "Listen. What does the loud word tell you?",
+       "question": "Kai wrinkles his nose and sticks out his tongue. What could cause it?",
        "choices": [
-        "Ben can come, not someone else.",
-        "I said it. I didn’t write it."
+        "The milk smells bad.",
+        "He gets a gift.",
+        "He sees a moldy sandwich."
        ],
        "correct": [
-        0
+        0,
+        2
        ],
-       "explanation": "“Ben” is loud. It’s about who can come.",
-       "line": "I said BEN can come.",
+       "explanation": "That face can show disgust. Bad smells or gross food can cause it.",
+       "hint": "That face shows “Yuck!” What is yucky?",
+       "needsModeling": true,
        "modeling": {
-        "say": "Stress “Ben”",
-        "how": "Say “Ben” louder and longer."
+        "say": "Disgust",
+        "how": "Wrinkle your nose. Stick out your tongue a little."
        },
-       "needsModeling": true
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s16-core-14",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": true,
        "kind": "choice",
-       "question": "At a game, Ava says, “You’re killing it!” What does she mean?",
+       "question": "Omar looks like this. What could make him feel this way?",
        "choices": [
-        "You’re doing great.",
-        "You’re hurting someone."
+        "He ate his favorite snack.",
+        "A loud crash in the hall.",
+        "A big test he isn't ready for."
        ],
        "correct": [
-        0
+        1,
+        2
        ],
-       "explanation": "At a game, it means doing great."
+       "explanation": "Fear can come from a loud crash or a scary test.",
+       "hint": "Look at his eyes. What could scare someone?",
+       "image": "assets/img/face-omar-scared.webp",
+       "imageAlt": "Close-up of Omar's face",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
       },
       {
        "id": "s16-core-15",
+       "kind": "choice",
+       "question": "Coach asks, “Who left the door open?” Watch Jay. What could his shrug mean?",
+       "choices": [
+        "I don't know.",
+        "I won!",
+        "I didn't do it."
+       ],
+       "correct": [
+        0,
+        2
+       ],
+       "explanation": "A shrug can mean “I don't know” or “I didn't do it.”",
+       "hint": "What did Coach ask? What could a shrug answer?",
+       "line": "(Shrug)",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Shrug",
+        "how": "Lift both shoulders. Turn palms up. Small frown."
+       },
        "role": "check",
        "heading": "Quick check",
-       "inShort": true,
+       "inShort": true
+      },
+      {
+       "id": "s16-core-16",
        "kind": "choice",
-       "question": "Ben sits by a closed window. He says, “Is it hot in here?” He might mean…",
+       "question": "Your shoes are on the floor. Mom stands with hands on hips. What could she mean?",
        "choices": [
-        "Just tell me yes or no.",
-        "Can we open the window?"
+        "I am sleepy.",
+        "I love those shoes.",
+        "Pick those up."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Hands on hips plus a mess can mean scolding.",
+       "hint": "Look at the mess. How might Mom feel?",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Hands on hips",
+        "how": "Stand tall. Put both hands on your hips. Keep a firm face."
+       },
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true
+      },
+      {
+       "id": "s16-core-17",
+       "kind": "choice",
+       "question": "Clue 1: It has a tail. Guesses: dog, kite, fish. Clue 2: It is not alive. Which guess still fits?",
+       "choices": [
+        "Dog",
+        "Kite",
+        "Fish"
        ],
        "correct": [
         1
        ],
-       "explanation": "It is a hint. He wants some air."
-      },
-      {
-       "id": "s16-core-16",
+       "explanation": "A kite has a tail and is not alive.",
+       "hint": "Which one is not alive?",
        "role": "check",
        "heading": "Quick check",
-       "inShort": true,
-       "kind": "choice",
-       "question": "It snows on Zoe’s beach day. She says, “Just great,” in a flat voice. She is…",
-       "choices": [
-        "Upset",
-        "Very happy"
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Snow and a flat voice don’t match “great.” It’s sarcasm."
-      },
-      {
-       "id": "s16-core-17",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": false,
-       "kind": "choice",
-       "question": "Jay says, “I have to hit the books.” What does he mean?",
-       "choices": [
-        "He has to study.",
-        "He has to punch his books."
-       ],
-       "correct": [
-        0
-       ],
-       "explanation": "Hit the books means study."
+       "inShort": false
       },
       {
        "id": "s16-core-18",
-       "role": "check",
-       "heading": "Quick check",
-       "inShort": false,
        "kind": "choice",
-       "question": "You still aren’t sure what someone means. What is a good Engage step?",
+       "question": "Kai thinks Omar is ignoring him. New clue: Omar has earbuds in. What fits now?",
        "choices": [
-        "Ask, “What do you mean?”",
-        "Guess and walk away."
+        "Omar is ignoring him for sure.",
+        "Omar may not hear him."
        ],
        "correct": [
-        0
+        1
        ],
-       "explanation": "Ask to check."
+       "explanation": "Earbuds are a new clue. Omar may not hear. Kai can tap and ask.",
+       "hint": "What do earbuds do?",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": false
       }
      ]
     }
@@ -39658,6 +38561,2917 @@ window.HUB_CONTENT = {
         1
        ],
        "explanation": "Inviting a small step feels safe."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-61",
+   "number": 61,
+   "title": "Similes",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Understanding similes (like / as)",
+   "goal": "I can tell what a simile really means.",
+   "slpNotes": "This lesson opens the figurative language unit. A simile compares two things using \"like\" or \"as.\" For every example, say the literal picture out loud first (a real cheetah), then the real meaning (very fast). Point out that the speaker knows the words are not exactly true and expects the listener to use the situation to get the real meaning. Watch for students who take \"like\" in \"I like pizza\" as a simile.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s61-core-01",
+       "role": "warmup",
+       "heading": "Warm-up",
+       "inShort": false,
+       "kind": "choice",
+       "question": "Kai comes in from the snow. He says, “My feet are ice cubes!” Are his feet really ice?",
+       "choices": [
+        "Yes. His feet turned into ice.",
+        "No. His feet feel very cold."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "His feet are not ice. Kai means they feel very, very cold.",
+       "hint": "Where was Kai? How would his feet feel?"
+      },
+      {
+       "id": "s61-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "inShort": true,
+       "image": "assets/img/scene-skate-01.webp",
+       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "context": "Kai skates down the ramp at the skate park. Omar watches him.",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "Whoa! You were as fast as a cheetah!"
+        }
+       ],
+       "question": "What is happening?",
+       "sampleAnswer": "Kai skates down the ramp. Omar says he was as fast as a cheetah.",
+       "hint": "Look at Kai. Then listen to what Omar says."
+      },
+      {
+       "id": "s61-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "inShort": true,
+       "image": "assets/img/scene-skate-01.webp",
+       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "context": "Kai skates down the ramp at the skate park. Omar watches him.",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "Whoa! You were as fast as a cheetah!"
+        }
+       ],
+       "question": "What clues show what Omar means?",
+       "sampleAnswer": "Omar points and looks excited. He says “Whoa!” Kai went down the ramp fast.",
+       "hint": "Look at Omar's face and hand. What word does he shout first?"
+      },
+      {
+       "id": "s61-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "inShort": true,
+       "image": "assets/img/scene-skate-01.webp",
+       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "context": "Kai skates down the ramp at the skate park. Omar watches him.",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "Whoa! You were as fast as a cheetah!"
+        }
+       ],
+       "question": "Omar knows Kai is not a cheetah. So what does he want Kai to know?",
+       "sampleAnswer": "He wants Kai to know he was really, really fast.",
+       "hint": "What is a cheetah good at?"
+      },
+      {
+       "id": "s61-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "inShort": true,
+       "image": "assets/img/scene-skate-01.webp",
+       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "context": "Kai skates down the ramp at the skate park. Omar watches him.",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "Whoa! You were as fast as a cheetah!"
+        }
+       ],
+       "question": "What could Omar mean? Give 2 ideas.",
+       "sampleIdeas": [
+        "You were super fast.",
+        "That was so cool!",
+        "I'm impressed."
+       ],
+       "bestIdea": 0,
+       "hint": "Think about speed. Think about how Omar feels."
+      },
+      {
+       "id": "s61-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "inShort": true,
+       "image": "assets/img/scene-skate-01.webp",
+       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "context": "Kai skates down the ramp at the skate park. Omar watches him.",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "Whoa! You were as fast as a cheetah!"
+        }
+       ],
+       "question": "What can Kai say back to Omar?",
+       "sampleAnswer": "“Thanks! I've been practicing.”",
+       "hint": "Omar gave Kai a nice comment. How do you answer that?"
+      },
+      {
+       "id": "s61-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "inShort": true,
+       "question": "Make a simile about yourself. Use “like” or “as.”",
+       "prompts": [
+        "Why do people use a simile instead of plain words?"
+       ],
+       "starters": [
+        "I am as … as a …",
+        "I run like a …",
+        "A simile uses like or as to…",
+        "It really means…"
+       ]
+      },
+      {
+       "id": "s61-core-08",
+       "role": "practice",
+       "heading": "What does it really mean?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Ava really mean?",
+       "choices": [
+        "The hallway has an oven in it.",
+        "The hallway feels very hot.",
+        "Ava wants to bake."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "She compares the hallway to an oven. It feels very hot.",
+       "hint": "Is an oven hot or cold?",
+       "says": [
+        {
+         "who": "Ava",
+         "text": "This hallway is as hot as an oven."
+        }
+       ]
+      },
+      {
+       "id": "s61-core-09",
+       "role": "practice",
+       "heading": "What does it really mean?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Mom mean?",
+       "choices": [
+        "Ben slept outside by the trees.",
+        "Ben was stiff like wood.",
+        "Ben slept very deeply."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "A log does not move. Ben slept so deeply he did not move.",
+       "hint": "Does a log ever move or wake up?",
+       "context": "Ben wakes up late on Saturday.",
+       "says": [
+        {
+         "who": "Mom",
+         "text": "Wow. You slept like a log."
+        }
+       ]
+      },
+      {
+       "id": "s61-core-10",
+       "role": "practice",
+       "heading": "What does it really mean?",
+       "inShort": true,
+       "kind": "sort",
+       "question": "Is it a simile? Tap a card, then tap a box.",
+       "sort": {
+        "bins": [
+         "Simile",
+         "Not a simile"
+        ],
+        "items": [
+         {
+          "text": "She is as quiet as a mouse.",
+          "bin": 0
+         },
+         {
+          "text": "I like pizza.",
+          "bin": 1
+         },
+         {
+          "text": "He runs like the wind.",
+          "bin": 0
+         },
+         {
+          "text": "She is very quiet.",
+          "bin": 1
+         },
+         {
+          "text": "My bag is as light as a feather.",
+          "bin": 0
+         }
+        ]
+       },
+       "explanation": "A simile compares two things with “like” or “as.” “I like pizza” does not compare anything.",
+       "hint": "Is something being compared to something else?"
+      },
+      {
+       "id": "s61-core-11",
+       "role": "practice",
+       "heading": "What does it really mean?",
+       "inShort": false,
+       "kind": "choice",
+       "question": "What does Zoe mean?",
+       "choices": [
+        "A storm came into Jay's room.",
+        "Jay's room is a big mess.",
+        "Jay's room is very clean."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "After a tornado, things are everywhere. Jay's room is very messy.",
+       "hint": "What does a place look like after a tornado?",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "Jay's room looks like a tornado hit it."
+        }
+       ]
+      },
+      {
+       "id": "s61-core-12",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "A simile compares two things using which words?",
+       "choices": [
+        "“and” or “but”",
+        "“like” or “as”",
+        "“is” or “are”"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Similes use “like” or “as” to compare.",
+       "hint": "Think of “as fast as a cheetah.”"
+      },
+      {
+       "id": "s61-core-13",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Rosa mean?",
+       "choices": [
+        "The test was about the alphabet.",
+        "The test was very easy."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "ABC is easy to say. Rosa means the test was easy.",
+       "hint": "Is it hard to say A, B, C?",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "That test was as easy as ABC."
+        }
+       ]
+      },
+      {
+       "id": "s61-core-14",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Omar mean?",
+       "choices": [
+        "Ben can roar.",
+        "Ben has a lot of hair.",
+        "Ben is very brave."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Lions are known for being brave. Omar means Ben is brave.",
+       "hint": "What are lions known for?",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "Ben is as brave as a lion."
+        }
+       ]
+      },
+      {
+       "id": "s61-core-15",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": false,
+       "kind": "choice",
+       "question": "You hear a simile and don't get it. What can you do?",
+       "choices": [
+        "Pretend you get it.",
+        "Ask what they mean.",
+        "Think about the situation clues."
+       ],
+       "correct": [
+        1,
+        2
+       ],
+       "explanation": "You can use clues, or you can ask. Both work.",
+       "hint": "What helps you figure out what someone means?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-62",
+   "number": 62,
+   "title": "Metaphors",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Understanding metaphors",
+   "goal": "I can tell what a metaphor really means.",
+   "slpNotes": "A metaphor says one thing IS another thing, without \"like\" or \"as.\" Contrast directly with similes: \"Ben is like a zombie\" vs. \"Ben is a zombie.\" Students who are very literal may object that the speaker is lying; explain that the speaker and listener both know it is not literally true, and the speaker counts on the listener to use the situation to get the meaning. Say the literal picture, then the real meaning, for each item.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s62-core-01",
+       "role": "warmup",
+       "heading": "Warm-up",
+       "inShort": false,
+       "kind": "choice",
+       "question": "Ava says, “Kai is as quiet as a mouse.” Is that a simile?",
+       "choices": [
+        "No. It is just a fact.",
+        "Yes. It uses “as” to compare."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "It compares Kai to a mouse with “as.” That is a simile.",
+       "hint": "Listen for “like” or “as.”"
+      },
+      {
+       "id": "s62-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "inShort": true,
+       "image": "assets/img/scene-class-08.webp",
+       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Ben, are you with us?"
+        },
+        {
+         "who": "Ben",
+         "text": "Sorry. I'm a zombie today."
+        }
+       ],
+       "question": "What is happening?",
+       "sampleAnswer": "Ben is yawning in class. He tells Mr. Cruz he is a zombie today.",
+       "hint": "Look at Ben. What does he say to Mr. Cruz?"
+      },
+      {
+       "id": "s62-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "inShort": true,
+       "image": "assets/img/scene-class-08.webp",
+       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Ben, are you with us?"
+        },
+        {
+         "who": "Ben",
+         "text": "Sorry. I'm a zombie today."
+        }
+       ],
+       "question": "What clues help you know what Ben means?",
+       "sampleAnswer": "He yawns. His eyes are closed. His head is on his hand. It is early.",
+       "hint": "Look at Ben's eyes, mouth, and head. What time is it?"
+      },
+      {
+       "id": "s62-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "inShort": true,
+       "image": "assets/img/scene-class-08.webp",
+       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Ben, are you with us?"
+        },
+        {
+         "who": "Ben",
+         "text": "Sorry. I'm a zombie today."
+        }
+       ],
+       "question": "Does Mr. Cruz think Ben is a real zombie? What does he know?",
+       "sampleAnswer": "No. He knows zombies are not real. He can see Ben is tired.",
+       "hint": "Are zombies real? What can Mr. Cruz see?"
+      },
+      {
+       "id": "s62-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "inShort": true,
+       "image": "assets/img/scene-class-08.webp",
+       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Ben, are you with us?"
+        },
+        {
+         "who": "Ben",
+         "text": "Sorry. I'm a zombie today."
+        }
+       ],
+       "question": "What could Ben mean? Give 2 ideas.",
+       "sampleIdeas": [
+        "I am really tired.",
+        "I stayed up too late.",
+        "My brain is slow today."
+       ],
+       "bestIdea": 0,
+       "hint": "How do zombies move and act in movies?"
+      },
+      {
+       "id": "s62-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "inShort": true,
+       "image": "assets/img/scene-class-08.webp",
+       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Ben, are you with us?"
+        },
+        {
+         "who": "Ben",
+         "text": "Sorry. I'm a zombie today."
+        }
+       ],
+       "question": "What could Mr. Cruz say next?",
+       "sampleAnswer": "“Tired? Stand up and stretch for a minute.”",
+       "hint": "Mr. Cruz knows Ben is tired. How could he help?"
+      },
+      {
+       "id": "s62-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "inShort": true,
+       "question": "“Ben is like a zombie.” “Ben is a zombie.” What is different?",
+       "prompts": [
+        "Make a metaphor about your day today."
+       ],
+       "starters": [
+        "A simile uses…",
+        "A metaphor says one thing IS…",
+        "My day is a…",
+        "It really means…"
+       ]
+      },
+      {
+       "id": "s62-core-08",
+       "role": "practice",
+       "heading": "Simile or metaphor?",
+       "inShort": true,
+       "kind": "sort",
+       "question": "Simile or metaphor? Tap a card, then tap a box.",
+       "sort": {
+        "bins": [
+         "Simile",
+         "Metaphor"
+        ],
+        "items": [
+         {
+          "text": "The classroom was a zoo.",
+          "bin": 1
+         },
+         {
+          "text": "The classroom was like a zoo.",
+          "bin": 0
+         },
+         {
+          "text": "My brother is a night owl.",
+          "bin": 1
+         },
+         {
+          "text": "She sings like a bird.",
+          "bin": 0
+         },
+         {
+          "text": "The snow was a white blanket.",
+          "bin": 1
+         },
+         {
+          "text": "He is as tall as a tree.",
+          "bin": 0
+         }
+        ]
+       },
+       "explanation": "Similes use “like” or “as.” Metaphors say one thing IS another.",
+       "hint": "Do you hear “like” or “as”? That is your clue."
+      },
+      {
+       "id": "s62-core-09",
+       "role": "practice",
+       "heading": "Simile or metaphor?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Mr. Cruz really mean?",
+       "choices": [
+        "There are animals in the room.",
+        "The class is wild and loud.",
+        "The class is going on a trip."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A zoo is noisy and wild. The class is loud and out of control.",
+       "hint": "What is a zoo like? Is it calm and quiet?",
+       "context": "Mr. Cruz comes back to class. Kids are yelling and out of their seats.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "This classroom is a zoo!"
+        }
+       ]
+      },
+      {
+       "id": "s62-core-10",
+       "role": "practice",
+       "heading": "Simile or metaphor?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Omar mean?",
+       "choices": [
+        "His brother has feathers.",
+        "His brother likes birds.",
+        "His brother stays up very late."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Owls are awake at night. His brother stays up late.",
+       "hint": "When are owls awake?",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "My brother is a night owl."
+        }
+       ]
+      },
+      {
+       "id": "s62-core-11",
+       "role": "practice",
+       "heading": "Simile or metaphor?",
+       "inShort": false,
+       "kind": "choice",
+       "question": "What does Zoe mean?",
+       "choices": [
+        "The test was windy.",
+        "The test was easy.",
+        "The test was outside."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A breeze is light and easy. The test was easy for her.",
+       "hint": "A breeze is soft and light. Was the test hard?",
+       "context": "Zoe walks out of a science test, smiling.",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "That test was a breeze."
+        }
+       ]
+      },
+      {
+       "id": "s62-core-12",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "Which one is a metaphor?",
+       "choices": [
+        "Jay is as fast as a car.",
+        "Jay is a rocket on the field.",
+        "Jay runs fast."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "It says Jay IS a rocket, with no “like” or “as.”",
+       "hint": "Which one says Jay IS something else?"
+      },
+      {
+       "id": "s62-core-13",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "Which one is a simile?",
+       "choices": [
+        "Lily's voice is music.",
+        "Lily sings like a bird."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "It uses “like” to compare. That is a simile.",
+       "hint": "Listen for “like” or “as.”"
+      },
+      {
+       "id": "s62-core-14",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Coach Kim mean?",
+       "choices": [
+        "They are real tigers.",
+        "They have stripes.",
+        "They played hard and strong."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Tigers are strong and fierce. The team played hard.",
+       "hint": "What are tigers like? How did the team play?",
+       "context": "Coach Kim talks to the team after a game.",
+       "says": [
+        {
+         "who": "Coach Kim",
+         "text": "You were tigers out there today!"
+        }
+       ]
+      },
+      {
+       "id": "s62-core-15",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": false,
+       "kind": "choice",
+       "question": "A metaphor says one thing ___ another thing.",
+       "choices": [
+        "is like",
+        "is"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A metaphor says it IS. A simile says it is LIKE.",
+       "hint": "Which word does a simile use? A metaphor does not use it."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-63",
+   "number": 63,
+   "title": "Hyperbole",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Understanding hyperbole (exaggeration)",
+   "goal": "I can tell when someone exaggerates and what they really mean.",
+   "slpNotes": "Hyperbole is a huge exaggeration that no one is meant to believe. Talk about why people exaggerate: to show a strong feeling (hungry, tired, annoyed) or to be funny. Students who take words literally may correct the speaker (\"You can't eat 100 pizzas\"); practice responding to the feeling instead. Have the student say how big the claim is versus how big the real thing probably is.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s63-core-01",
+       "role": "warmup",
+       "heading": "Warm-up",
+       "inShort": false,
+       "kind": "choice",
+       "question": "Lily says, “My bedroom is an icebox.” What does she mean?",
+       "choices": [
+        "She keeps ice in her room.",
+        "Her room is very cold.",
+        "Her room is a freezer."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "That is a metaphor. Her room feels very cold.",
+       "hint": "What is an icebox like inside?"
+      },
+      {
+       "id": "s63-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-06.webp",
+       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "I'm so hungry I could eat a hundred pizzas!"
+        }
+       ],
+       "question": "What is happening?",
+       "sampleAnswer": "Jay and Ava are at lunch. Jay says he could eat a hundred pizzas.",
+       "hint": "Where are they? What does Jay say?"
+      },
+      {
+       "id": "s63-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-06.webp",
+       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "I'm so hungry I could eat a hundred pizzas!"
+        }
+       ],
+       "question": "What clues tell you Jay is not being exact?",
+       "sampleAnswer": "No one can eat 100 pizzas. Jay is smiling. Ava smiles too.",
+       "hint": "Could anyone eat 100 pizzas? Look at their faces."
+      },
+      {
+       "id": "s63-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-06.webp",
+       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "I'm so hungry I could eat a hundred pizzas!"
+        }
+       ],
+       "question": "Does Ava think Jay will eat 100 pizzas? Why not?",
+       "sampleAnswer": "No. She knows a person can't eat that much. She knows he is hungry.",
+       "hint": "What does Ava know about how much people can eat?"
+      },
+      {
+       "id": "s63-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-06.webp",
+       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "I'm so hungry I could eat a hundred pizzas!"
+        }
+       ],
+       "question": "What could Jay mean? Give 2 ideas.",
+       "sampleIdeas": [
+        "I am very, very hungry.",
+        "I love this pizza.",
+        "I'm being funny."
+       ],
+       "bestIdea": 0,
+       "hint": "Think about his feeling. Think about if he is joking."
+      },
+      {
+       "id": "s63-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-06.webp",
+       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "I'm so hungry I could eat a hundred pizzas!"
+        }
+       ],
+       "question": "What could Ava say back?",
+       "sampleAnswer": "“Ha! Me too. I'm so hungry.”",
+       "hint": "Answer his feeling, not the number."
+      },
+      {
+       "id": "s63-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "inShort": true,
+       "question": "Why do people exaggerate? Give a reason.",
+       "prompts": [
+        "Tell about a time you said something way bigger than true."
+       ],
+       "starters": [
+        "People exaggerate to…",
+        "It shows they feel…",
+        "I once said…",
+        "It really meant…"
+       ]
+      },
+      {
+       "id": "s63-core-08",
+       "role": "practice",
+       "heading": "How big is it really?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Mom really mean?",
+       "choices": [
+        "She counted one million times.",
+        "She has told you many times. She is frustrated.",
+        "She likes saying it."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "No one says it a million times. Mom means many times, and she is frustrated.",
+       "hint": "Can anyone say something a million times? How does Mom feel?",
+       "says": [
+        {
+         "who": "Mom",
+         "text": "I've told you a million times. Clean your room!"
+        }
+       ]
+      },
+      {
+       "id": "s63-core-09",
+       "role": "practice",
+       "heading": "How big is it really?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Rosa mean?",
+       "choices": [
+        "Her backpack weighs 2,000 pounds.",
+        "Her backpack is empty.",
+        "Her backpack feels very heavy."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "A ton is way too heavy to carry. Rosa means it feels very heavy.",
+       "hint": "Could Rosa carry a ton? How does the bag feel?",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "This backpack weighs a ton!"
+        }
+       ]
+      },
+      {
+       "id": "s63-core-10",
+       "role": "practice",
+       "heading": "How big is it really?",
+       "inShort": true,
+       "kind": "sort",
+       "question": "Really true or hyperbole? Tap a card, then tap a box.",
+       "sort": {
+        "bins": [
+         "Really true",
+         "Hyperbole (way too big)"
+        ],
+        "items": [
+         {
+          "text": "I waited forever for the bus.",
+          "bin": 1
+         },
+         {
+          "text": "I waited ten minutes for the bus.",
+          "bin": 0
+         },
+         {
+          "text": "This homework will take a year!",
+          "bin": 1
+         },
+         {
+          "text": "This homework will take an hour.",
+          "bin": 0
+         },
+         {
+          "text": "I'm so tired I could sleep for a week.",
+          "bin": 1
+         },
+         {
+          "text": "I went to bed at ten.",
+          "bin": 0
+         }
+        ]
+       },
+       "explanation": "Hyperbole makes things way bigger than they could be. The real facts are smaller.",
+       "hint": "Could this really happen? Or is it way too big?"
+      },
+      {
+       "id": "s63-core-11",
+       "role": "practice",
+       "heading": "How big is it really?",
+       "inShort": false,
+       "kind": "choice",
+       "question": "Why does Kai say it this way?",
+       "choices": [
+        "To show the run felt long and hard.",
+        "Because he counted a thousand laps.",
+        "To get Coach in trouble."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "Kai did not run a thousand laps. He means it felt like a lot.",
+       "hint": "Could Kai run a thousand laps? How does he feel?",
+       "context": "Kai comes back from gym, out of breath.",
+       "says": [
+        {
+         "who": "Kai",
+         "text": "Coach made us run a thousand laps!"
+        }
+       ]
+      },
+      {
+       "id": "s63-core-12",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "Hyperbole is…",
+       "choices": [
+        "a small, exact fact",
+        "a huge exaggeration",
+        "a word that sounds like another"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Hyperbole makes something way bigger than it is.",
+       "hint": "Think of “I could eat a hundred pizzas.”"
+      },
+      {
+       "id": "s63-core-13",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Omar mean?",
+       "choices": [
+        "Exactly one billion people came.",
+        "Lots and lots of people came."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A billion is way too many. Omar means it was very crowded.",
+       "hint": "Could a billion people fit in a gym?",
+       "says": [
+        {
+         "who": "Omar",
+         "text": "There were a billion people at the game!"
+        }
+       ]
+      },
+      {
+       "id": "s63-core-14",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "Which one is hyperbole?",
+       "choices": [
+        "I have two tests this week.",
+        "I have a test on Friday.",
+        "I have a hundred tests this week!"
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "A hundred tests in one week can't be true. It is a big exaggeration.",
+       "hint": "Which one is way too big to be true?"
+      },
+      {
+       "id": "s63-core-15",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": false,
+       "kind": "choice",
+       "question": "A friend says, “This is the worst day in history!” What can you do?",
+       "choices": [
+        "Ask what happened.",
+        "Tell them it is not true.",
+        "Think: it is a bad day, not the worst ever."
+       ],
+       "correct": [
+        0,
+        2
+       ],
+       "explanation": "They are exaggerating to show a strong feeling. Think about the feeling, or ask.",
+       "hint": "Is it really the worst day ever? What are they feeling?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-64",
+   "number": 64,
+   "title": "Idioms",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Understanding idioms",
+   "goal": "I can figure out what an idiom means.",
+   "slpNotes": "An idiom is a saying whose meaning cannot be figured out from its words. Unlike similes and metaphors, there is often no picture that helps, so the listener must use the situation or ask. Model the literal picture (a real square, real horses) so students can laugh at it, then give the real meaning. Stress the perspective angle: the speaker knows the idiom, but the listener might not, and asking is a smart move.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s64-core-01",
+       "role": "warmup",
+       "heading": "Warm-up",
+       "inShort": false,
+       "kind": "choice",
+       "question": "Jay says, “I have a mountain of homework.” Is it really a mountain?",
+       "choices": [
+        "Yes. It is as tall as a mountain.",
+        "No. He has a lot of homework."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "He is exaggerating. He means he has lots of homework.",
+       "hint": "Could homework really be as big as a mountain?"
+      },
+      {
+       "id": "s64-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "I don't get it at all."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "No problem. Let's go back to square one."
+        }
+       ],
+       "question": "What is happening?",
+       "sampleAnswer": "Rosa doesn't get the math. Mr. Cruz says, “Let's go back to square one.”",
+       "hint": "What does Rosa say? What does Mr. Cruz say back?"
+      },
+      {
+       "id": "s64-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "I don't get it at all."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "No problem. Let's go back to square one."
+        }
+       ],
+       "question": "What clues help you know what “back to square one” means?",
+       "sampleAnswer": "Rosa is confused. Mr. Cruz wants to help. “Go back” sounds like start again.",
+       "hint": "How does Rosa feel? What does Mr. Cruz want to do?"
+      },
+      {
+       "id": "s64-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "I don't get it at all."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "No problem. Let's go back to square one."
+        }
+       ],
+       "question": "What does Mr. Cruz know that Rosa might not know?",
+       "sampleAnswer": "He knows the idiom means start over. Rosa might think of a real square.",
+       "hint": "Has Rosa heard this saying before? Maybe, maybe not."
+      },
+      {
+       "id": "s64-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "I don't get it at all."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "No problem. Let's go back to square one."
+        }
+       ],
+       "question": "What could “back to square one” mean? Give 2 ideas.",
+       "sampleIdeas": [
+        "Let's start over from the beginning.",
+        "Let's go back to the first step.",
+        "Let's go slower."
+       ],
+       "bestIdea": 0,
+       "hint": "Square one is the first square. What does going back to it mean?"
+      },
+      {
+       "id": "s64-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "I don't get it at all."
+        },
+        {
+         "who": "Mr. Cruz",
+         "text": "No problem. Let's go back to square one."
+        }
+       ],
+       "question": "If Rosa doesn't know the idiom, what can she say?",
+       "sampleAnswer": "“What do you mean by square one?”",
+       "hint": "What question could Rosa ask Mr. Cruz?"
+      },
+      {
+       "id": "s64-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "inShort": true,
+       "question": "An idiom is a saying. Its words don't tell you its meaning. Do you know one?",
+       "prompts": [
+        "How can you figure out an idiom you never heard?"
+       ],
+       "starters": [
+        "One idiom I know is…",
+        "It really means…",
+        "I can look at…",
+        "I can ask…"
+       ]
+      },
+      {
+       "id": "s64-core-08",
+       "role": "practice",
+       "heading": "What does the idiom mean?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Coach Kim mean?",
+       "choices": [
+        "Go get the horses.",
+        "Wait. Don't go yet.",
+        "Hold the ball tight."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "“Hold your horses” means wait or slow down.",
+       "hint": "What does Coach say right after? Wait for what?",
+       "context": "The team lines up to race. Jay starts to run early.",
+       "says": [
+        {
+         "who": "Coach Kim",
+         "text": "Hold your horses! Wait for the whistle."
+        }
+       ]
+      },
+      {
+       "id": "s64-core-09",
+       "role": "practice",
+       "heading": "What does the idiom mean?",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Zoe mean?",
+       "choices": [
+        "She is up in a plane.",
+        "She feels sleepy.",
+        "She feels super happy."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "“On cloud nine” means very, very happy.",
+       "hint": "Look at Zoe's grade. How would you feel?",
+       "context": "Zoe gets her test back. It says A+.",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "I'm on cloud nine!"
+        }
+       ]
+      },
+      {
+       "id": "s64-core-10",
+       "role": "practice",
+       "heading": "What does the idiom mean?",
+       "inShort": true,
+       "kind": "sort",
+       "question": "Plain words or idiom? Tap a card, then tap a box.",
+       "sort": {
+        "bins": [
+         "Plain words",
+         "Idiom"
+        ],
+        "items": [
+         {
+          "text": "Can you lend a hand with these boxes?",
+          "bin": 1
+         },
+         {
+          "text": "Can you help me carry these boxes?",
+          "bin": 0
+         },
+         {
+          "text": "Zip your lip during the test.",
+          "bin": 1
+         },
+         {
+          "text": "Please be quiet during the test.",
+          "bin": 0
+         },
+         {
+          "text": "I see my cousin once in a blue moon.",
+          "bin": 1
+         },
+         {
+          "text": "I see my cousin once a year.",
+          "bin": 0
+         }
+        ]
+       },
+       "explanation": "Each idiom has a plain-words partner. They mean the same thing.",
+       "hint": "Do the words mean exactly what they say?"
+      },
+      {
+       "id": "s64-core-11",
+       "role": "practice",
+       "heading": "What does the idiom mean?",
+       "inShort": false,
+       "kind": "choice",
+       "question": "What does Kai want?",
+       "choices": [
+        "He wants a nut.",
+        "He wants the short version.",
+        "He wants you to whisper."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "“In a nutshell” means short and simple.",
+       "hint": "Kai has only one minute. Long story or short?",
+       "context": "Lily starts a long story. Kai has to leave soon.",
+       "says": [
+        {
+         "who": "Kai",
+         "text": "Tell me in a nutshell. I have one minute."
+        }
+       ]
+      },
+      {
+       "id": "s64-core-12",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "An idiom is…",
+       "choices": [
+        "a word that rhymes",
+        "a saying that means something different from its words",
+        "a list of facts"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "The words of an idiom don't tell you its real meaning.",
+       "hint": "Think of “hold your horses.” Is it about horses?"
+      },
+      {
+       "id": "s64-core-13",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Ben mean?",
+       "choices": [
+        "Stop hitting the bushes.",
+        "Say it straight. Don't avoid it."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "“Beat around the bush” means avoid saying something.",
+       "hint": "Ben says “Just tell me.” What does he want?",
+       "says": [
+        {
+         "who": "Ben",
+         "text": "Stop beating around the bush. Just tell me!"
+        }
+       ]
+      },
+      {
+       "id": "s64-core-14",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": true,
+       "kind": "choice",
+       "question": "What does Mom mean?",
+       "choices": [
+        "She has had enough.",
+        "She needs one more straw.",
+        "She is thirsty."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "“The last straw” means one more problem, and now she has had enough.",
+       "hint": "Is this the first time? How does Mom feel?",
+       "context": "Omar left his shoes in the hall again.",
+       "says": [
+        {
+         "who": "Mom",
+         "text": "Shoes in the hall again? That's the last straw!"
+        }
+       ]
+      },
+      {
+       "id": "s64-core-15",
+       "role": "check",
+       "heading": "Quick check",
+       "inShort": false,
+       "kind": "choice",
+       "question": "You hear an idiom you don't know. What can you do?",
+       "choices": [
+        "Take the words exactly.",
+        "Use clues from what is happening.",
+        "Ask what it means."
+       ],
+       "correct": [
+        1,
+        2
+       ],
+       "explanation": "Use the situation clues, or ask. The exact words won't help.",
+       "hint": "What helped Rosa with “square one”?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-65",
+   "number": 65,
+   "title": "Personification",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Understanding personification",
+   "goal": "I can tell what people mean when things act like people.",
+   "slpNotes": "Personification gives human actions or feelings to things (the wind bites, my phone died). For each example, name the thing, name the person action, then ask, “Can it really do that?” before working out the real meaning. Point out that the speaker usually wants the listener to know a feeling or a need (Rosa is cold and may want the window shut).\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s65-core-01",
+       "role": "warmup",
+       "inShort": false,
+       "heading": "Warm-up",
+       "question": "Mom says, “Can you lend me a hand?” What does she mean?",
+       "kind": "choice",
+       "choices": [
+        "Give her your hand to keep.",
+        "Help her with something.",
+        "Clap your hands."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "“Lend a hand” is an idiom. It means help.",
+       "hint": "Does Mom want to keep a real hand?"
+      },
+      {
+       "id": "s65-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "question": "What is happening?",
+       "inShort": true,
+       "image": "assets/img/scene-class-06.webp",
+       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "context": "It is a cold day. The window is open. Wind blows in.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "Brr! The wind is biting me!"
+        }
+       ],
+       "sampleAnswer": "Rosa is cold. Wind blows in the open window. She says the wind is biting her.",
+       "hint": "Look at Rosa and at the window."
+      },
+      {
+       "id": "s65-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "question": "What clues show how Rosa feels?",
+       "inShort": true,
+       "image": "assets/img/scene-class-06.webp",
+       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "context": "It is a cold day. The window is open. Wind blows in.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "Brr! The wind is biting me!"
+        }
+       ],
+       "sampleAnswer": "She hugs herself and shivers. The window is open. It is a cold day.",
+       "hint": "Look at Rosa’s arms. Look at the window."
+      },
+      {
+       "id": "s65-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "question": "Can wind really bite? What does Rosa want Ben to know?",
+       "inShort": true,
+       "image": "assets/img/scene-class-06.webp",
+       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "context": "It is a cold day. The window is open. Wind blows in.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "Brr! The wind is biting me!"
+        }
+       ],
+       "sampleAnswer": "No. Wind has no teeth. She wants Ben to know she is very cold.",
+       "hint": "Does wind have teeth? What is Rosa telling Ben?"
+      },
+      {
+       "id": "s65-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "question": "What could Rosa really mean? Give 2 ideas.",
+       "inShort": true,
+       "image": "assets/img/scene-class-06.webp",
+       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "context": "It is a cold day. The window is open. Wind blows in.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "Brr! The wind is biting me!"
+        }
+       ],
+       "sampleIdeas": [
+        "I am really cold.",
+        "Please close the window.",
+        "I wish I had my jacket."
+       ],
+       "bestIdea": 0,
+       "hint": "Think about how the wind feels on her skin."
+      },
+      {
+       "id": "s65-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "question": "What could Ben say or do?",
+       "inShort": true,
+       "image": "assets/img/scene-class-06.webp",
+       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "context": "It is a cold day. The window is open. Wind blows in.",
+       "says": [
+        {
+         "who": "Rosa",
+         "text": "Brr! The wind is biting me!"
+        }
+       ],
+       "sampleAnswer": "“Want me to close the window?” Then close it.",
+       "hint": "How could Ben help Rosa feel warmer?"
+      },
+      {
+       "id": "s65-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "question": "People say, “My phone died.” Can you think of more things that “act like people”?",
+       "prompts": [
+        "Why do people talk about things like they are alive?"
+       ],
+       "starters": [
+        "My ___ died / yelled / ate…",
+        "It really means…",
+        "People say it because…"
+       ],
+       "inShort": true
+      },
+      {
+       "id": "s65-core-08",
+       "role": "practice",
+       "inShort": true,
+       "heading": "What does it really mean?",
+       "question": "Ben says, “My phone died.” What does he mean?",
+       "kind": "choice",
+       "choices": [
+        "His phone got sick.",
+        "His phone’s battery ran out."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Phones are not alive. The battery is empty.",
+       "hint": "Can a phone really be alive?"
+      },
+      {
+       "id": "s65-core-09",
+       "role": "practice",
+       "inShort": true,
+       "heading": "What does it really mean?",
+       "question": "Jay smells cookies. He says, “The cookies are calling my name!” What does he mean?",
+       "kind": "choice",
+       "choices": [
+        "The cookies can talk.",
+        "He hears his name in the kitchen.",
+        "He really wants a cookie."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Cookies can’t talk. He means he wants one a lot.",
+       "hint": "Can cookies talk? What does Jay want?"
+      },
+      {
+       "id": "s65-core-10",
+       "role": "practice",
+       "inShort": true,
+       "heading": "What does it really mean?",
+       "question": "Does a thing act like a person? Tap a card, then tap a box.",
+       "kind": "sort",
+       "sort": {
+        "bins": [
+         "Acts like a person",
+         "Plain words"
+        ],
+        "items": [
+         {
+          "text": "The sun smiled down on us.",
+          "bin": 0
+         },
+         {
+          "text": "The sun is bright today.",
+          "bin": 1
+         },
+         {
+          "text": "My alarm clock yelled at me.",
+          "bin": 0
+         },
+         {
+          "text": "My alarm clock is loud.",
+          "bin": 1
+         },
+         {
+          "text": "The leaves danced in the wind.",
+          "bin": 0
+         },
+         {
+          "text": "The leaves fell off the tree.",
+          "bin": 1
+         }
+        ]
+       },
+       "explanation": "The sun can’t smile. Clocks can’t yell. Leaves can’t dance. Those are person actions.",
+       "hint": "Can the thing really do that action?"
+      },
+      {
+       "id": "s65-core-11",
+       "role": "practice",
+       "inShort": false,
+       "heading": "What does it really mean?",
+       "question": "Omar says, “My math homework is staring at me.” What does he mean?",
+       "kind": "choice",
+       "choices": [
+        "His homework has eyes.",
+        "He still needs to do his homework."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Paper can’t stare. He means it is waiting to be done.",
+       "hint": "Can paper look at you? What is Omar thinking about?"
+      },
+      {
+       "id": "s65-core-12",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Giving a thing a person action is called…",
+       "kind": "choice",
+       "choices": [
+        "A simile",
+        "Personification",
+        "A pun"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Personification makes a thing act like a person.",
+       "hint": "Listen for the word “person” in one answer."
+      },
+      {
+       "id": "s65-core-13",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Lily’s scarf is stuck in the bus door. She says, “The bus ate my scarf!” What does she mean?",
+       "kind": "choice",
+       "choices": [
+        "Her scarf got caught in the door.",
+        "The bus is hungry."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "Buses don’t eat. The door closed on her scarf.",
+       "hint": "Where is her scarf right now?"
+      },
+      {
+       "id": "s65-core-14",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "The printer keeps jamming. Zoe says, “The printer hates me.” What does she mean?",
+       "kind": "choice",
+       "choices": [
+        "The printer has feelings about Zoe.",
+        "The printer keeps not working for her."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Printers don’t have feelings. It just keeps jamming.",
+       "hint": "What keeps happening to the printer?"
+      },
+      {
+       "id": "s65-core-15",
+       "role": "check",
+       "inShort": false,
+       "heading": "Quick check",
+       "question": "Which one is personification?",
+       "kind": "choice",
+       "choices": [
+        "The wind is as cold as ice.",
+        "The wind was very strong.",
+        "The wind howled all night."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "Howling is something a living thing does. “As cold as ice” is a simile.",
+       "hint": "Which one makes the wind act alive?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-66",
+   "number": 66,
+   "title": "Puns",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Understanding puns and wordplay",
+   "goal": "I can find the two meanings that make a pun funny.",
+   "slpNotes": "A pun is a joke built on a word with two meanings or two words that sound alike. Have the student say both meanings out loud; the joke only works when both are in mind at once. Teach that groaning or rolling your eyes at a pun is a normal, friendly reaction, and that not getting a joke is fine: asking “What’s the other meaning?” is a good Engage move. Students who interpret language literally often need the second meaning pointed out directly.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s66-core-01",
+       "role": "warmup",
+       "inShort": false,
+       "heading": "Warm-up",
+       "question": "Kai’s laptop is very slow. He says, “My laptop is tired today.” What does he mean?",
+       "kind": "choice",
+       "choices": [
+        "The laptop needs a nap.",
+        "The laptop is working slowly."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "That is personification. A laptop can’t be tired. It is just slow.",
+       "hint": "Can a laptop really get sleepy?"
+      },
+      {
+       "id": "s66-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "question": "What is happening?",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Why was the math book sad? It had too many problems!"
+        }
+       ],
+       "sampleAnswer": "Mr. Cruz tells a joke in math class. Rosa looks confused.",
+       "hint": "Who is talking? Look at Rosa’s face."
+      },
+      {
+       "id": "s66-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "question": "What clues tell you it is a joke?",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Why was the math book sad? It had too many problems!"
+        }
+       ],
+       "sampleAnswer": "It starts with a “why” question. The answer is silly. Books can’t be sad.",
+       "hint": "How does it start? Can a book really feel sad?"
+      },
+      {
+       "id": "s66-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "question": "What does Rosa need to know to get the joke?",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Why was the math book sad? It had too many problems!"
+        }
+       ],
+       "sampleAnswer": "That “problems” has two meanings: math problems and troubles.",
+       "hint": "Think about the word “problems.”"
+      },
+      {
+       "id": "s66-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "question": "What are the two meanings of “problems”?",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Why was the math book sad? It had too many problems!"
+        }
+       ],
+       "sampleIdeas": [
+        "Math problems you solve.",
+        "Troubles that make you sad.",
+        "Mr. Cruz may also mean today’s math is hard."
+       ],
+       "bestIdea": 0,
+       "hint": "What is in a math book? What makes a person sad?"
+      },
+      {
+       "id": "s66-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "question": "What could Rosa say if she doesn’t get it?",
+       "inShort": true,
+       "image": "assets/img/scene-class-10.webp",
+       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
+       "says": [
+        {
+         "who": "Mr. Cruz",
+         "text": "Why was the math book sad? It had too many problems!"
+        }
+       ],
+       "sampleAnswer": "“I don’t get it. What’s the other meaning?”",
+       "hint": "Is it okay to ask about a joke?"
+      },
+      {
+       "id": "s66-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "question": "Do you know a joke with a word that has two meanings?",
+       "prompts": [
+        "Why do people groan at puns? Is groaning mean?"
+       ],
+       "starters": [
+        "My joke is…",
+        "The word ___ has two meanings…",
+        "People groan because…"
+       ],
+       "inShort": true
+      },
+      {
+       "id": "s66-core-08",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Find the two meanings",
+       "question": "Ben says, “I told a joke about paper. It was tearable.” Which word is the pun?",
+       "kind": "choice",
+       "choices": [
+        "joke",
+        "paper",
+        "tearable"
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "You can tear paper. “Tearable” also sounds like “terrible.”",
+       "hint": "Which word sounds like another word?"
+      },
+      {
+       "id": "s66-core-09",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Find the two meanings",
+       "question": "Why did the student bring a ladder to school? She wanted to go to high school! What are the two meanings of “high”?",
+       "kind": "choice",
+       "choices": [
+        "Happy and sad",
+        "Far up, and a level of school",
+        "Fast and slow"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A ladder takes you up high. High school is also a kind of school.",
+       "hint": "What does a ladder do? What grades come after middle school?"
+      },
+      {
+       "id": "s66-core-10",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Find the two meanings",
+       "question": "Is it a pun? Tap a card, then tap a box.",
+       "kind": "sort",
+       "sort": {
+        "bins": [
+         "Pun",
+         "Not a pun"
+        ],
+        "items": [
+         {
+          "text": "The bike fell over. It was two tired.",
+          "bin": 0
+         },
+         {
+          "text": "I ate a sandwich for lunch.",
+          "bin": 1
+         },
+         {
+          "text": "I’m on a seafood diet. I see food, and I eat it!",
+          "bin": 0
+         },
+         {
+          "text": "The bus was late today.",
+          "bin": 1
+         },
+         {
+          "text": "The tree went to the dentist for a root canal.",
+          "bin": 0
+         }
+        ]
+       },
+       "explanation": "A pun plays with a word. “Two tired” sounds like “too tired.” “Seafood” sounds like “see food.” Trees and teeth both have roots.",
+       "hint": "Is there a word with two meanings or two sounds?"
+      },
+      {
+       "id": "s66-core-11",
+       "role": "practice",
+       "inShort": false,
+       "heading": "Find the two meanings",
+       "question": "Lily tells a pun. Ava groans, “Ugh!” and smiles. How does Ava feel?",
+       "kind": "choice",
+       "choices": [
+        "She is really mad at Lily.",
+        "She thinks it’s a silly joke, in a fun way."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Groaning at a pun is normal. Her smile shows it’s friendly.",
+       "hint": "Look at the smile. Is groaning at a pun mean?"
+      },
+      {
+       "id": "s66-core-12",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "A pun is a joke that…",
+       "kind": "choice",
+       "choices": [
+        "is always about animals",
+        "plays with a word that has two meanings",
+        "makes someone feel bad"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Puns play with words that mean or sound like two things.",
+       "hint": "Think about “problems” in the math book joke."
+      },
+      {
+       "id": "s66-core-13",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Omar says, “A nose can’t be 12 inches long. Then it would be a foot!” What are the two meanings of “foot”?",
+       "kind": "choice",
+       "choices": [
+        "A body part, and 12 inches",
+        "A shoe, and a sock"
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "A foot is on your leg. A foot is also 12 inches.",
+       "hint": "What is on your leg? How long is 12 inches?"
+      },
+      {
+       "id": "s66-core-14",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Jay says, “I’m reading a book about glue. I can’t put it down!” Why is it funny?",
+       "kind": "choice",
+       "choices": [
+        "Jay doesn’t like books.",
+        "Glue books are the best.",
+        "“Can’t put it down” means he loves it, and it’s stuck."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "People say “I can’t put it down” about a great book. Glue is sticky, too.",
+       "hint": "What does glue do to your hands?"
+      },
+      {
+       "id": "s66-core-15",
+       "role": "check",
+       "inShort": false,
+       "heading": "Quick check",
+       "question": "Zoe tells a pun. You don’t get it. What can you do?",
+       "kind": "choice",
+       "choices": [
+        "Say, “That’s dumb.”",
+        "Ask, “Wait, what’s the other meaning?”"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Asking is a good way to get the joke.",
+       "hint": "What is a kind way to find out?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-67",
+   "number": 67,
+   "title": "Irony",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Understanding situational and verbal irony",
+   "goal": "I can tell when words or events are the opposite of what I expect.",
+   "slpNotes": "Teach two kinds: situational irony (what happens is the opposite of what you would expect) and verbal irony (saying the opposite of what you mean; sarcasm is one kind). For verbal irony the words alone mislead, so YOU say each line; hold Peek to see how. Have the student check the words against the situation and the tone: if they don’t match, the speaker may mean the opposite. Exaggerate first, then make it more subtle.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7",
+    "C.6"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s67-core-01",
+       "role": "warmup",
+       "inShort": false,
+       "heading": "Warm-up",
+       "question": "Why did the scarecrow win a prize? He was outstanding in his field! Which word is the pun?",
+       "kind": "choice",
+       "choices": [
+        "scarecrow",
+        "prize",
+        "outstanding"
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "“Outstanding” means great. He was also standing out in a field.",
+       "hint": "Where does a scarecrow stand? What does great mean?"
+      },
+      {
+       "id": "s67-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "question": "What is happening?",
+       "inShort": true,
+       "image": "assets/img/scene-outside-04.webp",
+       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "Oh, perfect. Just perfect."
+        }
+       ],
+       "sampleAnswer": "Zoe’s drawing blows away. She says, “Oh, perfect.” Ben laughs.",
+       "hint": "Look at the drawing. Look at Zoe and Ben."
+      },
+      {
+       "id": "s67-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "question": "Listen to how Zoe says it. What clues tell you what she means?",
+       "inShort": true,
+       "image": "assets/img/scene-outside-04.webp",
+       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "Oh, perfect. Just perfect."
+        }
+       ],
+       "line": "Oh, perfect. Just perfect.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Upset, sarcastic",
+        "how": "Flat, tired voice. Stretch out “perfect.” Sigh and shake your head."
+       },
+       "sampleAnswer": "Her voice is flat. She looks worried. Her drawing is flying away. That is not perfect.",
+       "hint": "Does her voice sound happy? Is losing a drawing perfect?"
+      },
+      {
+       "id": "s67-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "question": "What does Zoe know that makes this so bad?",
+       "inShort": true,
+       "image": "assets/img/scene-outside-04.webp",
+       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "Oh, perfect. Just perfect."
+        }
+       ],
+       "sampleAnswer": "She worked all week on it. Now it might be gone.",
+       "hint": "Think about how long Zoe worked on it."
+      },
+      {
+       "id": "s67-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "question": "What could “perfect” really mean here? Give 2 ideas.",
+       "inShort": true,
+       "image": "assets/img/scene-outside-04.webp",
+       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "Oh, perfect. Just perfect."
+        }
+       ],
+       "sampleIdeas": [
+        "This is the worst.",
+        "I am so frustrated.",
+        "Of course this happens right now."
+       ],
+       "bestIdea": 0,
+       "hint": "Think the opposite of perfect."
+      },
+      {
+       "id": "s67-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "question": "What could Ben do or say?",
+       "inShort": true,
+       "image": "assets/img/scene-outside-04.webp",
+       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
+       "says": [
+        {
+         "who": "Zoe",
+         "text": "Oh, perfect. Just perfect."
+        }
+       ],
+       "sampleAnswer": "Stop laughing. Run and help her catch it. “Oh no! I’ll get it!”",
+       "hint": "How could Ben help Zoe?"
+      },
+      {
+       "id": "s67-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "question": "Irony is the opposite of what you expect. Has that ever happened to you?",
+       "prompts": [
+        "How can you tell when someone says the opposite of what they mean?"
+       ],
+       "starters": [
+        "One time…",
+        "I expected ___, but…",
+        "I could tell by their voice…"
+       ],
+       "inShort": true
+      },
+      {
+       "id": "s67-core-08",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Spot the irony",
+       "question": "The spelling bee champ makes a sign. It says “Speling Bee Winner.” Why is that ironic?",
+       "kind": "choice",
+       "choices": [
+        "Signs are always wrong.",
+        "You’d expect the champ to spell it right.",
+        "It’s a joke about bees."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "The best speller made a spelling mistake. That is the opposite of what you expect.",
+       "hint": "What is the champ good at?"
+      },
+      {
+       "id": "s67-core-09",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Spot the irony",
+       "question": "It is pouring rain on field day. Listen. What does Kai mean?",
+       "kind": "choice",
+       "line": "Wow. Great day to play outside.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Sarcastic",
+        "how": "Flat voice. Roll your eyes. Look out the window."
+       },
+       "choices": [
+        "It’s a bad day to play outside.",
+        "It’s a great day to play outside."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "His flat voice and the rain don’t match “great.” He means the opposite.",
+       "hint": "Look at the weather. Listen to his voice."
+      },
+      {
+       "id": "s67-core-10",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Spot the irony",
+       "question": "Is it the opposite of what you’d expect? Tap a card, then tap a box.",
+       "kind": "sort",
+       "sort": {
+        "bins": [
+         "Irony",
+         "Not irony"
+        ],
+        "items": [
+         {
+          "text": "Coach Kim trips over the “Watch Your Step” sign.",
+          "bin": 0
+         },
+         {
+          "text": "The bus comes on time.",
+          "bin": 1
+         },
+         {
+          "text": "The swim teacher can’t swim.",
+          "bin": 0
+         },
+         {
+          "text": "It snows in January.",
+          "bin": 1
+         },
+         {
+          "text": "The “Quiet Please” sign falls with a loud crash.",
+          "bin": 0
+         }
+        ]
+       },
+       "explanation": "Irony is the opposite of what you expect. Snow in January is expected.",
+       "hint": "Would you expect that to happen?"
+      },
+      {
+       "id": "s67-core-11",
+       "role": "practice",
+       "inShort": false,
+       "heading": "Spot the irony",
+       "question": "Ava’s lunch spills all over her shirt. Listen. What does she mean?",
+       "kind": "choice",
+       "line": "Oh, wonderful.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Sarcastic",
+        "how": "Flat and slow. Look down at the mess. Sigh."
+       },
+       "choices": [
+        "She is glad about the spill.",
+        "She is upset about the spill."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "A spill is not wonderful. Her flat voice shows she means the opposite.",
+       "hint": "Is a spill on your shirt wonderful?"
+      },
+      {
+       "id": "s67-core-12",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Irony means…",
+       "kind": "choice",
+       "choices": [
+        "a word with two meanings",
+        "the opposite of what you expect",
+        "comparing with “like” or “as”"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Irony is the opposite of what you expect.",
+       "hint": "Think about the spelling bee champ’s sign."
+      },
+      {
+       "id": "s67-core-13",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Jay’s team loses 20 to 0. Listen. What does Jay mean?",
+       "kind": "choice",
+       "line": "Yeah. We totally crushed it.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Sarcastic",
+        "how": "Flat and slow. Shake your head. Small sigh."
+       },
+       "choices": [
+        "The team played badly.",
+        "The team played great."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "They lost 20 to 0. His voice shows he means the opposite.",
+       "hint": "Look at the score. Listen to his voice."
+      },
+      {
+       "id": "s67-core-14",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "The “Be On Time” assembly starts 20 minutes late. Is that ironic?",
+       "kind": "choice",
+       "choices": [
+        "No. That is normal.",
+        "Yes. It’s the opposite of what you expect."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "An assembly about being on time should start on time.",
+       "hint": "What is the assembly about?"
+      },
+      {
+       "id": "s67-core-15",
+       "role": "check",
+       "inShort": false,
+       "heading": "Quick check",
+       "question": "You can’t tell if Kai means it or is joking. What can you do?",
+       "kind": "choice",
+       "choices": [
+        "Ask, “Wait, are you serious?”",
+        "Get mad at him."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "When you’re not sure, ask.",
+       "hint": "What is a calm way to check?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "scope-68",
+   "number": 68,
+   "title": "Unit 11 check",
+   "unit": "SCOPE Unit 11: Figurative Language",
+   "program": "SCOPE",
+   "skill": "Unit 11 review: figurative language",
+   "goal": "I can name figurative language and tell what it really means.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. For every check item, ask the student to name the type AND say the real meaning, even when the card asks only one. The quick check has 8 items (one per lesson 61–67, plus one extra irony item) for a better data point. YOU say the tone item (card 13); hold Peek to see how.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "standards": [
+    "R.5",
+    "R.7"
+   ],
+   "status": "ready",
+   "origin": "SCOPE Perspective Lab (new unit)",
+   "contentRev": 1,
+   "media": [],
+   "video": {
+    "url": "",
+    "title": "",
+    "description": "",
+    "pauseNotes": ""
+   },
+   "sets": [
+    {
+     "id": "core",
+     "name": "Core lesson",
+     "cards": [
+      {
+       "id": "s68-core-01",
+       "role": "warmup",
+       "inShort": false,
+       "heading": "Warm-up",
+       "question": "What is figurative language? Name kinds you learned.",
+       "kind": "open",
+       "sampleAnswer": "Words that mean something different from what they say. Similes, metaphors, hyperbole, idioms, personification, puns, irony.",
+       "hint": "Think of “like or as,” and things that act like people."
+      },
+      {
+       "id": "s68-core-02",
+       "role": "explore",
+       "kind": "open",
+       "step": "S",
+       "heading": "See",
+       "question": "What is happening?",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-05.webp",
+       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "context": "It is pizza day at lunch. Jay takes a big bite.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "This pizza is out of this world! I could eat a hundred slices!"
+        }
+       ],
+       "sampleAnswer": "Jay is eating pizza at lunch. He loves it.",
+       "hint": "Look at what Jay is eating."
+      },
+      {
+       "id": "s68-core-03",
+       "role": "explore",
+       "kind": "open",
+       "step": "C",
+       "heading": "Clues",
+       "question": "What clues show how Jay feels about the pizza?",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-05.webp",
+       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "context": "It is pizza day at lunch. Jay takes a big bite.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "This pizza is out of this world! I could eat a hundred slices!"
+        }
+       ],
+       "sampleAnswer": "Big smile. Eyes closed. He uses big, happy words.",
+       "hint": "Look at his face. Listen to his words."
+      },
+      {
+       "id": "s68-core-04",
+       "role": "explore",
+       "kind": "open",
+       "step": "O",
+       "heading": "Others know",
+       "question": "Does Jay think his friends will believe he can eat 100 slices? Why say it?",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-05.webp",
+       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "context": "It is pizza day at lunch. Jay takes a big bite.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "This pizza is out of this world! I could eat a hundred slices!"
+        }
+       ],
+       "sampleAnswer": "No. They know it isn’t true. He wants to show how much he likes it.",
+       "hint": "Could anyone really eat 100 slices?"
+      },
+      {
+       "id": "s68-core-05",
+       "role": "explore",
+       "kind": "open",
+       "step": "P",
+       "heading": "Possible meanings",
+       "question": "What does Jay really mean? Which kinds of figurative language does he use?",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-05.webp",
+       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "context": "It is pizza day at lunch. Jay takes a big bite.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "This pizza is out of this world! I could eat a hundred slices!"
+        }
+       ],
+       "sampleIdeas": [
+        "“Out of this world” is an idiom. It means really good.",
+        "“A hundred slices” is hyperbole. He loves it a lot.",
+        "He might also just be very hungry."
+       ],
+       "bestIdea": 1,
+       "hint": "Which part is a huge stretch of the truth?"
+      },
+      {
+       "id": "s68-core-06",
+       "role": "explore",
+       "kind": "open",
+       "step": "E",
+       "heading": "Engage",
+       "question": "What could you say back to Jay?",
+       "inShort": true,
+       "image": "assets/img/scene-cafe-05.webp",
+       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "context": "It is pizza day at lunch. Jay takes a big bite.",
+       "says": [
+        {
+         "who": "Jay",
+         "text": "This pizza is out of this world! I could eat a hundred slices!"
+        }
+       ],
+       "sampleAnswer": "“Ha! It’s that good, huh?”",
+       "hint": "Show Jay you know what he means."
+      },
+      {
+       "id": "s68-core-07",
+       "role": "discussion",
+       "kind": "open",
+       "heading": "Talk it through",
+       "question": "Which kind of figurative language is easiest for you? Which is hardest?",
+       "prompts": [
+        "When you don’t know what someone means, what can you do?"
+       ],
+       "starters": [
+        "The easiest is ___ because…",
+        "The hardest is ___ because…",
+        "When I’m not sure, I can…"
+       ],
+       "inShort": true
+      },
+      {
+       "id": "s68-core-08",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Unit 11 mix",
+       "question": "Simile or metaphor? Tap a card, then tap a box.",
+       "kind": "sort",
+       "sort": {
+        "bins": [
+         "Simile (like / as)",
+         "Metaphor (is / was)"
+        ],
+        "items": [
+         {
+          "text": "Ben is as busy as a bee.",
+          "bin": 0
+         },
+         {
+          "text": "My room is a disaster zone.",
+          "bin": 1
+         },
+         {
+          "text": "Lily sings like a bird.",
+          "bin": 0
+         },
+         {
+          "text": "The hallway was an oven.",
+          "bin": 1
+         },
+         {
+          "text": "Kai’s hands were as cold as ice.",
+          "bin": 0
+         }
+        ]
+       },
+       "explanation": "Similes use “like” or “as.” Metaphors say one thing is another.",
+       "hint": "Listen for “like” or “as.”"
+      },
+      {
+       "id": "s68-core-09",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Unit 11 mix",
+       "question": "Kai says, “I’ve been waiting forever!” What is this?",
+       "kind": "choice",
+       "choices": [
+        "The truth. He waited for years.",
+        "Hyperbole. He waited a long time."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "Nobody waits forever. It is a big stretch to show he is tired of waiting.",
+       "hint": "Can someone really wait forever?"
+      },
+      {
+       "id": "s68-core-10",
+       "role": "practice",
+       "inShort": true,
+       "heading": "Unit 11 mix",
+       "question": "Mom says, “It’s time to hit the hay.” What does she mean?",
+       "kind": "choice",
+       "choices": [
+        "Go to bed.",
+        "Go hit a pile of hay."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "“Hit the hay” is an idiom. It means go to sleep.",
+       "hint": "What time of day do people say this?"
+      },
+      {
+       "id": "s68-core-11",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Jay says, “Omar runs like the wind.” What kind of figurative language is this?",
+       "kind": "choice",
+       "choices": [
+        "A pun",
+        "A simile",
+        "Irony"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "It compares with “like.” That is a simile.",
+       "hint": "Listen for “like” or “as.”"
+      },
+      {
+       "id": "s68-core-12",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Lily says, “My brother is a couch potato.” What does she mean?",
+       "kind": "choice",
+       "choices": [
+        "He likes to eat potatoes.",
+        "He is a vegetable.",
+        "He sits around on the couch a lot."
+       ],
+       "correct": [
+        2
+       ],
+       "explanation": "It’s a metaphor. He isn’t a potato. He just sits a lot.",
+       "hint": "Can a person really be a potato?"
+      },
+      {
+       "id": "s68-core-13",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Ben says, “I have a million pages of homework!” What does he mean?",
+       "kind": "choice",
+       "choices": [
+        "He has a lot of homework.",
+        "He has exactly a million pages."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "That is hyperbole. A million is a huge stretch.",
+       "hint": "Could anyone have a million pages?"
+      },
+      {
+       "id": "s68-core-14",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Lily starts before the whistle. Coach Kim says, “Hold your horses!” What does she mean?",
+       "kind": "choice",
+       "choices": [
+        "Go get the horses.",
+        "Wait. Slow down."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "“Hold your horses” is an idiom. It means wait.",
+       "hint": "Are there horses in the gym?"
+      },
+      {
+       "id": "s68-core-15",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Zoe says, “The old bus groaned up the hill.” What kind of figurative language is this?",
+       "kind": "choice",
+       "choices": [
+        "Personification",
+        "A simile",
+        "Hyperbole"
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "A bus can’t groan like a person. That is personification.",
+       "hint": "Is a thing acting like a person?"
+      },
+      {
+       "id": "s68-core-16",
+       "role": "check",
+       "inShort": true,
+       "heading": "Quick check",
+       "question": "Omar says, “Why did the cookie go to the nurse? It felt crummy!” What makes it a pun?",
+       "kind": "choice",
+       "choices": [
+        "It uses “like” or “as.”",
+        "“Crummy” means full of crumbs and feeling bad.",
+        "Cookies can get sick."
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "“Crummy” has two meanings. That makes it a pun.",
+       "hint": "Which word has two meanings?"
+      },
+      {
+       "id": "s68-core-17",
+       "role": "check",
+       "inShort": false,
+       "heading": "Quick check",
+       "question": "Kai’s phone dies during his game. Listen. What does he mean?",
+       "kind": "choice",
+       "line": "Oh, great timing.",
+       "needsModeling": true,
+       "modeling": {
+        "say": "Sarcastic",
+        "how": "Flat and slow. Stare at the phone. Sigh."
+       },
+       "choices": [
+        "This is bad timing.",
+        "This is great timing."
+       ],
+       "correct": [
+        0
+       ],
+       "explanation": "That is irony. His voice and the problem show he means the opposite.",
+       "hint": "Is a dead phone during a game good?"
+      },
+      {
+       "id": "s68-core-18",
+       "role": "check",
+       "inShort": false,
+       "heading": "Quick check",
+       "question": "Mr. Cruz loses his notes called “How to Stay Organized.” What kind of figurative language is this?",
+       "kind": "choice",
+       "choices": [
+        "A metaphor",
+        "Irony",
+        "An idiom"
+       ],
+       "correct": [
+        1
+       ],
+       "explanation": "It’s the opposite of what you’d expect. That is irony.",
+       "hint": "Would you expect those notes to get lost?"
       }
      ]
     }

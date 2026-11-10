@@ -10,7 +10,7 @@
       <nav aria-label="Main">${NAV.map(([k, t]) => `<a href="#/${k}" class="${active === k ? 'on' : ''}" ${active === k ? 'aria-current="page"' : ''}>${t}</a>`).join('')}</nav>
       <span id="savestate" class="savestate" role="status" aria-live="polite"></span>
     </header><main id="view" tabindex="-1">${inner || ''}</main>
-    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly. · SCOPE Lesson Hub v2.2</footer>`;
+    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly. · SCOPE Lesson Hub v2.3</footer>`;
     return H.$('#view');
   };
 

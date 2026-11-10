@@ -176,3 +176,23 @@ UPDATE: SPOKEN ANSWERS + HINT BUTTON (October 28, 2026) · v2.2
 - Typing with automatic checking is still available but off by default (Settings > Answer boxes).
 - Tests: new "spoken" test; the "typed" test now turns typing on first.
 - Full test run: 18 of 18 pass.
+
+UPDATE: UNIT 2 REWRITTEN + UNIT 11 FIGURATIVE LANGUAGE (November 10, 2026) · v2.3
+- Unit 2 now follows the SLP's "Multiple Interpretations" page and is renamed "SCOPE Unit 2: Multiple
+  Interpretations". The 8 old lessons (9–16) are replaced, same lesson numbers:
+    9 More than one idea · 10–11 What could make me feel like this? (faces: joy, sadness / surprise,
+    disgust, fear) · 12 Shrugs and thumbs up · 13 Head on hand, hands on hips · 14 Riddles: clue by clue
+    (the shell → egg riddle is the teaching model) · 15 New clues change my ideas · 16 Unit 2 check
+  Face and gesture items are marked for the SLP to model (the screen tells students "Watch me").
+- New Unit 11 "Figurative Language" (lessons 61–68): 61 Similes · 62 Metaphors · 63 Hyperbole · 64 Idioms
+  (none repeated from Unit 9) · 65 Personification · 66 Puns · 67 Irony (situational and verbal; sarcasm
+  as a kind of verbal irony) · 68 Unit 11 check.
+- Every card (except talk-it-through) has a hint for the SLP's Give a hint button. Pictures reuse existing
+  SCOPE scenes and faces where they fit. New writing: please read through before using with students.
+- Laptops that already have the hub get the changes on next open. A Unit 2 lesson the SLP has edited is
+  kept as her version (it keeps the old unit name). Old session records are unchanged.
+- The old Unit 2 sarcasm and idiom lessons are gone; Unit 9 (Idioms & Sarcasm) still covers those.
+- Tests: all 69 lessons previewed (1,105 cards) with no errors; Give a hint checked on 220 new cards;
+  an older laptop gets 8 new + 7 updated lessons, keeps an edited lesson, and lists units in order.
+  The full regression suite was not re-run this time (it was lost when the work computer was reset);
+  the features it covered were not changed.
