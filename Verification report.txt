@@ -196,3 +196,6 @@ UPDATE: UNIT 2 REWRITTEN + UNIT 11 FIGURATIVE LANGUAGE (November 10, 2026) · v2
   an older laptop gets 8 new + 7 updated lessons, keeps an edited lesson, and lists units in order.
   The full regression suite was not re-run this time (it was lost when the work computer was reset);
   the features it covered were not changed.
+- Pictures added (November 12, 2026): new scenes for all 16 new lessons (9–16 and 61–68), made in ChatGPT
+  from prompts. Each shows on its lesson's five S-C-O-P-E cards. Laptops that already have the hub get them
+  on next open (except lessons the SLP edited). All 16 pictures load; all 69 lessons preview with no errors.

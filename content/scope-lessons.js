@@ -1,7 +1,7 @@
 /* SCOPE lesson content migrated from SCOPE-Perspective-Lab-Warm-Voice.html.
    Edit lessons inside the app (Edit button). This file only seeds a new laptop. */
 window.HUB_CONTENT = {
- "contentVersion": 8,
+ "contentVersion": 9,
  "source": "SCOPE-Perspective-Lab-Warm-Voice.html",
  "lessons": [
   {
@@ -13311,7 +13311,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -13344,8 +13344,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "School hallway: Ben waves and smiles at Omar; Omar leans on the lockers with arms crossed and a flat look",
        "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
@@ -13368,8 +13368,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "School hallway: Ben waves and smiles at Omar; Omar leans on the lockers with arms crossed and a flat look",
        "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
@@ -13392,8 +13392,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "School hallway: Ben waves and smiles at Omar; Omar leans on the lockers with arms crossed and a flat look",
        "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
@@ -13416,8 +13416,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "School hallway: Ben waves and smiles at Omar; Omar leans on the lockers with arms crossed and a flat look",
        "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
@@ -13444,8 +13444,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-09.webp",
+       "imageAlt": "School hallway: Ben waves and smiles at Omar; Omar leans on the lockers with arms crossed and a flat look",
        "context": "It is before first period. Omar stands by the lockers. Ben walks up.",
        "says": [
         {
@@ -13650,7 +13650,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-10",
@@ -13667,7 +13668,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -13704,8 +13705,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/face-rosa-sad.webp",
-       "imageAlt": "Close-up of Rosa’s face",
+       "image": "assets/img/scene-lesson-10.webp",
+       "imageAlt": "Classroom: Rosa sits at her desk looking sad with her backpack on; Ben waves hi from the next desk",
        "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
@@ -13729,8 +13730,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/face-rosa-sad.webp",
-       "imageAlt": "Close-up of Rosa’s face",
+       "image": "assets/img/scene-lesson-10.webp",
+       "imageAlt": "Classroom: Rosa sits at her desk looking sad with her backpack on; Ben waves hi from the next desk",
        "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
@@ -13759,8 +13760,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/face-rosa-sad.webp",
-       "imageAlt": "Close-up of Rosa’s face",
+       "image": "assets/img/scene-lesson-10.webp",
+       "imageAlt": "Classroom: Rosa sits at her desk looking sad with her backpack on; Ben waves hi from the next desk",
        "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
@@ -13784,8 +13785,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/face-rosa-sad.webp",
-       "imageAlt": "Close-up of Rosa’s face",
+       "image": "assets/img/scene-lesson-10.webp",
+       "imageAlt": "Classroom: Rosa sits at her desk looking sad with her backpack on; Ben waves hi from the next desk",
        "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
@@ -13813,8 +13814,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/face-rosa-sad.webp",
-       "imageAlt": "Close-up of Rosa’s face",
+       "image": "assets/img/scene-lesson-10.webp",
+       "imageAlt": "Classroom: Rosa sits at her desk looking sad with her backpack on; Ben waves hi from the next desk",
        "context": "Rosa walks into class. She sits down. Ben says hi.",
        "says": [
         {
@@ -14040,7 +14041,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-11",
@@ -14057,7 +14059,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -14094,8 +14096,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-hall-06.webp",
-       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "School hallway: Rosa stops and covers her mouth in surprise while holding her phone; students rush past",
        "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
@@ -14114,8 +14116,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-hall-06.webp",
-       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "School hallway: Rosa stops and covers her mouth in surprise while holding her phone; students rush past",
        "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
@@ -14153,8 +14155,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-hall-06.webp",
-       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "School hallway: Rosa stops and covers her mouth in surprise while holding her phone; students rush past",
        "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
@@ -14173,8 +14175,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-hall-06.webp",
-       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "School hallway: Rosa stops and covers her mouth in surprise while holding her phone; students rush past",
        "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
@@ -14197,8 +14199,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-hall-06.webp",
-       "imageAlt": "Hallway: Rosa covers her mouth with her hand",
+       "image": "assets/img/scene-lesson-11.webp",
+       "imageAlt": "School hallway: Rosa stops and covers her mouth in surprise while holding her phone; students rush past",
        "context": "Rosa is in the hall between classes. She stops. She covers her mouth with her hand.",
        "says": [
         {
@@ -14435,7 +14437,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-12",
@@ -14452,7 +14455,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -14490,8 +14493,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-hall-05.webp",
-       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "image": "assets/img/scene-lesson-12.webp",
+       "imageAlt": "School hallway: Omar holds up his bent science poster and points at it; Ben shrugs with both palms up",
        "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
@@ -14510,8 +14513,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-hall-05.webp",
-       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "image": "assets/img/scene-lesson-12.webp",
+       "imageAlt": "School hallway: Omar holds up his bent science poster and points at it; Ben shrugs with both palms up",
        "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
@@ -14535,8 +14538,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-hall-05.webp",
-       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "image": "assets/img/scene-lesson-12.webp",
+       "imageAlt": "School hallway: Omar holds up his bent science poster and points at it; Ben shrugs with both palms up",
        "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
@@ -14555,8 +14558,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-hall-05.webp",
-       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "image": "assets/img/scene-lesson-12.webp",
+       "imageAlt": "School hallway: Omar holds up his bent science poster and points at it; Ben shrugs with both palms up",
        "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
@@ -14580,8 +14583,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-hall-05.webp",
-       "imageAlt": "Hallway: Omar frowns with arms crossed; Ben shrugs with palms up",
+       "image": "assets/img/scene-lesson-12.webp",
+       "imageAlt": "School hallway: Omar holds up his bent science poster and points at it; Ben shrugs with both palms up",
        "context": "Omar’s science poster got bent in the hall. Omar asks Ben about it. Ben shrugs with his palms up.",
        "says": [
         {
@@ -14811,7 +14814,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-13",
@@ -14828,7 +14832,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -14874,8 +14878,8 @@ window.HUB_CONTENT = {
        "heading": "See",
        "inShort": true,
        "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
-       "image": "assets/img/scene-cafe-01.webp",
-       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "image": "assets/img/scene-lesson-13.webp",
+       "imageAlt": "Cafeteria: Kai sits alone with his head on his hand and his lunch untouched; a busy table behind him",
        "question": "What is happening? Where is Kai?",
        "sampleAnswer": "Kai is at lunch. He sits alone. His head is on his hand.",
        "hint": "Look at the place. Look at who is at the table."
@@ -14888,8 +14892,8 @@ window.HUB_CONTENT = {
        "heading": "Clues",
        "inShort": true,
        "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
-       "image": "assets/img/scene-cafe-01.webp",
-       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "image": "assets/img/scene-lesson-13.webp",
+       "imageAlt": "Cafeteria: Kai sits alone with his head on his hand and his lunch untouched; a busy table behind him",
        "question": "Watch me. What clues do you see on Kai's body and face?",
        "line": "(Head on hand)",
        "needsModeling": true,
@@ -14908,8 +14912,8 @@ window.HUB_CONTENT = {
        "heading": "Others know",
        "inShort": true,
        "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
-       "image": "assets/img/scene-cafe-01.webp",
-       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "image": "assets/img/scene-lesson-13.webp",
+       "imageAlt": "Cafeteria: Kai sits alone with his head on his hand and his lunch untouched; a busy table behind him",
        "question": "What do we know about Kai? What don't we know?",
        "sampleAnswer": "We know he sits alone with his head on his hand. We don't know why.",
        "hint": "Can we see inside his head? What is still a mystery?"
@@ -14922,8 +14926,8 @@ window.HUB_CONTENT = {
        "heading": "Possible meanings",
        "inShort": true,
        "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
-       "image": "assets/img/scene-cafe-01.webp",
-       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "image": "assets/img/scene-lesson-13.webp",
+       "imageAlt": "Cafeteria: Kai sits alone with his head on his hand and his lunch untouched; a busy table behind him",
        "question": "What could head on hand mean here? Give 3 ideas.",
        "sampleIdeas": [
         "He is tired or sleepy.",
@@ -14940,8 +14944,8 @@ window.HUB_CONTENT = {
        "heading": "Engage",
        "inShort": true,
        "context": "It is lunch. Kai sits by himself. His head rests on his hand.",
-       "image": "assets/img/scene-cafe-01.webp",
-       "imageAlt": "Lunchroom: Kai sits alone with a tray, head on his hand, looking down",
+       "image": "assets/img/scene-lesson-13.webp",
+       "imageAlt": "Cafeteria: Kai sits alone with his head on his hand and his lunch untouched; a busy table behind him",
        "question": "What could a friend say to Kai?",
        "sampleAnswer": "“Hey, you okay? Want to sit with us?”",
        "hint": "How could a friend check how Kai feels?"
@@ -15174,7 +15178,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-14",
@@ -15191,7 +15196,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -15247,7 +15252,9 @@ window.HUB_CONTENT = {
        ],
        "question": "What is happening?",
        "sampleAnswer": "Mr. Cruz gives a riddle. He gives one clue at a time.",
-       "hint": "Who is talking? How does he give the clues?"
+       "hint": "Who is talking? How does he give the clues?",
+       "image": "assets/img/scene-lesson-14.webp",
+       "imageAlt": "Classroom: Mr. Cruz holds up one finger; the board shows an egg, snail, turtle, peanut and lobster; students think"
       },
       {
        "id": "s14-core-03",
@@ -15273,7 +15280,9 @@ window.HUB_CONTENT = {
        ],
        "question": "Use Clue 1 only. What things have a shell? Name as many as you can.",
        "sampleAnswer": "Egg, snail, turtle, peanut, walnut, armadillo, lobster.",
-       "hint": "Think of animals, nuts, and foods with a hard outside."
+       "hint": "Think of animals, nuts, and foods with a hard outside.",
+       "image": "assets/img/scene-lesson-14.webp",
+       "imageAlt": "Classroom: Mr. Cruz holds up one finger; the board shows an egg, snail, turtle, peanut and lobster; students think"
       },
       {
        "id": "s14-core-04",
@@ -15299,7 +15308,9 @@ window.HUB_CONTENT = {
        ],
        "question": "What does Mr. Cruz know that we don't know yet?",
        "sampleAnswer": "He knows the answer. We only know the clues so far.",
-       "hint": "Who already knows the answer?"
+       "hint": "Who already knows the answer?",
+       "image": "assets/img/scene-lesson-14.webp",
+       "imageAlt": "Classroom: Mr. Cruz holds up one finger; the board shows an egg, snail, turtle, peanut and lobster; students think"
       },
       {
        "id": "s14-core-05",
@@ -15329,7 +15340,9 @@ window.HUB_CONTENT = {
         "Clue 3: Only egg fits. You fry or scramble eggs."
        ],
        "bestIdea": 1,
-       "hint": "Check each guess. Does it still fit the new clue?"
+       "hint": "Check each guess. Does it still fit the new clue?",
+       "image": "assets/img/scene-lesson-14.webp",
+       "imageAlt": "Classroom: Mr. Cruz holds up one finger; the board shows an egg, snail, turtle, peanut and lobster; students think"
       },
       {
        "id": "s14-core-06",
@@ -15355,7 +15368,9 @@ window.HUB_CONTENT = {
        ],
        "question": "After Clue 1, what could you say if you are not sure yet?",
        "sampleAnswer": "“It could be an egg or a turtle. Can I have another clue?”",
-       "hint": "You can share more than one guess. You can ask for more."
+       "hint": "You can share more than one guess. You can ask for more.",
+       "image": "assets/img/scene-lesson-14.webp",
+       "imageAlt": "Classroom: Mr. Cruz holds up one finger; the board shows an egg, snail, turtle, peanut and lobster; students think"
       },
       {
        "id": "s14-core-07",
@@ -15555,7 +15570,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-15",
@@ -15572,7 +15588,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -15611,8 +15627,8 @@ window.HUB_CONTENT = {
        "heading": "See",
        "inShort": true,
        "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-15.webp",
+       "imageAlt": "Hallway by the gym: Omar stands with arms crossed and a frown in jeans; kids in gym clothes warm up inside",
        "says": [
         {
          "who": "Omar",
@@ -15631,8 +15647,8 @@ window.HUB_CONTENT = {
        "heading": "Clues",
        "inShort": true,
        "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-15.webp",
+       "imageAlt": "Hallway by the gym: Omar stands with arms crossed and a frown in jeans; kids in gym clothes warm up inside",
        "says": [
         {
          "who": "Omar",
@@ -15651,8 +15667,8 @@ window.HUB_CONTENT = {
        "heading": "Others know",
        "inShort": true,
        "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-15.webp",
+       "imageAlt": "Hallway by the gym: Omar stands with arms crossed and a frown in jeans; kids in gym clothes warm up inside",
        "says": [
         {
          "who": "Omar",
@@ -15671,8 +15687,8 @@ window.HUB_CONTENT = {
        "heading": "Possible meanings",
        "inShort": true,
        "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-15.webp",
+       "imageAlt": "Hallway by the gym: Omar stands with arms crossed and a frown in jeans; kids in gym clothes warm up inside",
        "says": [
         {
          "who": "Omar",
@@ -15695,8 +15711,8 @@ window.HUB_CONTENT = {
        "heading": "Engage",
        "inShort": true,
        "context": "Omar stands in the hall. His arms are crossed. He frowns. Then he speaks.",
-       "image": "assets/img/scene-hall-04.webp",
-       "imageAlt": "Hallway: Omar stands alone with arms crossed and a frown",
+       "image": "assets/img/scene-lesson-15.webp",
+       "imageAlt": "Hallway by the gym: Omar stands with arms crossed and a frown in jeans; kids in gym clothes warm up inside",
        "says": [
         {
          "who": "Omar",
@@ -15885,7 +15901,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-16",
@@ -15902,7 +15919,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 10,
+   "contentRev": 11,
    "media": [],
    "video": {
     "url": "",
@@ -15933,8 +15950,8 @@ window.HUB_CONTENT = {
        "heading": "See",
        "inShort": true,
        "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
-       "image": "assets/img/scene-bus-03.webp",
-       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "image": "assets/img/scene-lesson-16.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits beside her with arms crossed, looking out the window",
        "question": "What is happening?",
        "sampleAnswer": "Ava and Rosa are on the bus. Ava looks at her phone. Rosa crosses her arms.",
        "hint": "Where are they? What is each girl doing?"
@@ -15947,8 +15964,8 @@ window.HUB_CONTENT = {
        "heading": "Clues",
        "inShort": true,
        "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
-       "image": "assets/img/scene-bus-03.webp",
-       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "image": "assets/img/scene-lesson-16.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits beside her with arms crossed, looking out the window",
        "question": "Find clues: faces, bodies, and the place.",
        "sampleAnswer": "Ava smiles at her phone. Rosa crosses her arms. Rosa looks over at Ava. Her face looks unsure.",
        "hint": "Look at Ava's face. Look at Rosa's arms and eyes."
@@ -15961,8 +15978,8 @@ window.HUB_CONTENT = {
        "heading": "Others know",
        "inShort": true,
        "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
-       "image": "assets/img/scene-bus-03.webp",
-       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "image": "assets/img/scene-lesson-16.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits beside her with arms crossed, looking out the window",
        "question": "What does Ava know? What doesn't she know?",
        "sampleAnswer": "Ava knows what is on her phone. She may not see how Rosa looks.",
        "hint": "Where are Ava's eyes looking?"
@@ -15975,8 +15992,8 @@ window.HUB_CONTENT = {
        "heading": "Possible meanings",
        "inShort": true,
        "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
-       "image": "assets/img/scene-bus-03.webp",
-       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "image": "assets/img/scene-lesson-16.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits beside her with arms crossed, looking out the window",
        "question": "Why could Rosa cross her arms? Give 3 ideas.",
        "sampleIdeas": [
         "She feels left out.",
@@ -15993,8 +16010,8 @@ window.HUB_CONTENT = {
        "heading": "Engage",
        "inShort": true,
        "context": "Ava and Rosa sit together on the bus. Ava smiles at her phone. Rosa crosses her arms.",
-       "image": "assets/img/scene-bus-03.webp",
-       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits next to her with arms crossed, looking at Ava",
+       "image": "assets/img/scene-lesson-16.webp",
+       "imageAlt": "School bus: Ava smiles at her phone; Rosa sits beside her with arms crossed, looking out the window",
        "question": "What could Rosa say or do?",
        "sampleAnswer": "“What's so funny? Can I see?”",
        "hint": "How could Rosa join in or find out more?"
@@ -16247,7 +16264,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-17",
@@ -38581,7 +38599,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -38618,8 +38636,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "image": "assets/img/scene-lesson-61.webp",
+       "imageAlt": "Skate park: Kai zooms down a ramp on his skateboard; Omar cheers with his arms up",
        "context": "Kai skates down the ramp at the skate park. Omar watches him.",
        "says": [
         {
@@ -38638,8 +38656,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "image": "assets/img/scene-lesson-61.webp",
+       "imageAlt": "Skate park: Kai zooms down a ramp on his skateboard; Omar cheers with his arms up",
        "context": "Kai skates down the ramp at the skate park. Omar watches him.",
        "says": [
         {
@@ -38658,8 +38676,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "image": "assets/img/scene-lesson-61.webp",
+       "imageAlt": "Skate park: Kai zooms down a ramp on his skateboard; Omar cheers with his arms up",
        "context": "Kai skates down the ramp at the skate park. Omar watches him.",
        "says": [
         {
@@ -38678,8 +38696,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "image": "assets/img/scene-lesson-61.webp",
+       "imageAlt": "Skate park: Kai zooms down a ramp on his skateboard; Omar cheers with his arms up",
        "context": "Kai skates down the ramp at the skate park. Omar watches him.",
        "says": [
         {
@@ -38703,8 +38721,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-skate-01.webp",
-       "imageAlt": "Skate park: Kai cheers on a skateboard with his arms up. Omar points at him, excited.",
+       "image": "assets/img/scene-lesson-61.webp",
+       "imageAlt": "Skate park: Kai zooms down a ramp on his skateboard; Omar cheers with his arms up",
        "context": "Kai skates down the ramp at the skate park. Omar watches him.",
        "says": [
         {
@@ -38930,7 +38948,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-62",
@@ -38947,7 +38966,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -38984,8 +39003,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-class-08.webp",
-       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "image": "assets/img/scene-lesson-62.webp",
+       "imageAlt": "Classroom: Ben yawns at his desk with droopy eyes; Mr. Cruz smiles and gestures to him",
        "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
        "says": [
         {
@@ -39008,8 +39027,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-class-08.webp",
-       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "image": "assets/img/scene-lesson-62.webp",
+       "imageAlt": "Classroom: Ben yawns at his desk with droopy eyes; Mr. Cruz smiles and gestures to him",
        "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
        "says": [
         {
@@ -39032,8 +39051,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-class-08.webp",
-       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "image": "assets/img/scene-lesson-62.webp",
+       "imageAlt": "Classroom: Ben yawns at his desk with droopy eyes; Mr. Cruz smiles and gestures to him",
        "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
        "says": [
         {
@@ -39056,8 +39075,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-class-08.webp",
-       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "image": "assets/img/scene-lesson-62.webp",
+       "imageAlt": "Classroom: Ben yawns at his desk with droopy eyes; Mr. Cruz smiles and gestures to him",
        "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
        "says": [
         {
@@ -39085,8 +39104,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-class-08.webp",
-       "imageAlt": "Classroom: Ben sits at a desk with his head on his hand, yawning with his eyes closed.",
+       "image": "assets/img/scene-lesson-62.webp",
+       "imageAlt": "Classroom: Ben yawns at his desk with droopy eyes; Mr. Cruz smiles and gestures to him",
        "context": "It is first period. Ben yawns at his desk. Mr. Cruz asks him a question.",
        "says": [
         {
@@ -39314,7 +39333,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-63",
@@ -39331,7 +39351,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -39369,8 +39389,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-cafe-06.webp",
-       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "image": "assets/img/scene-lesson-63.webp",
+       "imageAlt": "Cafeteria: Jay holds up a pizza slice with a huge starving face; Ava laughs",
        "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
        "says": [
         {
@@ -39389,8 +39409,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-cafe-06.webp",
-       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "image": "assets/img/scene-lesson-63.webp",
+       "imageAlt": "Cafeteria: Jay holds up a pizza slice with a huge starving face; Ava laughs",
        "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
        "says": [
         {
@@ -39409,8 +39429,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-cafe-06.webp",
-       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "image": "assets/img/scene-lesson-63.webp",
+       "imageAlt": "Cafeteria: Jay holds up a pizza slice with a huge starving face; Ava laughs",
        "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
        "says": [
         {
@@ -39429,8 +39449,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-cafe-06.webp",
-       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "image": "assets/img/scene-lesson-63.webp",
+       "imageAlt": "Cafeteria: Jay holds up a pizza slice with a huge starving face; Ava laughs",
        "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
        "says": [
         {
@@ -39454,8 +39474,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-cafe-06.webp",
-       "imageAlt": "Lunchroom: Jay holds a slice of pizza and smiles at Ava. Ava smiles back.",
+       "image": "assets/img/scene-lesson-63.webp",
+       "imageAlt": "Cafeteria: Jay holds up a pizza slice with a huge starving face; Ava laughs",
        "context": "It is lunch. Jay holds up his pizza. He talks to Ava.",
        "says": [
         {
@@ -39679,7 +39699,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-64",
@@ -39696,7 +39717,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -39733,8 +39754,8 @@ window.HUB_CONTENT = {
        "step": "S",
        "heading": "See",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-64.webp",
+       "imageAlt": "Math class: Mr. Cruz points to the start of a problem on the board; Rosa rests her chin on her hand, confused",
        "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
        "says": [
         {
@@ -39757,8 +39778,8 @@ window.HUB_CONTENT = {
        "step": "C",
        "heading": "Clues",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-64.webp",
+       "imageAlt": "Math class: Mr. Cruz points to the start of a problem on the board; Rosa rests her chin on her hand, confused",
        "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
        "says": [
         {
@@ -39781,8 +39802,8 @@ window.HUB_CONTENT = {
        "step": "O",
        "heading": "Others know",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-64.webp",
+       "imageAlt": "Math class: Mr. Cruz points to the start of a problem on the board; Rosa rests her chin on her hand, confused",
        "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
        "says": [
         {
@@ -39805,8 +39826,8 @@ window.HUB_CONTENT = {
        "step": "P",
        "heading": "Possible meanings",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-64.webp",
+       "imageAlt": "Math class: Mr. Cruz points to the start of a problem on the board; Rosa rests her chin on her hand, confused",
        "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
        "says": [
         {
@@ -39834,8 +39855,8 @@ window.HUB_CONTENT = {
        "step": "E",
        "heading": "Engage",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at 3x + 7 = 22 on the board. Rosa sits at a desk, chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-64.webp",
+       "imageAlt": "Math class: Mr. Cruz points to the start of a problem on the board; Rosa rests her chin on her hand, confused",
        "context": "Math class. Mr. Cruz points to 3x + 7 = 22 on the board. Rosa rests her chin on her hand.",
        "says": [
         {
@@ -40072,7 +40093,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-65",
@@ -40089,7 +40111,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -40128,8 +40150,8 @@ window.HUB_CONTENT = {
        "heading": "See",
        "question": "What is happening?",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "image": "assets/img/scene-lesson-65.webp",
+       "imageAlt": "Classroom: wind blows through an open window, papers fly; Rosa hugs herself and shivers",
        "context": "It is a cold day. The window is open. Wind blows in.",
        "says": [
         {
@@ -40148,8 +40170,8 @@ window.HUB_CONTENT = {
        "heading": "Clues",
        "question": "What clues show how Rosa feels?",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "image": "assets/img/scene-lesson-65.webp",
+       "imageAlt": "Classroom: wind blows through an open window, papers fly; Rosa hugs herself and shivers",
        "context": "It is a cold day. The window is open. Wind blows in.",
        "says": [
         {
@@ -40168,8 +40190,8 @@ window.HUB_CONTENT = {
        "heading": "Others know",
        "question": "Can wind really bite? What does Rosa want Ben to know?",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "image": "assets/img/scene-lesson-65.webp",
+       "imageAlt": "Classroom: wind blows through an open window, papers fly; Rosa hugs herself and shivers",
        "context": "It is a cold day. The window is open. Wind blows in.",
        "says": [
         {
@@ -40188,8 +40210,8 @@ window.HUB_CONTENT = {
        "heading": "Possible meanings",
        "question": "What could Rosa really mean? Give 2 ideas.",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "image": "assets/img/scene-lesson-65.webp",
+       "imageAlt": "Classroom: wind blows through an open window, papers fly; Rosa hugs herself and shivers",
        "context": "It is a cold day. The window is open. Wind blows in.",
        "says": [
         {
@@ -40213,8 +40235,8 @@ window.HUB_CONTENT = {
        "heading": "Engage",
        "question": "What could Ben say or do?",
        "inShort": true,
-       "image": "assets/img/scene-class-06.webp",
-       "imageAlt": "Classroom: Rosa shivers at her desk by an open window. Ben stands nearby.",
+       "image": "assets/img/scene-lesson-65.webp",
+       "imageAlt": "Classroom: wind blows through an open window, papers fly; Rosa hugs herself and shivers",
        "context": "It is a cold day. The window is open. Wind blows in.",
        "says": [
         {
@@ -40407,7 +40429,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-66",
@@ -40424,7 +40447,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -40462,8 +40485,8 @@ window.HUB_CONTENT = {
        "heading": "See",
        "question": "What is happening?",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-66.webp",
+       "imageAlt": "Math class: Mr. Cruz grins holding up a math book; students groan and laugh",
        "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
        "says": [
         {
@@ -40482,8 +40505,8 @@ window.HUB_CONTENT = {
        "heading": "Clues",
        "question": "What clues tell you it is a joke?",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-66.webp",
+       "imageAlt": "Math class: Mr. Cruz grins holding up a math book; students groan and laugh",
        "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
        "says": [
         {
@@ -40502,8 +40525,8 @@ window.HUB_CONTENT = {
        "heading": "Others know",
        "question": "What does Rosa need to know to get the joke?",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-66.webp",
+       "imageAlt": "Math class: Mr. Cruz grins holding up a math book; students groan and laugh",
        "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
        "says": [
         {
@@ -40522,8 +40545,8 @@ window.HUB_CONTENT = {
        "heading": "Possible meanings",
        "question": "What are the two meanings of “problems”?",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-66.webp",
+       "imageAlt": "Math class: Mr. Cruz grins holding up a math book; students groan and laugh",
        "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
        "says": [
         {
@@ -40547,8 +40570,8 @@ window.HUB_CONTENT = {
        "heading": "Engage",
        "question": "What could Rosa say if she doesn’t get it?",
        "inShort": true,
-       "image": "assets/img/scene-class-10.webp",
-       "imageAlt": "Classroom: Mr. Cruz points at a math problem on the board. Rosa sits with her chin on her hand, confused.",
+       "image": "assets/img/scene-lesson-66.webp",
+       "imageAlt": "Math class: Mr. Cruz grins holding up a math book; students groan and laugh",
        "context": "It is math class. Mr. Cruz tells a joke before the lesson.",
        "says": [
         {
@@ -40738,7 +40761,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-67",
@@ -40756,7 +40780,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -40795,8 +40819,8 @@ window.HUB_CONTENT = {
        "heading": "See",
        "question": "What is happening?",
        "inShort": true,
-       "image": "assets/img/scene-outside-04.webp",
-       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "image": "assets/img/scene-lesson-67.webp",
+       "imageAlt": "Outside school: Zoe's art poster blows away across the grass; Zoe reaches out with a fed-up face",
        "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
        "says": [
         {
@@ -40815,8 +40839,8 @@ window.HUB_CONTENT = {
        "heading": "Clues",
        "question": "Listen to how Zoe says it. What clues tell you what she means?",
        "inShort": true,
-       "image": "assets/img/scene-outside-04.webp",
-       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "image": "assets/img/scene-lesson-67.webp",
+       "imageAlt": "Outside school: Zoe's art poster blows away across the grass; Zoe reaches out with a fed-up face",
        "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
        "says": [
         {
@@ -40841,8 +40865,8 @@ window.HUB_CONTENT = {
        "heading": "Others know",
        "question": "What does Zoe know that makes this so bad?",
        "inShort": true,
-       "image": "assets/img/scene-outside-04.webp",
-       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "image": "assets/img/scene-lesson-67.webp",
+       "imageAlt": "Outside school: Zoe's art poster blows away across the grass; Zoe reaches out with a fed-up face",
        "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
        "says": [
         {
@@ -40861,8 +40885,8 @@ window.HUB_CONTENT = {
        "heading": "Possible meanings",
        "question": "What could “perfect” really mean here? Give 2 ideas.",
        "inShort": true,
-       "image": "assets/img/scene-outside-04.webp",
-       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "image": "assets/img/scene-lesson-67.webp",
+       "imageAlt": "Outside school: Zoe's art poster blows away across the grass; Zoe reaches out with a fed-up face",
        "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
        "says": [
         {
@@ -40886,8 +40910,8 @@ window.HUB_CONTENT = {
        "heading": "Engage",
        "question": "What could Ben do or say?",
        "inShort": true,
-       "image": "assets/img/scene-outside-04.webp",
-       "imageAlt": "Outside school: Zoe points up, worried, at her drawing blowing away. Ben laughs behind his hand.",
+       "image": "assets/img/scene-lesson-67.webp",
+       "imageAlt": "Outside school: Zoe's art poster blows away across the grass; Zoe reaches out with a fed-up face",
        "context": "Zoe worked all week on her art project. She just finished it. Then the wind blows it away.",
        "says": [
         {
@@ -41093,7 +41117,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   },
   {
    "id": "scope-68",
@@ -41110,7 +41135,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 1,
+   "contentRev": 2,
    "media": [],
    "video": {
     "url": "",
@@ -41141,8 +41166,8 @@ window.HUB_CONTENT = {
        "heading": "See",
        "question": "What is happening?",
        "inShort": true,
-       "image": "assets/img/scene-cafe-05.webp",
-       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "image": "assets/img/scene-lesson-68.webp",
+       "imageAlt": "Cafeteria on pizza day: Jay takes a giant bite with eyes closed; Omar and Lily laugh",
        "context": "It is pizza day at lunch. Jay takes a big bite.",
        "says": [
         {
@@ -41161,8 +41186,8 @@ window.HUB_CONTENT = {
        "heading": "Clues",
        "question": "What clues show how Jay feels about the pizza?",
        "inShort": true,
-       "image": "assets/img/scene-cafe-05.webp",
-       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "image": "assets/img/scene-lesson-68.webp",
+       "imageAlt": "Cafeteria on pizza day: Jay takes a giant bite with eyes closed; Omar and Lily laugh",
        "context": "It is pizza day at lunch. Jay takes a big bite.",
        "says": [
         {
@@ -41181,8 +41206,8 @@ window.HUB_CONTENT = {
        "heading": "Others know",
        "question": "Does Jay think his friends will believe he can eat 100 slices? Why say it?",
        "inShort": true,
-       "image": "assets/img/scene-cafe-05.webp",
-       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "image": "assets/img/scene-lesson-68.webp",
+       "imageAlt": "Cafeteria on pizza day: Jay takes a giant bite with eyes closed; Omar and Lily laugh",
        "context": "It is pizza day at lunch. Jay takes a big bite.",
        "says": [
         {
@@ -41201,8 +41226,8 @@ window.HUB_CONTENT = {
        "heading": "Possible meanings",
        "question": "What does Jay really mean? Which kinds of figurative language does he use?",
        "inShort": true,
-       "image": "assets/img/scene-cafe-05.webp",
-       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "image": "assets/img/scene-lesson-68.webp",
+       "imageAlt": "Cafeteria on pizza day: Jay takes a giant bite with eyes closed; Omar and Lily laugh",
        "context": "It is pizza day at lunch. Jay takes a big bite.",
        "says": [
         {
@@ -41226,8 +41251,8 @@ window.HUB_CONTENT = {
        "heading": "Engage",
        "question": "What could you say back to Jay?",
        "inShort": true,
-       "image": "assets/img/scene-cafe-05.webp",
-       "imageAlt": "Lunchroom: Jay eats pizza with a big smile, eyes closed.",
+       "image": "assets/img/scene-lesson-68.webp",
+       "imageAlt": "Cafeteria on pizza day: Jay takes a giant bite with eyes closed; Omar and Lily laugh",
        "context": "It is pizza day at lunch. Jay takes a big bite.",
        "says": [
         {
@@ -41475,7 +41500,8 @@ window.HUB_CONTENT = {
       }
      ]
     }
-   ]
+   ],
+   "cover": null
   }
  ],
  "scopeSteps": {
