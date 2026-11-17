@@ -63,7 +63,7 @@
     app.innerHTML = `<div class="sess">
       <div class="sbar">
         <button class="btn ghost" id="x_exit" aria-label="Leave session">✕ Leave</button>
-        <div class="stitle"><div class="t1">${S.lessonNumber ? S.lessonNumber + '. ' : ''}${H.esc(S.lessonTitle)}</div><div class="t2">${S.preview ? '<b>Preview · nothing is saved</b>' : H.esc(S.studentNames.join(' + '))} · ${H.esc(S.setName)}${S.length === 'short' ? ' · short' : ''}${S.mode === 'alternate' ? ' · alternate questions' : S.mode === 'both' ? ' · both practice each skill' : ''}</div></div>
+        <div class="stitle"><div class="t1">${H.esc(H.L.titleWithLabel(S.lessonId, S.lessonTitle))}</div><div class="t2">${S.preview ? '<b>Preview · nothing is saved</b>' : H.esc(S.studentNames.join(' + '))} · ${H.esc(S.setName)}${S.length === 'short' ? ' · short' : ''}${S.mode === 'alternate' ? ' · alternate questions' : S.mode === 'both' ? ' · both practice each skill' : ''}</div></div>
         ${S.preview && S.allSets && S.allSets.length > 1 ? `<label class="sr" for="pv_set">Part</label><select id="pv_set" class="pv-set">${S.allSets.map(s => `<option value="${H.esc(s.id)}" ${s.id === S.setId ? 'selected' : ''}>${H.esc(s.name)}</option>`).join('')}</select>` : ''}
         <div class="prog" aria-label="Card ${S.pos + 1} of ${S.turns.length}"><span>Turn ${S.pos + 1} of ${S.turns.length}</span><div class="bar"><i style="width:${Math.round(S.pos * 100 / S.turns.length)}%"></i></div></div>
         <span class="timer" id="tmr" aria-label="Time">${mmss(elapsed())}</span>

@@ -40,7 +40,7 @@
           </section>
           <section class="panel"><h2>2. Lesson</h2>
             <label for="les">Lesson</label>
-            <select id="les">${lessons.length ? '' : '<option value="">No lessons are ready</option>'}${lessons.map(l => `<option value="${H.esc(l.id)}" ${L && l.id === L.id ? 'selected' : ''}>${l.number === 0 ? 'Pre-lesson: ' : l.number ? l.number + '. ' : ''}${H.esc(l.title)}</option>`).join('')}</select>
+            <select id="les">${lessons.length ? '' : '<option value="">No lessons are ready</option>'}${lessons.map(l => `<option value="${H.esc(l.id)}" ${L && l.id === L.id ? 'selected' : ''}>${H.esc(H.L.titleWithLabel(l, l.title))}</option>`).join('')}</select>
             <div id="partbox"></div>
           </section>
           <section class="panel" id="pairbox"><h2>3. Taking turns</h2><div id="pairinner"></div></section>

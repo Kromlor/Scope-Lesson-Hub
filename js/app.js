@@ -10,7 +10,7 @@
       <nav aria-label="Main">${NAV.map(([k, t]) => `<a href="#/${k}" class="${active === k ? 'on' : ''}" ${active === k ? 'aria-current="page"' : ''}>${t}</a>`).join('')}</nav>
       <span id="savestate" class="savestate" role="status" aria-live="polite"></span>
     </header><main id="view" tabindex="-1">${inner || ''}</main>
-    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly. · SCOPE Lesson Hub v2.3</footer>`;
+    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly. · SCOPE Lesson Hub v2.4</footer>`;
     return H.$('#view');
   };
 
@@ -52,7 +52,7 @@
     let est = '';
     try { if (navigator.storage && navigator.storage.estimate) { const e = await navigator.storage.estimate(); est = `Using about ${H.bytes(e.usage || 0)} of storage on this laptop.`; } } catch (e) { }
     const v = H.shell('settings', `<h1>Settings</h1>
-      <section class="panel"><h2>Read-aloud</h2>
+      <section class="panel" hidden><h2>Read-aloud</h2>
         <label for="s_mode">Voice</label>
         <select id="s_mode"><option value="warm" ${p.voiceMode !== 'computer' ? 'selected' : ''}>Warm-voice recordings when available, computer voice otherwise</option><option value="computer" ${p.voiceMode === 'computer' ? 'selected' : ''}>Computer voice only</option></select>
         <label for="s_rate">Speed: <span id="s_rate_v">${(+p.rate || 1).toFixed(2)}×</span></label>
@@ -86,14 +86,14 @@
   H.help = () => {
     H.shell('help', `<h1>How to use the SCOPE Lesson Hub</h1><div class="panel prose">
     <h2>Open the app</h2><p>Double-click <b>index.html</b> in the SCOPE-Lesson-Hub folder. Use Chrome or Edge. Keep the whole folder together; the pictures and voice clips live in it. Always open it from the same folder on the same laptop, because records are saved in this browser.</p>
-    <h2>First lesson: intro slides</h2><p>The first card in the library, <b>Introducing SCOPE (pre-lesson)</b>, teaches the 5 SCOPE steps before Lesson 1. Press <b>Present slides</b> to show it on the big screen: click the slide or press → to go on (answers appear on the next click), ← to go back, <b>N</b> for teacher notes, <b>F</b> for full screen, and <b>Esc</b> to leave. Press <b>Start</b> instead to run the same content as cards with students and ratings.</p>
+    <h2>First lesson: intro slides</h2><p>The first card in the library, <b>Introducing SCOPE (pre-lesson)</b>, teaches the 5 SCOPE steps before Unit 1. Press <b>Present slides</b> to show it on the big screen: click the slide or press → to go on (answers appear on the next click), ← to go back, <b>N</b> for teacher notes, <b>F</b> for full screen, and <b>Esc</b> to leave. Press <b>Start</b> instead to run the same content as cards with students and ratings.</p>
     <h2>Run a lesson</h2><ol><li>On <b>Lessons</b>, find a lesson (search or filter) and press <b>Start</b>.</li><li>Pick one or two students, the part (core lesson or additional practice), full or short, who goes first, and the turn-taking method.</li><li>The banner shows whose turn it is. Students tap answers; nothing moves on until you press <b>Save and next turn</b>.</li><li>Rate each Quick check: Independent, With help, or Incorrect (or press <b>Skip</b>). Other cards can stay unscored.</li><li>At the end, check each student’s summary, add notes, and press <b>Save session</b>.</li></ol>
     <h2>Marking spoken answers and giving hints</h2><p>Students answer open questions out loud, to you. Press <b>✓ Correct</b> in your panel and the student screen shows <b>Yes!</b>; press <b>✗ Not yet</b> and it shows <b>Try again</b>. Press <b>💡 Give a hint</b> whenever a hint is needed: the card's hint appears on the student screen (on choice cards too). Hints are only shown when you press the button. <b>Show sample answer</b> is still there. Talk-it-through cards are not marked. You still choose the rating; records note the marks and whether a hint was given.</p>
     <h2>Typed answers (optional)</h2><p>Settings › Answer boxes can switch to typing: students type and press <b>Check my answer</b>, the app checks key words, gives <b>Try again</b> with a hint, and shows the sample after a second miss. <b>Count as correct</b> covers answers worded differently.</p>
     <h2>Two students</h2><p><b>Alternate questions</b>: students take turns on different cards. <b>Both practice each skill</b>: each student gets a turn on every card. When a card has a second-student question, the second student gets that one. Otherwise both answer the same question, and the answer stays hidden until both have answered.</p><p>Use <b>Switch answering student</b> if the wrong student answered. <b>Back</b> lets you fix an earlier answer without making a second record.</p>
     <h2>Make or change a lesson</h2><p>Press <b>Edit</b> on a lesson, or <b>Add lesson</b>. Fill in the lesson details, then add cards. Each card has one question. Mark one or more answers correct, and add hints, sentence starters, a sample answer, or a picture if you want. Your changes are kept as a draft while you work. Press <b>Save lesson</b> when done. Check <b>Ready to use</b> to let the lesson start.</p>
     <h2>Back up</h2><p>Go to <b>Backup</b> and press <b>Download backup</b>. The file has your lessons, students, sessions, and uploaded media. To move to a new laptop, copy the app folder, open it, and use <b>Restore</b>.</p>
-    <h2>Read-aloud</h2><p>Speaker buttons read text aloud. Original SCOPE text plays the warm-voice recording. Other text uses the computer voice and is labeled. Cards marked <b>SLP models tone</b> need you to say the line yourself.</p></div>`);
+    <h2>Saying lines aloud</h2><p>You read the cards aloud to students. Cards marked <b>SLP models tone</b> need you to say the line yourself.</p></div>`);
   };
 
   /* ---------- boot ---------- */

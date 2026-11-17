@@ -2,6 +2,28 @@
 (function (H) {
   'use strict';
   const L = H.L = {};
+
+  /* Lesson numbers restart at 1 in every unit. Built from the bundled lessons, so it also works for
+     edited built-in lessons and for old session records (they keep the lesson id). */
+  let posMap = null;
+  L.pos = x => {
+    if (!posMap) {
+      posMap = {};
+      const all = ((window.HUB_CONTENT || {}).lessons || []).slice().sort((a, b) => (a.number ?? 999) - (b.number ?? 999));
+      const count = {};
+      for (const l of all) {
+        if (l.number === 0) { posMap[l.id] = { pre: true }; continue; }
+        const m = /Unit\s*(\d+)/i.exec(l.unit || ''); if (!m) continue;
+        const u = +m[1]; count[u] = (count[u] || 0) + 1;
+        posMap[l.id] = { unit: u, n: count[u] };
+      }
+    }
+    const id = typeof x === 'string' ? x : x && (x.id || x.lessonId);
+    return (id && posMap[id]) || null;
+  };
+  // "Unit 2 · Lesson 6", "Pre-lesson", or '' for lessons the SLP made
+  L.label = x => { const p = L.pos(x); return !p ? '' : p.pre ? 'Pre-lesson' : `Unit ${p.unit} · Lesson ${p.n}`; };
+  L.titleWithLabel = (x, title) => { const lb = L.label(x); return (lb ? lb + ': ' : '') + title; };
   L.ROLES = {
     warmup: { label: 'Warm-up', scored: false },
     explore: { label: 'Explore (SCOPE step)', short: 'Explore', scored: false },

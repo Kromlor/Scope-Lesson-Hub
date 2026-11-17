@@ -65,7 +65,7 @@
     if (!l || hidden) return '';
     return `<section class="start-here" aria-label="Start here">
       ${l.cover ? `<img alt="" src="${H.esc(l.cover)}">` : ''}
-      <div class="sh-text"><b>New to SCOPE? Start here.</b><br>Present the intro slides to the group before Lesson 1, or run them as cards with students.</div>
+      <div class="sh-text"><b>New to SCOPE? Start here.</b><br>Present the intro slides to the group before Unit 1, or run them as cards with students.</div>
       <div class="row"><button class="btn primary" id="sh_present" data-slides="${H.esc(l.slides)}">Present intro slides</button><button class="btn" id="sh_start" data-id="${H.esc(l.id)}">Start as a lesson</button><button class="btn ghost" id="sh_hide" title="Hide this box. The pre-lesson stays in the library.">Hide</button></div>
     </section>`;
   }
@@ -73,13 +73,13 @@
   function cardHTML(l) {
     const f = H.L.mediaFlags(l), ok = H.L.canStart(l), th = H.L.thumb(l), n = H.L.cardCount(l);
     const reason = l.archived ? 'Archived' : !n ? 'No cards yet' : l.status !== 'ready' ? 'Draft: not marked ready' : 'Has card problems: open Edit';
-    const chips = [f.video && 'Video link', f.pictures && 'Pictures', f.audio && 'Audio', f.warmVoice && 'Warm voice', f.modeling && 'SLP models tone'].filter(Boolean);
+    const chips = [f.video && 'Video link', f.pictures && 'Pictures', f.audio && 'Audio', f.modeling && 'SLP models tone'].filter(Boolean);
     const canPrev = H.L.usableSets(l).length > 0;
     return `<article class="lcard ${ok ? '' : 'is-draft'}" aria-label="${H.esc(l.title)}">
       <div class="thumb">${th ? `<img alt="" data-ref="${H.esc(th)}" loading="lazy">` : `<div class="thumb-empty" aria-hidden="true">${H.esc((l.title || '?').slice(0, 1))}</div>`}
         <span class="badge ${ok ? 'ready' : 'draft'}">${ok ? 'Ready' : l.archived ? 'Archived' : 'Draft'}</span></div>
       <div class="lbody">
-        <div class="unit">${H.esc(l.unit || 'No unit')}${l.number === 0 ? ' · Pre-lesson' : l.number ? ' · Lesson ' + l.number : ''}</div>
+        <div class="unit">${H.esc(l.unit || 'No unit')}${(p => !p ? '' : p.pre ? ' · Pre-lesson' : ' · Lesson ' + p.n)(H.L.pos(l))}</div>
         <h2 class="ltitle">${H.esc(l.title)}</h2>
         ${l.skill ? `<div class="skill"><b>Skill:</b> ${H.esc(l.skill)}</div>` : ''}
         ${l.goal ? `<div class="goal">${H.esc(l.goal)}</div>` : ''}

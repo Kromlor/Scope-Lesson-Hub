@@ -1,7 +1,7 @@
 /* SCOPE lesson content migrated from SCOPE-Perspective-Lab-Warm-Voice.html.
    Edit lessons inside the app (Edit button). This file only seeds a new laptop. */
 window.HUB_CONTENT = {
- "contentVersion": 9,
+ "contentVersion": 10,
  "source": "SCOPE-Perspective-Lab-Warm-Voice.html",
  "lessons": [
   {
@@ -12,11 +12,11 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Learning the 5 SCOPE steps",
    "goal": "I can name the 5 SCOPE steps and use them on a real moment.",
-   "slpNotes": "Use this before Lesson 1. Two ways to teach it:\n\n1) Present slides: whole-group, on the big screen. Click to show each answer. Press N for teacher notes.\n2) Start: run the same content as cards with students, so you get turn-taking and ratings.\n\nSCOPE is like a detective’s checklist for people: a detective doesn’t decide right away. They look, collect clues, and think about more than one answer before they act.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Use this before Unit 1 Lesson 1. Two ways to teach it:\n\n1) Present slides: whole-group, on the big screen. Click to show each answer. Press N for teacher notes.\n2) Start: run the same content as cards with students, so you get turn-taking and ratings.\n\nSCOPE is like a detective’s checklist for people: a detective doesn’t decide right away. They look, collect clues, and think about more than one answer before they act.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [],
    "status": "ready",
    "origin": "Meet SCOPE intro slides",
-   "contentRev": 2,
+   "contentRev": 3,
    "slides": "scope-intro",
    "cover": "assets/img/intro-1.webp",
    "media": [],
@@ -15912,14 +15912,14 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 2 review: more than one idea",
    "goal": "I can think of more than one idea and change it with new clues.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud and push for at least two ideas at the P step. Model the gestures on the check cards that need them. The quick check has 8 items covering lessons 9–15 for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud and push for at least two ideas at the P step. Model the gestures on the check cards that need them. The quick check has 8 items covering lessons 1–7 for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
     "R.2",
     "C.6"
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (Unit 2 rewritten to follow the SLP's Multiple Interpretations source page)",
-   "contentRev": 11,
+   "contentRev": 12,
    "media": [],
    "video": {
     "url": "",
@@ -19798,14 +19798,14 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 3 review: reading between the lines",
    "goal": "I can read between the lines using clues.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud on the scene. The quick check has 8 items covering Lessons 17–23 for a better data point: what’s not said, hints, wants, accident vs. on purpose, knowledge gaps, texts, and best guess.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud on the scene. The quick check has 8 items covering Lessons 1–7 for a better data point: what’s not said, hints, wants, accident vs. on purpose, knowledge gaps, texts, and best guess.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
     "R.2",
     "R.8b"
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -22910,14 +22910,14 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 4 review: relating experiences",
    "goal": "I can connect my stories to others and listen well.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. The quick check has 8 items covering Lessons 25–29 (connecting, same event/different experience, using experience to understand, timing, and listening) for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. The quick check has 8 items covering Lessons 1–5 (connecting, same event/different experience, using experience to understand, timing, and listening) for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
     "C.5",
     "C.6"
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -25460,14 +25460,14 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 5 review: identifying and solving problems",
    "goal": "I can find, size, and solve a problem with SCOPE.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud and name the real problem, its size, each person’s view, and a fair, safe solution. The quick check has 8 items covering Lessons 31–34 for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud and name the real problem, its size, each person’s view, and a fair, safe solution. The quick check has 8 items covering Lessons 1–4 for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
     "C.7",
     "R.2"
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -26591,14 +26591,14 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Explaining when others misunderstand me",
    "goal": "I can say it another way when someone gets me wrong.",
-   "slpNotes": "This lesson flips Lesson 36: now the student is the speaker who was misunderstood. Teach three repair moves: say it another way, add a detail, and check (“Does that make sense?”). Stress staying calm; the listener is not wrong for being confused. Have the student role-play Ben’s repair out loud.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.\n\nVideo search ideas: explaining yourself when misunderstood social skills; repairing communication breakdowns",
+   "slpNotes": "This lesson flips Lesson 1: now the student is the speaker who was misunderstood. Teach three repair moves: say it another way, add a detail, and check (“Does that make sense?”). Stress staying calm; the listener is not wrong for being confused. Have the student role-play Ben’s repair out loud.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.\n\nVideo search ideas: explaining yourself when misunderstood social skills; repairing communication breakdowns",
    "standards": [
     "C.2",
     "C.6"
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 4,
+   "contentRev": 5,
    "media": [],
    "video": {
     "url": "",
@@ -28041,7 +28041,7 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Using all of SCOPE in real life",
    "goal": "I can use all five SCOPE steps in my own life.",
-   "slpNotes": "Capstone and Unit 6 check. Let the student lead all five SCOPE steps out loud with little prompting. Practice reviews S, C, O, P, and E from Units 1–6; the quick check has 8 items covering Lessons 36–39 for a better data point. Close by having the student name one real situation where they will use SCOPE this week.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.\n\nVideo search ideas: short animated film misunderstanding no dialogue; social skills video asking what someone meant",
+   "slpNotes": "Capstone and Unit 6 check. Let the student lead all five SCOPE steps out loud with little prompting. Practice reviews S, C, O, P, and E from Units 1–6; the quick check has 8 items covering Lessons 1–4 for a better data point. Close by having the student name one real situation where they will use SCOPE this week.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.\n\nVideo search ideas: short animated film misunderstanding no dialogue; social skills video asking what someone meant",
    "standards": [
     "C.6",
     "C.7",
@@ -28049,7 +28049,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new core lesson)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -30416,7 +30416,7 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 7 review: fact vs. opinion",
    "goal": "I can tell facts from opinions and answer kindly.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud on the scene. The quick check has 8 items covering Lessons 41–44 (fact vs. opinion, signal words, opinions said like facts, kind disagreement) for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud on the scene. The quick check has 8 items covering Lessons 1–4 (fact vs. opinion, signal words, opinions said like facts, kind disagreement) for a better data point.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
     "R.2",
     "R.5",
@@ -30424,7 +30424,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -32842,7 +32842,7 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 8 review: wrong vs. different",
    "goal": "I can tell wrong from different and respond kindly.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. The quick check has 8 items covering Lessons 46–49: wrong vs. different, more than one right way, different is not weird, and correcting kindly or owning a mistake. Note which kind of item the student misses most to guide review.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.\n\nVideo search ideas: different is not wrong short film; flexible thinking animated short",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. The quick check has 8 items covering Lessons 1–4: wrong vs. different, more than one right way, different is not weird, and correcting kindly or owning a mistake. Note which kind of item the student misses most to guide review.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.\n\nVideo search ideas: different is not wrong short film; flexible thinking animated short",
    "standards": [
     "R.2",
     "C.6",
@@ -32850,7 +32850,7 @@ window.HUB_CONTENT = {
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",
@@ -38051,14 +38051,14 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 10 review: interpersonal negotiation",
    "goal": "I can solve a problem with a friend and keep the friendship.",
-   "slpNotes": "Source: whole page review (Degree of Importance, Respect, Acquiescence, Persuasion). Unit check: fewer prompts. Let the student lead SCOPE out loud on the new scene and name which idea from the unit they are using. The quick check has 8 items covering Lessons 56–59.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Source: whole page review (Degree of Importance, Respect, Acquiescence, Persuasion). Unit check: fewer prompts. Let the student lead SCOPE out loud on the new scene and name which idea from the unit they are using. The quick check has 8 items covering Lessons 1–4.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
     "C.6",
     "C.7"
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit; based on the SLP's Interpersonal Negotiation source page)",
-   "contentRev": 3,
+   "contentRev": 4,
    "media": [],
    "video": {
     "url": "",
@@ -41128,14 +41128,14 @@ window.HUB_CONTENT = {
    "program": "SCOPE",
    "skill": "Unit 11 review: figurative language",
    "goal": "I can name figurative language and tell what it really means.",
-   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. For every check item, ask the student to name the type AND say the real meaning, even when the card asks only one. The quick check has 8 items (one per lesson 61–67, plus one extra irony item) for a better data point. YOU say the tone item (card 13); hold Peek to see how.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
+   "slpNotes": "Unit check: fewer prompts. Let the student lead SCOPE out loud. For every check item, ask the student to name the type AND say the real meaning, even when the card asks only one. The quick check has 8 items (one per lesson 1–7, plus one extra irony item) for a better data point. YOU say the tone item (card 13); hold Peek to see how.\n\nAccept reasonable interpretations supported by the clues. Faces, bodies, and tone are possible clues, not proof. Asking the person is always a valid strategy.",
    "standards": [
     "R.5",
     "R.7"
    ],
    "status": "ready",
    "origin": "SCOPE Perspective Lab (new unit)",
-   "contentRev": 2,
+   "contentRev": 3,
    "media": [],
    "video": {
     "url": "",

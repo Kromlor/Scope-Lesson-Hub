@@ -8,7 +8,9 @@
   const norm = s => String(s || '').trim();
 
   V.hasRecording = text => !!(window.HUB_VOICE && window.HUB_VOICE[norm(text)]);
-  V.btn = (text, rec, label) => text ? `<button type="button" class="spk" data-say="${H.esc(text)}"${rec ? ` data-rec="${H.esc(rec)}"` : ''} aria-label="${H.esc(label || 'Read aloud')}" title="${H.esc(label || 'Read aloud')}">${H.icon('speaker')}</button>` : '';
+  // Speaker buttons are turned off (the SLP reads cards aloud). Keep the old code below for reference.
+  V.btn = () => '';
+  V.btnOld = (text, rec, label) => text ? `<button type="button" class="spk" data-say="${H.esc(text)}"${rec ? ` data-rec="${H.esc(rec)}"` : ''} aria-label="${H.esc(label || 'Read aloud')}" title="${H.esc(label || 'Read aloud')}">${H.icon('speaker')}</button>` : '';
 
   function bar(kind, text) {
     let b = H.$('#voicebar');

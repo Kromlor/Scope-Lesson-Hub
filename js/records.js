@@ -57,7 +57,7 @@
       sessionStorage.setItem('histStudent', filt);
       const L = list();
       H.$('#hlist').innerHTML = L.length ? `<div class="tablewrap"><table class="htable"><thead><tr><th>Date</th><th>Lesson</th><th>Part</th><th>Students and results</th><th></th></tr></thead><tbody>${L.map(s => `<tr>
-        <td>${H.fmtDate(s.date)}</td><td>${s.lessonNumber ? s.lessonNumber + '. ' : ''}${H.esc(s.lessonTitle)}</td><td>${H.esc(s.setName)}${s.length === 'short' ? ' (short)' : ''}<br><span class="small muted">${H.esc(modeName(s.mode))}</span></td>
+        <td>${H.fmtDate(s.date)}</td><td>${H.esc(H.L.titleWithLabel(s.lessonId, s.lessonTitle))}</td><td>${H.esc(s.setName)}${s.length === 'short' ? ' (short)' : ''}<br><span class="small muted">${H.esc(modeName(s.mode))}</span></td>
         <td>${s.students.filter(st => !filt || st.id === filt).map(st => { const sm = H.summarize(s.responses.filter(r => r.studentId === st.id)); return `<div><b>${H.esc(st.name)}</b>: ${H.fmtPct(sm.pctInd)} independent (${sm.I} of ${sm.scored} scored)${sm.S ? `, ${sm.S} skipped` : ''}</div>`; }).join('')}</td>
         <td><a class="btn small" href="#/history/${encodeURIComponent(s.id)}">View</a></td></tr>`).join('')}</tbody></table></div>` : '<p class="muted empty">No saved sessions yet.</p>';
     };
@@ -71,7 +71,7 @@
     const s = await H.store.get('sessions', id);
     if (!s) { H.toast('That session was not found.'); H.go('#/history'); return; }
     const v = H.shell('history', `<p><a href="#/history">← Session history</a></p>
-      <h1>${s.lessonNumber ? s.lessonNumber + '. ' : ''}${H.esc(s.lessonTitle)}</h1>
+      <h1>${H.esc(H.L.titleWithLabel(s.lessonId, s.lessonTitle))}</h1>
       <p class="muted">${H.fmtDate(s.date)} · ${H.esc(s.setName)}${s.length === 'short' ? ' (short)' : ''} · ${H.esc(modeName(s.mode))} · ${s.minutes} min · saved ${H.fmtTime(s.savedAt)}</p>
       ${s.students.map((st, i) => { const rs = s.responses.filter(r => r.studentId === st.id); const sm = H.summarize(rs); return `<section class="panel stu-sum"><h2>${H.markHTML(Math.min(i, 1))} ${H.esc(st.name)}</h2>${H.summaryStatsHTML(sm)}
         <div class="tablewrap"><table class="rtable"><thead><tr><th>#</th><th>Card</th><th>Response</th><th>Rating</th></tr></thead><tbody>${rs.map((r, k) => H.responseRowHTML(r, k, true)).join('') || '<tr><td colspan="4" class="muted">No turns.</td></tr>'}</tbody></table></div>
@@ -98,7 +98,7 @@
     const out = [row(['Session ID', 'Date', 'Student', 'Lesson #', 'Lesson', 'Unit', 'Part', 'Length', 'Turn mode', 'Card #', 'Card type', 'Question', 'Second-student question', 'First response', 'First response correct', 'Later attempts', 'Number of attempts', 'Student said (SLP entered)', 'Rating', 'Counts toward accuracy', 'Item note', 'Session minutes', 'Hint given'])];
     sessions.forEach(s => s.students.filter(st => !onlyStudent || st.id === onlyStudent).forEach(st => s.responses.filter(r => r.studentId === st.id).forEach(r => {
       const a = r.attempts || [];
-      out.push(row([s.id, s.date, st.name, s.lessonNumber || '', s.lessonTitle, s.unit, s.setName, s.length, modeName(s.mode), r.cardNumber, (H.L.ROLES[r.role] || {}).label || r.role, r.question, r.variant === 'alt' ? 'Yes' : 'No',
+      out.push(row([s.id, s.date, st.name, (H.L.pos(s.lessonId) || {}).n || '', s.lessonTitle, s.unit, s.setName, s.length, modeName(s.mode), r.cardNumber, (H.L.ROLES[r.role] || {}).label || r.role, r.question, r.variant === 'alt' ? 'Yes' : 'No',
         a[0] ? a[0].text : '', a[0] ? yn(a[0].correct) : '', a.slice(1).map(x => x.text + (x.correct === true ? ' (correct)' : x.correct === false ? ' (not correct)' : '')).join(' | '), a.length, r.verbal, H.L.ratingLabel(r.rating), ['I', 'H', 'X'].includes(r.rating) ? 'Yes' : 'No', r.note, s.minutes, r.hintShown ? 'Yes' : 'No']));
     })));
     return out.join('\r\n');
@@ -108,7 +108,7 @@
     sessions.forEach(s => s.students.filter(st => !onlyStudent || st.id === onlyStudent).forEach(st => {
       const sm = H.summarize(s.responses.filter(r => r.studentId === st.id));
       const p = v => v == null ? '' : v;
-      out.push(row([s.id, s.date, st.name, s.lessonNumber || '', s.lessonTitle, s.setName, s.length, modeName(s.mode), s.minutes, sm.I, sm.H, sm.X, sm.scored, p(sm.pctInd), p(sm.pctCorrect), sm.S, sm.N, sm.check.scored, p(sm.check.pctInd), p(sm.check.pctCorrect), (s.notes || {})[st.id] || '']));
+      out.push(row([s.id, s.date, st.name, (H.L.pos(s.lessonId) || {}).n || '', s.lessonTitle, s.setName, s.length, modeName(s.mode), s.minutes, sm.I, sm.H, sm.X, sm.scored, p(sm.pctInd), p(sm.pctCorrect), sm.S, sm.N, sm.check.scored, p(sm.check.pctInd), p(sm.check.pctCorrect), (s.notes || {})[st.id] || '']));
     }));
     return out.join('\r\n');
   };

@@ -66,12 +66,13 @@ RESULTS
 - Percentages use only Independent + With help + Incorrect items. Skipped and Not scored items are
   counted separately and left out. Each summary says what the percent is out of.
 
-READ-ALOUD
-- Speaker buttons read text aloud. Original SCOPE lesson 1–8 questions play the warm-voice recordings (376 clips).
-- Other text (including all of lessons 9–68 and the pre-lesson) uses the computer voice, which is labeled. The app picks the most
-  natural voice on the computer automatically; Microsoft Edge has the best ones. You can pick a voice in Settings.
-  You can upload your own recording for any card in the editor.
+READING CARDS ALOUD
+- There are no speaker buttons. You read the cards to students.
 - Cards labeled "SLP models the tone" need you to say the line. Hold "how to say it" in the SLP bar to peek.
+
+LESSON NUMBERS
+- Lessons are numbered within each unit: every unit starts at Lesson 1 (for example, Unit 2 · Lesson 6).
+  Records and CSV files use the same numbers (the CSV also has the unit).
 
 SAMPLE MEDIA
 - The sample-media folder has the Maya and Alex audio files you sent. To use one, open a lesson in the

@@ -199,3 +199,13 @@ UPDATE: UNIT 2 REWRITTEN + UNIT 11 FIGURATIVE LANGUAGE (November 10, 2026) · v2
 - Pictures added (November 12, 2026): new scenes for all 16 new lessons (9–16 and 61–68), made in ChatGPT
   from prompts. Each shows on its lesson's five S-C-O-P-E cards. Laptops that already have the hub get them
   on next open (except lessons the SLP edited). All 16 pictures load; all 69 lessons preview with no errors.
+
+UPDATE: LESSON NUMBERS PER UNIT + NO SPEAKER BUTTONS (November 17, 2026) · v2.4
+- Lessons are numbered within their unit: each unit starts at Lesson 1. The hub shows
+  "SCOPE Unit 2: Multiple Interpretations · Lesson 6"; the session header, setup list and records show
+  "Unit 2 · Lesson 6: <title>". Old session records show the new numbers too (they keep the lesson id).
+  The CSV "Lesson #" column is now the number within the unit (the Unit column was already there).
+- Notes inside lessons that referred to other lessons were renumbered to match (e.g. unit checks
+  "covering Lessons 1–7").
+- All speaker (read-aloud) buttons were removed from every screen. The read-aloud settings and the
+  "Warm voice" tag on lesson cards are hidden. The recordings stay in the app folder, unused.
