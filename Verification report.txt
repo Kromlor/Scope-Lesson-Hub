@@ -209,3 +209,6 @@ UPDATE: LESSON NUMBERS PER UNIT + NO SPEAKER BUTTONS (November 17, 2026) · v2.4
   "covering Lessons 1–7").
 - All speaker (read-aloud) buttons were removed from every screen. The read-aloud settings and the
   "Warm voice" tag on lesson cards are hidden. The recordings stay in the app folder, unused.
+- v2.4.1: every script and style link now carries the version (?v=2.4.1) so browsers load the new files right
+  after an update instead of an old saved copy (GitHub Pages lets browsers reuse files for about 10 minutes).
+  Change the version in index.html and the footer with each update.
