@@ -212,3 +212,9 @@ UPDATE: LESSON NUMBERS PER UNIT + NO SPEAKER BUTTONS (November 17, 2026) · v2.4
 - v2.4.1: every script and style link now carries the version (?v=2.4.1) so browsers load the new files right
   after an update instead of an old saved copy (GitHub Pages lets browsers reuse files for about 10 minutes).
   Change the version in index.html and the footer with each update.
+
+UPDATE: "GO TO A LESSON" INDEX (November 17, 2026) · v2.5
+- New "Go to a lesson…" list in the top bar on every page: all lessons grouped by unit (Start Here, Unit 1 …
+  Unit 11), shown as "Lesson 1: title". Picking one opens that lesson's start screen (a draft opens in the
+  editor). SLP-made lessons are listed too. Tested: 12 groups in order, Unit 2 shows Lessons 1–8, picking
+  Unit 2 · Lesson 6 opens it.

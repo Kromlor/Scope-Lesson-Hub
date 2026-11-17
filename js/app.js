@@ -8,11 +8,34 @@
     v.innerHTML = `<header class="top">
       <a class="brand" href="#/lessons"><span class="brand-mark" aria-hidden="true">S</span><span>SCOPE Lesson Hub</span></a>
       <nav aria-label="Main">${NAV.map(([k, t]) => `<a href="#/${k}" class="${active === k ? 'on' : ''}" ${active === k ? 'aria-current="page"' : ''}>${t}</a>`).join('')}</nav>
+      <label class="jump"><span class="sr-only">Go to a lesson</span><select id="jump" aria-label="Go to a lesson"><option value="">Go to a lesson…</option></select></label>
       <span id="savestate" class="savestate" role="status" aria-live="polite"></span>
     </header><main id="view" tabindex="-1">${inner || ''}</main>
-    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly. · SCOPE Lesson Hub v2.4.1</footer>`;
+    <footer class="foot">Records are saved only in this browser on this laptop. They do not sync to other computers. Make a backup regularly. · SCOPE Lesson Hub v2.5</footer>`;
+    fillJump();
     return H.$('#view');
   };
+
+  /* "Go to a lesson" index: every lesson grouped by unit; picking one opens it ready to start. */
+  async function fillJump() {
+    const sel = H.$('#jump'); if (!sel) return;
+    let ls = [];
+    try { ls = (await H.store.all('lessons')).filter(l => !l.archived); } catch (e) { return; }
+    if (!H.$('#jump')) return;
+    const by = {};
+    ls.sort((a, b) => (a.number ?? 999) - (b.number ?? 999) || a.title.localeCompare(b.title));
+    for (const l of ls) (by[l.unit || 'No unit'] = by[l.unit || 'No unit'] || []).push(l);
+    const units = Object.keys(by).sort(H.unitOrder || undefined);
+    sel.innerHTML = '<option value="">Go to a lesson…</option>' + units.map(u => `<optgroup label="${H.esc(u)}">${by[u].map(l => {
+      const p = H.L.pos(l);
+      const lab = !p ? l.title : p.pre ? 'Pre-lesson: ' + l.title : `Lesson ${p.n}: ${l.title}`;
+      return `<option value="${H.esc(l.id)}">${H.esc(lab)}${l.status === 'draft' ? ' (draft)' : ''}</option>`;
+    }).join('')}</optgroup>`).join('');
+    sel.onchange = () => {
+      const l = ls.find(x => x.id === sel.value); if (!l) return;
+      H.go((H.L.canStart(l) ? '#/setup/' : '#/edit/') + encodeURIComponent(l.id));
+    };
+  }
 
   H.go = hash => { if (location.hash === hash) route(); else location.hash = hash; };
 
@@ -86,6 +109,7 @@
   H.help = () => {
     H.shell('help', `<h1>How to use the SCOPE Lesson Hub</h1><div class="panel prose">
     <h2>Open the app</h2><p>Double-click <b>index.html</b> in the SCOPE-Lesson-Hub folder. Use Chrome or Edge. Keep the whole folder together; the pictures and voice clips live in it. Always open it from the same folder on the same laptop, because records are saved in this browser.</p>
+    <h2>Go to a lesson</h2><p>Use the <b>Go to a lesson…</b> list in the top bar on any page. Lessons are grouped by unit; pick one to open it ready to start.</p>
     <h2>First lesson: intro slides</h2><p>The first card in the library, <b>Introducing SCOPE (pre-lesson)</b>, teaches the 5 SCOPE steps before Unit 1. Press <b>Present slides</b> to show it on the big screen: click the slide or press → to go on (answers appear on the next click), ← to go back, <b>N</b> for teacher notes, <b>F</b> for full screen, and <b>Esc</b> to leave. Press <b>Start</b> instead to run the same content as cards with students and ratings.</p>
     <h2>Run a lesson</h2><ol><li>On <b>Lessons</b>, find a lesson (search or filter) and press <b>Start</b>.</li><li>Pick one or two students, the part (core lesson or additional practice), full or short, who goes first, and the turn-taking method.</li><li>The banner shows whose turn it is. Students tap answers; nothing moves on until you press <b>Save and next turn</b>.</li><li>Rate each Quick check: Independent, With help, or Incorrect (or press <b>Skip</b>). Other cards can stay unscored.</li><li>At the end, check each student’s summary, add notes, and press <b>Save session</b>.</li></ol>
     <h2>Marking spoken answers and giving hints</h2><p>Students answer open questions out loud, to you. Press <b>✓ Correct</b> in your panel and the student screen shows <b>Yes!</b>; press <b>✗ Not yet</b> and it shows <b>Try again</b>. Press <b>💡 Give a hint</b> whenever a hint is needed: the card's hint appears on the student screen (on choice cards too). Hints are only shown when you press the button. <b>Show sample answer</b> is still there. Talk-it-through cards are not marked. You still choose the rating; records note the marks and whether a hint was given.</p>

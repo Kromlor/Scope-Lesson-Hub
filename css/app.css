@@ -373,3 +373,8 @@ body.presenting { overflow: hidden; }
 .btn.mk-no{background:#FFF1E6;border-color:#C2410C;color:#7C2D12;font-weight:800}
 .fb.hintshow{background:#FEF9C3}
 .hint b{font-weight:800}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.jump{margin-left:auto}
+.jump select{font:inherit;font-size:.95rem;max-width:22rem;padding:.35rem .6rem;border-radius:.5rem;border:2px solid var(--sun);background:#fff;color:var(--ink);font-weight:700;cursor:pointer}
+.jump select:focus{outline:3px solid var(--sun);outline-offset:2px}
+@media (max-width:900px){.jump{margin-left:0;width:100%}.jump select{max-width:none;width:100%}}
